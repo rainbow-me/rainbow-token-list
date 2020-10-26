@@ -17,19 +17,9 @@ export const fetchRepository = async (
       force: true,
     });
 
-    // emitter.on('info', info => {
-    //   console.log(' ');
-    //   console.log('😆️', info.message);
-    //   console.log('info', info);
-    //   console.log(' ');
-    // });
-
     return emitter
       .clone(outputPath)
-      .then(() => {
-        console.log('done');
-        return resolve();
-      })
+      .then(resolve)
       .catch(error => {
         reject();
         throw new Error(

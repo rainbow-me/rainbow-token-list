@@ -23,10 +23,6 @@ export const SVG_ICONS_OUTPUT_PATH = resolve(
   'spothq/cryptocurrency-icons'
 );
 
-// export type TokenListInterface = {
-//   [item: string]: TokenListItem
-// };// in TokenListEnum
-//: TokenListInterface
 export const TokenListEnumSchema = z.enum([
   'aave',
   'coingecko',
@@ -100,10 +96,10 @@ export interface RawSVGIconToken {
  * Raw token data that is loaded from the JSON files.
  */
 export const RawContractMapTokenSchema = z.object({
-  address: z.string().optional(),
-  decimals: z.union([z.string(), z.number()]).optional(),
-  name: z.string().optional(),
-  symbol: z.string().optional(),
+  address: z.string(),
+  decimals: z.union([z.string(), z.number()]),
+  name: z.string(),
+  symbol: z.string(),
 });
 
 export type RawContractMapToken = z.infer<typeof RawContractMapTokenSchema>;
@@ -122,11 +118,6 @@ export const RawEthereumListsTokenSchema = z.object({
 });
 
 export type RawEthereumListsToken = z.infer<typeof RawEthereumListsTokenSchema>;
-
-// console.log('RawEthereumListsTokenSchema', RawEthereumListsTokenSchema)
-// console.log('RawEthereumListsTokenSchema.toJSON()', RawEthereumListsTokenSchema.toJSON())
-// console.log('RawEthereumListsTokenSchema.shape', Object.keys(RawEthereumListsTokenSchema.shape))
-
 /**
  * Parsed token data.
  */
@@ -134,11 +125,9 @@ export interface Token {
   address: string;
   decimals: number;
   deprecation?: any;
-  // duplicate?: boolean;
   name: string;
   newSymbol?: any;
   social?: TokenSocialMetadata;
   symbol: string;
-  uuid: string;
   website?: any;
 }

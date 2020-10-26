@@ -1,193 +1,143 @@
 #!/usr/bin/env node
 
 import { getAddress } from '@ethersproject/address';
+import compact from 'lodash/compact';
+import find from 'lodash/find';
+import flattenDeep from 'lodash/flattenDeep';
+import keyBy from 'lodash/keyBy';
+import merge from 'lodash/merge';
+import pick from 'lodash/pick';
+import property from 'lodash/property';
+import some from 'lodash/some';
+import uniq from 'lodash/uniq';
+import values from 'lodash/values';
+import { resolve } from 'path';
+import { Token, TokenListEnumSchema } from './constants';
 import parseEthereumLists from './parse-ethereum-lists';
 import parseContractMap from './parse-contract-map';
-// import parseTokenLists from './parse-token-lists';
-import {
-  fixDuplicates,
-  resolveDeprecations,
-  // sortTokens,
-} from './parser';
-import keyBy from 'lodash/keyBy';
-import uniq from 'lodash/uniq';
-
-import { Token } from './constants'
-
+import parseTokenLists from './parse-token-lists';
+import { sortTokens, writeToDisk } from './parser';
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
-// import { TokenListType } from './constants'
 
-console.log('🌈️');
+console.log('🌈️ building the rainbow token list');
 
-const normalizeList = (list: Token[]) => keyBy(list, ({ address }) => getAddress(address));
+const { aave, coingecko, dharma, roll, synthetix } = TokenListEnumSchema.enum;
 
-async function main() {
+const normalizeList = (list: any[]) =>
+  keyBy(list, ({ address }) => getAddress(address));
+
+(async function() {
   const [
     uniqueEthereumListTokens,
     duplicateEthereumListTokens,
-  ] = await parseEthereumLists()
-    .then(resolveDeprecations)
-    .then(fixDuplicates);
-
+  ] = await parseEthereumLists();
   const contractMapTokens = await parseContractMap();
+  const tokenListTokens: any = await parseTokenLists();
 
-  const normalizedUniqueEthereumListTokens = normalizeList(uniqueEthereumListTokens)
-  const normalizedContractMapTokens = normalizeList(contractMapTokens);
-  // .then((tokens: Token[]) => {
-  //   return normalizeList(tokens);
-  // });
-  // const three = await parseTokenLists();
-  console.log('contractMapTokens', typeof contractMapTokens, contractMapTokens);
+  const allTokenListsFlattened = flattenDeep(
+    values(tokenListTokens).map(property('tokens'))
+  );
 
+  const tokenListTokenAddresses = Object.keys(
+    normalizeList(allTokenListsFlattened)
+  );
 
+  const normalizedDuplicateEthereumListTokens = normalizeList(
+    duplicateEthereumListTokens
+  );
+  const normalizedUniqueEthereumListTokens = normalizeList(
+    uniqueEthereumListTokens
+  );
+  const normalizedContractMap = normalizeList(contractMapTokens);
 
-  let allKnownTokenAddresses: string[] = uniq([
-    ...Object.keys(normalizedUniqueEthereumListTokens),
-    ...Object.keys(normalizedContractMapTokens),
-  ]);
+  const allKnownTokenAddresses: any[] = uniq(
+    compact([
+      ...Object.keys(normalizedDuplicateEthereumListTokens),
+      ...Object.keys(normalizedUniqueEthereumListTokens),
+      ...Object.keys(normalizedContractMap),
+      ...tokenListTokenAddresses,
+    ]).map(getAddress)
+  );
 
+  const defaultTokenDataSources = merge(
+    normalizedDuplicateEthereumListTokens,
+    normalizedUniqueEthereumListTokens,
+    normalizedContractMap
+  );
 
-  // const filteredEthList = one.filter(token => {
-  //   // console.log('token', token);
-  //   return !token.duplicate;
-  // })
-  console.log('allKnownTokenAddresses', allKnownTokenAddresses);
-  console.log('normalizedUniqueEthereumListTokens', normalizedUniqueEthereumListTokens.length);
-  console.log('uniqueEthereumListTokens', uniqueEthereumListTokens.length);
-  console.log('duplicateEthereumListTokens', duplicateEthereumListTokens.length);
-    // .then(sortTokens);
-  // console.log(
-  //   'uniqueEthereumListTokens',
-  //   uniqueEthereumListTokens.filter((item: Token) => {
-  //     return item.symbol === 'HEX';
-  //   })
-  // );
+  function resolveTokenInfo(tokenAddress: string) {
+    function matchToken({ address }: Token): boolean {
+      return getAddress(address) === getAddress(tokenAddress);
+    }
 
-  // console.log(
-  //   'duplicateEthereumListTokens',
-  //   duplicateEthereumListTokens.filter((item: Token) => {
-  //     return item.symbol === 'HEX';
-  //   })
-  // );
+    const lists = pick(
+      tokenListTokens,
+      Object.keys(tokenListTokens).filter((list: any) =>
+        some(tokenListTokens[list].tokens, matchToken)
+      )
+    );
 
+    if (Object.keys(lists).length === 1) {
+      return find(lists[Object.keys(lists)[0]].tokens, matchToken);
+    } else if (Object.keys(lists).length > 1) {
+      const listNames = Object.keys(lists);
+      if (listNames.includes(synthetix)) {
+        return find(lists.synthetix.tokens, matchToken);
+      } else if (listNames.includes(aave)) {
+        return find(lists.aave.tokens, matchToken);
+      } else if (listNames.includes(roll)) {
+        return find(lists.roll.tokens, matchToken);
+      } else if (listNames.includes(dharma)) {
+        return find(lists.dharma.tokens, matchToken);
+      } else if (listNames.includes(coingecko)) {
+        return find(lists.coingecko.tokens, matchToken);
+      }
+    }
 
+    return defaultTokenDataSources[tokenAddress];
+  }
 
-  // console.log('contractMapTokens', two);
-  // console.log('three', three[0]);
-  // console.log('three', Object.values(three));
-  // console.log('token lists count', three.length);
-  // console.log('eth list count', one.length);
-  // console.log('contract map count', two.length);
+  function buildTokenList() {
+    return allKnownTokenAddresses.map(tokenAddress => {
+      const token = resolveTokenInfo(tokenAddress);
 
-  // console.log('🌈️ done', [...one, ...two].length);
+      const isVerified = some(allTokenListsFlattened, [
+        'address',
+        tokenAddress,
+      ]);
 
-  // const finalRainbowTokenList = {
-  //   tokens:
-  // }
-}
+      const extensions = {
+        is_verified: isVerified,
+      };
 
-main();
+      const { chainId = 1, decimals, name, symbol } = token;
 
-// import { resolve } from 'path';
-// import Listr, { ListrTask } from 'listr';
-// import { keyBy, merge } from 'lodash';
-// import {
-//   fetchRepository,
-//   fetchContractMapRepo,
-//   fetchTokenLists,
-//   lists,
-//   fetchSVGIconsRepo,
-//   fetchEthereumListsRepo
-// } from './git';
-// import {
-//   addUniqueId,
-//   checkNetworks,
-//   createOutputFolder,
-//   fixDuplicates,
-//   parseContractMapTokenFiles,
-//   parseEthereumListTokenFiles,
-//   resolveDeprecations,
-//   sortTokens,
-//   writeToDisk
-// } from './parser';
-// import {
-//   NETWORKS,
-//   CONTRACT_MAP_OUTPUT_PATH,
-//   TOKEN_LISTS,
-//   ETHEREUM_LISTS_OUTPUT_PATH,
-//   ETHEREUM_LISTS_REPO,
-//   Token
-// } from './constants';
-// import { uriToHttp } from './utils';
+      return {
+        address: tokenAddress,
+        chainId,
+        decimals,
+        extensions,
+        name,
+        symbol,
+      };
+    });
+  }
 
-// export const parseTokens = async (): Promise<void> => {
-//   const listr = new Listr<{ tokens: { [network: string]: Token[] } }>([
-//     {
-//       title: 'Fetching upstream Token Lists',
-//       task: () => fetchTokenLists()
-//     },
-
-//     // {
-//     //   title: 'Fetching `ethereum-lists/tokens` repository',
-//     //   task: () => fetchEthereumListsRepo()
-//     // },
-
-//     // {
-//     //   title: 'Fetching `eth-contract-metadata` repository',
-//     //   task: () => fetchContractMapRepo()
-//     // },
-
-//     // {
-//     //   title: 'Fetching `spothq/cryptocurrency-icons` repository',
-//     //   task: () => fetchSVGIconsRepo()
-//     // },
-
-//     {
-//       title: 'Parsing token files',
-//       task: async (context) => {
-//         const ethTokens = await parseEthereumListTokenFiles(
-//           resolve(ETHEREUM_LISTS_OUTPUT_PATH, 'tokens', 'eth'),
-//         )
-// .then(resolveDeprecations)
-// .then(fixDuplicates)
-// .then(sortTokens);
-
-//         const contractTokens = await parseContractMapTokenFiles(
-//           resolve(CONTRACT_MAP_OUTPUT_PATH),
-//           options.exclude
-//         );
-
-//         context.tokens = [...ethTokens, ...contractTokens];
-//         Promise.resolve();
-//       },
-//     },
-//     {
-//       title: 'logging lists',
-//       task: () => {
-
-//         console.log('lists', lists);
-//       },
-//     },
-
-//     {
-//       title: 'Writing output file(s) to disk',
-//       task: (context) => {
-//         const tokens = Object.keys(context.tokens);
-//         writeToDisk(tokens, resolve(process.cwd(), 'output'), 'eth.json');
-
-//         return new Listr([
-//           {
-//             title: 'Creating output folder',
-//             task: () => createOutputFolder(path)
-//           },
-//           ...tasks
-//         ]);
-//       }
-//     }
-//   ]);
-
-//   await listr.run({
-//     tokens: {}
-//   });
-// };
+  await writeToDisk(
+    {
+      name: 'Rainbow Token List',
+      timestamp: new Date().toISOString(),
+      logoURI: 'https://avatars0.githubusercontent.com/u/48327834?s=200&v=4',
+      version: {
+        major: 1,
+        minor: 0,
+        patch: 0,
+      },
+      keywords: ['rainbow'],
+      tokens: sortTokens(buildTokenList()),
+    },
+    resolve(process.cwd(), './output'),
+    'rainbow-token-list.json'
+  );
+})();
