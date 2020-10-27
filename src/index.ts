@@ -116,6 +116,7 @@ function normalizeList(list: any[]) {
         decimals,
         extensions: {
           color: overrideToken?.color || color,
+          isRainbowCurated: !!overrideToken,
           isVerified,
           shadowColor: overrideToken?.shadowColor || shadowColor,
         },
