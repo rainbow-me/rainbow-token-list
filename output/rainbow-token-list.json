@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2020-10-27T04:09:09.730Z",
+  "timestamp": "2020-10-27T04:24:03.341Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -11,6 +11,17 @@
     "rainbow"
   ],
   "tokens": [
+    {
+      "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
+      "chainId": 1,
+      "decimals": 18,
+      "extensions": {
+        "color": "#00ADD5",
+        "isVerified": true
+      },
+      "name": "Based Money",
+      "symbol": "$BASED"
+    },
     {
       "address": "0x4E84E9e5fb0A972628Cf4568c403167EF1D40431",
       "chainId": 1,
@@ -2107,16 +2118,6 @@
         "isVerified": true
       },
       "name": "BASED",
-      "symbol": "BASED"
-    },
-    {
-      "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
-      "chainId": 1,
-      "decimals": 18,
-      "extensions": {
-        "isVerified": true
-      },
-      "name": "Based Money",
       "symbol": "BASED"
     },
     {
@@ -4240,6 +4241,7 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
+        "color": "#9669ED",
         "isVerified": true
       },
       "name": "Compound Basic Attention Token",
@@ -5154,7 +5156,9 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
-        "isVerified": true
+        "color": "#00D395",
+        "isVerified": true,
+        "shadowColor": "#25292E"
       },
       "name": "Compound",
       "symbol": "COMP"
@@ -5896,10 +5900,11 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
+        "color": "#9669ED",
         "isVerified": true
       },
-      "name": "Compound USDC",
-      "symbol": "CUSDC"
+      "name": "Compound USD Coin",
+      "symbol": "cUSDC"
     },
     {
       "address": "0xf650C3d88D12dB855b8bf7D11Be6C55A4e07dCC9",
@@ -5997,9 +6002,10 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
+        "color": "#9669ED",
         "isVerified": true
       },
-      "name": "Compound Wrapped BTC",
+      "name": "Compound Wrapped Bitcoin",
       "symbol": "cWBTC"
     },
     {
@@ -6157,6 +6163,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#F0B340",
         "isVerified": true
       },
       "name": "Dai",
@@ -6770,7 +6777,7 @@
       "chainId": 1,
       "decimals": 9,
       "extensions": {
-        "color": "#f4d029",
+        "color": "#E0A83A",
         "isVerified": true
       },
       "name": "DigixDAO",
@@ -9535,9 +9542,10 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#1CD100",
         "isVerified": true
       },
-      "name": "SAINT FAME  Genesis",
+      "name": "Saint Fame",
       "symbol": "FAME"
     },
     {
@@ -11657,7 +11665,9 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
-        "isVerified": true
+        "color": "#FF47A9",
+        "isVerified": true,
+        "shadowColor": "#FF9355"
       },
       "name": "HEX",
       "symbol": "HEX"
@@ -12336,16 +12346,6 @@
       "symbol": "ID7"
     },
     {
-      "address": "0x14094949152EDDBFcd073717200DA82fEd8dC960",
-      "chainId": 1,
-      "decimals": 18,
-      "extensions": {
-        "isVerified": true
-      },
-      "name": "bZx DAI iToken",
-      "symbol": "IDAI"
-    },
-    {
       "address": "0xCB98f42221b2C251A4E74A1609722eE09f0cc08E",
       "chainId": 1,
       "decimals": 18,
@@ -12957,6 +12957,17 @@
       "symbol": "iREP"
     },
     {
+      "address": "0x14094949152EDDBFcd073717200DA82fEd8dC960",
+      "chainId": 1,
+      "decimals": 18,
+      "extensions": {
+        "color": "#0F6AD7",
+        "isVerified": true
+      },
+      "name": "Fulcrum Sai",
+      "symbol": "iSAI"
+    },
+    {
       "address": "0x42726d074BBa68Ccc15200442B72Afa2D495A783",
       "chainId": 1,
       "decimals": 4,
@@ -13051,9 +13062,10 @@
       "chainId": 1,
       "decimals": 6,
       "extensions": {
+        "color": "#0F6AD7",
         "isVerified": false
       },
-      "name": "bZx USDC iToken",
+      "name": "Fulcrum USD Coin",
       "symbol": "iUSDC"
     },
     {
@@ -17665,9 +17677,10 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#CBB10E",
         "isVerified": true
       },
-      "name": "PAX Gold",
+      "name": "Paxos Gold",
       "symbol": "PAXG"
     },
     {
@@ -18216,10 +18229,10 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
-        "color": "#00bfff",
+        "color": "#00BFFF",
         "isVerified": true
       },
-      "name": "PILLAR",
+      "name": "Pillar",
       "symbol": "PLR"
     },
     {
@@ -19245,6 +19258,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#F876F2",
         "isVerified": true
       },
       "name": "Rarible",
@@ -20706,9 +20720,10 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#53B267",
         "isVerified": true
       },
-      "name": "Synth Ether",
+      "name": "Synthetix ETH",
       "symbol": "sETH"
     },
     {
@@ -21538,9 +21553,10 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#25292E",
         "isVerified": true
       },
-      "name": "Synthetix Network Token",
+      "name": "Synthetix",
       "symbol": "SNX"
     },
     {
@@ -22342,9 +22358,10 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#25292E",
         "isVerified": true
       },
-      "name": "Synth US Dollars",
+      "name": "Synthetix USD",
       "symbol": "sUSD"
     },
     {
@@ -23928,7 +23945,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
-        "color": "#2b2e7f",
+        "color": "#002868",
         "isVerified": true
       },
       "name": "TrueUSD",
@@ -24420,7 +24437,9 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
-        "isVerified": true
+        "color": "#FD017A",
+        "isVerified": true,
+        "shadowColor": "#FDB8DA"
       },
       "name": "Uniswap",
       "symbol": "UNI"
@@ -27183,10 +27202,10 @@
       "chainId": 1,
       "decimals": 6,
       "extensions": {
-        "color": "#26a17b",
+        "color": "#22A079",
         "isVerified": true
       },
-      "name": "Tether USD",
+      "name": "Tether",
       "symbol": "USDT"
     },
     {
@@ -29482,7 +29501,9 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
-        "isVerified": true
+        "color": "#B2364F",
+        "isVerified": true,
+        "shadowColor": "#D09AAC"
       },
       "name": "YAM",
       "symbol": "YAM"
@@ -30325,8 +30346,8 @@
       "extensions": {
         "isVerified": true
       },
-      "name": "yearn Curve.fi yDAI/yUSDC/yUSDT/yTUSD",
-      "symbol": "yyCRV"
+      "name": "Y Curve Vault",
+      "symbol": "yUSD"
     },
     {
       "address": "0x2cd9324bA13b77554592d453e6364086FbBa446a",

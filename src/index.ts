@@ -94,9 +94,7 @@ function normalizeList(list: any[]) {
   function buildTokenList() {
     return allKnownTokenAddresses.map((tokenAddress: string) => {
       const token = resolveTokenInfo(tokenAddress);
-      const overrideToken =
-        rainbowOverrides[tokenAddress] ||
-        rainbowOverrides[getAddress(tokenAddress)];
+      const overrideToken = rainbowOverrides[tokenAddress];
 
       let { chainId = 1, color, decimals, name, shadowColor, symbol } = token;
 
