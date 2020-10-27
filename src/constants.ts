@@ -37,7 +37,6 @@ export const TokenListItemSchema = z
   .url()
   .nonempty();
 export type TokenListItem = z.infer<typeof TokenListItemSchema>;
-
 export const TokenListTypeSchema = z.record(TokenListItemSchema);
 export type TokenListType = z.infer<typeof TokenListTypeSchema>;
 
@@ -81,17 +80,6 @@ export const TOKEN_SCHEMA = z.object({
   website: z.string().optional(),
 });
 
-export type TokenSocialMetadata = z.infer<typeof SOCIAL_SCHEMA>;
-
-/**
- * Raw token data that is loaded from the JSON files.
- */
-export interface RawSVGIconToken {
-  color: string;
-  name: string;
-  symbol: string;
-}
-
 /**
  * Raw token data that is loaded from the JSON files.
  */
@@ -101,8 +89,6 @@ export const RawContractMapTokenSchema = z.object({
   name: z.string(),
   symbol: z.string(),
 });
-
-export type RawContractMapToken = z.infer<typeof RawContractMapTokenSchema>;
 
 /**
  * Raw token data that is loaded from the JSON files.
@@ -117,17 +103,7 @@ export const RawEthereumListsTokenSchema = z.object({
   website: z.string().optional(),
 });
 
+export type RawContractMapToken = z.infer<typeof RawContractMapTokenSchema>;
 export type RawEthereumListsToken = z.infer<typeof RawEthereumListsTokenSchema>;
-/**
- * Parsed token data.
- */
-export interface Token {
-  address: string;
-  decimals: number;
-  deprecation?: any;
-  name: string;
-  newSymbol?: any;
-  social?: TokenSocialMetadata;
-  symbol: string;
-  website?: any;
-}
+export type Token = z.infer<typeof TOKEN_SCHEMA>;
+export type TokenSocialMetadata = z.infer<typeof SOCIAL_SCHEMA>;

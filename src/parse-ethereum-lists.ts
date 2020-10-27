@@ -37,7 +37,7 @@ export const partitionByUniqueness = (tokens: Token[]): Token[][] => {
  */
 export function resolveDeprecations(tokens: Token[]): Token[] {
   return tokens.map(({ deprecation, ...token }: Token) => {
-    return !deprecation.new_address
+    return !deprecation?.new_address
       ? token
       : tokens.find(matchesProperty('address', deprecation.new_address)) ||
           token;
