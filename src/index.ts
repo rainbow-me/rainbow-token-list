@@ -1,16 +1,13 @@
 #!/usr/bin/env node
 
 import { getAddress } from '@ethersproject/address';
-import compact from 'lodash/compact';
 import find from 'lodash/find';
-import flattenDeep from 'lodash/flattenDeep';
+import compact from 'lodash/compact';
 import keyBy from 'lodash/keyBy';
 import merge from 'lodash/merge';
 import pick from 'lodash/pick';
-import property from 'lodash/property';
 import some from 'lodash/some';
 import uniq from 'lodash/uniq';
-import values from 'lodash/values';
 import { resolve } from 'path';
 import { Token, TokenListEnumSchema } from './constants';
 import parseEthereumLists from './parse-ethereum-lists';
@@ -24,9 +21,11 @@ console.log('🌈️ building the rainbow token list');
 
 const { aave, coingecko, dharma, roll, synthetix } = TokenListEnumSchema.enum;
 
-const normalizeList = (list: any[]) =>
-  keyBy(list, ({ address }) => getAddress(address));
+function normalizeList(list: any[]) {
+  return keyBy(list, ({ address }) => getAddress(address));
+}
 
+// Entry point
 (async function() {
   const [
     uniqueEthereumListTokens,
@@ -35,35 +34,25 @@ const normalizeList = (list: any[]) =>
   const contractMapTokens = await parseContractMap();
   const tokenListTokens: any = await parseTokenLists();
 
-  const allTokenListsFlattened = flattenDeep(
-    values(tokenListTokens).map(property('tokens'))
-  );
+  const sources = {
+    default: [
+      duplicateEthereumListTokens,
+      uniqueEthereumListTokens,
+      contractMapTokens,
+    ].map(normalizeList),
+    preferred: [
+      Object.values(tokenListTokens)
+        .map(({ tokens }: any) => tokens)
+        .flat(),
+    ].map(normalizeList),
+  };
 
-  const tokenListTokenAddresses = Object.keys(
-    normalizeList(allTokenListsFlattened)
-  );
-
-  const normalizedDuplicateEthereumListTokens = normalizeList(
-    duplicateEthereumListTokens
-  );
-  const normalizedUniqueEthereumListTokens = normalizeList(
-    uniqueEthereumListTokens
-  );
-  const normalizedContractMap = normalizeList(contractMapTokens);
-
-  const allKnownTokenAddresses: any[] = uniq(
+  const defaultSources: any = merge({}, ...sources.default);
+  const allKnownTokenAddresses: any = uniq(
     compact([
-      ...Object.keys(normalizedDuplicateEthereumListTokens),
-      ...Object.keys(normalizedUniqueEthereumListTokens),
-      ...Object.keys(normalizedContractMap),
-      ...tokenListTokenAddresses,
+      ...sources.default.map(Object.keys).flat(),
+      ...sources.preferred.map(Object.keys).flat(),
     ]).map(getAddress)
-  );
-
-  const defaultTokenDataSources = merge(
-    normalizedDuplicateEthereumListTokens,
-    normalizedUniqueEthereumListTokens,
-    normalizedContractMap
   );
 
   function resolveTokenInfo(tokenAddress: string) {
@@ -95,17 +84,17 @@ const normalizeList = (list: any[]) =>
       }
     }
 
-    return defaultTokenDataSources[tokenAddress];
+    return defaultSources[tokenAddress];
   }
 
   function buildTokenList() {
-    return allKnownTokenAddresses.map(tokenAddress => {
+    return allKnownTokenAddresses.map((tokenAddress: string) => {
       const token = resolveTokenInfo(tokenAddress);
 
-      const isVerified = some(allTokenListsFlattened, [
-        'address',
-        tokenAddress,
-      ]);
+      const isVerified = sources.preferred
+        .map(Object.keys)
+        .flat()
+        .includes(tokenAddress);
 
       const extensions = {
         is_verified: isVerified,
