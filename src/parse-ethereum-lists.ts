@@ -21,7 +21,7 @@ import { parseJsonFile, validateTokenData } from './parser';
  */
 export const partitionByUniqueness = (tokens: Token[]): Token[][] => {
   const [uniqueTokens, duplicateTokens] = partition(tokens, token => {
-    const dups = filter(tokens, matchesProperty('symbol', token.symbol));
+    const dups = filter(tokens, ['symbol', token.symbol]);
     return dups.length === 1;
   });
   return [uniqueTokens, duplicateTokens];

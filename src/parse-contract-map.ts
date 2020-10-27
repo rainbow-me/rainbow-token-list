@@ -1,6 +1,5 @@
 import isEmpty from 'lodash/isEmpty';
 import pick from 'lodash/pick';
-import some from 'lodash/some';
 import { resolve } from 'path';
 import {
   CONTRACT_MAP_REPO,
@@ -35,7 +34,7 @@ export default async function parseContractMap(): Promise<Token[]> {
       .map(token => pick(token, Object.keys(RawContractMapTokenSchema.shape)))
       // remove any tokens from the array if they contain null values for the
       // keys that we care about.
-      .filter(token => some(Object.values(token), isEmpty))
+      .filter(token => Object.values(token).some(isEmpty))
       .map(validateTokenData)
   );
 }
