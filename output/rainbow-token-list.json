@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2020-10-27T02:36:35.337Z",
+  "timestamp": "2020-10-27T03:19:10.173Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -36,6 +36,7 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
+        "color": "#ff914d",
         "is_verified": true
       },
       "name": "0xBitcoin",
@@ -506,6 +507,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#1b75bc",
         "is_verified": true
       },
       "name": "AdEx",
@@ -656,6 +658,7 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
+        "color": "#6916ff",
         "is_verified": true
       },
       "name": "SingularityNET",
@@ -1006,6 +1009,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#3c5be0",
         "is_verified": true
       },
       "name": "Ambrosus",
@@ -1086,6 +1090,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#2daee4",
         "is_verified": true
       },
       "name": "Amp",
@@ -1096,6 +1101,7 @@
       "chainId": 1,
       "decimals": 9,
       "extensions": {
+        "color": "#000000",
         "is_verified": true
       },
       "name": "Ampleforth",
@@ -1166,6 +1172,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#2cd3e1",
         "is_verified": true
       },
       "name": "Aragon Network Token",
@@ -1456,6 +1463,7 @@
       "chainId": 1,
       "decimals": 4,
       "extensions": {
+        "color": "#0061ff",
         "is_verified": true
       },
       "name": "AirSwap",
@@ -2126,6 +2134,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#ff5000",
         "is_verified": true
       },
       "name": "Basic Attention Token",
@@ -2296,6 +2305,7 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
+        "color": "#2c76b7",
         "is_verified": true
       },
       "name": "BananaCoin",
@@ -2886,6 +2896,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#18578c",
         "is_verified": true
       },
       "name": "Bluzelle",
@@ -3046,6 +3057,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#000d2b",
         "is_verified": true
       },
       "name": "Bancor Network Token",
@@ -3386,6 +3398,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#fe5d86",
         "is_verified": true
       },
       "name": "Bread",
@@ -4426,6 +4439,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#272731",
         "is_verified": true
       },
       "name": "Blox",
@@ -4606,6 +4620,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#00aced",
         "is_verified": true
       },
       "name": "Chain Games",
@@ -4916,6 +4931,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#383939",
         "is_verified": true
       },
       "name": "Cindicator",
@@ -5506,6 +5522,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#37e8a3",
         "is_verified": true
       },
       "name": "Street Cred",
@@ -5916,6 +5933,7 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
+        "color": "#3ab03e",
         "is_verified": true
       },
       "name": "Civic",
@@ -6256,6 +6274,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#e9570f",
         "is_verified": true
       },
       "name": "Streamr DATAcoin",
@@ -6376,6 +6395,7 @@
       "chainId": 1,
       "decimals": 0,
       "extensions": {
+        "color": "#136485",
         "is_verified": true
       },
       "name": "Dentacoin",
@@ -6536,6 +6556,7 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
+        "color": "#666666",
         "is_verified": true
       },
       "name": "Dent",
@@ -6746,6 +6767,7 @@
       "chainId": 1,
       "decimals": 9,
       "extensions": {
+        "color": "#f4d029",
         "is_verified": true
       },
       "name": "DigixDAO",
@@ -7276,6 +7298,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#2c398f",
         "is_verified": true
       },
       "name": "district0x",
@@ -7296,6 +7319,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#786dbc",
         "is_verified": true
       },
       "name": "Dock",
@@ -7506,6 +7530,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#c91111",
         "is_verified": true
       },
       "name": "Dragonchain",
@@ -7966,6 +7991,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#74d269",
         "is_verified": true
       },
       "name": "DATA",
@@ -7976,6 +8002,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#3c80f1",
         "is_verified": true
       },
       "name": "Dether",
@@ -8346,6 +8373,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#aa15dd",
         "is_verified": true
       },
       "name": "European Coin Allia",
@@ -8456,6 +8484,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#242424",
         "is_verified": true
       },
       "name": "Eidoo",
@@ -8606,6 +8635,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#ff9900",
         "is_verified": true
       },
       "name": "Electrify Asia",
@@ -8626,6 +8656,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#2b5ebb",
         "is_verified": true
       },
       "name": "elf",
@@ -8776,6 +8807,7 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
+        "color": "#2f2f2f",
         "is_verified": true
       },
       "name": "Enigma",
@@ -8796,6 +8828,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#624dbf",
         "is_verified": true
       },
       "name": "Enjin Coin",
@@ -8816,6 +8849,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#fa5836",
         "is_verified": true
       },
       "name": "Hut34 Entropy",
@@ -9286,6 +9320,7 @@
       "chainId": 1,
       "decimals": 4,
       "extensions": {
+        "color": "#044aac",
         "is_verified": true
       },
       "name": "Everex",
@@ -10376,6 +10411,7 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
+        "color": "#ed1968",
         "is_verified": true
       },
       "name": "FunFair",
@@ -10536,6 +10572,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#2d475b",
         "is_verified": true
       },
       "name": "GameCredits",
@@ -10596,6 +10633,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#bc3fe0",
         "is_verified": true
       },
       "name": "Good Boy Points",
@@ -10946,6 +10984,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#00a6c4",
         "is_verified": true
       },
       "name": "Gnosis Token",
@@ -11006,6 +11045,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#f1b32b",
         "is_verified": true
       },
       "name": "Dragonereum GOLD",
@@ -11246,6 +11286,7 @@
       "chainId": 1,
       "decimals": 3,
       "extensions": {
+        "color": "#37dcd8",
         "is_verified": true
       },
       "name": "Guppy",
@@ -11256,6 +11297,7 @@
       "chainId": 1,
       "decimals": 2,
       "extensions": {
+        "color": "#00dcfa",
         "is_verified": true
       },
       "name": "Gemini Dollar",
@@ -11266,6 +11308,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#16b9ad",
         "is_verified": true
       },
       "name": "Genesis Vision",
@@ -11856,6 +11899,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#8834ff",
         "is_verified": true
       },
       "name": "Holo",
@@ -11866,6 +11910,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#8834ff",
         "is_verified": true
       },
       "name": "Hydro Protocol",
@@ -11906,6 +11951,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#2a3069",
         "is_verified": true
       },
       "name": "Huobi Token",
@@ -12566,6 +12612,7 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
+        "color": "#98c23a",
         "is_verified": true
       },
       "name": "INLOCK",
@@ -13236,6 +13283,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#0050db",
         "is_verified": true
       },
       "name": "Jibrel Network",
@@ -13696,6 +13744,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#188c92",
         "is_verified": true
       },
       "name": "Kyber Network Crystal",
@@ -14106,6 +14155,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#0fa9c9",
         "is_verified": true
       },
       "name": "EthLend Token",
@@ -14126,6 +14176,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#11021e",
         "is_verified": true
       },
       "name": "LEO Token",
@@ -14346,6 +14397,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#01a6fb",
         "is_verified": true
       },
       "name": "ChainLink Token",
@@ -14566,6 +14618,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#48beff",
         "is_verified": true
       },
       "name": "Loom Network",
@@ -14586,6 +14639,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#000000",
         "is_verified": true
       },
       "name": "Livepeer",
@@ -14606,6 +14660,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#2ab6f6",
         "is_verified": true
       },
       "name": "LoopringCoin V2",
@@ -14816,6 +14871,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#bfb5af",
         "is_verified": true
       },
       "name": "Decentraland MANA",
@@ -14866,6 +14922,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#2b6def",
         "is_verified": true
       },
       "name": "Matic Network",
@@ -14976,6 +15033,7 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
+        "color": "#103f68",
         "is_verified": true
       },
       "name": "MCO",
@@ -15006,6 +15064,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#1e252c",
         "is_verified": true
       },
       "name": "MediShares",
@@ -15176,6 +15235,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#da1157",
         "is_verified": true
       },
       "name": "Mainframe",
@@ -15336,6 +15396,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#1abc9c",
         "is_verified": true
       },
       "name": "Maker",
@@ -15356,6 +15417,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#0b1529",
         "is_verified": true
       },
       "name": "Melon Token",
@@ -15466,6 +15528,7 @@
       "chainId": 1,
       "decimals": 0,
       "extensions": {
+        "color": "#09547d",
         "is_verified": true
       },
       "name": "Modum",
@@ -15746,6 +15809,7 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
+        "color": "#1e1f25",
         "is_verified": true
       },
       "name": "Metal",
@@ -16246,6 +16310,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#1a4199",
         "is_verified": true
       },
       "name": "NEXO",
@@ -16496,6 +16561,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#f5d100",
         "is_verified": true
       },
       "name": "Pundi X",
@@ -16936,6 +17002,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#1a53f0",
         "is_verified": true
       },
       "name": "OMGToken",
@@ -17006,6 +17073,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#000000",
         "is_verified": true
       },
       "name": "SoMee Social",
@@ -17286,6 +17354,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#34445b",
         "is_verified": true
       },
       "name": "OST",
@@ -17576,6 +17645,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#ede708",
         "is_verified": true
       },
       "name": "Paxos Standard",
@@ -17596,6 +17666,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#302c2c",
         "is_verified": true
       },
       "name": "TenX",
@@ -18136,6 +18207,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#00bfff",
         "is_verified": true
       },
       "name": "PILLAR",
@@ -18276,6 +18348,7 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
+        "color": "#dcd6cc",
         "is_verified": true
       },
       "name": "Po et",
@@ -18376,6 +18449,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#105b2f",
         "is_verified": true
       },
       "name": "Hotpot Base Token",
@@ -18396,6 +18470,7 @@
       "chainId": 1,
       "decimals": 6,
       "extensions": {
+        "color": "#05bca9",
         "is_verified": true
       },
       "name": "Power Ledger",
@@ -18416,6 +18491,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#348f8d",
         "is_verified": true
       },
       "name": "PayPie",
@@ -18456,6 +18532,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#3a8cbd",
         "is_verified": true
       },
       "name": "Presearch",
@@ -19006,6 +19083,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#454545",
         "is_verified": true
       },
       "name": "Quantstamp",
@@ -19236,6 +19314,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#3555f9",
         "is_verified": true
       },
       "name": "Ripio Credit Networ",
@@ -19276,6 +19355,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#2a2a2a",
         "is_verified": true
       },
       "name": "Raiden Network Toke",
@@ -19426,6 +19506,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#001b3a",
         "is_verified": true
       },
       "name": "Republic Token",
@@ -19466,6 +19547,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#602a52",
         "is_verified": true
       },
       "name": "Reputation",
@@ -19486,6 +19568,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#00e6a0",
         "is_verified": true
       },
       "name": "Request",
@@ -19676,6 +19759,7 @@
       "chainId": 1,
       "decimals": 9,
       "extensions": {
+        "color": "#ffd800",
         "is_verified": true
       },
       "name": "iExec RLC",
@@ -20156,6 +20240,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#00688c",
         "is_verified": true
       },
       "name": "yieldfarming insure",
@@ -20176,6 +20261,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#b68900",
         "is_verified": true
       },
       "name": "Sai",
@@ -20206,6 +20292,7 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
+        "color": "#1beef4",
         "is_verified": true
       },
       "name": "SALT",
@@ -20226,6 +20313,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#2b77b3",
         "is_verified": true
       },
       "name": "Santiment Network T",
@@ -21336,6 +21424,7 @@
       "chainId": 1,
       "decimals": 0,
       "extensions": {
+        "color": "#b30d23",
         "is_verified": true
       },
       "name": "SingularDTV",
@@ -21396,6 +21485,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#5b6dee",
         "is_verified": true
       },
       "name": "Status",
@@ -21566,6 +21656,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#ff3b81",
         "is_verified": true
       },
       "name": "SpankChain",
@@ -21746,6 +21837,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#1c1c1c",
         "is_verified": true
       },
       "name": "Sirin Labs Token",
@@ -22046,6 +22138,7 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
+        "color": "#2683ff",
         "is_verified": true
       },
       "name": "StorjToken",
@@ -22666,6 +22759,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#7b346e",
         "is_verified": true
       },
       "name": "Lamden",
@@ -22746,6 +22840,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#5244d4",
         "is_verified": true
       },
       "name": "Tokenbox",
@@ -22906,6 +23001,7 @@
       "chainId": 1,
       "decimals": 2,
       "extensions": {
+        "color": "#14c8ff",
         "is_verified": true
       },
       "name": "Telcoin",
@@ -22916,6 +23012,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#0899cd",
         "is_verified": true
       },
       "name": "Tokenomy",
@@ -23266,6 +23363,7 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
+        "color": "#24dd7b",
         "is_verified": true
       },
       "name": "Monolith TKN",
@@ -23406,6 +23504,7 @@
       "chainId": 1,
       "decimals": 8,
       "extensions": {
+        "color": "#ff4081",
         "is_verified": true
       },
       "name": "Tierion",
@@ -23816,6 +23915,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#2b2e7f",
         "is_verified": true
       },
       "name": "TrueUSD",
@@ -26956,6 +27056,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#6cde07",
         "is_verified": true
       },
       "name": "unified Stable Doll",
@@ -27006,6 +27107,7 @@
       "chainId": 1,
       "decimals": 6,
       "extensions": {
+        "color": "#2775c9",
         "is_verified": true
       },
       "name": "USD Coin",
@@ -27066,6 +27168,7 @@
       "chainId": 1,
       "decimals": 6,
       "extensions": {
+        "color": "#26a17b",
         "is_verified": true
       },
       "name": "Tether USD",
@@ -27306,6 +27409,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#30367a",
         "is_verified": true
       },
       "name": "UTRUST",
@@ -27516,6 +27620,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#ff9933",
         "is_verified": true
       },
       "name": "Veritaseum",
@@ -28356,6 +28461,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#0dc9f7",
         "is_verified": true
       },
       "name": "Wings",
@@ -28716,6 +28822,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#21af67",
         "is_verified": true
       },
       "name": "BlitzPredict",
@@ -29646,6 +29753,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#006ae3",
         "is_verified": true
       },
       "name": "yearn.finance",
@@ -30346,6 +30454,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#07bc9c",
         "is_verified": true
       },
       "name": "Zest Token",
@@ -30506,6 +30615,7 @@
       "chainId": 1,
       "decimals": 18,
       "extensions": {
+        "color": "#302c2c",
         "is_verified": true
       },
       "name": "0x Protocol Token",

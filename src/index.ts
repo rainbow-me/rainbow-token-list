@@ -12,6 +12,7 @@ import { resolve } from 'path';
 import { Token, TokenListEnumSchema } from './constants';
 import parseEthereumLists from './parse-ethereum-lists';
 import parseContractMap from './parse-contract-map';
+import parseSVGIconTokenFiles from './parse-svg-icons';
 import parseTokenLists from './parse-token-lists';
 import { sortTokens, writeToDisk } from './parser';
 
@@ -32,6 +33,7 @@ function normalizeList(list: any[]) {
     duplicateEthereumListTokens,
   ] = await parseEthereumLists();
   const contractMapTokens = await parseContractMap();
+  const svgIcons = await parseSVGIconTokenFiles();
   const tokenListTokens: any = await parseTokenLists();
 
   const sources = {
@@ -96,17 +98,21 @@ function normalizeList(list: any[]) {
         .flat()
         .includes(tokenAddress);
 
-      const extensions = {
-        is_verified: isVerified,
-      };
-
       const { chainId = 1, decimals, name, symbol } = token;
+      let color = undefined;
+      if (isVerified) {
+        const logoData = svgIcons.find((item: any) => item.symbol === symbol);
+        color = logoData?.color;
+      }
 
       return {
         address: tokenAddress,
         chainId,
         decimals,
-        extensions,
+        extensions: {
+          color,
+          is_verified: isVerified,
+        },
         name,
         symbol,
       };

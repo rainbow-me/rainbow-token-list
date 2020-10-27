@@ -1,21 +1,15 @@
-// import degit from 'degit';
-// import { SVG_ICONS_OUTPUT_PATH, SVG_ICONS_REPO } from './constants';
+import { resolve } from 'path';
+import { SVG_ICONS_REPO, SVG_ICONS_OUTPUT_PATH } from './constants';
+import { fetchRepository } from './git';
+import { parseJsonFile } from './parser';
 
-// export default function parseSVGIcons() {
-//   const emitter = degit(SVG_ICONS_REPO, {
-//     cache: true,
-//     force: true,
-//   });
+type SvgToken = { color: string; name: string; symbol: string };
 
-//   emitter.on('info', info => {
-//     console.log(' ');
-//     console.log('😆️', info.message);
-//     console.log('info', info);
-//     console.log(' ');
-//   });
+export default async function parseSVGIconTokenFiles(): Promise<SvgToken[]> {
+  // fetch the latest commit from `spothq/cryptocurrency-icons` repo and save it to disk
+  await fetchRepository(SVG_ICONS_REPO, SVG_ICONS_OUTPUT_PATH);
 
-//   emitter.clone(SVG_ICONS_OUTPUT_PATH).then(haha => {
-//     console.log('done', haha);
-//   });
-// }
-// fetchRepository(SVG_ICONS_REPO, SVG_ICONS_OUTPUT_PATH);
+  // load svg manifest JSON file from directory
+  const jsonFile = resolve(SVG_ICONS_OUTPUT_PATH, 'manifest.json');
+  return parseJsonFile<SvgToken[]>(jsonFile);
+}
