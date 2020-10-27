@@ -13,7 +13,7 @@ import { Token, TokenListEnumSchema } from './constants';
 import parseEthereumLists from './parse-ethereum-lists';
 import parseOverrideFile from './parse-overrides';
 import parseContractMap from './parse-contract-map';
-import parseSVGIconTokenFiles, { SvgToken } from './parse-svg-icons';
+import parseSVGIconTokenFiles from './parse-svg-icons';
 import parseTokenLists from './parse-token-lists';
 import { sortTokens, writeToDisk } from './parser';
 
@@ -104,9 +104,7 @@ function normalizeList(list: any[]) {
         .includes(tokenAddress);
 
       if (isVerified) {
-        const logoData = svgIcons.find(
-          (item: SvgToken) => item.symbol === symbol
-        );
+        const logoData = svgIcons.find(item => item.symbol === symbol);
         color = logoData?.color;
       }
 
