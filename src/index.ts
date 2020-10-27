@@ -11,8 +11,9 @@ import uniq from 'lodash/uniq';
 import { resolve } from 'path';
 import { Token, TokenListEnumSchema } from './constants';
 import parseEthereumLists from './parse-ethereum-lists';
+import parseOverrideFile from './parse-overrides';
 import parseContractMap from './parse-contract-map';
-import parseSVGIconTokenFiles from './parse-svg-icons';
+import parseSVGIconTokenFiles, { SvgToken } from './parse-svg-icons';
 import parseTokenLists from './parse-token-lists';
 import { sortTokens, writeToDisk } from './parser';
 
@@ -35,6 +36,7 @@ function normalizeList(list: any[]) {
   const contractMapTokens = await parseContractMap();
   const svgIcons = await parseSVGIconTokenFiles();
   const tokenListTokens: any = await parseTokenLists();
+  const rainbowOverrides = await parseOverrideFile();
 
   const sources = {
     default: [
@@ -92,16 +94,21 @@ function normalizeList(list: any[]) {
   function buildTokenList() {
     return allKnownTokenAddresses.map((tokenAddress: string) => {
       const token = resolveTokenInfo(tokenAddress);
+      const overrideToken =
+        rainbowOverrides[tokenAddress] ||
+        rainbowOverrides[getAddress(tokenAddress)];
+
+      let { chainId = 1, color, decimals, name, shadowColor, symbol } = token;
 
       const isVerified = sources.preferred
         .map(Object.keys)
         .flat()
         .includes(tokenAddress);
 
-      const { chainId = 1, decimals, name, symbol } = token;
-      let color = undefined;
       if (isVerified) {
-        const logoData = svgIcons.find((item: any) => item.symbol === symbol);
+        const logoData = svgIcons.find(
+          (item: SvgToken) => item.symbol === symbol
+        );
         color = logoData?.color;
       }
 
@@ -110,11 +117,12 @@ function normalizeList(list: any[]) {
         chainId,
         decimals,
         extensions: {
-          color,
-          is_verified: isVerified,
+          color: overrideToken?.color || color,
+          isVerified,
+          shadowColor: overrideToken?.shadowColor || shadowColor,
         },
-        name,
-        symbol,
+        name: overrideToken?.name || name,
+        symbol: overrideToken?.symbol || symbol,
       };
     });
   }

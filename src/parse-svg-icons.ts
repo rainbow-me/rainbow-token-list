@@ -3,7 +3,7 @@ import { SVG_ICONS_REPO, SVG_ICONS_OUTPUT_PATH } from './constants';
 import { fetchRepository } from './git';
 import { parseJsonFile } from './parser';
 
-type SvgToken = { color: string; name: string; symbol: string };
+export type SvgToken = { color: string; name: string; symbol: string };
 
 export default async function parseSVGIconTokenFiles(): Promise<SvgToken[]> {
   // fetch the latest commit from `spothq/cryptocurrency-icons` repo and save it to disk
