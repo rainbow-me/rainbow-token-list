@@ -15,12 +15,6 @@ export const ETHEREUM_LISTS_OUTPUT_PATH = resolve(
   'ethereum-lists/tokens'
 );
 
-export const SVG_ICONS_REPO = 'spothq/cryptocurrency-icons';
-export const SVG_ICONS_OUTPUT_PATH = resolve(
-  tmpdir(),
-  'spothq/cryptocurrency-icons'
-);
-
 export const TokenListEnumSchema = z.enum([
   'aave',
   'coingecko',

@@ -1,11 +1,11 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2020-11-01T00:36:42.657Z",
+  "timestamp": "2020-11-01T06:10:32.235Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 1
+    "patch": 2
   },
   "keywords": [
     "rainbow"
@@ -1848,6 +1848,7 @@
       "name": "BASED",
       "symbol": "BASED",
       "extensions": {
+        "color": "#00add5",
         "isVerified": true
       }
     },
@@ -3969,6 +3970,7 @@
       "name": "Chai",
       "symbol": "CHAI",
       "extensions": {
+        "color": "#ff607c",
         "isVerified": true
       }
     },
@@ -6374,6 +6376,8 @@
       "name": "Donut",
       "symbol": "DONUT",
       "extensions": {
+        "color": "#F6689C",
+        "isRainbowCurated": true,
         "isVerified": true
       }
     },
@@ -6445,6 +6449,7 @@
       "name": "DeFiPulse Index",
       "symbol": "DPI",
       "extensions": {
+        "color": "#8150e6",
         "isVerified": true
       }
     },
@@ -8153,6 +8158,7 @@
       "name": "Fame",
       "symbol": "FAME",
       "extensions": {
+        "color": "#ff00d6",
         "isVerified": true
       }
     },
@@ -13552,6 +13558,7 @@
       "name": "Meta",
       "symbol": "MTA",
       "extensions": {
+        "color": "#25292e",
         "isVerified": true
       }
     },
@@ -14443,6 +14450,7 @@
       "name": "Ocean Protocol",
       "symbol": "OCEAN",
       "extensions": {
+        "color": "#25292e",
         "isVerified": true
       }
     },
@@ -14453,6 +14461,7 @@
       "name": "Ocean Token",
       "symbol": "OCEAN",
       "extensions": {
+        "color": "#25292e",
         "isVerified": true
       }
     },
@@ -17871,6 +17880,7 @@
       "name": "Sether",
       "symbol": "SETH",
       "extensions": {
+        "color": "#53b267",
         "isVerified": true
       }
     },
@@ -18378,6 +18388,16 @@
       "decimals": 18,
       "name": "smol",
       "symbol": "SMOL",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x8bF92cad232f72A7C61Eb42e9185e8d0Ea470f6B",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "SMPL Foundation",
+      "symbol": "SMPL",
       "extensions": {
         "isVerified": true
       }
@@ -19255,20 +19275,20 @@
       "symbol": "SUR"
     },
     {
-      "address": "0x46d473a0B3eEEc9F55FADE641bC576d5bc0b2246",
+      "address": "0xEa319e87Cf06203DAe107Dd8E5672175e3Ee976c",
       "chainId": 1,
-      "decimals": 8,
-      "name": "SurfExUtilityToken",
+      "decimals": 18,
+      "name": "Surf Finance",
       "symbol": "SURF",
       "extensions": {
         "isVerified": true
       }
     },
     {
-      "address": "0xEa319e87Cf06203DAe107Dd8E5672175e3Ee976c",
+      "address": "0x46d473a0B3eEEc9F55FADE641bC576d5bc0b2246",
       "chainId": 1,
-      "decimals": 18,
-      "name": "Surf Finance",
+      "decimals": 8,
+      "name": "SurfExUtilityToken",
       "symbol": "SURF",
       "extensions": {
         "isVerified": true
@@ -25052,6 +25072,7 @@
       "name": "YAM",
       "symbol": "YAM",
       "extensions": {
+        "color": "#f0e7ea",
         "isVerified": true
       }
     },

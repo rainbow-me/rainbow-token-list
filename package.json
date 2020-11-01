@@ -61,6 +61,7 @@
     "@ethersproject/address": "^5.0.5",
     "@uniswap/token-lists": "rainbow-me/token-lists#a81ac8adc2e513c868e09b0c21fcd3b2a2811ad8",
     "degit": "^2.8.0",
+    "get-svg-colors": "^1.5.1",
     "lodash": "^4.17.20",
     "lodash-es": "^4.17.15",
     "mkdirp": "^1.0.4",
