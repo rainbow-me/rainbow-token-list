@@ -2,8 +2,6 @@ import { resolve } from 'path';
 import { tmpdir } from 'os';
 import * as z from 'zod';
 
-export const VERSION = '1.0.0';
-
 export const CONTRACT_MAP_REPO = 'metamask/eth-contract-metadata';
 export const CONTRACT_MAP_OUTPUT_PATH = resolve(
   tmpdir(),
@@ -48,7 +46,7 @@ export const TOKEN_LISTS: TokenListType = {
   synthetix: 'https://synths.snx.eth.link',
 };
 
-export const SOCIAL_SCHEMA = z.object({
+export const SocialSchema = z.object({
   blog: z.string().optional(),
   chat: z.string().optional(),
   discord: z.string().optional(),
@@ -70,15 +68,22 @@ export const TokenDeprecationSchema = z.object({
   new_address: z.string().optional(),
 });
 
-export const TOKEN_SCHEMA = z.object({
+export const TokenSchema = z.object({
   address: z.string().regex(/^0x[a-fA-F0-9]{40}$/),
   decimals: z.number().min(0),
   deprecation: TokenDeprecationSchema.optional(),
   name: z.string(),
-  social: SOCIAL_SCHEMA,
+  social: SocialSchema,
   symbol: z.string(),
   website: z.string().optional(),
 });
+
+export type TokenInfoExtensions = {
+  color?: string;
+  shadowColor?: string;
+  isVerified?: boolean;
+  isRainbowCurated?: boolean;
+};
 
 /**
  * Raw token data that is loaded from the JSON files.
@@ -98,12 +103,12 @@ export const RawEthereumListsTokenSchema = z.object({
   decimals: z.union([z.string(), z.number()]).optional(),
   deprecation: TokenDeprecationSchema.optional(),
   name: z.string().optional(),
-  social: SOCIAL_SCHEMA.optional(),
+  social: SocialSchema.optional(),
   symbol: z.string().optional(),
   website: z.string().optional(),
 });
 
 export type RawContractMapToken = z.infer<typeof RawContractMapTokenSchema>;
 export type RawEthereumListsToken = z.infer<typeof RawEthereumListsTokenSchema>;
-export type Token = z.infer<typeof TOKEN_SCHEMA>;
-export type TokenSocialMetadata = z.infer<typeof SOCIAL_SCHEMA>;
+export type Token = z.infer<typeof TokenSchema>;
+export type TokenSocialMetadata = z.infer<typeof SocialSchema>;

@@ -5,9 +5,9 @@ import { resolve } from 'path';
 import {
   RawEthereumListsToken,
   RawEthereumListsTokenSchema,
-  SOCIAL_SCHEMA,
+  SocialSchema,
   Token,
-  TOKEN_SCHEMA,
+  TokenSchema,
   TokenDeprecationSchema,
 } from './constants';
 
@@ -41,11 +41,11 @@ export const validateTokenData = (token: RawEthereumListsToken): Token => {
       token.deprecation,
       Object.keys(TokenDeprecationSchema.shape)
     ),
-    social: pick(token.social, Object.keys(SOCIAL_SCHEMA.shape)),
+    social: pick(token.social, Object.keys(SocialSchema.shape)),
   };
 
-  const validToken = TOKEN_SCHEMA.parse(normalizedTokenData);
-  const validSocial = SOCIAL_SCHEMA.parse(normalizedTokenData.social);
+  const validToken = TokenSchema.parse(normalizedTokenData);
+  const validSocial = SocialSchema.parse(normalizedTokenData.social);
 
   return {
     ...validToken,
@@ -82,8 +82,7 @@ export const createOutputFolder = async (path: string): Promise<void> => {
 };
 
 /**
- * Write the resulting token array to a file on the disk. This assumes that the output path specified exists, and is a
- * folder.
+ * Write the Rainbow Token List JSON file to disk.
  *
  * @param {Token[]} tokens
  * @param {string} path
