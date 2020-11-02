@@ -1,11 +1,11 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2020-11-01T06:10:32.235Z",
+  "timestamp": "2020-11-02T10:57:23.237Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 2
+    "patch": 3
   },
   "keywords": [
     "rainbow"
@@ -237,6 +237,16 @@
       "decimals": 18,
       "name": " AAPL",
       "symbol": "AAPL",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave",
+      "symbol": "AAVE",
       "extensions": {
         "isVerified": true
       }
@@ -1691,6 +1701,16 @@
       "decimals": 18,
       "name": "Axis DeFi",
       "symbol": "AXIS",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xda4C5AEA122260e70616E979592735F12FE20499",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Axion",
+      "symbol": "AXN",
       "extensions": {
         "isVerified": true
       }
@@ -6376,7 +6396,7 @@
       "name": "Donut",
       "symbol": "DONUT",
       "extensions": {
-        "color": "#F6689C",
+        "color": "#F7518B",
         "isRainbowCurated": true,
         "isVerified": true
       }
@@ -9697,6 +9717,16 @@
       "symbol": "GXVC"
     },
     {
+      "address": "0xbEa98c05eEAe2f3bC8c3565Db7551Eb738c8CCAb",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Geyser",
+      "symbol": "GYSR",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x9DAe8b7F6D37ea8e5d32C6c3E856a6d8a1d3B363",
       "chainId": 1,
       "decimals": 18,
@@ -9974,16 +10004,6 @@
       "decimals": 18,
       "name": "HollaEx",
       "symbol": "HEX"
-    },
-    {
-      "address": "0xEd1199093b1aBd07a368Dd1C0Cdc77D8517BA2A0",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Axion",
-      "symbol": "HEX2T",
-      "extensions": {
-        "isVerified": true
-      }
     },
     {
       "address": "0xe9C9e7E1DaBea830C958C39D6b25964a6F52143A",
@@ -10705,6 +10725,16 @@
       "decimals": 18,
       "name": "IGToken",
       "symbol": "IG"
+    },
+    {
+      "address": "0x8FfE40A3D0f80C0CE6b203D5cDC1A6a86d9AcaeA",
+      "chainId": 1,
+      "decimals": 6,
+      "name": "IG Gold",
+      "symbol": "IGG",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x449c640B6C7fce4f8aD2e3Dcd900D13be40174Af",
@@ -13833,6 +13863,16 @@
       "decimals": 18,
       "name": "MYX Network",
       "symbol": "MYX",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x075190c6130EA0a3A7E40802F1D77F4Ea8f38fE2",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "nYFI",
+      "symbol": "N0031",
       "extensions": {
         "isVerified": true
       }
@@ -17170,6 +17210,16 @@
       "symbol": "ROCK2PAY"
     },
     {
+      "address": "0x0829d2d5cC09d3d341E813c821B0cfAE272D9fb2",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Social Rocket",
+      "symbol": "ROCKS",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xc9De4B7F0C3d991e967158E4D4bFA4b51Ec0b114",
       "chainId": 1,
       "decimals": 18,
@@ -19275,20 +19325,20 @@
       "symbol": "SUR"
     },
     {
-      "address": "0xEa319e87Cf06203DAe107Dd8E5672175e3Ee976c",
+      "address": "0x46d473a0B3eEEc9F55FADE641bC576d5bc0b2246",
       "chainId": 1,
-      "decimals": 18,
-      "name": "Surf Finance",
+      "decimals": 8,
+      "name": "SurfExUtilityToken",
       "symbol": "SURF",
       "extensions": {
         "isVerified": true
       }
     },
     {
-      "address": "0x46d473a0B3eEEc9F55FADE641bC576d5bc0b2246",
+      "address": "0xEa319e87Cf06203DAe107Dd8E5672175e3Ee976c",
       "chainId": 1,
-      "decimals": 8,
-      "name": "SurfExUtilityToken",
+      "decimals": 18,
+      "name": "Surf Finance",
       "symbol": "SURF",
       "extensions": {
         "isVerified": true
@@ -21095,7 +21145,7 @@
       "address": "0xd03B6ae96CaE26b743A6207DceE7Cbe60a425c70",
       "chainId": 1,
       "decimals": 18,
-      "name": "unibot cash",
+      "name": "UniDexBot",
       "symbol": "UNDB",
       "extensions": {
         "isVerified": true
@@ -25632,20 +25682,20 @@
       }
     },
     {
-      "address": "0x26B3038a7Fc10b36c426846a9086Ef87328dA702",
+      "address": "0x9cD39dA8f25ec50cF2Ee260e464aC23EA23F6bb0",
       "chainId": 1,
       "decimals": 18,
-      "name": "Yield Farming Token",
+      "name": "Toshify finance",
       "symbol": "YFT",
       "extensions": {
         "isVerified": true
       }
     },
     {
-      "address": "0x9cD39dA8f25ec50cF2Ee260e464aC23EA23F6bb0",
+      "address": "0x26B3038a7Fc10b36c426846a9086Ef87328dA702",
       "chainId": 1,
       "decimals": 18,
-      "name": "Toshify finance",
+      "name": "Yield Farming Token",
       "symbol": "YFT",
       "extensions": {
         "isVerified": true
@@ -25831,6 +25881,16 @@
       "decimals": 18,
       "name": "yRise Finance",
       "symbol": "YRISE",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xeea9aE787f3A620072d13b2cdC8cabFFb9c0aB96",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Yearn Secure",
+      "symbol": "YSEC",
       "extensions": {
         "isVerified": true
       }
