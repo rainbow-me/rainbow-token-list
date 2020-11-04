@@ -77,7 +77,7 @@ export const TokenSchema = z.object({
   deprecation: TokenDeprecationSchema.optional(),
   extensions: TokenExtensionsSchema.optional(),
   name: z.string(),
-  social: SocialSchema,
+  social: SocialSchema.optional(),
   symbol: z.string(),
   website: z.string().optional(),
 });
