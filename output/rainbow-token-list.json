@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2020-11-02T10:57:23.237Z",
+  "timestamp": "2020-11-04T02:43:11.059Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -1599,6 +1599,16 @@
       "decimals": 4,
       "name": "Gold Standard",
       "symbol": "AUS"
+    },
+    {
+      "address": "0x1c7BBADc81E18F7177A95eb1593e5f5f35861B10",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Auric Network",
+      "symbol": "AUSCM",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xD4f10f8F88d12f96f69D9378972F06Ab10D80DD6",
@@ -8958,6 +8968,16 @@
       }
     },
     {
+      "address": "0xf151980E7A781481709e8195744bF2399FB3Cba4",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Freeway Token",
+      "symbol": "FWT",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x4a57E687b9126435a9B19E4A802113e266AdeBde",
       "chainId": 1,
       "decimals": 18,
@@ -11853,6 +11873,16 @@
       "decimals": 18,
       "name": "Keep3rV1",
       "symbol": "KP3R",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xA89ac6e529aCf391CfbBD377F3aC9D93eae9664e",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Keep4r",
+      "symbol": "KP4R",
       "extensions": {
         "isVerified": true
       }
@@ -15980,6 +16010,16 @@
       }
     },
     {
+      "address": "0xf1F508c7C9f0d1b15a76fbA564eEf2d956220cf7",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Pepedex",
+      "symbol": "PPDEX",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xc42209aCcC14029c1012fB5680D95fBd6036E2a0",
       "chainId": 1,
       "decimals": 18,
@@ -17232,6 +17272,16 @@
       "decimals": 18,
       "name": "Roobee",
       "symbol": "ROOBEE",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xfA5047c9c78B8877af97BDcb85Db743fD7313d4a",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "ROOK",
+      "symbol": "ROOK",
       "extensions": {
         "isVerified": true
       }
@@ -19325,20 +19375,20 @@
       "symbol": "SUR"
     },
     {
-      "address": "0x46d473a0B3eEEc9F55FADE641bC576d5bc0b2246",
+      "address": "0xEa319e87Cf06203DAe107Dd8E5672175e3Ee976c",
       "chainId": 1,
-      "decimals": 8,
-      "name": "SurfExUtilityToken",
+      "decimals": 18,
+      "name": "Surf Finance",
       "symbol": "SURF",
       "extensions": {
         "isVerified": true
       }
     },
     {
-      "address": "0xEa319e87Cf06203DAe107Dd8E5672175e3Ee976c",
+      "address": "0x46d473a0B3eEEc9F55FADE641bC576d5bc0b2246",
       "chainId": 1,
-      "decimals": 18,
-      "name": "Surf Finance",
+      "decimals": 8,
+      "name": "SurfExUtilityToken",
       "symbol": "SURF",
       "extensions": {
         "isVerified": true
@@ -25577,16 +25627,6 @@
       "decimals": 18,
       "name": "YFMoonshot",
       "symbol": "YFMS",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
-      "address": "0x13cea0680b3FFecB835758046CC1dfE9080dBAd5",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Yearn Finance Netwo",
-      "symbol": "YFN",
       "extensions": {
         "isVerified": true
       }

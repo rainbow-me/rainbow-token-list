@@ -1,5 +1,7 @@
 {
-  "version": "0.1.0",
+  "name": "rainbow-token-list",
+  "author": "Michael Demarais",
+  "version": "1.0.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -31,8 +33,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "rainbow-token-list",
-  "author": "Michael Demarais",
   "module": "dist/rainbow-token-list.esm.js",
   "size-limit": [
     {
