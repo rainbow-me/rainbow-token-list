@@ -17,6 +17,9 @@ import parseSVGIconTokenFiles from './parse-svg-icons';
 import parseTokenLists from './parse-token-lists';
 import { sortTokens, writeToDisk } from './parser';
 
+import * as Types from './constants';
+export { Types };
+
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
 console.log('🌈️ building the rainbow token list');
@@ -136,7 +139,7 @@ function normalizeList(list: any[]) {
       version: {
         major: 1,
         minor: 0,
-        patch: 3,
+        patch: 4,
       },
       keywords: ['rainbow'],
       tokens: sortTokens(buildTokenList()),

@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2020-11-04T02:43:11.059Z",
+  "timestamp": "2020-11-04T03:24:23.953Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -6508,20 +6508,20 @@
       "symbol": "DRC"
     },
     {
-      "address": "0xb78B3320493a4EFaa1028130C5Ba26f0B6085Ef8",
+      "address": "0xa150Db9b1Fa65b44799d4dD949D922c0a33Ee606",
       "chainId": 1,
-      "decimals": 18,
-      "name": "Dracula Token",
+      "decimals": 0,
+      "name": "Digital Reserve Cur",
       "symbol": "DRC",
       "extensions": {
         "isVerified": true
       }
     },
     {
-      "address": "0xa150Db9b1Fa65b44799d4dD949D922c0a33Ee606",
+      "address": "0xb78B3320493a4EFaa1028130C5Ba26f0B6085Ef8",
       "chainId": 1,
-      "decimals": 0,
-      "name": "Digital Reserve Cur",
+      "decimals": 18,
+      "name": "Dracula Token",
       "symbol": "DRC",
       "extensions": {
         "isVerified": true
@@ -9630,6 +9630,16 @@
       "decimals": 2,
       "name": "Gastoken",
       "symbol": "GST2",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xaac41EC512808d64625576EDdd580e7Ea40ef8B2",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Gameswap",
+      "symbol": "GSWAP",
       "extensions": {
         "isVerified": true
       }
@@ -19375,20 +19385,20 @@
       "symbol": "SUR"
     },
     {
-      "address": "0xEa319e87Cf06203DAe107Dd8E5672175e3Ee976c",
+      "address": "0x46d473a0B3eEEc9F55FADE641bC576d5bc0b2246",
       "chainId": 1,
-      "decimals": 18,
-      "name": "Surf Finance",
+      "decimals": 8,
+      "name": "SurfExUtilityToken",
       "symbol": "SURF",
       "extensions": {
         "isVerified": true
       }
     },
     {
-      "address": "0x46d473a0B3eEEc9F55FADE641bC576d5bc0b2246",
+      "address": "0xEa319e87Cf06203DAe107Dd8E5672175e3Ee976c",
       "chainId": 1,
-      "decimals": 8,
-      "name": "SurfExUtilityToken",
+      "decimals": 18,
+      "name": "Surf Finance",
       "symbol": "SURF",
       "extensions": {
         "isVerified": true
