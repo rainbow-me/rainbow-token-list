@@ -1,11 +1,11 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2020-11-04T03:24:23.953Z",
+  "timestamp": "2020-11-04T04:07:32.448Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 3
+    "patch": 5
   },
   "keywords": [
     "rainbow"
@@ -4056,6 +4056,16 @@
       }
     },
     {
+      "address": "0x538a151Dd910C1D1227719bd400D6C4f99ea06d0",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Cryptochrome",
+      "symbol": "CHM",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x84679bc467DC6c2c40ab04538813AfF3796351f1",
       "chainId": 1,
       "decimals": 18,
@@ -6508,20 +6518,20 @@
       "symbol": "DRC"
     },
     {
-      "address": "0xa150Db9b1Fa65b44799d4dD949D922c0a33Ee606",
+      "address": "0xb78B3320493a4EFaa1028130C5Ba26f0B6085Ef8",
       "chainId": 1,
-      "decimals": 0,
-      "name": "Digital Reserve Cur",
+      "decimals": 18,
+      "name": "Dracula Token",
       "symbol": "DRC",
       "extensions": {
         "isVerified": true
       }
     },
     {
-      "address": "0xb78B3320493a4EFaa1028130C5Ba26f0B6085Ef8",
+      "address": "0xa150Db9b1Fa65b44799d4dD949D922c0a33Ee606",
       "chainId": 1,
-      "decimals": 18,
-      "name": "Dracula Token",
+      "decimals": 0,
+      "name": "Digital Reserve Cur",
       "symbol": "DRC",
       "extensions": {
         "isVerified": true

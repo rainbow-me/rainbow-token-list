@@ -9,7 +9,7 @@ import pick from 'lodash/pick';
 import some from 'lodash/some';
 import uniq from 'lodash/uniq';
 import { resolve } from 'path';
-import { Token, TokenInfoExtensions, TokenListEnumSchema } from './constants';
+import { Token, TokenExtensionsType, TokenListEnumSchema } from './constants';
 import parseEthereumLists from './parse-ethereum-lists';
 import parseOverrideFile from './parse-overrides';
 import parseContractMap from './parse-contract-map';
@@ -111,7 +111,7 @@ function normalizeList(list: any[]) {
         color = logoData?.color;
       }
 
-      const extensions: TokenInfoExtensions = {
+      const extensions: TokenExtensionsType = {
         color: overrideToken?.color || color,
         isRainbowCurated: !!overrideToken ? true : undefined,
         isVerified: isVerified ? true : undefined,
@@ -139,7 +139,7 @@ function normalizeList(list: any[]) {
       version: {
         major: 1,
         minor: 0,
-        patch: 4,
+        patch: 5,
       },
       keywords: ['rainbow'],
       tokens: sortTokens(buildTokenList()),

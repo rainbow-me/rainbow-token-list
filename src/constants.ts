@@ -62,22 +62,25 @@ export const TokenDeprecationSchema = z.object({
   new_address: z.string().optional(),
 });
 
+export const TokenExtensionsSchema = z.object({
+  color: z.string().optional(),
+  isRainbowCurated: z.boolean().optional(),
+  isVerified: z.boolean().optional(),
+  shadowColor: z.string().optional(),
+});
+export type TokenExtensionsType = z.infer<typeof TokenExtensionsSchema>;
+
 export const TokenSchema = z.object({
   address: z.string().regex(/^0x[a-fA-F0-9]{40}$/),
+  chainId: z.number().optional(),
   decimals: z.number().min(0),
   deprecation: TokenDeprecationSchema.optional(),
+  extensions: TokenExtensionsSchema.optional(),
   name: z.string(),
   social: SocialSchema,
   symbol: z.string(),
   website: z.string().optional(),
 });
-
-export type TokenInfoExtensions = {
-  color?: string;
-  shadowColor?: string;
-  isVerified?: boolean;
-  isRainbowCurated?: boolean;
-};
 
 /**
  * Raw token data that is loaded from the JSON files.
