@@ -113,7 +113,7 @@ function normalizeList(list: any[]) {
 
       const extensions: TokenExtensionsType = {
         color: overrideToken?.color || color,
-        isRainbowCurated: !!overrideToken ? true : undefined,
+        isRainbowCurated: overrideToken?.isCurated ? true : undefined,
         isVerified: isVerified ? true : undefined,
         shadowColor: overrideToken?.shadowColor || shadowColor,
       };
