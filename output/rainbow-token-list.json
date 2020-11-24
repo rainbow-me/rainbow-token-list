@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2020-11-24T15:52:48.788Z",
+  "timestamp": "2020-11-24T23:46:52.325Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -4185,7 +4185,7 @@
       "name": "Chai",
       "symbol": "CHAI",
       "extensions": {
-        "color": "#ff607c",
+        "color": "#e74b58",
         "isVerified": true
       }
     },
@@ -18132,6 +18132,7 @@
       "name": "KeeperDAO",
       "symbol": "ROOK",
       "extensions": {
+        "color": "#25292e",
         "isVerified": true
       }
     },
