@@ -1450,9 +1450,9 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
-"@uniswap/token-lists@rainbow-me/token-lists#a81ac8adc2e513c868e09b0c21fcd3b2a2811ad8":
-  version "1.0.0-beta.17"
-  resolved "https://codeload.github.com/rainbow-me/token-lists/tar.gz/a81ac8adc2e513c868e09b0c21fcd3b2a2811ad8"
+"@uniswap/token-lists@rainbow-me/token-lists#40babff279b578e5585d274e1c7c93f35c56ed73":
+  version "1.0.0-beta.18-extensions"
+  resolved "https://codeload.github.com/rainbow-me/token-lists/tar.gz/40babff279b578e5585d274e1c7c93f35c56ed73"
 
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"

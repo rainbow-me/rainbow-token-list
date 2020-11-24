@@ -1,7 +1,7 @@
 {
   "name": "rainbow-token-list",
   "author": "Michael Demarais",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -60,7 +60,7 @@
   },
   "dependencies": {
     "@ethersproject/address": "^5.0.5",
-    "@uniswap/token-lists": "rainbow-me/token-lists#a81ac8adc2e513c868e09b0c21fcd3b2a2811ad8",
+    "@uniswap/token-lists": "rainbow-me/token-lists#40babff279b578e5585d274e1c7c93f35c56ed73",
     "chroma-js": "^2.1.0",
     "degit": "^2.8.0",
     "get-svg-colors": "^1.5.1",
