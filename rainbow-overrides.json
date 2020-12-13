@@ -554,9 +554,10 @@
     "shadowColor": "#D09AAC"
   },
   "0x6d0f5149c502faf215c89ab306ec3e50b15e2892": {
-    "color": "#062A3D"
+    "color": "#062A3D",
     "isCurated": true,
     "name": "Portion Token",
-    "shadowColor": "#DAB679"
+    "shadowColor": "#DAB679",
+    "symbol": "PRT"
   }
 }
