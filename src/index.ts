@@ -15,7 +15,7 @@ import parseOverrideFile from './parse-overrides';
 import parseContractMap from './parse-contract-map';
 import parseSVGIconTokenFiles from './parse-svg-icons';
 import parseTokenLists from './parse-token-lists';
-import { sortTokens, writeToDisk } from './parser';
+import { deeplyTrimAllTokenStrings, sortTokens, writeToDisk } from './parser';
 
 import * as Types from './constants';
 export { Types };
@@ -118,7 +118,7 @@ function normalizeList(list: any[]) {
         shadowColor: overrideToken?.shadowColor || shadowColor,
       };
 
-      return {
+      return deeplyTrimAllTokenStrings({
         address: tokenAddress,
         chainId,
         decimals,
@@ -127,7 +127,7 @@ function normalizeList(list: any[]) {
         ...(compact(Object.values(extensions)).length
           ? { extensions }
           : undefined),
-      };
+      });
     });
   }
 
@@ -139,7 +139,7 @@ function normalizeList(list: any[]) {
       version: {
         major: 1,
         minor: 1,
-        patch: 0,
+        patch: 1,
       },
       keywords: ['rainbow'],
       tokens: sortTokens(buildTokenList()),

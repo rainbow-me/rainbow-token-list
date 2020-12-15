@@ -1,4 +1,7 @@
 import { promises as fs } from 'fs';
+import isPlainObject from 'lodash/isPlainObject';
+import isString from 'lodash/isString';
+import mapValues from 'lodash/mapValues';
 import pick from 'lodash/pick';
 import mkdirp from 'mkdirp';
 import { resolve } from 'path';
@@ -79,6 +82,22 @@ export const createOutputFolder = async (path: string): Promise<void> => {
 
     mkdirp.sync(path);
   }
+};
+
+function mapValuesDeep(v: any, callback: any): any {
+  return isPlainObject(v)
+    ? mapValues(v, v => mapValuesDeep(v, callback))
+    : callback(v);
+}
+
+/**
+ * Recursively loop through an token's values and `trim()` any values which are strings.
+ *
+ * @param {Token} token
+ * @return {Token}
+ */
+export const deeplyTrimAllTokenStrings = (token: Token): Token => {
+  return mapValuesDeep(token, (v: any) => (isString(v) ? v.trim() : v));
 };
 
 /**

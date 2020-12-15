@@ -1,11 +1,11 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2020-12-15T06:20:52.599Z",
+  "timestamp": "2020-12-15T23:42:17.548Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
     "minor": 1,
-    "patch": 0
+    "patch": 1
   },
   "keywords": [
     "rainbow"
@@ -144,6 +144,16 @@
       "symbol": "300"
     },
     {
+      "address": "0x167E2A574669b0EeB552aaF3Da47c728cb348a41",
+      "chainId": 1,
+      "decimals": 7,
+      "name": "Spartan",
+      "symbol": "300",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x4f56221252d117f35E2f6Ab937A3F77CAd38934D",
       "chainId": 1,
       "decimals": 18,
@@ -269,7 +279,7 @@
       "address": "0x41eFc0253ee7Ea44400abB5F907FDbfdEbc82bec",
       "chainId": 1,
       "decimals": 18,
-      "name": " AAPL",
+      "name": "AAPL",
       "symbol": "AAPL",
       "extensions": {
         "isVerified": true
@@ -2113,7 +2123,7 @@
       "address": "0xda4C5AEA122260e70616E979592735F12FE20499",
       "chainId": 1,
       "decimals": 18,
-      "name": "Axion  OLD ",
+      "name": "Axion  OLD",
       "symbol": "AXN",
       "extensions": {
         "isVerified": true
@@ -2452,7 +2462,7 @@
       "address": "0x70460c3Bb9AbcC0aA51f922c00d37816d6EDe4D7",
       "chainId": 1,
       "decimals": 18,
-      "name": "BooBanker Research ",
+      "name": "BooBanker Research",
       "symbol": "BBRA",
       "extensions": {
         "isVerified": true
@@ -2674,7 +2684,7 @@
       "address": "0x1B073382E63411E3BcfFE90aC1B9A43feFa1Ec6F",
       "chainId": 1,
       "decimals": 8,
-      "name": "Bitpanda Ecosystem ",
+      "name": "Bitpanda Ecosystem",
       "symbol": "BEST",
       "extensions": {
         "isVerified": true
@@ -3656,7 +3666,7 @@
       "address": "0x0327112423F3A68efdF1fcF402F6c5CB9f7C33fd",
       "chainId": 1,
       "decimals": 18,
-      "name": "PieDAO BTC  ",
+      "name": "PieDAO BTC",
       "symbol": "BTC++",
       "extensions": {
         "isVerified": true
@@ -7020,14 +7030,14 @@
       "address": "0x92bA756169aA6Ff82a3d6ae8e4456A5883182Fa3",
       "chainId": 1,
       "decimals": 18,
-      "name": "bZx Perpetual Long LINK-DAI 3x v2 ",
+      "name": "bZx Perpetual Long LINK-DAI 3x v2",
       "symbol": "dLLINK3x"
     },
     {
       "address": "0x3789A8cAc9D2Eb3Cb87c09CA3422b928c768b362",
       "chainId": 1,
       "decimals": 18,
-      "name": "bZx Perpetual Long LINK-DAI 4x v2 ",
+      "name": "bZx Perpetual Long LINK-DAI 4x v2",
       "symbol": "dLLINK4x"
     },
     {
@@ -7653,7 +7663,7 @@
       "address": "0x937EFce07594d14f878650d5B637f022952FAe86",
       "chainId": 1,
       "decimals": 18,
-      "name": "bZx Perpetual Short LINK-DAI 4x v2 ",
+      "name": "bZx Perpetual Short LINK-DAI 4x v2",
       "symbol": "dsLINK4x"
     },
     {
@@ -9054,7 +9064,7 @@
       "address": "0x9e4C143Bfe35f855624B3F84465AB7401A17A120",
       "chainId": 1,
       "decimals": 18,
-      "name": "EXCOIN CASH ",
+      "name": "EXCOIN CASH",
       "symbol": "EXC"
     },
     {
@@ -10975,7 +10985,7 @@
       "address": "0x5bfc1FF7f9e087C64fEfb34F2e7cF24e5570919F",
       "chainId": 1,
       "decimals": 18,
-      "name": "Habitus ",
+      "name": "Habitus",
       "symbol": "HABS"
     },
     {
@@ -11783,7 +11793,7 @@
       "address": "0x793e2602A8396468f3CE6E34C1B6C6Fd6D985bAD",
       "chainId": 1,
       "decimals": 18,
-      "name": " ICK Mask",
+      "name": "ICK Mask",
       "symbol": "ICK",
       "extensions": {
         "isVerified": true
@@ -12748,7 +12758,7 @@
       "address": "0x558A069a3A1a1e72398607b9E3577fCe1C67EA63",
       "chainId": 1,
       "decimals": 18,
-      "name": "JPYQ Stablecoin by ",
+      "name": "JPYQ Stablecoin by",
       "symbol": "JPYQ",
       "extensions": {
         "isVerified": true
@@ -13748,7 +13758,7 @@
       "address": "0x02F61Fd266DA6E8B102D4121f5CE7b992640CF98",
       "chainId": 1,
       "decimals": 18,
-      "name": "LikeCoin  ERC 20 ",
+      "name": "LikeCoin  ERC 20",
       "symbol": "LIKE",
       "extensions": {
         "isVerified": true
@@ -13807,7 +13817,7 @@
       "address": "0x8933ea1Ce67B946BdF2436cE860fFBb53Ce814d2",
       "chainId": 1,
       "decimals": 18,
-      "name": "LINK ETH RSI Ratio ",
+      "name": "LINK ETH RSI Ratio",
       "symbol": "LINKETHRSI",
       "extensions": {
         "isVerified": true
@@ -14616,7 +14626,7 @@
       "address": "0xbA745513ACEbcBb977497C569D4F7d340f2A936B",
       "chainId": 1,
       "decimals": 18,
-      "name": "Mainstream For The ",
+      "name": "Mainstream For The",
       "symbol": "MFTU",
       "extensions": {
         "isVerified": true
@@ -15844,7 +15854,7 @@
       "address": "0x40ce0A1D8F4999807b92ec266a025F071814b15d",
       "chainId": 1,
       "decimals": 18,
-      "name": "Dai If Trump Loses ",
+      "name": "Dai If Trump Loses",
       "symbol": "NOTRUMP",
       "extensions": {
         "isVerified": true
@@ -16089,6 +16099,16 @@
       "decimals": 18,
       "name": "OBR",
       "symbol": "OBR",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x466912bAA9430a4a460b141ee8C580D817441449",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BLOCKMAX",
+      "symbol": "OCB",
       "extensions": {
         "isVerified": true
       }
@@ -17534,6 +17554,17 @@
       "symbol": "POIN"
     },
     {
+      "address": "0x622f2962AE78e8686EcC1E30cF2f9a6e5aC35626",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Wrapped Polis",
+      "symbol": "POLIS",
+      "extensions": {
+        "color": "#2c3e50",
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x705EE96c1c160842C92c1aeCfCFfccc9C412e3D9",
       "chainId": 1,
       "decimals": 18,
@@ -17693,6 +17724,16 @@
       }
     },
     {
+      "address": "0x4e085036A1b732cBe4FfB1C12ddfDd87E7C3664d",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Predictz",
+      "symbol": "PRDZ",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x88A3E4F35D64aAD41A6d4030ac9AFE4356cB84fA",
       "chainId": 1,
       "decimals": 18,
@@ -17784,6 +17825,16 @@
       "decimals": 18,
       "name": "Pro",
       "symbol": "PRO"
+    },
+    {
+      "address": "0xfB559CE67Ff522ec0b9Ba7f5dC9dc7EF6c139803",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Probit Token",
+      "symbol": "PROB",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xfc82bb4ba86045Af6F327323a46E80412b91b27d",
@@ -18637,7 +18688,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "renFIL",
-      "symbol": "renFIL"
+      "symbol": "RENFIL",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x1C5db575E2Ff833E46a2E9864C22F4B22E0B37C2",
@@ -20715,7 +20769,7 @@
       "address": "0x86ed939B500E121C0C5f493F399084Db596dAd20",
       "chainId": 1,
       "decimals": 18,
-      "name": "SpaceChain  ERC 20 ",
+      "name": "SpaceChain  ERC 20",
       "symbol": "SPC",
       "extensions": {
         "isVerified": true
@@ -20727,6 +20781,16 @@
       "decimals": 18,
       "name": "SPINDLE",
       "symbol": "SPD"
+    },
+    {
+      "address": "0xbcD4b7dE6fde81025f74426D43165a5b0D790Fdd",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "SpiderDAO",
+      "symbol": "SPDR",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x85089389C14Bd9c77FC2b8F0c3d1dC3363Bf06Ef",
@@ -21645,7 +21709,7 @@
       "address": "0x2C82c73d5B34AA015989462b2948cd616a37641F",
       "chainId": 1,
       "decimals": 18,
-      "name": "Spectre ai Utility ",
+      "name": "Spectre ai Utility",
       "symbol": "SXUT",
       "extensions": {
         "isVerified": true
@@ -22628,6 +22692,16 @@
       "symbol": "TRDT"
     },
     {
+      "address": "0xc299004a310303D1C0005Cb14c70ccC02863924d",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Trinity Protocol",
+      "symbol": "TRI",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xe09216F1d343Dd39D6Aa732a08036fee48555Af0",
       "chainId": 1,
       "decimals": 18,
@@ -23008,7 +23082,7 @@
       "address": "0x12f649A9E821F90BB143089a6e56846945892ffB",
       "chainId": 1,
       "decimals": 18,
-      "name": "Hyprr  Howdoo ",
+      "name": "Hyprr  Howdoo",
       "symbol": "UDOO",
       "extensions": {
         "isVerified": true
@@ -23277,7 +23351,7 @@
       "address": "0xf29e46887FFAE92f1ff87DfE39713875Da541373",
       "chainId": 1,
       "decimals": 18,
-      "name": "UniCrypt  Old ",
+      "name": "UniCrypt  Old",
       "symbol": "UNC",
       "extensions": {
         "isVerified": true
@@ -23600,7 +23674,7 @@
       "address": "0x3E0349F5D38414008B9Bb1907ea422739BE7CD4C",
       "chainId": 1,
       "decimals": 18,
-      "name": "Uniswap: Fulcrum DAI iToken ",
+      "name": "Uniswap: Fulcrum DAI iToken",
       "symbol": "uniiDAI"
     },
     {
@@ -23621,7 +23695,7 @@
       "address": "0x81eeD7F1EcbD7FA9978fcc7584296Fb0C215Dc5C",
       "chainId": 1,
       "decimals": 18,
-      "name": "Uniswap: Fulcrum SAI iToken ",
+      "name": "Uniswap: Fulcrum SAI iToken",
       "symbol": "uniiSAI"
     },
     {
@@ -25167,7 +25241,7 @@
       "address": "0x6CA88Cc8D9288f5cAD825053B6A1B179B05c76fC",
       "chainId": 1,
       "decimals": 18,
-      "name": "Universal Protocol ",
+      "name": "Universal Protocol",
       "symbol": "UPT",
       "extensions": {
         "isVerified": true
@@ -25201,7 +25275,7 @@
       "address": "0xff8Be4B22CeDC440591dcB1E641EB2a0dd9d25A5",
       "chainId": 1,
       "decimals": 18,
-      "name": "URACToken ",
+      "name": "URACToken",
       "symbol": "URAC"
     },
     {
@@ -25268,7 +25342,7 @@
       "address": "0x9A48BD0EC040ea4f1D3147C025cd4076A2e71e3e",
       "chainId": 1,
       "decimals": 18,
-      "name": "PieDAO USD  ",
+      "name": "PieDAO USD",
       "symbol": "USD++",
       "extensions": {
         "isVerified": true
@@ -25982,7 +26056,7 @@
       "address": "0xFf2cF2A74445a115468e84FB42eDfe1D9d73CF2b",
       "chainId": 1,
       "decimals": 8,
-      "name": "Token Vizcoin ",
+      "name": "Token Vizcoin",
       "symbol": "Viz"
     },
     {
@@ -26198,6 +26272,16 @@
       "decimals": 18,
       "name": "Vuulr Token",
       "symbol": "VUU"
+    },
+    {
+      "address": "0x755be920943eA95e39eE2DC437b268917B580D6e",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "VersoView",
+      "symbol": "VVT",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x7D29A64504629172a429e64183D6673b9dAcbFCe",
@@ -26871,7 +26955,7 @@
       "address": "0x25C7b64A93Eb1261E130eC21a3e9918CaA38b611",
       "chainId": 1,
       "decimals": 18,
-      "name": "Wrapped Virgin Gen ",
+      "name": "Wrapped Virgin Gen",
       "symbol": "WVG0",
       "extensions": {
         "isVerified": true
@@ -27398,7 +27482,7 @@
       "address": "0xBB1fA4FdEB3459733bF67EbC6f893003fA976a82",
       "chainId": 1,
       "decimals": 18,
-      "name": "Pangea Arbitration ",
+      "name": "Pangea Arbitration",
       "symbol": "XPAT",
       "extensions": {
         "isVerified": true
