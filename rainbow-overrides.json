@@ -135,6 +135,12 @@
     "shadowColor": "#7285B2",
     "symbol": "aWBTC"
   },
+  "0x030ba81f1c18d280636f32af80b9aad02cf0854e": {
+    "color": "#25292E",
+    "name": "Aave WETH",
+    "shadowColor": "#7285B2",
+    "symbol": "aWETH"
+  },
   "0x12e51E77DAAA58aA0E9247db7510Ea4B46F9bEAd": {
     "color": "#0072F6",
     "name": "Aave YFI",
@@ -146,6 +152,11 @@
     "name": "Aave ZRX",
     "shadowColor": "#7285B2",
     "symbol": "aZRX"
+  },
+  "0xd46ba6d942050d489dbd938a2c909a5d5039a161": {
+    "color": "#25292E",
+    "isCurated": true,
+    "name": "Ampleforth"
   },
   "0xa117000000f279d81a1d3cc75430faa017fa5a2e": {
     "color": "#06BCE5",
@@ -340,6 +351,16 @@
     "isCurated": true,
     "name": "iExec"
   },
+  "0x0954906da0bf32d5479e25f46056d22f08464cab": {
+    "color": "#75533A",
+    "isCurated": true,
+    "name": "Index"
+  },
+  "0xfa5047c9c78b8877af97bdcb85db743fd7313d4a": {
+    "color": "#25292E",
+    "isCurated": true,
+    "name": "KeeperDAO"
+  },
   "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d": {
     "color": "#838285",
     "isCurated": true,
@@ -412,7 +433,6 @@
   },
   "0xe3818504c1b32bf1557b16c238b2e01fd3149c17": {
     "color": "#00BFFF",
-    "isCurated": true,
     "name": "Pillar"
   },
   "0x6758B7d441a9739b98552B373703d8d3d14f9e62": {
@@ -472,7 +492,7 @@
     "name": "Storj"
   },
   "0xc011a73ee8576fb46f5e1c5751ca3b9fe0af2a6f": {
-    "color": "#25292E",
+    "color": "#211580",
     "isCurated": true,
     "name": "Synthetix"
   },
@@ -498,7 +518,6 @@
   },
   "0x4c19596f5aaff459fa38b0f7ed92f11ae6543784": {
     "name": "TrustToken",
-    "isCurated": true,
     "symbol": "TRU"
   },
   "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828": {
@@ -534,10 +553,10 @@
   },
   "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
     "color": "#25292E",
-    "isCurated": true,
     "name": "Wrapped Ether"
   },
   "0x5dbcf33d8c2e976c6b560249878e6f1491bca25c": {
+    "color": "#0072F6",
     "name": "Y Curve Vault",
     "isCurated": true,
     "symbol": "yUSD"
@@ -551,6 +570,19 @@
     "color": "#B2364F",
     "isCurated": true,
     "name": "YAM",
-    "shadowColor": "#D09AAC"
+    "shadowColor": "#D09AAC",
+    "symbol": "YAM"
+  },
+  "0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16": {
+    "color": "#B2364F",
+    "name": "YAMv1",
+    "shadowColor": "#D09AAC",
+    "symbol": "YAMv1"
+  },
+  "0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a": {
+    "color": "#B2364F",
+    "name": "YAMv2",
+    "shadowColor": "#D09AAC",
+    "symbol": "YAMv2"
   }
 }
