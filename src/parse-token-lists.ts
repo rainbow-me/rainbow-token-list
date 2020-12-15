@@ -50,7 +50,10 @@ export default async function parseTokenLists() {
       }
 
       if (listName === aave) {
-        newList[aave].tokens = pickTokenWithTag(newList[aave].tokens, 'atoken');
+        newList[aave].tokens = [
+          ...pickTokenWithTag(newList[aave].tokens, 'atokenv1'),
+          ...pickTokenWithTag(newList[aave].tokens, 'atokenv2'),
+        ];
       }
 
       return newList;

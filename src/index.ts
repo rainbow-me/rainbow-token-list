@@ -138,8 +138,8 @@ function normalizeList(list: any[]) {
       logoURI: 'https://avatars0.githubusercontent.com/u/48327834?s=200&v=4',
       version: {
         major: 1,
-        minor: 0,
-        patch: 6,
+        minor: 1,
+        patch: 0,
       },
       keywords: ['rainbow'],
       tokens: sortTokens(buildTokenList()),
