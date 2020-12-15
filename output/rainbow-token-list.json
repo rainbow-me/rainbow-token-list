@@ -1,11 +1,11 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2020-12-15T01:19:03.038Z",
+  "timestamp": "2020-12-15T06:20:52.599Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
-    "minor": 0,
-    "patch": 6
+    "minor": 1,
+    "patch": 0
   },
   "keywords": [
     "rainbow"
@@ -222,6 +222,30 @@
       "symbol": "A18"
     },
     {
+      "address": "0xba3D9687Cf50fE253cd2e1cFeEdE1d6787344Ed5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave AAVE v1",
+      "symbol": "aAAVE",
+      "extensions": {
+        "color": "#7285B2",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0xFFC97d72E13E01096502Cb8Eb52dEe56f74DAD7B",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave AAVE",
+      "symbol": "aAAVE",
+      "extensions": {
+        "color": "#7285B2",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
       "address": "0x686C650dbcFEaa75D09B883621Ad810F5952bD5d",
       "chainId": 1,
       "decimals": 18,
@@ -271,6 +295,30 @@
       "symbol": "aBAT"
     },
     {
+      "address": "0xE1BA0FB44CCb0D11b80F92f4f8Ed94CA3fF51D00",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave BAT v1",
+      "symbol": "aBAT",
+      "extensions": {
+        "color": "#FF5000",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0x05Ec93c0365baAeAbF7AefFb0972ea7ECdD39CF1",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave BAT",
+      "symbol": "aBAT",
+      "extensions": {
+        "color": "#FF5000",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
       "address": "0xcc7d26D8eA6281BB363C8448515F2C61F7BC19F0",
       "chainId": 1,
       "decimals": 18,
@@ -300,6 +348,18 @@
     },
     {
       "address": "0x6Ee0f7BB50a54AB5253dA0667B0Dc2ee526C30a8",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave BUSD v1",
+      "symbol": "aBUSD",
+      "extensions": {
+        "color": "#F3BA2F",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0xA361718326c15715591c299427c62086F69923D9",
       "chainId": 1,
       "decimals": 18,
       "name": "Aave BUSD",
@@ -390,6 +450,18 @@
     },
     {
       "address": "0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave DAI v1",
+      "symbol": "aDAI",
+      "extensions": {
+        "color": "#F0B340",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0x028171bCA77440897B824Ca71D1c56caC55b68A3",
       "chainId": 1,
       "decimals": 18,
       "name": "Aave DAI",
@@ -492,6 +564,30 @@
       "symbol": "AE"
     },
     {
+      "address": "0x712DB54daA836B53Ef1EcBb9c6ba3b9Efb073F40",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave ENJ v1",
+      "symbol": "aENJ",
+      "extensions": {
+        "color": "#25292E",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0xaC6Df26a590F08dcC95D5a4705ae8abbc88509Ef",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave ENJ",
+      "symbol": "aENJ",
+      "extensions": {
+        "color": "#25292E",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
       "address": "0xac4D22e40bf0B8eF4750a99ED4E935B99A42685E",
       "chainId": 1,
       "decimals": 18,
@@ -522,7 +618,7 @@
       "address": "0x3a3A65aAb0dd2A17E3F1947bA16138cd37d08c04",
       "chainId": 1,
       "decimals": 18,
-      "name": "Aave ETH",
+      "name": "Aave ETH v1",
       "symbol": "aETH",
       "extensions": {
         "color": "#25292E",
@@ -537,6 +633,7 @@
       "name": "AnarchETH",
       "symbol": "AETH",
       "extensions": {
+        "color": "#25292e",
         "isVerified": true
       }
     },
@@ -722,6 +819,30 @@
       "symbol": "aKNC"
     },
     {
+      "address": "0x9D91BE44C06d373a8a226E1f3b146956083803eB",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave KNC v1",
+      "symbol": "aKNC",
+      "extensions": {
+        "color": "#31CB9E",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0x39C6b3e42d6A679d7D776778Fe880BC9487C2EDA",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave KNC",
+      "symbol": "aKNC",
+      "extensions": {
+        "color": "#31CB9E",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
       "address": "0x8Ab7404063Ec4DBcfd4598215992DC3F8EC853d7",
       "chainId": 1,
       "decimals": 18,
@@ -769,7 +890,7 @@
       "address": "0x7D2D3688Df45Ce7C552E19c27e007673da9204B8",
       "chainId": 1,
       "decimals": 18,
-      "name": "Aave LEND",
+      "name": "Aave LEND v1",
       "symbol": "aLEND",
       "extensions": {
         "color": "#109FCA",
@@ -835,6 +956,18 @@
       "address": "0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84",
       "chainId": 1,
       "decimals": 18,
+      "name": "Aave LINK v1",
+      "symbol": "aLINK",
+      "extensions": {
+        "color": "#1A56F0",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0xa06bC25B5805d5F8d82847D191Cb4Af5A3e873E0",
+      "chainId": 1,
+      "decimals": 18,
       "name": "Aave LINK",
       "symbol": "aLINK",
       "extensions": {
@@ -895,6 +1028,30 @@
       "symbol": "aMANA"
     },
     {
+      "address": "0x6FCE4A401B6B80ACe52baAefE4421Bd188e76F6f",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave MANA v1",
+      "symbol": "aMANA",
+      "extensions": {
+        "color": "#FF2D55",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0xa685a61171bb30d4072B338c80Cb7b2c865c873E",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave MANA",
+      "symbol": "aMANA",
+      "extensions": {
+        "color": "#FF2D55",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
       "address": "0x4DC3643DbC642b72C158E7F3d2ff232df61cb6CE",
       "chainId": 1,
       "decimals": 18,
@@ -918,6 +1075,30 @@
       "decimals": 9,
       "name": "AMIS",
       "symbol": "AMIS"
+    },
+    {
+      "address": "0x7deB5e830be29F91E298ba5FF1356BB7f8146998",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave MKR v1",
+      "symbol": "aMKR",
+      "extensions": {
+        "color": "#1AAB9B",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0xc713e5E149D5D0715DcD1c156a020976e7E56B88",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave MKR",
+      "symbol": "aMKR",
+      "extensions": {
+        "color": "#1AAB9B",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
     },
     {
       "address": "0xCA0e7269600d353F70b14Ad118A49575455C0f2f",
@@ -1214,6 +1395,30 @@
       "symbol": "ARE"
     },
     {
+      "address": "0x69948cC03f478B95283F7dbf1CE764d0fc7EC54C",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave REN v1",
+      "symbol": "aREN",
+      "extensions": {
+        "color": "#00224D",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0xCC12AbE4ff81c9378D670De1b57F8e0Dd228D77a",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave REN",
+      "symbol": "aREN",
+      "extensions": {
+        "color": "#00224D",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
       "address": "0x9a58a6A57A7DE16fA301517C2615Ff1dEf442641",
       "chainId": 1,
       "decimals": 18,
@@ -1224,7 +1429,7 @@
       "address": "0x71010A9D003445aC60C4e6A7017c1E89A477B438",
       "chainId": 1,
       "decimals": 18,
-      "name": "Aave REP",
+      "name": "Aave REP v1",
       "symbol": "aREP",
       "extensions": {
         "color": "#25292E",
@@ -1321,6 +1526,18 @@
       "address": "0x328C4c80BC7aCa0834Db37e6600A6c49E12Da4DE",
       "chainId": 1,
       "decimals": 18,
+      "name": "Aave SNX v1",
+      "symbol": "aSNX",
+      "extensions": {
+        "color": "#25292E",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0x35f6B052C598d933D69A4EEC4D04c73A191fE6c2",
+      "chainId": 1,
+      "decimals": 18,
       "name": "Aave SNX",
       "symbol": "aSNX",
       "extensions": {
@@ -1361,7 +1578,19 @@
       "address": "0x625aE63000f46200499120B906716420bd059240",
       "chainId": 1,
       "decimals": 18,
-      "name": "Aave SUSD",
+      "name": "Aave sUSD v1",
+      "symbol": "aSUSD",
+      "extensions": {
+        "color": "#25292E",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0x6C5024Cd4F8A59110119C56f8933403A539555EB",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave sUSD",
       "symbol": "aSUSD",
       "extensions": {
         "color": "#25292E",
@@ -1503,6 +1732,30 @@
       "symbol": "aTUSD"
     },
     {
+      "address": "0x4DA9b813057D04BAef4e5800E36083717b4a0341",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave TUSD v1",
+      "symbol": "aTUSD",
+      "extensions": {
+        "color": "#002868",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0x101cc05f4A51C0319f570d5E146a8C625198e636",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave TUSD",
+      "symbol": "aTUSD",
+      "extensions": {
+        "color": "#002868",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
       "address": "0x1A0F2aB46EC630F9FD638029027b552aFA64b94c",
       "chainId": 1,
       "decimals": 18,
@@ -1535,6 +1788,130 @@
       "decimals": 18,
       "name": "Auditchain",
       "symbol": "AUDT",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xB124541127A0A657f056D9Dd06188c4F1b0e5aab",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave UNI v1",
+      "symbol": "aUNI",
+      "extensions": {
+        "color": "#FD017A",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0xB9D7CB55f463405CDfBe4E90a6D2Df01C2B92BF1",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave UNI",
+      "symbol": "aUNI",
+      "extensions": {
+        "color": "#FD017A",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0x048930eec73c91B44b0844aEACdEBADC2F2b6efb",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave Interest bearing UniDAI",
+      "symbol": "aUniDAI",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xBbBb7F2aC04484F7F04A2C2C16f20479791BbB44",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave Interest bearing UniDAIETH",
+      "symbol": "aUniDAIETH",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x6179078872605396Ee62960917128F9477a5DdbB",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave Interest bearing UniETH",
+      "symbol": "aUniETH",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xc88ebbf7C523f38Ef3eB8A151273C0F0dA421e63",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave Interest bearing UniLENDETH",
+      "symbol": "aUniLENDETH",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x9548DB8b1cA9b6c757485e7861918b640390169c",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave Interest bearing UniLINKETH",
+      "symbol": "aUniLINKETH",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x8c69f7A4C9B38F1b48005D216c398Efb2F1Ce3e4",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave Interest bearing UniMKRETH",
+      "symbol": "aUniMKRETH",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x84BBcaB430717ff832c3904fa6515f97fc63C76F",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave Interest bearing UniSETHETH",
+      "symbol": "aUniSETHETH",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xe02b2Ad63eFF3Ac1D5827cBd7AB9DD3DaC4f4AD0",
+      "chainId": 1,
+      "decimals": 6,
+      "name": "Aave Interest bearing UniUSDC",
+      "symbol": "aUniUSDC",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x1D0e53A0e524E3CC92C1f0f33Ae268FfF8D7E7a5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave Interest bearing UniUSDCETH",
+      "symbol": "aUniUSDCETH",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xb977ee318010A5252774171494a1bCB98E7fab65",
+      "chainId": 1,
+      "decimals": 6,
+      "name": "Aave Interest bearing UniUSDT",
+      "symbol": "aUniUSDT",
       "extensions": {
         "isVerified": true
       }
@@ -1574,6 +1951,18 @@
       "address": "0x9bA00D6856a4eDF4665BcA2C2309936572473B7E",
       "chainId": 1,
       "decimals": 6,
+      "name": "Aave USDC v1",
+      "symbol": "aUSDC",
+      "extensions": {
+        "color": "#2775CA",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0xBcca60bB61934080951369a648Fb03DF4F96263C",
+      "chainId": 1,
+      "decimals": 6,
       "name": "Aave USDC",
       "symbol": "aUSDC",
       "extensions": {
@@ -1588,6 +1977,30 @@
       "decimals": 6,
       "name": "Aave Interest bearing USDT",
       "symbol": "aUSDT"
+    },
+    {
+      "address": "0x71fc860F7D3A592A4a98740e39dB31d25db65ae8",
+      "chainId": 1,
+      "decimals": 6,
+      "name": "Aave USDT v1",
+      "symbol": "aUSDT",
+      "extensions": {
+        "color": "#22A079",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0x3Ed3B47Dd13EC9a98b44e6204A523E766B225811",
+      "chainId": 1,
+      "decimals": 6,
+      "name": "Aave USDT",
+      "symbol": "aUSDT",
+      "extensions": {
+        "color": "#22A079",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
     },
     {
       "address": "0x622dFfCc4e83C64ba959530A5a5580687a57581b",
@@ -1617,10 +2030,35 @@
       "address": "0xFC4B8ED459e00e5400be803A9BB3954234FD50e3",
       "chainId": 1,
       "decimals": 8,
+      "name": "Aave WBTC v1",
+      "symbol": "aWBTC",
+      "extensions": {
+        "color": "#FF9900",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0x9ff58f4fFB29fA2266Ab25e75e2A8b3503311656",
+      "chainId": 1,
+      "decimals": 8,
       "name": "Aave WBTC",
       "symbol": "aWBTC",
       "extensions": {
         "color": "#FF9900",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0x030bA81f1c18d280636F32af80b9AAd02Cf0854e",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave WETH",
+      "symbol": "aWETH",
+      "extensions": {
+        "color": "#25292E",
+        "isVerified": true,
         "shadowColor": "#7285B2"
       }
     },
@@ -1706,6 +2144,30 @@
       }
     },
     {
+      "address": "0x12e51E77DAAA58aA0E9247db7510Ea4B46F9bEAd",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave YFI v1",
+      "symbol": "aYFI",
+      "extensions": {
+        "color": "#0072F6",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0x5165d24277cD063F5ac44Efd447B27025e888f37",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave YFI",
+      "symbol": "aYFI",
+      "extensions": {
+        "color": "#0072F6",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
       "address": "0x82f39cD08A942f344CA7E7034461Cc88c2009199",
       "chainId": 1,
       "decimals": 18,
@@ -1713,6 +2175,30 @@
       "symbol": "AZBI",
       "extensions": {
         "isVerified": true
+      }
+    },
+    {
+      "address": "0x6Fb0855c404E09c47C3fBCA25f08d4E41f9F062f",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave ZRX v1",
+      "symbol": "aZRX",
+      "extensions": {
+        "color": "#25292E",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
+      }
+    },
+    {
+      "address": "0xDf7FF54aAcAcbFf42dfe29DD6144A69b629f8C9e",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Aave ZRX",
+      "symbol": "aZRX",
+      "extensions": {
+        "color": "#25292E",
+        "isVerified": true,
+        "shadowColor": "#7285B2"
       }
     },
     {
@@ -7457,7 +7943,7 @@
       "address": "0xa1d65E8fB6e87b60FECCBc582F7f97804B725521",
       "chainId": 1,
       "decimals": 18,
-      "name": "DXDao",
+      "name": "DXdao",
       "symbol": "DXD",
       "extensions": {
         "isVerified": true
@@ -15314,7 +15800,7 @@
       "address": "0xa8c8CfB141A3bB59FEA1E2ea6B79b5ECBCD7b6ca",
       "chainId": 1,
       "decimals": 18,
-      "name": "NOIA Network",
+      "name": "Syntropy",
       "symbol": "NOIA",
       "extensions": {
         "isVerified": true
@@ -18323,6 +18809,16 @@
       }
     },
     {
+      "address": "0x47C0aD2aE6c0Ed4bcf7bc5b380D7205E89436e84",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "rHegic",
+      "symbol": "RHEGIC",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x168296bb09e24A88805CB9c33356536B980D3fC5",
       "chainId": 1,
       "decimals": 8,
@@ -18780,6 +19276,16 @@
       "decimals": 18,
       "name": "RoyaltyCOIN",
       "symbol": "RYLT"
+    },
+    {
+      "address": "0xd8c82FbC4D8Ed0644a7eC04cF973e84c6153c1d7",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Rizen Coin",
+      "symbol": "RZN",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x1EC8fE51a9B6A3a6C427D17d9ECC3060fbc4a45c",
