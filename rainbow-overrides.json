@@ -555,6 +555,10 @@
     "name": "POA",
     "symbol": "POA20"
   },
+  "0x49d716dfe60b37379010a75329ae09428f17118d": {
+    "color": "#6E3AF3",
+    "name": "PoolTogether Dai"
+  },
   "0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6": {
     "color": "#25292E",
     "isCurated": true,
