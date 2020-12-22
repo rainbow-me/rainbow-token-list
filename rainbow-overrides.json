@@ -267,6 +267,10 @@
     "shadowColor": "#7285B2",
     "symbol": "aZRX"
   },
+  "0xff20817765cb7f73d4bde2e66e067e58d11095c2": {
+    "color": "#D9327C",
+    "name": "Amp"
+  },
   "0xd46ba6d942050d489dbd938a2c909a5d5039a161": {
     "color": "#25292E",
     "isCurated": true,
