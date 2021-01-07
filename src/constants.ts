@@ -15,15 +15,6 @@ export const ETHEREUM_LISTS_OUTPUT_PATH = resolve(
   'ethereum-lists/tokens'
 );
 
-export const TokenListEnumSchema = z.enum([
-  'aave',
-  'coingecko',
-  'dharma',
-  'roll',
-  'synthetix',
-]);
-export type TokenListEnum = z.infer<typeof TokenListEnumSchema>;
-
 export const TokenListItemSchema = z
   .string()
   .url()
@@ -36,9 +27,22 @@ export const TOKEN_LISTS: TokenListType = {
   aave: 'https://tokenlist.aave.eth.link',
   coingecko: 'https://tokens.coingecko.com/uniswap/all.json',
   dharma: 'https://tokenlist.dharma.eth.link',
+  kleros: 'http://t2crtokens.eth.link',
   roll: 'https://app.tryroll.com/tokens.json',
   synthetix: 'https://synths.snx.eth.link',
+  wrapped: 'http://wrapped.tokensoft.eth.link',
 };
+
+export const TokenListEnumSchema = z.enum([
+  'aave',
+  'coingecko',
+  'dharma',
+  'kleros',
+  'roll',
+  'synthetix',
+  'wrapped',
+]);
+export type TokenListEnum = z.infer<typeof TokenListEnumSchema>;
 
 export const SocialSchema = z.object({
   blog: z.string().optional(),
