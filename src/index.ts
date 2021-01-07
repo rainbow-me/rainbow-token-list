@@ -1,9 +1,11 @@
 #!/usr/bin/env node
 
 import { getAddress } from '@ethersproject/address';
-import find from 'lodash/find';
 import compact from 'lodash/compact';
+import filter from 'lodash/filter';
+import find from 'lodash/find';
 import keyBy from 'lodash/keyBy';
+import matchesProperty from 'lodash/matchesProperty';
 import merge from 'lodash/merge';
 import pick from 'lodash/pick';
 import some from 'lodash/some';
@@ -24,31 +26,31 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
 console.log('🌈️ building the rainbow token list');
 
-const { aave, coingecko, dharma, roll, synthetix } = TokenListEnumSchema.enum;
-
 function normalizeList(list: any[]) {
   return keyBy(list, ({ address }) => getAddress(address));
 }
 
 // Entry point
 (async function() {
+  const contractMapTokens = await parseContractMap();
   const [
     uniqueEthereumListTokens,
     duplicateEthereumListTokens,
   ] = await parseEthereumLists();
-  const contractMapTokens = await parseContractMap();
+  const rainbowOverrides = await parseOverrideFile();
   const svgIcons = await parseSVGIconTokenFiles();
   const tokenListTokens: any = await parseTokenLists();
-  const rainbowOverrides = await parseOverrideFile();
+  const { coingecko, ...preferredTokenLists } = tokenListTokens;
 
   const sources = {
     default: [
       duplicateEthereumListTokens,
       uniqueEthereumListTokens,
       contractMapTokens,
+      coingecko.tokens.flat(),
     ].map(normalizeList),
     preferred: [
-      Object.values(tokenListTokens)
+      Object.values(preferredTokenLists)
         .map(({ tokens }: any) => tokens)
         .flat(),
     ].map(normalizeList),
@@ -78,15 +80,15 @@ function normalizeList(list: any[]) {
       return find(lists[Object.keys(lists)[0]].tokens, matchToken);
     } else if (Object.keys(lists).length > 1) {
       const listNames = Object.keys(lists);
-      if (listNames.includes(synthetix)) {
+      if (listNames.includes(TokenListEnumSchema.enum.synthetix)) {
         return find(lists.synthetix.tokens, matchToken);
-      } else if (listNames.includes(aave)) {
+      } else if (listNames.includes(TokenListEnumSchema.enum.aave)) {
         return find(lists.aave.tokens, matchToken);
-      } else if (listNames.includes(roll)) {
+      } else if (listNames.includes(TokenListEnumSchema.enum.roll)) {
         return find(lists.roll.tokens, matchToken);
-      } else if (listNames.includes(dharma)) {
+      } else if (listNames.includes(TokenListEnumSchema.enum.dharma)) {
         return find(lists.dharma.tokens, matchToken);
-      } else if (listNames.includes(coingecko)) {
+      } else if (listNames.includes(TokenListEnumSchema.enum.coingecko)) {
         return find(lists.coingecko.tokens, matchToken);
       }
     }
@@ -114,7 +116,7 @@ function normalizeList(list: any[]) {
       const extensions: TokenExtensionsType = {
         color: overrideToken?.color || color,
         isRainbowCurated: overrideToken?.isCurated ? true : undefined,
-        isVerified: isVerified ? true : undefined,
+        isVerified: isVerified || overrideToken?.isCurated ? true : undefined,
         shadowColor: overrideToken?.shadowColor || shadowColor,
       };
 
@@ -131,6 +133,7 @@ function normalizeList(list: any[]) {
     });
   }
 
+  const tokens = await sortTokens(buildTokenList());
   await writeToDisk(
     {
       name: 'Rainbow Token List',
@@ -142,9 +145,18 @@ function normalizeList(list: any[]) {
         patch: 1,
       },
       keywords: ['rainbow'],
-      tokens: sortTokens(buildTokenList()),
+      tokens,
     },
     resolve(process.cwd(), './output'),
     'rainbow-token-list.json'
+  );
+
+  console.log(
+    '# of "isRainbowCurated" tokens: ',
+    filter(tokens, matchesProperty('extensions.isRainbowCurated', true)).length
+  );
+  console.log(
+    '# of "isVerified" tokens: ',
+    filter(tokens, matchesProperty('extensions.isVerified', true)).length
   );
 })();
