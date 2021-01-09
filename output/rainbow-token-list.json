@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-01-07T10:57:55.948Z",
+  "timestamp": "2021-01-09T18:05:21.149Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -1442,6 +1442,13 @@
         "isVerified": true,
         "shadowColor": "#7285B2"
       }
+    },
+    {
+      "address": "0xeDF6568618A00C6F0908Bf7758A16F76B6E04aF9",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Arianee",
+      "symbol": "ARIA20"
     },
     {
       "address": "0xA9248F8e40d4b9c3Ca8ebd8E07E9BCB942C616d8",
@@ -7710,6 +7717,13 @@
       "decimals": 8,
       "name": "eBitcoin",
       "symbol": "EBTC"
+    },
+    {
+      "address": "0xf0196985601598A35a48606b643FD2C34Fb861E1",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Eternal Cash",
+      "symbol": "EC"
     },
     {
       "address": "0xfab25D4469444f28023075Db5932497D70094601",
@@ -17916,6 +17930,13 @@
       "symbol": "ROUND"
     },
     {
+      "address": "0x7eaF9C89037e4814DC0d9952Ac7F888C784548DB",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Royale",
+      "symbol": "ROYA"
+    },
+    {
       "address": "0xCcc85AA8999505d6f886A32da4a107BBe0D1dE9E",
       "chainId": 1,
       "decimals": 18,
@@ -19744,7 +19765,13 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Staked Ether",
-      "symbol": "STETH"
+      "symbol": "stETH",
+      "extensions": {
+        "color": "#56A0DD",
+        "isRainbowCurated": true,
+        "isVerified": true,
+        "shadowColor": "#FF884D"
+      }
     },
     {
       "address": "0x160B1E5aaBFD70B2FC40Af815014925D71CEEd7E",
@@ -25336,6 +25363,13 @@
       "symbol": "WSS"
     },
     {
+      "address": "0xeDEec5691f23E4914cF0183A4196bBEb30d027a0",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Wrapped Statera",
+      "symbol": "WSTA"
+    },
+    {
       "address": "0xb7cB1C96dB6B22b0D3d9536E0108d062BD488F74",
       "chainId": 1,
       "decimals": 18,
@@ -26839,6 +26873,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x6737fE98389Ffb356F64ebB726aA1a92390D94Fb",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Zero Carbon Project",
+      "symbol": "ZCC"
     },
     {
       "address": "0xb9EF770B6A5e12E45983C5D80545258aA38F3B78",
