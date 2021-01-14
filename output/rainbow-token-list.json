@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-01-11T20:24:15.827Z",
+  "timestamp": "2021-01-14T19:40:17.952Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -79,7 +79,12 @@
       "chainId": 1,
       "decimals": 18,
       "name": "1inch",
-      "symbol": "1INCH"
+      "symbol": "1INCH",
+      "extensions": {
+        "color": "#21324D",
+        "isRainbowCurated": true,
+        "isVerified": true
+      }
     },
     {
       "address": "0xf0Bc1ae4eF7ffb126A8347D06Ac6f8AdD770e1CE",
@@ -2636,7 +2641,17 @@
       "chainId": 1,
       "decimals": 4,
       "name": "arcane bear",
-      "symbol": "BEAR"
+      "symbol": "BEAR",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xdBB2F12CB89Af05516768C2c69A771D92A25D17c",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Beast DAO",
+      "symbol": "BEAST"
     },
     {
       "address": "0x2Fb12bccF6f5Dd338b76Be784A93ade072425690",
@@ -3588,6 +3603,13 @@
       "decimals": 18,
       "name": "Buy Sell",
       "symbol": "BSE"
+    },
+    {
+      "address": "0xB34Ab2f65c6e4F764fFe740ab83F982021Faed6d",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Basis Gold",
+      "symbol": "BSG"
     },
     {
       "address": "0x26946adA5eCb57f3A1F91605050Ce45c482C9Eb1",
@@ -5578,6 +5600,13 @@
       "symbol": "CUBE"
     },
     {
+      "address": "0x817bbDbC3e8A1204f3691d14bB44992841e3dB35",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Cudos",
+      "symbol": "CUDOS"
+    },
+    {
       "address": "0x35A18000230DA775CAc24873d00Ff85BccdeD550",
       "chainId": 1,
       "decimals": 8,
@@ -5617,6 +5646,13 @@
       "decimals": 8,
       "name": "Curate",
       "symbol": "CURE"
+    },
+    {
+      "address": "0xc2D3AE29c8309c14994D02Ecd228cf86f3Efde77",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "CurrySwap",
+      "symbol": "CURRY"
     },
     {
       "address": "0x39AA39c021dfbaE8faC545936693aC917d5E7563",
@@ -5851,6 +5887,13 @@
         "isRainbowCurated": true,
         "isVerified": true
       }
+    },
+    {
+      "address": "0x73D9E335669462Cbdd6aa3AdaFe9efeE86a37Fe9",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Daiquilibrium",
+      "symbol": "DAIQ"
     },
     {
       "address": "0x07D9e49Ea402194bf48A8276dAfB16E4eD633317",
@@ -8001,6 +8044,13 @@
       "symbol": "ELT"
     },
     {
+      "address": "0x9048c33c7BaE0bbe9ad702b17B4453a83900D154",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Energy Ledger",
+      "symbol": "ELX"
+    },
+    {
       "address": "0xa95592DCFfA3C080B4B40E459c5f5692F67DB7F8",
       "chainId": 1,
       "decimals": 18,
@@ -9859,6 +9909,13 @@
       "symbol": "GGC"
     },
     {
+      "address": "0xFA99A87b14B02e2240C79240C5a20F945ca5EF76",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "GG Token",
+      "symbol": "GGTK"
+    },
+    {
       "address": "0x3b544e6fcf6C8dCE9D8B45A4FdF21C9B02f9fDa9",
       "chainId": 1,
       "decimals": 18,
@@ -10159,7 +10216,12 @@
       "chainId": 1,
       "decimals": 18,
       "name": "The Graph",
-      "symbol": "GRT"
+      "symbol": "GRT",
+      "extensions": {
+        "color": "#4068C3",
+        "isRainbowCurated": true,
+        "isVerified": true
+      }
     },
     {
       "address": "0xb83Cd8d39462B761bb0092437d38b37812dd80A2",
@@ -13387,6 +13449,13 @@
       }
     },
     {
+      "address": "0xd2877702675e6cEb975b4A1dFf9fb7BAF4C91ea9",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Wrapped Terra",
+      "symbol": "LUNA"
+    },
+    {
       "address": "0xc8Cac7672f4669685817cF332a33Eb249F085475",
       "chainId": 1,
       "decimals": 18,
@@ -13501,6 +13570,13 @@
       "decimals": 9,
       "name": "Benchmark Protocol",
       "symbol": "MARK"
+    },
+    {
+      "address": "0x66C0DDEd8433c9EA86C8cf91237B14e10b4d70B7",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Mars",
+      "symbol": "MARS"
     },
     {
       "address": "0xfdcc07Ab60660de533b5Ad26e1457b565a9D59Bd",
@@ -14664,6 +14740,13 @@
       "symbol": "NDX"
     },
     {
+      "address": "0x86772b1409b61c639EaAc9Ba0AcfBb6E238e5F83",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Indexed Finance",
+      "symbol": "NDX"
+    },
+    {
       "address": "0x7f0c8B125040f707441cad9e5eD8a8408673b455",
       "chainId": 1,
       "decimals": 18,
@@ -14883,6 +14966,13 @@
       "symbol": "NOAHARK"
     },
     {
+      "address": "0x41b3F18c6384Dc9A39c33AFEcA60d9b8e61eAa9F",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Noah Decentralized",
+      "symbol": "NOAHP"
+    },
+    {
       "address": "0xF4FaEa455575354d2699BC209B0a65CA99F69982",
       "chainId": 1,
       "decimals": 18,
@@ -14929,6 +15019,13 @@
       "decimals": 18,
       "name": "NOODLE Finance",
       "symbol": "NOODLE"
+    },
+    {
+      "address": "0x6e9730EcFfBed43fD876A264C982e254ef05a0DE",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Nord Finance",
+      "symbol": "NORD"
     },
     {
       "address": "0x0027449Bf0887ca3E431D263FFDeFb244D95b555",
@@ -15974,6 +16071,13 @@
       }
     },
     {
+      "address": "0xA8b12Cc90AbF65191532a12bb5394A714A46d358",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "pBTC35A",
+      "symbol": "PBTC35A"
+    },
+    {
       "address": "0xE3F4b4A5d91e5cB9435B947F090A319737036312",
       "chainId": 1,
       "decimals": 18,
@@ -16822,6 +16926,13 @@
       "symbol": "PRT"
     },
     {
+      "address": "0x3C81D482172cC273c3b91dD9D8eb212023D00521",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Prophecy",
+      "symbol": "PRY"
+    },
+    {
       "address": "0x5F85c60187aB233Ca6e750731D15e7eFd061fBdE",
       "chainId": 1,
       "decimals": 18,
@@ -17453,6 +17564,13 @@
       "decimals": 18,
       "name": "RedCab",
       "symbol": "REDC"
+    },
+    {
+      "address": "0xFE3E6a25e6b192A42a44ecDDCd13796471735ACf",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Reef Finance",
+      "symbol": "REEF"
     },
     {
       "address": "0x89303500a7Abfb178B274FD89F2469C264951e1f",
@@ -21070,6 +21188,13 @@
       "decimals": 8,
       "name": "Telex",
       "symbol": "TLX"
+    },
+    {
+      "address": "0xe13559cf6eDf84bD04bf679e251f285000B9305E",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "TMC NiftyGotchi",
+      "symbol": "TMC"
     },
     {
       "address": "0x6E742E29395Cf5736c358538f0f1372AB3dFE731",
@@ -25453,6 +25578,13 @@
       "decimals": 18,
       "name": "Wrapped Virgin Gen",
       "symbol": "WVG0"
+    },
+    {
+      "address": "0xC237868a9c5729bdF3173dDDacaa336a0a5BB6e0",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Wrapped Wagerr",
+      "symbol": "WWGR"
     },
     {
       "address": "0x8A91eEcd3F6b6B7833fD6961E7f654C3d016a068",

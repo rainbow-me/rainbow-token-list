@@ -9,6 +9,11 @@
     "isCurated": true,
     "name": "0x"
   },
+  "0x111111111117dc0aa78b770fa6a738034120c302": {
+    "color": "#21324D",
+    "isCurated": true,
+    "name": "1inch"
+  },
   "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9": {
     "color": "#7285B2",
     "isCurated": true,
@@ -447,6 +452,11 @@
     "color": "#002D64",
     "isCurated": true,
     "name": "Golem"
+  },
+  "0xc944e90c64b2c07662a292be6244bdf05cda44a7": {
+    "color": "#4068C3",
+    "isCurated": true,
+    "name": "The Graph"
   },
   "0x12B19D3e2ccc14Da04FAe33e63652ce469b3F2FD": {
     "color": "#53B7E8",
