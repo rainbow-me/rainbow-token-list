@@ -5859,10 +5859,10 @@ magic-string@^0.25.2, magic-string@^0.25.5:
   dependencies:
     sourcemap-codec "^1.4.4"
 
-make-color-more-chill@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/make-color-more-chill/-/make-color-more-chill-0.1.0.tgz#7bba3ca11f04b62c8227e8be94aac15fa0c83cd3"
-  integrity sha512-X40c9H+L0OYIcOsEzK+CEtNWuFrH6JO5ZgUNnZrSHXMZc4dT/TBok86Co0VhcOBK+inni9z0TZ8vSUz26OahcA==
+make-color-more-chill@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/make-color-more-chill/-/make-color-more-chill-0.2.0.tgz#671553d8db78a4afc23471aa960aff79034961c9"
+  integrity sha512-cq5tGAJNJFA6+cCD0UoyPgknCVNmKKwnk0d569nbi8s55ZFOKAgCTq/vCjd0p5K8NZVyotm9TbAIQIQNHMUPJQ==
   dependencies:
     chroma-js "^2.1.0"
 

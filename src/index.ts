@@ -146,7 +146,7 @@ function normalizeList(list: any[]) {
       version: {
         major: 1,
         minor: 2,
-        patch: 0,
+        patch: 1,
       },
       keywords: ['rainbow'],
       tokens,
