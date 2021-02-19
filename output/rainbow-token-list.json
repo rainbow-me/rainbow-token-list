@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-02-19T02:59:18.197Z",
+  "timestamp": "2021-02-19T03:10:02.304Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -17675,7 +17675,9 @@
       "name": "PoolTogether",
       "symbol": "POOL",
       "extensions": {
-        "color": "#6E3AF3"
+        "color": "#6E3AF3",
+        "isRainbowCurated": true,
+        "isVerified": true
       }
     },
     {

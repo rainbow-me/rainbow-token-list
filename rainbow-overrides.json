@@ -572,6 +572,7 @@
   },
   "0x0cec1a9154ff802e7934fc916ed7ca50bde6844e": {
     "color": "#6E3AF3",
+    "isCurated": true,
     "name": "PoolTogether"
   },
   "0x49d716dfe60b37379010a75329ae09428f17118d": {
