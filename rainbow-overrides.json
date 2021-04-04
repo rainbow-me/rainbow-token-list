@@ -4,6 +4,12 @@
     "isCurated": true,
     "name": "Ethereum"
   },
+  "0xaa6e8127831c9de45ae56bb1b0d4d4da6e5665bd": {
+    "color": "#29292E",
+    "isCurated": true,
+    "name": "2x Leveraged ETH",
+    "symbol": "ETH2X-FLI"
+  },
   "0xE41d2489571d322189246DaFA5ebDe1F4699F498": {
     "color": "#29292E",
     "isCurated": true,
@@ -418,6 +424,11 @@
     "name": "EthLend",
     "symbol": "LEND"
   },
+  "0x956f47f50a910163d8bf957cf5846d573e7f87ca": {
+    "color": "#22996E",
+    "isCurated": true,
+    "name": "Fei USD"
+  },
   "0x4946Fcea7C692606e8908002e55A582af44AC121": {
     "color": "#D79C93",
     "isCurated": true,
@@ -580,6 +591,12 @@
     "name": "PoolTogether Dai"
   },
   "0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6": {
+    "color": "#1FC9A8",
+    "isCurated": true,
+    "name": "Rai Reflex Index",
+    "shadowColor": "#559889"
+  },
+  "0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6": {
     "color": "#25292E",
     "isCurated": true,
     "name": "Raiden"
@@ -655,6 +672,11 @@
     "color": "#22A079",
     "isCurated": true,
     "name": "Tether"
+  },
+  "0xc7283b66eb1eb5fb86327f08e1b5816b0720212b": {
+    "color": "#178DD0",
+    "isCurated": true,
+    "name": "Tribe"
   },
   "0x0000000000085d4780b73119b644ae5ecd22b376": {
     "color": "#002868",
