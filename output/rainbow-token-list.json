@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-04-04T20:31:01.781Z",
+  "timestamp": "2021-04-04T21:28:53.579Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -9341,7 +9341,7 @@
       "chainId": 1,
       "decimals": 18,
       "name": "2x Leveraged ETH",
-      "symbol": "ETH2X-FLI",
+      "symbol": "ETH2XFLI",
       "extensions": {
         "color": "#29292E",
         "isRainbowCurated": true,
