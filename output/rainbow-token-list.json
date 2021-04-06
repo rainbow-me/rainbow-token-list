@@ -1,6 +1,6 @@
 {
   "name": "Rainbow Token List",
-  "timestamp": "2021-04-04T21:28:53.579Z",
+  "timestamp": "2021-04-06T09:15:13.713Z",
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "version": {
     "major": 1,
@@ -238,6 +238,13 @@
       "decimals": 18,
       "name": "808TA Token",
       "symbol": "808TA"
+    },
+    {
+      "address": "0xFeea0bDd3D07eb6FE305938878C0caDBFa169042",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "8Pay",
+      "symbol": "8PAY"
     },
     {
       "address": "0xFFc63b9146967A1ba33066fB057EE3722221aCf0",
@@ -2480,13 +2487,6 @@
       }
     },
     {
-      "address": "0xaD808E7a446F14a109dAfCE7dd2fE7AE7ff86b20",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Bafi Finance Token",
-      "symbol": "BAFI"
-    },
-    {
       "address": "0xba100000625a3754423978a60c9317c58a424e3D",
       "chainId": 1,
       "decimals": 18,
@@ -3445,13 +3445,6 @@
       "decimals": 8,
       "name": "Blue Protocol",
       "symbol": "BLUE"
-    },
-    {
-      "address": "0x8DA25B8eD753a5910013167945A676921e864436",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Bellevue Network",
-      "symbol": "BLV"
     },
     {
       "address": "0xcE59d29b09aAE565fEEEf8E52f47c3CD5368C663",
@@ -7227,17 +7220,17 @@
       "symbol": "DFX"
     },
     {
-      "address": "0xEE06A81a695750E71a662B51066F2c74CF4478a0",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Decentral Games",
-      "symbol": "DG"
-    },
-    {
       "address": "0x53C8395465A84955c95159814461466053DedEDE",
       "chainId": 1,
       "decimals": 18,
       "name": "DeGate",
+      "symbol": "DG"
+    },
+    {
+      "address": "0xEE06A81a695750E71a662B51066F2c74CF4478a0",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Decentral Games",
       "symbol": "DG"
     },
     {
@@ -9925,6 +9918,13 @@
       "decimals": 18,
       "name": "Feyorra",
       "symbol": "FEY"
+    },
+    {
+      "address": "0x7E9D8f07A64e363e97A648904a89fb4cd5fB94CD",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Forefront",
+      "symbol": "FF"
     },
     {
       "address": "0xca76BAa777d749De63Ca044853D22D56bC70bb47",
@@ -14167,6 +14167,13 @@
       "symbol": "KYL"
     },
     {
+      "address": "0xa053c1b7013e77Fe0a873Ce0cA2bd5d0B7414C41",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Kambria Yield Tunin",
+      "symbol": "KYTE"
+    },
+    {
       "address": "0x9541FD8B9b5FA97381783783CeBF2F5fA793C262",
       "chainId": 1,
       "decimals": 8,
@@ -14889,6 +14896,13 @@
       "symbol": "LQD"
     },
     {
+      "address": "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Liquity",
+      "symbol": "LQTY"
+    },
+    {
       "address": "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD",
       "chainId": 1,
       "decimals": 18,
@@ -14993,6 +15007,13 @@
       "decimals": 18,
       "name": "Wrapped Terra",
       "symbol": "LUNA"
+    },
+    {
+      "address": "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Liquity USD",
+      "symbol": "LUSD"
     },
     {
       "address": "0xc8Cac7672f4669685817cF332a33Eb249F085475",
@@ -15678,6 +15699,13 @@
       "symbol": "MIS"
     },
     {
+      "address": "0x88ACDd2a6425c3FaAE4Bc9650Fd7E27e0Bebb7aB",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Alchemist",
+      "symbol": "MIST"
+    },
+    {
       "address": "0xe23cd160761f63FC3a1cF78Aa034b6cdF97d3E0C",
       "chainId": 1,
       "decimals": 18,
@@ -15777,6 +15805,13 @@
       "decimals": 18,
       "name": "MM Token",
       "symbol": "MM"
+    },
+    {
+      "address": "0x8315472Bae77F9a2B856A67Eb0796480AafCd51c",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "MMAON",
+      "symbol": "MMAON"
     },
     {
       "address": "0x41BbEDd7286dAab5910a1f15d12CBda839852BD7",
@@ -16173,6 +16208,13 @@
         "color": "#104fca",
         "isVerified": true
       }
+    },
+    {
+      "address": "0x84bA4aEcfDe39D69686a841BAb434C32d179a169",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Method Finance",
+      "symbol": "MTHD"
     },
     {
       "address": "0x86d3F38edaF7e7959E5d8E6Aea5aD3187b78C346",
@@ -16604,6 +16646,13 @@
       "decimals": 18,
       "name": "Node Runners",
       "symbol": "NDR"
+    },
+    {
+      "address": "0x747f564d258612ec5c4E24742C5fd4110bCbe46B",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Nodeseeds",
+      "symbol": "NDS"
     },
     {
       "address": "0x1966d718A565566e8E202792658D7b5Ff4ECe469",
@@ -19556,7 +19605,13 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Rai Reflex Index",
-      "symbol": "RAI"
+      "symbol": "RAI",
+      "extensions": {
+        "color": "#1FC9A8",
+        "isRainbowCurated": true,
+        "isVerified": true,
+        "shadowColor": "#559889"
+      }
     },
     {
       "address": "0x61cDb66e56FAD942a7b5cE3F419FfE9375E31075",
@@ -20204,6 +20259,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0xf21661D0D1d76d3ECb8e1B9F1c923DBfffAe4097",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Realio Network",
+      "symbol": "RIO"
     },
     {
       "address": "0xdd007278B667F6bef52fD0a4c23604aA1f96039a",
@@ -26740,7 +26802,7 @@
       "address": "0x1735Db6AB5BAa19eA55d0AdcEeD7bcDc008B3136",
       "chainId": 1,
       "decimals": 18,
-      "name": "Ureeqa",
+      "name": "UREEQA",
       "symbol": "URQA"
     },
     {
@@ -28367,6 +28429,13 @@
       "symbol": "WOM"
     },
     {
+      "address": "0x04969cD041C0cafB6AC462Bd65B536A5bDB3A670",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Wrapped ECOMI",
+      "symbol": "WOMI"
+    },
+    {
       "address": "0x4691937a7508860F876c9c0a2a617E7d9E945D4B",
       "chainId": 1,
       "decimals": 18,
@@ -28431,6 +28500,13 @@
       "decimals": 18,
       "name": "WePower Token",
       "symbol": "WPR"
+    },
+    {
+      "address": "0x06677Dc4fE12d3ba3C7CCfD0dF8Cd45e4D4095bF",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Work Quest",
+      "symbol": "WQT"
     },
     {
       "address": "0x72aDadb447784dd7AB1F472467750fC485e4cb2d",
