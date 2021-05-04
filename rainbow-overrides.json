@@ -433,6 +433,17 @@
     "color": "#D79C93",
     "isCurated": true,
     "name": "FOAM"
+  },  
+  "0x35bd01fc9d6d5d81ca9e055db88dc49aa2c699a8": {
+    "isCurated": true,
+    "isVerified": true,
+    "name": "Friends With Benefits Pro",
+    "symbol": "FWB"
+  },
+  "0x7d91e637589ec3bb54d8213a9e92dc6e8d12da91": {
+    "isVerified": false,
+    "name": "Friends With Benefits (Old)",
+    "symbol": "FWB (Old)"
   },
   "0x493c57c4763932315a328269e1adad09653b9081": {
     "color": "#0F6AD7",
