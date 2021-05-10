@@ -107,7 +107,7 @@ function normalizeList(list: any[]) {
   }
 
   function buildTokenList() {
-    const res = allKnownTokenAddresses.map((tokenAddress: string) => {
+    return allKnownTokenAddresses.map((tokenAddress: string) => {
       const token = resolveTokenInfo(tokenAddress);
       const overrideToken = rainbowOverrides[tokenAddress];
 
@@ -133,7 +133,7 @@ function normalizeList(list: any[]) {
         shadowColor: overrideToken?.shadowColor || shadowColor,
       };
 
-      const result = deeplyTrimAllTokenStrings({
+      return deeplyTrimAllTokenStrings({
         address: tokenAddress,
         chainId,
         decimals,
@@ -143,9 +143,7 @@ function normalizeList(list: any[]) {
           ? { extensions }
           : undefined),
       });
-      return result;
     });
-    return res;
   }
 
   const tokens = await sortTokens(buildTokenList());
