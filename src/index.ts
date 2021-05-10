@@ -1,15 +1,18 @@
 #!/usr/bin/env node
 
 import { getAddress } from '@ethersproject/address';
-import compact from 'lodash/compact';
-import filter from 'lodash/filter';
-import find from 'lodash/find';
-import keyBy from 'lodash/keyBy';
-import matchesProperty from 'lodash/matchesProperty';
-import merge from 'lodash/merge';
-import pick from 'lodash/pick';
-import some from 'lodash/some';
-import uniq from 'lodash/uniq';
+import {
+  compact,
+  filter,
+  find,
+  keyBy,
+  matchesProperty,
+  merge,
+  pick,
+  some,
+  toLower,
+  uniq,
+} from 'lodash';
 import { resolve } from 'path';
 import { Token, TokenExtensionsType, TokenListEnumSchema } from './constants';
 import parseEthereumLists from './parse-ethereum-lists';
@@ -32,14 +35,19 @@ function normalizeList(list: any[]) {
 
 // Entry point
 (async function() {
-  const contractMapTokens = await parseContractMap();
+  const p1 = parseContractMap();
+  const p2 = parseEthereumLists();
+  const p3 = parseOverrideFile();
+  const p4 = parseSVGIconTokenFiles();
+  const p5 = parseTokenLists();
+
   const [
-    uniqueEthereumListTokens,
-    duplicateEthereumListTokens,
-  ] = await parseEthereumLists();
-  const rainbowOverrides = await parseOverrideFile();
-  const svgIcons = await parseSVGIconTokenFiles();
-  const tokenListTokens: any = await parseTokenLists();
+    contractMapTokens,
+    [uniqueEthereumListTokens, duplicateEthereumListTokens],
+    rainbowOverrides,
+    svgIcons,
+    tokenListTokens,
+  ] = await Promise.all([p1, p2, p3, p4, p5]);
   const { coingecko, ...preferredTokenLists } = tokenListTokens;
 
   const sources = {
@@ -66,7 +74,7 @@ function normalizeList(list: any[]) {
 
   function resolveTokenInfo(tokenAddress: string) {
     function matchToken({ address }: Token): boolean {
-      return getAddress(address) === getAddress(tokenAddress);
+      return toLower(address) === toLower(tokenAddress);
     }
 
     const lists = pick(
@@ -141,6 +149,7 @@ function normalizeList(list: any[]) {
   }
 
   const tokens = await sortTokens(buildTokenList());
+
   await writeToDisk(
     {
       name: 'Rainbow Token List',
