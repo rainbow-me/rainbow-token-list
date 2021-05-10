@@ -37,7 +37,7 @@ function normalizeList(list: any[]) {
   const p2 = parseEthereumLists();
   const p3 = parseOverrideFile();
   const p4 = parseSVGIconTokenFiles();
-  const p5: any = parseTokenLists();
+  const p5 = parseTokenLists();
 
   const [
     contractMapTokens,
