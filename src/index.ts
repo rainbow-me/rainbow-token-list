@@ -1,15 +1,18 @@
 #!/usr/bin/env node
 
 import { getAddress } from '@ethersproject/address';
-import compact from 'lodash/compact';
-import filter from 'lodash/filter';
-import find from 'lodash/find';
-import keyBy from 'lodash/keyBy';
-import matchesProperty from 'lodash/matchesProperty';
-import merge from 'lodash/merge';
-import pick from 'lodash/pick';
-import some from 'lodash/some';
-import uniq from 'lodash/uniq';
+import {
+  compact,
+  filter,
+  find,
+  keyBy,
+  matchesProperty,
+  merge,
+  pick,
+  some,
+  toLower,
+  uniq,
+} from 'lodash';
 import { resolve } from 'path';
 import { Token, TokenExtensionsType, TokenListEnumSchema } from './constants';
 import parseEthereumLists from './parse-ethereum-lists';
@@ -20,7 +23,6 @@ import parseTokenLists from './parse-token-lists';
 import { deeplyTrimAllTokenStrings, sortTokens, writeToDisk } from './parser';
 
 import * as Types from './constants';
-import { toLower } from 'lodash';
 export { Types };
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
