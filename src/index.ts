@@ -20,6 +20,7 @@ import parseTokenLists from './parse-token-lists';
 import { deeplyTrimAllTokenStrings, sortTokens, writeToDisk } from './parser';
 
 import * as Types from './constants';
+import { toLower } from 'lodash';
 export { Types };
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
@@ -32,14 +33,19 @@ function normalizeList(list: any[]) {
 
 // Entry point
 (async function() {
-  const contractMapTokens = await parseContractMap();
+  const p1 = parseContractMap();
+  const p2 = parseEthereumLists();
+  const p3 = parseOverrideFile();
+  const p4 = parseSVGIconTokenFiles();
+  const p5: any = parseTokenLists();
+
   const [
-    uniqueEthereumListTokens,
-    duplicateEthereumListTokens,
-  ] = await parseEthereumLists();
-  const rainbowOverrides = await parseOverrideFile();
-  const svgIcons = await parseSVGIconTokenFiles();
-  const tokenListTokens: any = await parseTokenLists();
+    contractMapTokens,
+    [uniqueEthereumListTokens, duplicateEthereumListTokens],
+    rainbowOverrides,
+    svgIcons,
+    tokenListTokens,
+  ] = await Promise.all([p1, p2, p3, p4, p5]);
   const { coingecko, ...preferredTokenLists } = tokenListTokens;
 
   const sources = {
@@ -66,7 +72,7 @@ function normalizeList(list: any[]) {
 
   function resolveTokenInfo(tokenAddress: string) {
     function matchToken({ address }: Token): boolean {
-      return getAddress(address) === getAddress(tokenAddress);
+      return toLower(address) === toLower(tokenAddress);
     }
 
     const lists = pick(
@@ -101,7 +107,7 @@ function normalizeList(list: any[]) {
   }
 
   function buildTokenList() {
-    return allKnownTokenAddresses.map((tokenAddress: string) => {
+    const res = allKnownTokenAddresses.map((tokenAddress: string) => {
       const token = resolveTokenInfo(tokenAddress);
       const overrideToken = rainbowOverrides[tokenAddress];
 
@@ -127,7 +133,7 @@ function normalizeList(list: any[]) {
         shadowColor: overrideToken?.shadowColor || shadowColor,
       };
 
-      return deeplyTrimAllTokenStrings({
+      const result = deeplyTrimAllTokenStrings({
         address: tokenAddress,
         chainId,
         decimals,
@@ -137,10 +143,13 @@ function normalizeList(list: any[]) {
           ? { extensions }
           : undefined),
       });
+      return result;
     });
+    return res;
   }
 
   const tokens = await sortTokens(buildTokenList());
+
   await writeToDisk(
     {
       name: 'Rainbow Token List',
