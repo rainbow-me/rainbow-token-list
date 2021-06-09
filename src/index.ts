@@ -96,8 +96,6 @@ function normalizeList(list: any[]) {
         return find(lists.roll.tokens, matchToken);
       } else if (listNames.includes(TokenListEnumSchema.enum.dharma)) {
         return find(lists.dharma.tokens, matchToken);
-      } else if (listNames.includes(TokenListEnumSchema.enum.kleros)) {
-        return find(lists.kleros.tokens, matchToken);
       } else if (listNames.includes(TokenListEnumSchema.enum.wrapped)) {
         return find(lists.wrapped.tokens, matchToken);
       } else if (listNames.includes(TokenListEnumSchema.enum.coingecko)) {
