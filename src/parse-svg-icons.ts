@@ -1,10 +1,10 @@
 import { promises as fs } from 'fs';
+import { tmpdir } from 'os';
+import { resolve } from 'path';
 import getSVGColors from 'get-svg-colors';
 import compact from 'lodash/compact';
 import unionBy from 'lodash/unionBy';
 import makeColorMoreChill from 'make-color-more-chill';
-import { tmpdir } from 'os';
-import { resolve } from 'path';
 import { fetchRepository } from './git';
 import { parseJsonFile } from './parser';
 
@@ -40,8 +40,8 @@ async function parseOverrideSVGIcons() {
     let svgToken = undefined;
     if (fillColor) {
       svgToken = {
-        symbol: file.split('.')[0].toUpperCase(),
         color: makeColorMoreChill(fillColor.hex().toLowerCase()),
+        symbol: file.split('.')[0].toUpperCase(),
       };
     } else {
       console.error(

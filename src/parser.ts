@@ -1,17 +1,17 @@
 import { promises as fs } from 'fs';
+import { resolve } from 'path';
 import isPlainObject from 'lodash/isPlainObject';
 import isString from 'lodash/isString';
 import mapValues from 'lodash/mapValues';
 import pick from 'lodash/pick';
 import mkdirp from 'mkdirp';
-import { resolve } from 'path';
 import {
   RawEthereumListsToken,
   RawEthereumListsTokenSchema,
   SocialSchema,
   Token,
-  TokenSchema,
   TokenDeprecationSchema,
+  TokenSchema,
 } from './constants';
 
 /**
@@ -86,7 +86,7 @@ export const createOutputFolder = async (path: string): Promise<void> => {
 
 function mapValuesDeep(v: any, callback: any): any {
   return isPlainObject(v)
-    ? mapValues(v, v => mapValuesDeep(v, callback))
+    ? mapValues(v, (v) => mapValuesDeep(v, callback))
     : callback(v);
 }
 

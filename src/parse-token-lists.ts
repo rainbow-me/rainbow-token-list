@@ -4,14 +4,8 @@ import { TOKEN_LISTS, TokenListEnum, TokenListEnumSchema } from './constants';
 import { reduceArrayToObject } from './utils';
 
 export const TokenListStore = z.object({
-  tags: z
-    .any()
-    .array()
-    .optional(),
-  tokens: z
-    .any()
-    .array()
-    .optional(),
+  tags: z.any().array().optional(),
+  tokens: z.any().array().optional(),
 });
 export type TokenListStoreType = z.infer<typeof TokenListStore>;
 export const TokenListStoreRecord = z.record(TokenListStore);
@@ -32,7 +26,7 @@ export default async function parseTokenLists() {
         return new Promise(async (resolve, reject) =>
           // fetch the TokenList from remote uri
           fetch(TOKEN_LISTS[list])
-            .then(res => res.json())
+            .then((res) => res.json())
             .then(({ tags, tokens }) => resolve({ [list]: { tags, tokens } }))
             .catch(reject)
         );

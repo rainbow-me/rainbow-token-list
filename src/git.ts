@@ -20,7 +20,7 @@ export const fetchRepository = async (
     return emitter
       .clone(outputPath)
       .then(resolve)
-      .catch(error => {
+      .catch((error) => {
         reject();
         throw new Error(
           `Failed to fetch repo ${repoUrl}: ${error.message || error}`
