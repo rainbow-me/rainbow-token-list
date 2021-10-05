@@ -15,7 +15,7 @@
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build && node dist",
-    "test": "tsdx test",
+    "test": "tsdx test --passWithNoTests",
     "lint": "eslint . --ext js,ts,jsx,tsx",
     "prepare": "yarn build",
     "size": "size-limit",
