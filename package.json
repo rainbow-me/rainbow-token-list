@@ -16,15 +16,15 @@
     "start": "tsdx watch",
     "build": "tsdx build && node dist",
     "test": "tsdx test",
-    "lint": "tsdx lint src --fix",
-    "prepare": "tsdx build && node dist",
+    "lint": "eslint . --ext js,ts,jsx,tsx",
+    "prepare": "yarn build",
     "size": "size-limit",
     "analyze": "size-limit --why"
   },
   "peerDependencies": {},
   "husky": {
     "hooks": {
-      "pre-commit": "tsdx lint"
+      "pre-commit": "yarn lint"
     }
   },
   "prettier": {
@@ -51,7 +51,12 @@
     "@types/mkdirp": "^1.0.1",
     "@types/node": "^14.17.21",
     "@types/node-fetch": "^2.5.7",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "eslint": "^7.32.0",
+    "eslint-config-rainbow": "^2.0.0",
+    "eslint-plugin-jest": "^24.5.2",
     "husky": "^7.0.2",
+    "prettier": "^2.4.1",
     "size-limit": "^5.0.5",
     "tsdx": "^0.14.1",
     "tslib": "^2.0.3",
