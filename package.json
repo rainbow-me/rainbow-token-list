@@ -71,5 +71,8 @@
     "mkdirp": "^1.0.4",
     "node-fetch": "^2.6.1",
     "zod": "^3.9.8"
+  },
+  "resolutions": {
+    "typescript": "^4.0.3"
   }
 }

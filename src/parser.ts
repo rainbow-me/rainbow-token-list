@@ -25,8 +25,8 @@ export const parseJsonFile = async <T>(file: string): Promise<T> => {
   try {
     const json = await fs.readFile(file, 'utf8');
     return JSON.parse(json);
-  } catch (error) {
-    throw new Error(`Failed to parse file ${file}: ${error.message}`);
+  } catch (error: Error | string | any) {
+    throw new Error(`Failed to parse file ${file}: ${error?.message}`);
   }
 };
 
@@ -75,9 +75,9 @@ export const sortTokens = (tokens: Token[]): Token[] => {
 export const createOutputFolder = async (path: string): Promise<void> => {
   try {
     await fs.access(path);
-  } catch (error) {
+  } catch (error: Error | string | any) {
     if (error.code !== 'ENOENT') {
-      throw new Error(`Failed to create output folder: ${error.message}`);
+      throw new Error(`Failed to create output folder: ${error?.message}`);
     }
 
     mkdirp.sync(path);
