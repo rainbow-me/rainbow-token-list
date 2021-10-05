@@ -44,6 +44,7 @@ async function parseOverrideSVGIcons() {
         symbol: file.split('.')[0].toUpperCase(),
       };
     } else {
+      // eslint-disable-next-line no-console
       console.error(
         `Couldn't derive color from the "rainbow override" SVG file: \`${file}\``
       );
