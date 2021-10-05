@@ -17,9 +17,7 @@
     "build": "tsdx build && node dist",
     "test": "tsdx test --passWithNoTests",
     "lint": "eslint . --ext js,ts,jsx,tsx",
-    "prepare": "yarn build",
-    "size": "size-limit",
-    "analyze": "size-limit --why"
+    "prepare": "yarn build"
   },
   "peerDependencies": {},
   "husky": {
@@ -34,18 +32,7 @@
     "trailingComma": "es5"
   },
   "module": "dist/rainbow-token-list.esm.js",
-  "size-limit": [
-    {
-      "path": "dist/rainbow-token-list.cjs.production.min.js",
-      "limit": "10 KB"
-    },
-    {
-      "path": "dist/rainbow-token-list.esm.js",
-      "limit": "10 KB"
-    }
-  ],
   "devDependencies": {
-    "@size-limit/preset-small-lib": "^5.0.5",
     "@types/degit": "^2.8.0",
     "@types/lodash": "^4.14.162",
     "@types/mkdirp": "^1.0.1",
@@ -57,7 +44,6 @@
     "eslint-plugin-jest": "^24.5.2",
     "husky": "^7.0.2",
     "prettier": "^2.4.1",
-    "size-limit": "^5.0.5",
     "tsdx": "^0.14.1",
     "tslib": "^2.0.3",
     "typescript": "^4.0.3"
