@@ -59,17 +59,12 @@
   },
   "dependencies": {
     "@ethersproject/address": "^5.0.5",
-    "@uniswap/token-lists": "rainbow-me/token-lists#40babff279b578e5585d274e1c7c93f35c56ed73",
     "degit": "^2.8.0",
     "get-svg-colors": "^1.5.1",
     "lodash": "^4.17.20",
-    "lodash-es": "^4.17.15",
     "make-color-more-chill": "^0.2.0",
     "mkdirp": "^1.0.4",
     "node-fetch": "^2.6.1",
-    "path": "^0.12.7",
-    "request": "^2.88.2",
-    "simple-git": "^2.21.0",
     "zod": "^2.0.0-beta.16"
   }
 }
