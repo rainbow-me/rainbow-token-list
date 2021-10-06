@@ -3,7 +3,7 @@
   "author": "Michael Demarais",
   "version": "1.2.2",
   "license": "MIT",
-  "main": "dist/index.js",
+  "private": true,
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
@@ -31,7 +31,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "module": "dist/rainbow-token-list.esm.js",
   "devDependencies": {
     "@types/degit": "^2.8.0",
     "@types/lodash": "^4.14.162",
