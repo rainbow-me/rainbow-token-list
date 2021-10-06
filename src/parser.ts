@@ -5,6 +5,7 @@ import isString from 'lodash/isString';
 import mapValues from 'lodash/mapValues';
 import pick from 'lodash/pick';
 import mkdirp from 'mkdirp';
+import { ErrorWithCause } from 'pony-cause'; // Once we remove this package from rainbow's build step, we can remove this.
 import {
   RawEthereumListsToken,
   RawEthereumListsTokenSchema,
@@ -25,8 +26,8 @@ export const parseJsonFile = async <T>(file: string): Promise<T> => {
   try {
     const json = await fs.readFile(file, 'utf8');
     return JSON.parse(json);
-  } catch (error: Error | string | any) {
-    throw new Error(`Failed to parse file ${file}: ${error?.message}`);
+  } catch (error: Error | any) {
+    throw new ErrorWithCause(`Failed to parse file ${file}`, { cause: error });
   }
 };
 
@@ -75,9 +76,11 @@ export const sortTokens = (tokens: Token[]): Token[] => {
 export const createOutputFolder = async (path: string): Promise<void> => {
   try {
     await fs.access(path);
-  } catch (error: Error | string | any) {
-    if (error.code !== 'ENOENT') {
-      throw new Error(`Failed to create output folder: ${error?.message}`);
+  } catch (error: Error | any) {
+    if (error?.code !== 'ENOENT') {
+      throw new ErrorWithCause(`Failed to create output folder: ${path}`, {
+        cause: error,
+      });
     }
 
     mkdirp.sync(path);
