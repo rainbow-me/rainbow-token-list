@@ -1,0 +1,29 @@
+---
+name: Publish
+
+on:
+  workflow_dispatch:
+
+env:
+  node-version: lts/*
+
+jobs:
+  build:
+    name: Build and publish the latest Rainbow Token List
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+
+      - name: Use Node ${{ env.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ env.node-version }}
+          cache: yarn
+
+      - run: yarn
+      - run: yarn lint
+      - run: yarn test --ci --coverage --maxWorkers=2
+      - run: echo 'upload to s3 here'
