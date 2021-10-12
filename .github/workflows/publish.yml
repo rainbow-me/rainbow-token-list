@@ -35,4 +35,4 @@ jobs:
           aws-region: us-east-1
 
       - run: aws s3 cp output/rainbow-token-list.json s3://rainbow-metadata-production/token-list/rainbow-token-list.json
-      - run: aws cloudfront create-invalidation --distribution-id "metadata-productionS3Origin" --paths "/token-list"
+      - run: aws cloudfront create-invalidation --distribution-id "E1FFQRZXAO7TUP" --paths "/token-list"
