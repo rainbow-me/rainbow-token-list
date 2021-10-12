@@ -2,8 +2,9 @@
 name: Publish
 
 on:
-  branches:
-    - main  # any change to main branch
+  push:
+    branches:
+      - main  # any change to main branch
   workflow_dispatch:  # any time you press the job button
   schedule:
     - cron: "0 0,12 * * *"  # every day at 00:00 and 12:00
