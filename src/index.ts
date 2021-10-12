@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+/* eslint-disable no-console */
+import { resolve } from 'path';
 import { getAddress } from '@ethersproject/address';
 import {
   compact,
@@ -13,16 +15,15 @@ import {
   toLower,
   uniq,
 } from 'lodash';
-import { resolve } from 'path';
 import { Token, TokenExtensionsType, TokenListEnumSchema } from './constants';
+import * as Types from './constants';
+import parseContractMap from './parse-contract-map';
 import parseEthereumLists from './parse-ethereum-lists';
 import parseOverrideFile from './parse-overrides';
-import parseContractMap from './parse-contract-map';
 import parseSVGIconTokenFiles from './parse-svg-icons';
 import parseTokenLists from './parse-token-lists';
 import { deeplyTrimAllTokenStrings, sortTokens, writeToDisk } from './parser';
 
-import * as Types from './constants';
 export { Types };
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
@@ -34,7 +35,7 @@ function normalizeList(list: any[]) {
 }
 
 // Entry point
-(async function() {
+(async function () {
   const p1 = parseContractMap();
   const p2 = parseEthereumLists();
   const p3 = parseOverrideFile();
@@ -119,7 +120,7 @@ function normalizeList(list: any[]) {
         .includes(tokenAddress);
 
       if (isVerified) {
-        const logoData = svgIcons.find(item => item.symbol === symbol);
+        const logoData = svgIcons.find((item) => item.symbol === symbol);
         color = logoData?.color;
       }
 
@@ -150,16 +151,16 @@ function normalizeList(list: any[]) {
 
   await writeToDisk(
     {
+      keywords: ['rainbow'],
+      logoURI: 'https://avatars0.githubusercontent.com/u/48327834?s=200&v=4',
       name: 'Rainbow Token List',
       timestamp: new Date().toISOString(),
-      logoURI: 'https://avatars0.githubusercontent.com/u/48327834?s=200&v=4',
+      tokens,
       version: {
         major: 1,
         minor: 2,
         patch: 1,
       },
-      keywords: ['rainbow'],
-      tokens,
     },
     resolve(process.cwd(), './output'),
     'rainbow-token-list.json'

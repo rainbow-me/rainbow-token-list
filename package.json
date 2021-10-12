@@ -3,28 +3,26 @@
   "author": "Michael Demarais",
   "version": "1.2.2",
   "license": "MIT",
-  "main": "dist/index.js",
+  "private": true,
   "typings": "dist/index.d.ts",
   "files": [
     "dist",
     "src"
   ],
   "engines": {
-    "node": ">=10"
+    "node": ">=14"
   },
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build && node dist",
-    "test": "tsdx test",
-    "lint": "tsdx lint src --fix",
-    "prepare": "tsdx build",
-    "size": "size-limit",
-    "analyze": "size-limit --why"
+    "test": "tsdx test --passWithNoTests",
+    "lint": "eslint . --ext js,ts,jsx,tsx",
+    "prepare": "yarn build"
   },
   "peerDependencies": {},
   "husky": {
     "hooks": {
-      "pre-commit": "tsdx lint"
+      "pre-commit": "yarn lint"
     }
   },
   "prettier": {
@@ -33,43 +31,36 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "module": "dist/rainbow-token-list.esm.js",
-  "size-limit": [
-    {
-      "path": "dist/rainbow-token-list.cjs.production.min.js",
-      "limit": "10 KB"
-    },
-    {
-      "path": "dist/rainbow-token-list.esm.js",
-      "limit": "10 KB"
-    }
-  ],
   "devDependencies": {
-    "@size-limit/preset-small-lib": "^4.6.1",
     "@types/degit": "^2.8.0",
     "@types/lodash": "^4.14.162",
     "@types/mkdirp": "^1.0.1",
-    "@types/node": "^14.14.0",
+    "@types/node": "^14.17.21",
     "@types/node-fetch": "^2.5.7",
-    "husky": "^4.3.0",
-    "size-limit": "^4.6.1",
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "eslint": "^7.32.0",
+    "eslint-config-rainbow": "^2.0.0",
+    "eslint-plugin-jest": "^24.5.2",
+    "husky": "^7.0.2",
+    "prettier": "^2.4.1",
     "tsdx": "^0.14.1",
     "tslib": "^2.0.3",
     "typescript": "^4.0.3"
   },
   "dependencies": {
     "@ethersproject/address": "^5.0.5",
-    "@uniswap/token-lists": "rainbow-me/token-lists#40babff279b578e5585d274e1c7c93f35c56ed73",
     "degit": "^2.8.0",
     "get-svg-colors": "^1.5.1",
     "lodash": "^4.17.20",
-    "lodash-es": "^4.17.15",
     "make-color-more-chill": "^0.2.0",
     "mkdirp": "^1.0.4",
     "node-fetch": "^2.6.1",
-    "path": "^0.12.7",
-    "request": "^2.88.2",
-    "simple-git": "^2.21.0",
-    "zod": "^2.0.0-beta.16"
+    "pony-cause": "^1.0.0",
+    "zod": "^3.9.8"
+  },
+  "resolutions": {
+    "typescript": "^4.0.3",
+    "ts-jest": "^27.0.5",
+    "jest": "^27.0.0"
   }
 }

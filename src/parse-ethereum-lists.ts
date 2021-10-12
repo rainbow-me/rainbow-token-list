@@ -1,8 +1,8 @@
 import { promises as fs } from 'fs';
+import { resolve } from 'path';
 import filter from 'lodash/filter';
 import matchesProperty from 'lodash/matchesProperty';
 import partition from 'lodash/partition';
-import { resolve } from 'path';
 import {
   ETHEREUM_LISTS_OUTPUT_PATH,
   ETHEREUM_LISTS_REPO,
@@ -20,7 +20,7 @@ import { parseJsonFile, validateTokenData } from './parser';
  * @return {Token[][]}
  */
 export const partitionByUniqueness = (tokens: Token[]): Token[][] => {
-  const [uniqueTokens, duplicateTokens] = partition(tokens, token => {
+  const [uniqueTokens, duplicateTokens] = partition(tokens, (token) => {
     const dups = filter(tokens, ['symbol', token.symbol]);
     return dups.length === 1;
   });

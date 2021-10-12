@@ -1,5 +1,5 @@
-import { resolve } from 'path';
 import { tmpdir } from 'os';
+import { resolve } from 'path';
 import * as z from 'zod';
 
 export const CONTRACT_MAP_REPO = 'metamask/eth-contract-metadata';
@@ -15,10 +15,7 @@ export const ETHEREUM_LISTS_OUTPUT_PATH = resolve(
   'ethereum-lists/tokens'
 );
 
-export const TokenListItemSchema = z
-  .string()
-  .url()
-  .nonempty();
+export const TokenListItemSchema = z.string().url().nonempty();
 export type TokenListItem = z.infer<typeof TokenListItemSchema>;
 export const TokenListTypeSchema = z.record(TokenListItemSchema);
 export type TokenListType = z.infer<typeof TokenListTypeSchema>;
