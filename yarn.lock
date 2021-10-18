@@ -6369,7 +6369,7 @@ zod@^1.11.11:
   resolved "https://registry.yarnpkg.com/zod/-/zod-1.11.17.tgz#2aae9e91fc66128116ae9844e8f416a95f453f8e"
   integrity sha512-UzIwO92D0dSFwIRyyqAfRXICITLjF0IP8tRbEK/un7adirMssWZx8xF/1hZNE7t61knWZ+lhEuUvxlu2MO8qqA==
 
-zod@^3.9.8:
-  version "3.9.8"
-  resolved "https://registry.yarnpkg.com/zod/-/zod-3.9.8.tgz#562eda33925203542dea70100ce0d3766d04b0ab"
-  integrity sha512-pTNhdJd45PPOBpdxO8x00Tv+HhknYGx3WdgFQndazp+G1Gd2Cxf81L5yMfCIIcd/SA3VqrcTv/G4bFcr+DsZhA==
+zod@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/zod/-/zod-3.10.0.tgz#6885658e388e47d6d25c296b25987aad4c48aa2d"
+  integrity sha512-T5wUCAJ5Z0uh3Q+S5ZzsNBkoybd1nqgeGhNRnqt1e/Rwolxugkt4BNYqwq+wBAxb0zrLC5jA2maehpXixD+bFw==
