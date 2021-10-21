@@ -15,7 +15,7 @@ Returns a JSON file containing a list of supported tokens in [Rainbow](https://g
 
 The CDN delivering the file supports:
 
-- [`Content-Encoding: gzip`]()
+- [`Content-Encoding: gzip`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Encoding)/[`Accept-Encoding: gzip, deflate`](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Accept-Encoding)
 - [ETag](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/ETag)/[If-None-Match](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/If-None-Match)
 
 ## How
