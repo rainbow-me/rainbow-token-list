@@ -24,18 +24,26 @@ export const TOKEN_LISTS: TokenListType = {
   aave: 'https://tokenlist.aave.eth.link',
   coingecko: 'https://tokens.coingecko.com/uniswap/all.json',
   dharma: 'https://tokenlist.dharma.eth.link',
+  kleros: 'https://t2crtokens.eth.link',
+  nftx: 'https://nftx.ethereumdb.com/v2/tokenlist/',
   roll: 'https://app.tryroll.com/tokens.json',
+  set: 'https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/set.tokenlist.json',
   synthetix: 'https://synths.snx.eth.link',
   wrapped: 'http://wrapped.tokensoft.eth.link',
+  yearn: 'https://yearn.science/static/tokenlist.json',
 };
 
 export const TokenListEnumSchema = z.enum([
   'aave',
   'coingecko',
   'dharma',
+  'kleros',
+  'nftx',
   'roll',
+  'set',
   'synthetix',
   'wrapped',
+  'yearn',
 ]);
 export type TokenListEnum = z.infer<typeof TokenListEnumSchema>;
 

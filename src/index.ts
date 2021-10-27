@@ -99,6 +99,14 @@ function normalizeList(list: any[]) {
         return find(lists.dharma.tokens, matchToken);
       } else if (listNames.includes(TokenListEnumSchema.enum.wrapped)) {
         return find(lists.wrapped.tokens, matchToken);
+      } else if (listNames.includes(TokenListEnumSchema.enum.yearn)) {
+        return find(lists.yearn.tokens, matchToken);
+      } else if (listNames.includes(TokenListEnumSchema.enum.kleros)) {
+        return find(lists.kleros.tokens, matchToken);
+      } else if (listNames.includes(TokenListEnumSchema.enum.nftx)) {
+        return find(lists.nftx.tokens, matchToken);
+      } else if (listNames.includes(TokenListEnumSchema.enum.set)) {
+        return find(lists.set.tokens, matchToken);
       } else if (listNames.includes(TokenListEnumSchema.enum.coingecko)) {
         return find(lists.coingecko.tokens, matchToken);
       }
