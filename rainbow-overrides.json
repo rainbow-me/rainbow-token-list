@@ -768,5 +768,8 @@
     "name": "Yup",
     "shadowColor": "#BFBEBE",
     "symbol": "YUP"
+  },
+  "0x2ceee24f8d03fc25648c68c8e6569aa0512f6ac3": {
+    "isScam": true
   }
 }
