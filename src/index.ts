@@ -13,7 +13,6 @@ import {
   pick,
   some,
   toLower,
-  uniq,
 } from 'lodash';
 import { Token, TokenExtensionsType, TokenListEnumSchema } from './constants';
 import * as Types from './constants';
@@ -66,7 +65,7 @@ function normalizeList(list: any[]) {
   };
 
   const defaultSources: any = merge({}, ...sources.default);
-  const allKnownTokenAddresses: any = uniq(
+  const allKnownTokenAddresses = new Set(
     compact([
       ...sources.default.map(Object.keys).flat(),
       ...sources.preferred.map(Object.keys).flat(),
@@ -108,7 +107,7 @@ function normalizeList(list: any[]) {
   }
 
   function buildTokenList() {
-    return allKnownTokenAddresses.map((tokenAddress: string) => {
+    return Array.from(allKnownTokenAddresses).map((tokenAddress: string) => {
       const token = resolveTokenInfo(tokenAddress);
       const overrideToken = rainbowOverrides[tokenAddress];
 
