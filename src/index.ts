@@ -20,7 +20,6 @@ import * as Types from './constants';
 import parseContractMap from './parse-contract-map';
 import parseEthereumLists from './parse-ethereum-lists';
 import parseOverrideFile from './parse-overrides';
-import parseScamsFile from './parse-scams';
 import parseSVGIconTokenFiles from './parse-svg-icons';
 import parseTokenLists from './parse-token-lists';
 import { deeplyTrimAllTokenStrings, sortTokens, writeToDisk } from './parser';
@@ -40,26 +39,24 @@ function normalizeList(list: any[]) {
   const p1 = parseContractMap();
   const p2 = parseEthereumLists();
   const p3 = parseOverrideFile();
-  const p4 = parseScamsFile();
-  const p5 = parseSVGIconTokenFiles();
-  const p6 = parseTokenLists();
+  const p4 = parseSVGIconTokenFiles();
+  const p5 = parseTokenLists();
 
   const [
     contractMapTokens,
     [uniqueEthereumListTokens, duplicateEthereumListTokens],
     rainbowOverrides,
-    rainbowScams,
     svgIcons,
     tokenListTokens,
-  ] = await Promise.all([p1, p2, p3, p4, p5, p6]);
+  ] = await Promise.all([p1, p2, p3, p4, p5]);
   const { coingecko, ...preferredTokenLists } = tokenListTokens;
+
   const sources = {
     default: [
       duplicateEthereumListTokens,
       uniqueEthereumListTokens,
       contractMapTokens,
       coingecko.tokens.flat(),
-      rainbowScams,
     ].map(normalizeList),
     preferred: [
       Object.values(preferredTokenLists)
@@ -114,7 +111,7 @@ function normalizeList(list: any[]) {
     return allKnownTokenAddresses.map((tokenAddress: string) => {
       const token = resolveTokenInfo(tokenAddress);
       const overrideToken = rainbowOverrides[tokenAddress];
-     
+
       let { chainId = 1, color, decimals, name, shadowColor, symbol } = token;
 
       const isVerified = sources.preferred
@@ -130,7 +127,8 @@ function normalizeList(list: any[]) {
       const extensions: TokenExtensionsType = {
         color: overrideToken?.color || color,
         isRainbowCurated: overrideToken?.isCurated ? true : undefined,
-        isScam: overrideToken?.isScam || token?.extensions?.isScam || undefined,
+        isScam: overrideToken?.isScam
+        ? true : undefined,
         isVerified:
           isVerified || overrideToken?.isCurated
             ? true
@@ -177,9 +175,5 @@ function normalizeList(list: any[]) {
   console.log(
     '# of "isVerified" tokens: ',
     filter(tokens, matchesProperty('extensions.isVerified', true)).length
-  );
-  console.log(
-    '# of "isScam" tokens: ',
-    filter(tokens, matchesProperty('extensions.isScam', true)).length
   );
 })();
