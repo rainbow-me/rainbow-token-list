@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Rainbow Token List",
-  "timestamp": "2021-11-08T20:42:37.855Z",
+  "timestamp": "2021-11-08T21:08:30.376Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -7209,17 +7209,17 @@
       "symbol": "CAPP"
     },
     {
-      "address": "0x2E9C861713A8CbD4aCA72a832F347b9520EDBB90",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Crypto Application",
-      "symbol": "CAPP"
-    },
-    {
       "address": "0x11613b1f840bb5A40F8866d857e24DA126B79D73",
       "chainId": 1,
       "decimals": 2,
       "name": "Cappasity",
+      "symbol": "CAPP"
+    },
+    {
+      "address": "0x2E9C861713A8CbD4aCA72a832F347b9520EDBB90",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Crypto Application",
       "symbol": "CAPP"
     },
     {
@@ -13964,8 +13964,13 @@
       "address": "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72",
       "chainId": 1,
       "decimals": 18,
-      "name": "Ethereum Name Servi",
-      "symbol": "ENS"
+      "name": "Ethereum Name Service",
+      "symbol": "ENS",
+      "extensions": {
+        "color": "#6E9BF8",
+        "isRainbowCurated": true,
+        "isVerified": true
+      }
     },
     {
       "address": "0x3Ecab35B64345bfC472477A653e4A3abE70532D9",
@@ -24457,13 +24462,6 @@
       "symbol": "MEGACOSM"
     },
     {
-      "address": "0x1c23f0F3E06FA0e07C5e661353612A2d63323BC6",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "Mega Shiba Inu",
-      "symbol": "MEGASHIB"
-    },
-    {
       "address": "0xed0889F7E1c7C7267407222Be277e1f1Ef4d4892",
       "chainId": 1,
       "decimals": 18,
@@ -29277,6 +29275,13 @@
       "symbol": "PINT"
     },
     {
+      "address": "0x3a1311B8C404629E38f61D566cefEFed083B9670",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Piccolo Inu",
+      "symbol": "PINU"
+    },
+    {
       "address": "0xAAbcECD071AB4Ace5496f6FF3E1c4c3ee8116f75",
       "chainId": 1,
       "decimals": 9,
@@ -29288,13 +29293,6 @@
       "chainId": 1,
       "decimals": 9,
       "name": "Pirate Inu",
-      "symbol": "PINU"
-    },
-    {
-      "address": "0x3a1311B8C404629E38f61D566cefEFed083B9670",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "Piccolo Inu",
       "symbol": "PINU"
     },
     {
@@ -38225,17 +38223,17 @@
       "symbol": "TOK"
     },
     {
-      "address": "0x98ddC72bD02d448F68C4226f26122c66C5BD711E",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Non Fungible TOKE",
-      "symbol": "TOKE"
-    },
-    {
       "address": "0x2e9d63788249371f1DFC918a52f8d799F4a38C94",
       "chainId": 1,
       "decimals": 18,
       "name": "Tokemak",
+      "symbol": "TOKE"
+    },
+    {
+      "address": "0x98ddC72bD02d448F68C4226f26122c66C5BD711E",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Non Fungible TOKE",
       "symbol": "TOKE"
     },
     {
