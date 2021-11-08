@@ -765,13 +765,13 @@
   },
   "0x69bbc3f8787d573f1bbdd0a5f40c7ba0aee9bcc9": {
     "color": "#393939",
-    "isCurated": true,
     "name": "Yup",
     "shadowColor": "#BFBEBE",
     "symbol": "YUP"
   },
   "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72": {
-    "color": "#6e9bf8",
+    "color": "#6E9BF8",
+    "isCurated": true,
     "name": "Ethereum Name Service",
     "symbol": "ENS"
   },
