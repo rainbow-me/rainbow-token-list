@@ -13,7 +13,6 @@ import {
   pick,
   some,
   toLower,
-  uniq,
 } from 'lodash';
 import { Token, TokenExtensionsType, TokenListEnumSchema } from './constants';
 import * as Types from './constants';
@@ -66,11 +65,26 @@ function normalizeList(list: any[]) {
   };
 
   const defaultSources: any = merge({}, ...sources.default);
-  const allKnownTokenAddresses: any = uniq(
+  const allKnownTokenAddresses = new Set(
     compact([
       ...sources.default.map(Object.keys).flat(),
       ...sources.preferred.map(Object.keys).flat(),
     ]).map(getAddress)
+  );
+
+  const lowerAllKnownTokenAddresses = new Set(
+    Array.from(allKnownTokenAddresses).map(toLower)
+  );
+
+  // These tokens were added in the rainbow-token-list repo and are not/have not been recognized upstream by any token source providers
+  const rainbowAddedTokensWithNoSource = new Set(
+    Object.keys(rainbowOverrides)
+      .filter(
+        (tokenAddress) =>
+          !lowerAllKnownTokenAddresses.has(toLower(tokenAddress))
+      )
+      // Forces us to add the correct checksummed address in rainbow-overrides.json
+      .map(getAddress)
   );
 
   function resolveTokenInfo(tokenAddress: string) {
@@ -108,43 +122,103 @@ function normalizeList(list: any[]) {
   }
 
   function buildTokenList() {
-    return allKnownTokenAddresses.map((tokenAddress: string) => {
-      const token = resolveTokenInfo(tokenAddress);
-      const overrideToken = rainbowOverrides[tokenAddress];
+    const tokens = Array.from(allKnownTokenAddresses).map(
+      (tokenAddress: string) => {
+        const token = resolveTokenInfo(tokenAddress);
+        const overrideToken = rainbowOverrides[tokenAddress];
 
-      let { chainId = 1, color, decimals, name, shadowColor, symbol } = token;
+        let { chainId = 1, color, decimals, name, shadowColor, symbol } = token;
 
-      const isVerified = sources.preferred
-        .map(Object.keys)
-        .flat()
-        .includes(tokenAddress);
+        const isVerified = sources.preferred
+          .map(Object.keys)
+          .flat()
+          .includes(tokenAddress);
 
-      if (isVerified) {
-        const logoData = svgIcons.find((item) => item.symbol === symbol);
-        color = logoData?.color;
+        if (isVerified) {
+          const logoData = svgIcons.find((item) => item.symbol === symbol);
+          color = logoData?.color;
+        }
+
+        const extensions: TokenExtensionsType = {
+          color: overrideToken?.color || color,
+          isRainbowCurated: overrideToken?.isCurated ? true : undefined,
+          isVerified:
+            isVerified || overrideToken?.isCurated
+              ? true
+              : !!overrideToken?.isVerified || undefined,
+          shadowColor: overrideToken?.shadowColor || shadowColor,
+        };
+
+        return deeplyTrimAllTokenStrings({
+          address: tokenAddress,
+          chainId,
+          decimals,
+          name: overrideToken?.name || name,
+          symbol: overrideToken?.symbol || symbol,
+          ...(compact(Object.values(extensions)).length
+            ? { extensions }
+            : undefined),
+        });
       }
+    );
 
-      const extensions: TokenExtensionsType = {
-        color: overrideToken?.color || color,
-        isRainbowCurated: overrideToken?.isCurated ? true : undefined,
-        isVerified:
-          isVerified || overrideToken?.isCurated
-            ? true
-            : !!overrideToken?.isVerified || undefined,
-        shadowColor: overrideToken?.shadowColor || shadowColor,
-      };
+    /**
+     * Tokens added from rainbow-overrides.json that are not listed upstream will be added to the token list
+     * but we will block compilation if they are missing core metadata
+     */
+    const rainbowAddedTokens = Array.from(rainbowAddedTokensWithNoSource).map(
+      (tokenAddress: string) => {
+        const token = rainbowOverrides[tokenAddress];
 
-      return deeplyTrimAllTokenStrings({
-        address: tokenAddress,
-        chainId,
-        decimals,
-        name: overrideToken?.name || name,
-        symbol: overrideToken?.symbol || symbol,
-        ...(compact(Object.values(extensions)).length
-          ? { extensions }
-          : undefined),
-      });
-    });
+        let {
+          color,
+          decimals = 18,
+          name,
+          shadowColor,
+          symbol,
+          isVerified,
+          isCurated,
+        } = token;
+
+        if (!name) {
+          throw new Error(
+            `Rainbow added token ${tokenAddress} not found in upstream token sources and is missing name`
+          );
+        }
+
+        if (!symbol) {
+          throw new Error(
+            `Rainbow added token ${tokenAddress} not found in upstream token sources and is missing symbol`
+          );
+        }
+
+        if (isVerified) {
+          const logoData = svgIcons.find((item) => item.symbol === symbol);
+          color = logoData?.color;
+        }
+
+        const extensions: TokenExtensionsType = {
+          color: color,
+          isRainbowCurated: isCurated,
+          isVerified:
+            isVerified || isCurated ? true : !!isVerified || undefined,
+          shadowColor: shadowColor,
+        };
+
+        return deeplyTrimAllTokenStrings({
+          address: tokenAddress,
+          chainId: 1,
+          decimals,
+          name: name,
+          symbol: symbol,
+          ...(compact(Object.values(extensions)).length
+            ? { extensions }
+            : undefined),
+        });
+      }
+    );
+
+    return [...tokens, ...rainbowAddedTokens];
   }
 
   const tokens = await sortTokens(buildTokenList());
@@ -166,12 +240,10 @@ function normalizeList(list: any[]) {
     'rainbow-token-list.json'
   );
 
-  console.log(
-    '# of "isRainbowCurated" tokens: ',
-    filter(tokens, matchesProperty('extensions.isRainbowCurated', true)).length
-  );
-  console.log(
-    '# of "isVerified" tokens: ',
-    filter(tokens, matchesProperty('extensions.isVerified', true)).length
-  );
+  ['isRainbowCurated', 'isVerified'].forEach((extension) => {
+    console.log(
+      `# of "${extension}" tokens: `,
+      filter(tokens, matchesProperty(`extensions.${extension}`, true)).length
+    );
+  });
 })();

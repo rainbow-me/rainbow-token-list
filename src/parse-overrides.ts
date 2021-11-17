@@ -5,6 +5,7 @@ import { parseJsonFile } from './parser';
 
 export type OverrideToken = {
   color?: string;
+  decimals?: number;
   isCurated?: boolean;
   isVerified?: boolean;
   name?: string;
