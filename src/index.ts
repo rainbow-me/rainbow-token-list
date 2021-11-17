@@ -142,7 +142,6 @@ function normalizeList(list: any[]) {
         const extensions: TokenExtensionsType = {
           color: overrideToken?.color || color,
           isRainbowCurated: overrideToken?.isCurated ? true : undefined,
-          isScam: overrideToken?.isScam ? true : undefined,
           isVerified:
             isVerified || overrideToken?.isCurated
               ? true
@@ -179,7 +178,6 @@ function normalizeList(list: any[]) {
           symbol,
           isVerified,
           isCurated,
-          isScam,
         } = token;
 
         if (!name) {
@@ -202,7 +200,6 @@ function normalizeList(list: any[]) {
         const extensions: TokenExtensionsType = {
           color: color,
           isRainbowCurated: isCurated,
-          isScam: isScam,
           isVerified:
             isVerified || isCurated ? true : !!isVerified || undefined,
           shadowColor: shadowColor,
@@ -243,7 +240,7 @@ function normalizeList(list: any[]) {
     'rainbow-token-list.json'
   );
 
-  ['isRainbowCurated', 'isVerified', 'isScam'].forEach((extension) => {
+  ['isRainbowCurated', 'isVerified'].forEach((extension) => {
     console.log(
       `# of "${extension}" tokens: `,
       filter(tokens, matchesProperty(`extensions.${extension}`, true)).length

@@ -7,7 +7,6 @@ export type OverrideToken = {
   color?: string;
   decimals?: number;
   isCurated?: boolean;
-  isScam?: boolean;
   isVerified?: boolean;
   name?: string;
   symbol?: string;

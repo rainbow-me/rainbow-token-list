@@ -64,7 +64,6 @@ export const TokenDeprecationSchema = z.object({
 export const TokenExtensionsSchema = z.object({
   color: z.string().optional(),
   isRainbowCurated: z.boolean().optional(),
-  isScam: z.boolean().optional(),
   isVerified: z.boolean().optional(),
   shadowColor: z.string().optional(),
 });
