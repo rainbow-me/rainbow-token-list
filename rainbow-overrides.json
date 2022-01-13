@@ -428,7 +428,7 @@
     "color": "#D79C93",
     "isCurated": true,
     "name": "FOAM"
-  },  
+  },
   "0x35bd01fc9d6d5d81ca9e055db88dc49aa2c699a8": {
     "isCurated": true,
     "isVerified": true,
@@ -769,5 +769,10 @@
     "isCurated": true,
     "name": "Ethereum Name Service",
     "symbol": "ENS"
+  },
+  "0xf4d2888d29D722226FafA5d9B24F9164c092421E": {
+    "isVerified": true,
+    "name": "LooksRare",
+    "symbol": "LOOKS"
   }
 }
