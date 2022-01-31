@@ -319,6 +319,12 @@
     "isCurated": true,
     "name": "Bloom"
   },
+  "0xbc138bD20C98186CC0342C8e380953aF0cb48BA8": {
+    "color": "#012ead",
+    "isCurated": true,
+    "isVerified": true,
+    "name": "Candle"
+  },
   "0x514910771AF9Ca656af840dff83E8264EcF986CA": {
     "color": "#1A56F0",
     "isCurated": true,
