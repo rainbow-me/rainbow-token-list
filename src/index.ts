@@ -30,7 +30,7 @@ process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 console.log('🌈️ building the rainbow token list');
 
 function normalizeList(list: any[]) {
-  return keyBy(list, ({ address }) => getAddress(address));
+  return keyBy(list, ({ address }) => (address ? getAddress(address) : ''));
 }
 
 // Entry point
