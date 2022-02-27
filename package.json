@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@types/degit": "^2.8.0",
-    "@types/lodash": "^4.14.162",
+    "@types/lodash": "^4.14.179",
     "@types/mkdirp": "^1.0.1",
     "@types/node": "^17.0.21",
     "@types/node-fetch": "^2.5.7",
