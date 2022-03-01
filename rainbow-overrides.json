@@ -647,6 +647,11 @@
     "isCurated": true,
     "name": "SpankChain"
   },
+  "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2": {
+    "isCurated": true,
+    "isVerified": true,
+    "name": "Sushi"
+  },
   "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84": {
     "color": "#56A0DD",
     "isCurated": true,
