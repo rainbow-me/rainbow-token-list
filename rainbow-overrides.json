@@ -409,6 +409,11 @@
     "isCurated": true,
     "name": "Digix Gold"
   },
+    "0xbc138bD20C98186CC0342C8e380953aF0cb48BA8": {
+    "isCurated": true,
+    "isVerified": true,
+    "name": "Candle"
+  },
   "0xC0F9bD5Fa5698B6505F643900FFA515Ea5dF54A9": {
     "color": "#F7518B",
     "isCurated": true,
