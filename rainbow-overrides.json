@@ -10,6 +10,12 @@
     "name": "2x Leveraged ETH",
     "symbol": "ETH2XFLI"
   },
+  "0xD64DeEA5F24934E3A1aa752912aEe8ffD8300C3F": {
+    "color": "#29292E",
+    "isCurated": true,
+    "name": "Walker Crypto Innovation Index",
+    "symbol": "WLKRR"
+  },
   "0xE41d2489571d322189246DaFA5ebDe1F4699F498": {
     "color": "#29292E",
     "isCurated": true,
