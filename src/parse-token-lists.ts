@@ -1,21 +1,20 @@
 import fetch from 'node-fetch';
-import * as z from 'zod';
 import { TOKEN_LISTS, TokenListEnum, TokenListEnumSchema } from './constants';
 import { reduceArrayToObject } from './utils';
 
-export const TokenListStore = z.object({
-  tags: z.any().array().optional(),
-  tokens: z.any().array().optional(),
-});
-export type TokenListStoreType = z.infer<typeof TokenListStore>;
-export const TokenListStoreRecord = z.record(TokenListStore);
-export type TokenListStoreRecordType = z.infer<typeof TokenListStoreRecord>;
+export interface TokenListStore {
+  tags?: string[];
+  tokens?: {
+    address?: string | null;
+  };
+}
+export type TokenListStoreRecordType = Record<string, TokenListStore>;
 
 const omitTokenWithTag = (tokens: any[], tag: string) =>
-  tokens.filter(({ tags = [] }: TokenListStoreType) => !tags.includes(tag));
+  tokens.filter(({ tags = [] }: TokenListStore) => !tags.includes(tag));
 
 const pickTokenWithTag = (tokens: any[], tag: string) =>
-  tokens.filter(({ tags = [] }: TokenListStoreType) => tags.includes(tag));
+  tokens.filter(({ tags = [] }: TokenListStore) => tags.includes(tag));
 
 const { aave, roll } = TokenListEnumSchema.enum;
 
