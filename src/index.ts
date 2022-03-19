@@ -22,8 +22,6 @@ import { deeplyTrimAllTokenStrings, sortTokens, writeToDisk } from './parser';
 
 export { Types };
 
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
-
 console.log('🌈️ building the rainbow token list');
 
 function normalizeList(list: any[]) {
