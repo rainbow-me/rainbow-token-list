@@ -1,6 +1,5 @@
 import { tmpdir } from 'os';
 import { resolve } from 'path';
-import * as z from 'zod';
 
 export const CONTRACT_MAP_REPO = 'metamask/eth-contract-metadata';
 export const CONTRACT_MAP_OUTPUT_PATH = resolve(
@@ -15,10 +14,7 @@ export const ETHEREUM_LISTS_OUTPUT_PATH = resolve(
   'ethereum-lists/tokens'
 );
 
-export const TokenListItemSchema = z.string().url().nonempty();
-export type TokenListItem = z.infer<typeof TokenListItemSchema>;
-export const TokenListTypeSchema = z.record(TokenListItemSchema);
-export type TokenListType = z.infer<typeof TokenListTypeSchema>;
+export type TokenListType = Record<TokenListEnum, string>;
 
 export const TOKEN_LISTS: TokenListType = {
   aave: 'https://tokenlist.aave.eth.link',
@@ -29,82 +25,55 @@ export const TOKEN_LISTS: TokenListType = {
   wrapped: 'http://wrapped.tokensoft.eth.link',
 };
 
-export const TokenListEnumSchema = z.enum([
-  'aave',
-  'coingecko',
-  'dharma',
-  'roll',
-  'synthetix',
-  'wrapped',
-]);
-export type TokenListEnum = z.infer<typeof TokenListEnumSchema>;
+export enum TokenListEnumSchema {
+  aave = 'aave',
+  coingecko = 'coingecko',
+  dharma = 'dharma',
+  roll = 'roll',
+  synthetix = 'synthetix',
+  wrapped = 'wrapped',
+}
 
-export const SocialSchema = z.object({
-  blog: z.string().optional(),
-  chat: z.string().optional(),
-  discord: z.string().optional(),
-  facebook: z.string().optional(),
-  forum: z.string().optional(),
-  github: z.string().optional(),
-  gitter: z.string().optional(),
-  instagram: z.string().optional(),
-  linkedin: z.string().optional(),
-  medium: z.string().optional(),
-  reddit: z.string().optional(),
-  slack: z.string().optional(),
-  telegram: z.string().optional(),
-  twitter: z.string().optional(),
-  youtube: z.string().optional(),
-});
+export type TokenListEnum = `${TokenListEnumSchema}`;
 
-export const TokenDeprecationSchema = z.object({
-  new_address: z.string().optional(),
-});
+export interface TokenDeprecationSchema {
+  new_address?: string;
+}
 
-export const TokenExtensionsSchema = z.object({
-  color: z.string().optional(),
-  isRainbowCurated: z.boolean().optional(),
-  isVerified: z.boolean().optional(),
-  shadowColor: z.string().optional(),
-});
-export type TokenExtensionsType = z.infer<typeof TokenExtensionsSchema>;
+export interface TokenExtensionsSchema {
+  color?: string;
+  isRainbowCurated?: boolean;
+  isVerified?: boolean;
+  shadowColor?: string;
+}
 
-export const TokenSchema = z.object({
-  address: z.string().regex(/^0x[a-fA-F0-9]{40}$/),
-  chainId: z.number().optional(),
-  decimals: z.number().min(0),
-  deprecation: TokenDeprecationSchema.optional(),
-  extensions: TokenExtensionsSchema.optional(),
-  name: z.string(),
-  social: SocialSchema.optional(),
-  symbol: z.string(),
-  website: z.string().optional(),
-});
+export interface Token {
+  address: string;
+  chainId?: number;
+  decimals: number;
+  deprecation?: TokenDeprecationSchema;
+  extensions?: TokenExtensionsSchema;
+  name: string;
+  symbol: string;
+}
 
 /**
  * Raw token data that is loaded from the JSON files.
  */
-export const RawContractMapTokenSchema = z.object({
-  address: z.string(),
-  decimals: z.union([z.string(), z.number()]),
-  name: z.string(),
-  symbol: z.string(),
-});
+export interface RawContractMapTokenSchema {
+  address: string;
+  decimals: string | number;
+  name: string;
+  symbol: string;
+}
 
 /**
  * Raw token data that is loaded from the JSON files.
  */
-export const RawEthereumListsTokenSchema = z.object({
-  address: z.string().optional(),
-  decimals: z.union([z.string(), z.number()]).optional(),
-  deprecation: TokenDeprecationSchema.optional(),
-  name: z.string().optional(),
-  social: SocialSchema.optional(),
-  symbol: z.string().optional(),
-  website: z.string().optional(),
-});
-
-export type RawContractMapToken = z.infer<typeof RawContractMapTokenSchema>;
-export type RawEthereumListsToken = z.infer<typeof RawEthereumListsTokenSchema>;
-export type Token = z.infer<typeof TokenSchema>;
-export type TokenSocialMetadata = z.infer<typeof SocialSchema>;
+export interface RawEthereumListsTokenSchema {
+  address?: string;
+  decimals?: string | number;
+  name?: string;
+  symbol?: string;
+  website?: string;
+}

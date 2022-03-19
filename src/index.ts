@@ -6,15 +6,12 @@ import { getAddress } from '@ethersproject/address';
 import {
   compact,
   filter,
-  find,
   keyBy,
   matchesProperty,
   merge,
-  pick,
-  some,
   toLower,
 } from 'lodash';
-import { Token, TokenExtensionsType, TokenListEnumSchema } from './constants';
+import { TokenExtensionsSchema } from './constants';
 import * as Types from './constants';
 import parseContractMap from './parse-contract-map';
 import parseEthereumLists from './parse-ethereum-lists';
@@ -55,7 +52,7 @@ function normalizeList(list: any[]) {
       duplicateEthereumListTokens,
       uniqueEthereumListTokens,
       contractMapTokens,
-      coingecko.tokens.flat(),
+      coingecko.tokens?.flat() as any,
     ].map(normalizeList),
     preferred: [
       Object.values(preferredTokenLists)
@@ -88,34 +85,21 @@ function normalizeList(list: any[]) {
   );
 
   function resolveTokenInfo(tokenAddress: string) {
-    function matchToken({ address }: Token): boolean {
-      return toLower(address) === toLower(tokenAddress);
-    }
+    const lowerTokenAddress = tokenAddress.toLowerCase();
 
-    const lists = pick(
-      tokenListTokens,
-      Object.keys(tokenListTokens).filter((list: any) =>
-        some(tokenListTokens[list].tokens, matchToken)
-      )
-    );
-
-    if (Object.keys(lists).length === 1) {
-      return find(lists[Object.keys(lists)[0]].tokens, matchToken);
-    } else if (Object.keys(lists).length > 1) {
-      const listNames = Object.keys(lists);
-      if (listNames.includes(TokenListEnumSchema.enum.synthetix)) {
-        return find(lists.synthetix.tokens, matchToken);
-      } else if (listNames.includes(TokenListEnumSchema.enum.aave)) {
-        return find(lists.aave.tokens, matchToken);
-      } else if (listNames.includes(TokenListEnumSchema.enum.roll)) {
-        return find(lists.roll.tokens, matchToken);
-      } else if (listNames.includes(TokenListEnumSchema.enum.dharma)) {
-        return find(lists.dharma.tokens, matchToken);
-      } else if (listNames.includes(TokenListEnumSchema.enum.wrapped)) {
-        return find(lists.wrapped.tokens, matchToken);
-      } else if (listNames.includes(TokenListEnumSchema.enum.coingecko)) {
-        return find(lists.coingecko.tokens, matchToken);
-      }
+    switch (true) {
+      case tokenListTokens.synthetix.tokensByAddress.has(lowerTokenAddress):
+        return tokenListTokens.synthetix.tokensByAddress.get(lowerTokenAddress);
+      case tokenListTokens.aave.tokensByAddress.has(lowerTokenAddress):
+        return tokenListTokens.aave.tokensByAddress.get(lowerTokenAddress);
+      case tokenListTokens.roll.tokensByAddress.has(lowerTokenAddress):
+        return tokenListTokens.roll.tokensByAddress.get(lowerTokenAddress);
+      case tokenListTokens.dharma.tokensByAddress.has(lowerTokenAddress):
+        return tokenListTokens.dharma.tokensByAddress.get(lowerTokenAddress);
+      case tokenListTokens.wrapped.tokensByAddress.has(lowerTokenAddress):
+        return tokenListTokens.wrapped.tokensByAddress.get(lowerTokenAddress);
+      case tokenListTokens.coingecko.tokensByAddress.has(lowerTokenAddress):
+        return tokenListTokens.coingecko.tokensByAddress.get(lowerTokenAddress);
     }
 
     return defaultSources[tokenAddress];
@@ -139,7 +123,7 @@ function normalizeList(list: any[]) {
           color = logoData?.color;
         }
 
-        const extensions: TokenExtensionsType = {
+        const extensions: TokenExtensionsSchema = {
           color: overrideToken?.color || color,
           isRainbowCurated: overrideToken?.isCurated ? true : undefined,
           isVerified:
@@ -197,7 +181,7 @@ function normalizeList(list: any[]) {
           color = logoData?.color;
         }
 
-        const extensions: TokenExtensionsType = {
+        const extensions: TokenExtensionsSchema = {
           color: color,
           isRainbowCurated: isCurated,
           isVerified:

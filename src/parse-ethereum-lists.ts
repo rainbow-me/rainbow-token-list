@@ -6,11 +6,11 @@ import partition from 'lodash/partition';
 import {
   ETHEREUM_LISTS_OUTPUT_PATH,
   ETHEREUM_LISTS_REPO,
-  RawEthereumListsToken,
+  RawEthereumListsTokenSchema,
   Token,
 } from './constants';
 import { fetchRepository } from './git';
-import { parseJsonFile, validateTokenData } from './parser';
+import { parseJsonFile } from './parser';
 
 /**
  * Partition tokens array into two categories: unique vs duplicates, according to
@@ -55,10 +55,11 @@ export async function parseEthereumListsTokenFiles(): Promise<Token[]> {
 
   return files.reduce<Promise<Token[]>>(async (tokens, file) => {
     const jsonFile = resolve(ETHEREUM_LISTS_OUTPUT_PATH, file);
-    const tokenData = await parseJsonFile<RawEthereumListsToken>(jsonFile);
-    const token = validateTokenData(tokenData);
+    const tokenData = await parseJsonFile<RawEthereumListsTokenSchema>(
+      jsonFile
+    );
 
-    return Promise.resolve([...(await tokens), token]);
+    return Promise.resolve([...(await tokens), tokenData as Token]);
   }, Promise.resolve([]));
 }
 

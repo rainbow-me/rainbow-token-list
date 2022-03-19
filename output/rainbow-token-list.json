@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Rainbow Token List",
-  "timestamp": "2022-03-17T16:03:31.867Z",
+  "timestamp": "2022-03-19T02:40:56.595Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -2238,13 +2238,6 @@
       "symbol": "APC"
     },
     {
-      "address": "0x40E0a6eF9DbADfc83C5e0d15262FEB4638588D77",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "APE",
-      "symbol": "APE"
-    },
-    {
       "address": "0x4d224452801ACEd8B2F0aebE155379bb5D594381",
       "chainId": 1,
       "decimals": 18,
@@ -2253,6 +2246,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x40E0a6eF9DbADfc83C5e0d15262FEB4638588D77",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "APE",
+      "symbol": "APE"
     },
     {
       "address": "0x26EA1f595f6567b7050fBbA24F6A66e19Db4D560",
@@ -7893,17 +7893,17 @@
       "symbol": "CENNZ"
     },
     {
-      "address": "0x08ba718F288c3b12B01146816bef9FA03cC635bc",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Centaurify",
-      "symbol": "CENT"
-    },
-    {
       "address": "0x9f91d9f9070b0478Abb5a9918c79B5DD533F672C",
       "chainId": 1,
       "decimals": 9,
       "name": "Centurion Inu",
+      "symbol": "CENT"
+    },
+    {
+      "address": "0x08ba718F288c3b12B01146816bef9FA03cC635bc",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Centaurify",
       "symbol": "CENT"
     },
     {
@@ -16517,17 +16517,17 @@
       "symbol": "FRECNX"
     },
     {
-      "address": "0x8B660dA0F7C74d2464A19A3D67e202dcB6BCFDAF",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "Freedom 22 DAO",
-      "symbol": "FREE"
-    },
-    {
       "address": "0x2F141Ce366a2462f02cEA3D12CF93E4DCa49e4Fd",
       "chainId": 1,
       "decimals": 18,
       "name": "FREEdom coin",
+      "symbol": "FREE"
+    },
+    {
+      "address": "0x8B660dA0F7C74d2464A19A3D67e202dcB6BCFDAF",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Freedom 22 DAO",
       "symbol": "FREE"
     },
     {
@@ -17054,17 +17054,17 @@
       "symbol": "GAME"
     },
     {
-      "address": "0xa1EA9aA32CBba8c203DDC510a144aD1F439d436c",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "MetaPortal Gaming I",
-      "symbol": "GAME"
-    },
-    {
       "address": "0x882e5b370D595E50c24b2a0e7a94e87Cc32ADdA1",
       "chainId": 1,
       "decimals": 18,
       "name": "X Consoles",
+      "symbol": "GAME"
+    },
+    {
+      "address": "0xa1EA9aA32CBba8c203DDC510a144aD1F439d436c",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "MetaPortal Gaming I",
       "symbol": "GAME"
     },
     {
@@ -17727,6 +17727,13 @@
       "decimals": 18,
       "name": "Give Global",
       "symbol": "GIVE"
+    },
+    {
+      "address": "0xbD434a09191D401da3283a5545bB3515d033B8c4",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "GoldFinX",
+      "symbol": "GIX"
     },
     {
       "address": "0xA5B399a76bbAbEf93D70255525C1d2BCC3701d0b",
@@ -19092,17 +19099,17 @@
       "symbol": "HDS"
     },
     {
-      "address": "0xf6Fd82dEdBBe0ffadb5e1ecc2a283AB52B9ED2B0",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Etheal",
-      "symbol": "HEAL"
-    },
-    {
       "address": "0x383B0b2ce2e1757b5e1D087D8f36013eA595541a",
       "chainId": 1,
       "decimals": 9,
       "name": "Heal The World",
+      "symbol": "HEAL"
+    },
+    {
+      "address": "0xf6Fd82dEdBBe0ffadb5e1ecc2a283AB52B9ED2B0",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Etheal",
       "symbol": "HEAL"
     },
     {
@@ -22816,17 +22823,17 @@
       "symbol": "KRZ"
     },
     {
-      "address": "0x990E081A7B7d3Ccba26a2f49746A68CC4fF73280",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "KStarCoin",
-      "symbol": "KSC"
-    },
-    {
       "address": "0x9Ee985007E03E279A736F8E86E412377dB93d014",
       "chainId": 1,
       "decimals": 9,
       "name": "KibaStableCapital",
+      "symbol": "KSC"
+    },
+    {
+      "address": "0x990E081A7B7d3Ccba26a2f49746A68CC4fF73280",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "KStarCoin",
       "symbol": "KSC"
     },
     {
@@ -22999,13 +23006,6 @@
       "decimals": 9,
       "name": "L inu",
       "symbol": "L"
-    },
-    {
-      "address": "0x30BAAdB0c58a913934082962512c1aAb1E596feF",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "Lucky1Token",
-      "symbol": "L1T"
     },
     {
       "address": "0xBbff34E47E559ef680067a6B1c980639EEb64D24",
@@ -23243,6 +23243,13 @@
       "decimals": 0,
       "name": "LondonCoin",
       "symbol": "LDX"
+    },
+    {
+      "address": "0x7c0853Ab074f2f17E37c5482DCF6C5F6c1246E8b",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "LondonCoinGold",
+      "symbol": "LDXG"
     },
     {
       "address": "0x1dD80016e3d4ae146Ee2EBB484e8edD92dacC4ce",
@@ -24209,17 +24216,17 @@
       }
     },
     {
-      "address": "0x048eb9B9c08E2dF45644cf0DB1fcB3e866c401Ad",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Live Swap Coin",
-      "symbol": "LSC"
-    },
-    {
       "address": "0xc77D7E0dD7b2A01B990e866FeB21d031f1418c2E",
       "chainId": 1,
       "decimals": 18,
       "name": "Littlesesame",
+      "symbol": "LSC"
+    },
+    {
+      "address": "0x048eb9B9c08E2dF45644cf0DB1fcB3e866c401Ad",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Live Swap Coin",
       "symbol": "LSC"
     },
     {
@@ -25334,6 +25341,13 @@
       "symbol": "MELIODAS"
     },
     {
+      "address": "0x1afb69DBC9f54d08DAB1bD3436F8Da1af819E647",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Melos Studio",
+      "symbol": "MELOS"
+    },
+    {
       "address": "0x343E59D9D835e35b07fe80f5Bb544f8ED1CD3B11",
       "chainId": 1,
       "decimals": 9,
@@ -25610,17 +25624,17 @@
       "symbol": "MFG"
     },
     {
-      "address": "0xEaDC218Ac4cB7895a5A56e6484646b48f841C45a",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "MetaFinance",
-      "symbol": "MFI"
-    },
-    {
       "address": "0xAa4e3edb11AFa93c41db59842b29de64b72E355B",
       "chainId": 1,
       "decimals": 18,
       "name": "Marginswap",
+      "symbol": "MFI"
+    },
+    {
+      "address": "0xEaDC218Ac4cB7895a5A56e6484646b48f841C45a",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "MetaFinance",
       "symbol": "MFI"
     },
     {
@@ -26754,6 +26768,13 @@
       "decimals": 18,
       "name": "Millennium Sapphire",
       "symbol": "MSTO"
+    },
+    {
+      "address": "0xdfD8D604951eBF1b2297285F1B68de140C43992b",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Metasens",
+      "symbol": "MSU"
     },
     {
       "address": "0xC005204856ee7035a13D8D7CdBbdc13027AFff90",
@@ -35898,7 +35919,7 @@
       "address": "0x7BEF710a5759d197EC0Bf621c3Df802C2D60D848",
       "chainId": 1,
       "decimals": 18,
-      "name": "Splyt",
+      "name": "SHOPX",
       "symbol": "SHOPX"
     },
     {
@@ -37674,6 +37695,13 @@
       "symbol": "STFIRO"
     },
     {
+      "address": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Stargate Finance",
+      "symbol": "STG"
+    },
+    {
       "address": "0xB52BBD3D5BfA3836bF2b55fE3B7467219280bc2e",
       "chainId": 1,
       "decimals": 8,
@@ -38160,7 +38188,11 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Sushi",
-      "symbol": "SUSHI"
+      "symbol": "SUSHI",
+      "extensions": {
+        "isRainbowCurated": true,
+        "isVerified": true
+      }
     },
     {
       "address": "0xAA2ce7Ae64066175E0B90497CE7d9c190c315DB4",
@@ -38389,7 +38421,7 @@
       "address": "0xB4371dA53140417CBb3362055374B10D97e420bB",
       "chainId": 1,
       "decimals": 8,
-      "name": "Carbon Token",
+      "name": "Carbon Protocol",
       "symbol": "SWTH"
     },
     {
