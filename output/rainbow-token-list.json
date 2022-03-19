@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Rainbow Token List",
-  "timestamp": "2022-03-19T02:40:56.595Z",
+  "timestamp": "2022-03-19T15:12:56.606Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -1217,13 +1217,6 @@
       "symbol": "AFIN"
     },
     {
-      "address": "0xE46F290Cd59195a83e757891430d8D517d16b334",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "AltaFin",
-      "symbol": "AFN"
-    },
-    {
       "address": "0x08130635368AA28b217a4dfb68E1bF8dC525621C",
       "chainId": 1,
       "decimals": 4,
@@ -1804,6 +1797,13 @@
       "symbol": "ALT"
     },
     {
+      "address": "0xe0cCa86B254005889aC3a81e737f56a14f4A38F5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Alta Finance",
+      "symbol": "ALTA"
+    },
+    {
       "address": "0x90B417Ab462440Cf59767BCf72D0d91CA42F21ED",
       "chainId": 1,
       "decimals": 18,
@@ -2248,17 +2248,17 @@
       }
     },
     {
-      "address": "0x40E0a6eF9DbADfc83C5e0d15262FEB4638588D77",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "APE",
-      "symbol": "APE"
-    },
-    {
       "address": "0x26EA1f595f6567b7050fBbA24F6A66e19Db4D560",
       "chainId": 1,
       "decimals": 18,
       "name": "APE Punk",
+      "symbol": "APE"
+    },
+    {
+      "address": "0x40E0a6eF9DbADfc83C5e0d15262FEB4638588D77",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "APE",
       "symbol": "APE"
     },
     {
@@ -12549,7 +12549,7 @@
       "address": "0xb78B3320493a4EFaa1028130C5Ba26f0B6085Ef8",
       "chainId": 1,
       "decimals": 18,
-      "name": "Dracula Token",
+      "name": "Dracula",
       "symbol": "DRC"
     },
     {
@@ -14107,6 +14107,13 @@
       "decimals": 8,
       "name": "EthermonToken",
       "symbol": "EMONT"
+    },
+    {
+      "address": "0x32A8E5C552e5CaE231e33170d6495AB0AF9e5A72",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Export Mortos Platf",
+      "symbol": "EMP"
     },
     {
       "address": "0xbdbC2a5B32F3a5141ACd18C39883066E4daB9774",
@@ -25890,6 +25897,13 @@
       "symbol": "MINISHIB"
     },
     {
+      "address": "0x583673B49eE3ae9E59c0B2fa662115952E1d28fd",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "MintStarter",
+      "symbol": "MINT"
+    },
+    {
       "address": "0x0CDF9acd87E940837ff21BB40c9fd55F68bba059",
       "chainId": 1,
       "decimals": 18,
@@ -28332,13 +28346,6 @@
       "decimals": 18,
       "name": "NuCypher",
       "symbol": "NU"
-    },
-    {
-      "address": "0xd56736e79093D31be093ba1B5a5FE32E054B9592",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "Nucleus",
-      "symbol": "NUCLEUS"
     },
     {
       "address": "0x245ef47D4d0505ECF3Ac463F4d81f41ADE8f1fd1",
@@ -32003,6 +32010,13 @@
       "decimals": 8,
       "name": "Qobit",
       "symbol": "QOB"
+    },
+    {
+      "address": "0xa71d0588EAf47f12B13cF8eC750430d21DF04974",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Shiba Predator",
+      "symbol": "QOM"
     },
     {
       "address": "0x2822f6D1B2f41F93f33d937bc7d84A8Dfa4f4C21",
@@ -40027,6 +40041,13 @@
       "decimals": 5,
       "name": "Tratok",
       "symbol": "TRAT"
+    },
+    {
+      "address": "0xD43Be54C1aedf7Ee4099104f2DaE4eA88B18A249",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Traxx",
+      "symbol": "TRAXX"
     },
     {
       "address": "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
