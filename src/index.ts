@@ -231,6 +231,8 @@ function normalizeList(list: any[]) {
     'rainbow-token-list.json'
   );
 
+  console.log(`# of tokens: ${tokens.length}`);
+
   ['isRainbowCurated', 'isVerified'].forEach((extension) => {
     console.log(
       `# of "${extension}" tokens: `,
