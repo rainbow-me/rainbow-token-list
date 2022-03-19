@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Rainbow Token List",
-  "timestamp": "2022-03-19T00:38:52.355Z",
+  "timestamp": "2022-03-19T02:06:54.085Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -16517,17 +16517,17 @@
       "symbol": "FRECNX"
     },
     {
-      "address": "0x8B660dA0F7C74d2464A19A3D67e202dcB6BCFDAF",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "Freedom 22 DAO",
-      "symbol": "FREE"
-    },
-    {
       "address": "0x2F141Ce366a2462f02cEA3D12CF93E4DCa49e4Fd",
       "chainId": 1,
       "decimals": 18,
       "name": "FREEdom coin",
+      "symbol": "FREE"
+    },
+    {
+      "address": "0x8B660dA0F7C74d2464A19A3D67e202dcB6BCFDAF",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Freedom 22 DAO",
       "symbol": "FREE"
     },
     {
