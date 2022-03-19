@@ -28,8 +28,6 @@ export default async function parseContractMap(): Promise<Token[]> {
           address,
         })
       )
-      // // remove any unknown/undesirable keys from each token object.
-      // .map((token) => pick(token, Object.keys(RawContractMapTokenSchema)))
       // remove any tokens from the array if they contain null values for the
       // keys that we care about.
       .filter((token) => Object.values(token).some(isEmpty)) as Token[]

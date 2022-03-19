@@ -6,7 +6,7 @@ import partition from 'lodash/partition';
 import {
   ETHEREUM_LISTS_OUTPUT_PATH,
   ETHEREUM_LISTS_REPO,
-  RawEthereumListsToken,
+  RawEthereumListsTokenSchema,
   Token,
 } from './constants';
 import { fetchRepository } from './git';
@@ -55,7 +55,9 @@ export async function parseEthereumListsTokenFiles(): Promise<Token[]> {
 
   return files.reduce<Promise<Token[]>>(async (tokens, file) => {
     const jsonFile = resolve(ETHEREUM_LISTS_OUTPUT_PATH, file);
-    const tokenData = await parseJsonFile<RawEthereumListsToken>(jsonFile);
+    const tokenData = await parseJsonFile<RawEthereumListsTokenSchema>(
+      jsonFile
+    );
 
     return Promise.resolve([...(await tokens), tokenData as Token]);
   }, Promise.resolve([]));

@@ -47,7 +47,7 @@ export interface TokenExtensionsSchema {
   shadowColor?: string;
 }
 
-export interface TokenSchema {
+export interface Token {
   address: string;
   chainId?: number;
   decimals: number;
@@ -77,6 +77,3 @@ export interface RawEthereumListsTokenSchema {
   symbol?: string;
   website?: string;
 }
-
-export type RawEthereumListsToken = RawEthereumListsTokenSchema;
-export type Token = TokenSchema;

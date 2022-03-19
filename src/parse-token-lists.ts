@@ -1,10 +1,11 @@
 import fetch from 'node-fetch';
-import { TOKEN_LISTS, TokenListEnum, TokenListEnumSchema } from './constants';
+import {
+  Token,
+  TOKEN_LISTS,
+  TokenListEnum,
+  TokenListEnumSchema,
+} from './constants';
 import { reduceArrayToObject } from './utils';
-
-interface Token {
-  address?: string | null;
-}
 
 export interface TokenListStore {
   tags?: string[];
