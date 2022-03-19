@@ -2,11 +2,14 @@ import fetch from 'node-fetch';
 import { TOKEN_LISTS, TokenListEnum, TokenListEnumSchema } from './constants';
 import { reduceArrayToObject } from './utils';
 
+interface Token {
+  address?: string | null;
+}
+
 export interface TokenListStore {
   tags?: string[];
-  tokens?: {
-    address?: string | null;
-  };
+  tokensByAddress: Map<string, Token>;
+  tokens?: Token[];
 }
 export type TokenListStoreRecordType = Record<string, TokenListStore>;
 
@@ -16,7 +19,15 @@ const omitTokenWithTag = (tokens: any[], tag: string) =>
 const pickTokenWithTag = (tokens: any[], tag: string) =>
   tokens.filter(({ tags = [] }: TokenListStore) => tags.includes(tag));
 
-const { aave, roll } = TokenListEnumSchema.enum;
+const listFilters: Map<string, (tokens: Token[]) => Token[]> = new Map(
+  Object.entries({
+    aave: (tokens: Token[]) => [
+      ...pickTokenWithTag(tokens, 'atokenv1'),
+      ...pickTokenWithTag(tokens, 'atokenv2'),
+    ],
+    roll: (tokens: Token[]) => omitTokenWithTag(tokens, 'bases'),
+  })
+);
 
 export default async function parseTokenLists() {
   const listsArray = await Promise.all(
@@ -26,30 +37,24 @@ export default async function parseTokenLists() {
           // fetch the TokenList from remote uri
           fetch(TOKEN_LISTS[list])
             .then((res) => res.json())
-            .then(({ tags, tokens }) => resolve({ [list]: { tags, tokens } }))
+            .then(({ tags, tokens }) => {
+              tokens = listFilters.has(list)
+                ? listFilters.get(list)?.(tokens)
+                : tokens;
+
+              const tokensByAddress = new Map<string, Token>(
+                tokens.map((token: Token) => [
+                  token.address?.toLowerCase(),
+                  token,
+                ])
+              );
+              resolve({ [list]: { tags, tokens, tokensByAddress } });
+            })
             .catch(reject)
         );
       }
     )
   );
 
-  return reduceArrayToObject(
-    listsArray.map((list: any) => {
-      const listName = Object.keys(list)[0];
-      const newList = { ...list };
-
-      if (listName === roll) {
-        newList[roll].tokens = omitTokenWithTag(newList[roll].tokens, 'bases');
-      }
-
-      if (listName === aave) {
-        newList[aave].tokens = [
-          ...pickTokenWithTag(newList[aave].tokens, 'atokenv1'),
-          ...pickTokenWithTag(newList[aave].tokens, 'atokenv2'),
-        ];
-      }
-
-      return newList;
-    })
-  );
+  return reduceArrayToObject(listsArray);
 }
