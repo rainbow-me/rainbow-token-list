@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import { TOKEN_LISTS, TokenListEnum, TokenListEnumSchema } from './constants';
+import { TOKEN_LISTS, TokenListEnumSchema } from './constants';
 import { reduceArrayToObject } from './utils';
 
 interface Token {
@@ -31,8 +31,8 @@ const listFilters: Map<string, (tokens: Token[]) => Token[]> = new Map(
 
 export default async function parseTokenLists() {
   const listsArray = await Promise.all(
-    TokenListEnumSchema.options.map(
-      async (list: TokenListEnum): Promise<TokenListStoreRecordType> => {
+    Object.values(TokenListEnumSchema).map(
+      async (list: TokenListEnumSchema): Promise<TokenListStoreRecordType> => {
         return new Promise(async (resolve, reject) =>
           // fetch the TokenList from remote uri
           fetch(TOKEN_LISTS[list])

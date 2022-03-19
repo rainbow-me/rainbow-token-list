@@ -14,7 +14,7 @@ import {
   some,
   toLower,
 } from 'lodash';
-import { Token, TokenExtensionsType, TokenListEnumSchema } from './constants';
+import { Token, TokenExtensionsSchema, TokenListEnumSchema } from './constants';
 import * as Types from './constants';
 import parseContractMap from './parse-contract-map';
 import parseEthereumLists from './parse-ethereum-lists';
@@ -103,17 +103,17 @@ function normalizeList(list: any[]) {
       return find(lists[Object.keys(lists)[0]].tokens, matchToken);
     } else if (Object.keys(lists).length > 1) {
       const listNames = Object.keys(lists);
-      if (listNames.includes(TokenListEnumSchema.enum.synthetix)) {
+      if (listNames.includes(TokenListEnumSchema.synthetix)) {
         return find(lists.synthetix.tokens, matchToken);
-      } else if (listNames.includes(TokenListEnumSchema.enum.aave)) {
+      } else if (listNames.includes(TokenListEnumSchema.aave)) {
         return find(lists.aave.tokens, matchToken);
-      } else if (listNames.includes(TokenListEnumSchema.enum.roll)) {
+      } else if (listNames.includes(TokenListEnumSchema.roll)) {
         return find(lists.roll.tokens, matchToken);
-      } else if (listNames.includes(TokenListEnumSchema.enum.dharma)) {
+      } else if (listNames.includes(TokenListEnumSchema.dharma)) {
         return find(lists.dharma.tokens, matchToken);
-      } else if (listNames.includes(TokenListEnumSchema.enum.wrapped)) {
+      } else if (listNames.includes(TokenListEnumSchema.wrapped)) {
         return find(lists.wrapped.tokens, matchToken);
-      } else if (listNames.includes(TokenListEnumSchema.enum.coingecko)) {
+      } else if (listNames.includes(TokenListEnumSchema.coingecko)) {
         return find(lists.coingecko.tokens, matchToken);
       }
     }
@@ -139,7 +139,7 @@ function normalizeList(list: any[]) {
           color = logoData?.color;
         }
 
-        const extensions: TokenExtensionsType = {
+        const extensions: TokenExtensionsSchema = {
           color: overrideToken?.color || color,
           isRainbowCurated: overrideToken?.isCurated ? true : undefined,
           isVerified:
@@ -197,7 +197,7 @@ function normalizeList(list: any[]) {
           color = logoData?.color;
         }
 
-        const extensions: TokenExtensionsType = {
+        const extensions: TokenExtensionsSchema = {
           color: color,
           isRainbowCurated: isCurated,
           isVerified:

@@ -3,17 +3,9 @@ import { resolve } from 'path';
 import isPlainObject from 'lodash/isPlainObject';
 import isString from 'lodash/isString';
 import mapValues from 'lodash/mapValues';
-import pick from 'lodash/pick';
 import mkdirp from 'mkdirp';
 import { ErrorWithCause } from 'pony-cause'; // Once we remove this package from rainbow's build step, we can remove this.
-import {
-  RawEthereumListsToken,
-  RawEthereumListsTokenSchema,
-  SocialSchema,
-  Token,
-  TokenDeprecationSchema,
-  TokenSchema,
-} from './constants';
+import { Token } from './constants';
 
 /**
  * Reads and parses a JSON file. Throws an error if the file could not be read or if the JSON is invalid.
@@ -29,32 +21,6 @@ export const parseJsonFile = async <T>(file: string): Promise<T> => {
   } catch (error: Error | any) {
     throw new ErrorWithCause(`Failed to parse file ${file}`, { cause: error });
   }
-};
-
-/**
- * Validate raw token data, by checking if the required values are set and if the decimals are larger than or equal to
- * zero. This will strip any unknown fields and rename the 'decimals' field to 'decimal' for compatibility.
- *
- * @param {RawEthereumListsToken} token
- * @return {boolean}
- */
-export const validateTokenData = (token: RawEthereumListsToken): Token => {
-  const normalizedTokenData = {
-    ...pick(token, Object.keys(RawEthereumListsTokenSchema.shape)),
-    deprecation: pick(
-      token.deprecation,
-      Object.keys(TokenDeprecationSchema.shape)
-    ),
-    social: pick(token.social, Object.keys(SocialSchema.shape)),
-  };
-
-  const validToken = TokenSchema.parse(normalizedTokenData);
-  const validSocial = SocialSchema.parse(normalizedTokenData.social);
-
-  return {
-    ...validToken,
-    social: validSocial,
-  } as Token;
 };
 
 /**
