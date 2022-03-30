@@ -22,6 +22,8 @@ import { deeplyTrimAllTokenStrings, sortTokens, writeToDisk } from './parser';
 
 export { Types };
 
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
+
 console.log('🌈️ building the rainbow token list');
 
 function normalizeList(list: any[]) {
@@ -43,7 +45,7 @@ function normalizeList(list: any[]) {
     svgIcons,
     tokenListTokens,
   ] = await Promise.all([p1, p2, p3, p4, p5]);
-  const { coingecko, coinmarketcap, ...preferredTokenLists } = tokenListTokens;
+  const { coingecko, ...preferredTokenLists } = tokenListTokens;
 
   const sources = {
     default: [
@@ -51,16 +53,11 @@ function normalizeList(list: any[]) {
       uniqueEthereumListTokens,
       contractMapTokens,
       coingecko.tokens?.flat() as any,
-      coinmarketcap.tokens?.flat() as any,
     ].map(normalizeList),
     preferred: [
       Object.values(preferredTokenLists)
         .map(({ tokens }: any) => tokens)
         .flat(),
-      // coingecko ∩ coinmarketcap = verified
-      coingecko.tokens?.filter((token) =>
-        coinmarketcap.tokensByAddress.has(toLower(token.address))
-      ) as any[],
     ].map(normalizeList),
   };
 
@@ -103,10 +100,6 @@ function normalizeList(list: any[]) {
         return tokenListTokens.wrapped.tokensByAddress.get(lowerTokenAddress);
       case tokenListTokens.coingecko.tokensByAddress.has(lowerTokenAddress):
         return tokenListTokens.coingecko.tokensByAddress.get(lowerTokenAddress);
-      case tokenListTokens.coinmarketcap.tokensByAddress.has(lowerTokenAddress):
-        return tokenListTokens.coinmarketcap.tokensByAddress.get(
-          lowerTokenAddress
-        );
     }
 
     return defaultSources[tokenAddress];
@@ -230,8 +223,6 @@ function normalizeList(list: any[]) {
     resolve(process.cwd(), './output'),
     'rainbow-token-list.json'
   );
-
-  console.log(`# of tokens: ${tokens.length}`);
 
   ['isRainbowCurated', 'isVerified'].forEach((extension) => {
     console.log(
