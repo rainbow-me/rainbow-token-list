@@ -11,7 +11,7 @@ import {
   merge,
   toLower,
 } from 'lodash';
-import { TokenExtensionsSchema } from './constants';
+import { Token, TokenExtensionsSchema } from './constants';
 import * as Types from './constants';
 import parseContractMap from './parse-contract-map';
 import parseEthereumLists from './parse-ethereum-lists';
@@ -19,6 +19,7 @@ import parseOverrideFile from './parse-overrides';
 import parseSVGIconTokenFiles from './parse-svg-icons';
 import parseTokenLists from './parse-token-lists';
 import { deeplyTrimAllTokenStrings, sortTokens, writeToDisk } from './parser';
+import { verifyTokens } from './verify-tokens';
 
 export { Types };
 
@@ -45,6 +46,18 @@ function normalizeList(list: any[]) {
   ] = await Promise.all([p1, p2, p3, p4, p5]);
   const { coingecko, coinmarketcap, ...preferredTokenLists } = tokenListTokens;
 
+  const preferredTokens: Token[] = Object.values(preferredTokenLists)
+    .map(({ tokens }: any) => tokens)
+    .flat();
+
+  // coingecko ∩ coinmarketcap are tokens we want to consider for verification
+  const tokensToConsiderAsVerified =
+    coingecko.tokens?.filter((token) =>
+      coinmarketcap.tokensByAddress.has(toLower(token.address))
+    ) ?? [];
+
+  const verifiedTokens = await verifyTokens(tokensToConsiderAsVerified);
+
   const sources = {
     default: [
       duplicateEthereumListTokens,
@@ -53,15 +66,7 @@ function normalizeList(list: any[]) {
       coingecko.tokens?.flat() as any,
       coinmarketcap.tokens?.flat() as any,
     ].map(normalizeList),
-    preferred: [
-      Object.values(preferredTokenLists)
-        .map(({ tokens }: any) => tokens)
-        .flat(),
-      // coingecko ∩ coinmarketcap = verified
-      coingecko.tokens?.filter((token) =>
-        coinmarketcap.tokensByAddress.has(toLower(token.address))
-      ) as any[],
-    ].map(normalizeList),
+    preferred: [preferredTokens, verifiedTokens].map(normalizeList),
   };
 
   const defaultSources: any = merge({}, ...sources.default);
