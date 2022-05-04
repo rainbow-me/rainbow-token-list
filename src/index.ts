@@ -64,7 +64,6 @@ function normalizeList(list: any[]) {
       uniqueEthereumListTokens,
       contractMapTokens,
       coingecko.tokens?.flat() as any,
-      coinmarketcap.tokens?.flat() as any,
     ].map(normalizeList),
     preferred: [preferredTokens, verifiedTokens].map(normalizeList),
   };
@@ -108,10 +107,6 @@ function normalizeList(list: any[]) {
         return tokenListTokens.wrapped.tokensByAddress.get(lowerTokenAddress);
       case tokenListTokens.coingecko.tokensByAddress.has(lowerTokenAddress):
         return tokenListTokens.coingecko.tokensByAddress.get(lowerTokenAddress);
-      case tokenListTokens.coinmarketcap.tokensByAddress.has(lowerTokenAddress):
-        return tokenListTokens.coinmarketcap.tokensByAddress.get(
-          lowerTokenAddress
-        );
     }
 
     return defaultSources[tokenAddress];
