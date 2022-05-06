@@ -11,7 +11,7 @@ import {
   merge,
   toLower,
 } from 'lodash';
-import { TokenExtensionsSchema } from './constants';
+import { Token, TokenExtensionsSchema } from './constants';
 import * as Types from './constants';
 import parseContractMap from './parse-contract-map';
 import parseEthereumLists from './parse-ethereum-lists';
@@ -19,10 +19,9 @@ import parseOverrideFile from './parse-overrides';
 import parseSVGIconTokenFiles from './parse-svg-icons';
 import parseTokenLists from './parse-token-lists';
 import { deeplyTrimAllTokenStrings, sortTokens, writeToDisk } from './parser';
+import { verifyTokens } from './verify-tokens';
 
 export { Types };
-
-process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 
 console.log('🌈️ building the rainbow token list');
 
@@ -45,7 +44,19 @@ function normalizeList(list: any[]) {
     svgIcons,
     tokenListTokens,
   ] = await Promise.all([p1, p2, p3, p4, p5]);
-  const { coingecko, ...preferredTokenLists } = tokenListTokens;
+  const { coingecko, coinmarketcap, ...preferredTokenLists } = tokenListTokens;
+
+  const preferredTokens: Token[] = Object.values(preferredTokenLists)
+    .map(({ tokens }: any) => tokens)
+    .flat();
+
+  // coingecko ∩ coinmarketcap are tokens we want to consider for verification
+  const tokensToConsiderAsVerified =
+    coingecko.tokens?.filter((token) =>
+      coinmarketcap.tokensByAddress.has(toLower(token.address))
+    ) ?? [];
+
+  const verifiedTokens = await verifyTokens(tokensToConsiderAsVerified);
 
   const sources = {
     default: [
@@ -54,11 +65,7 @@ function normalizeList(list: any[]) {
       contractMapTokens,
       coingecko.tokens?.flat() as any,
     ].map(normalizeList),
-    preferred: [
-      Object.values(preferredTokenLists)
-        .map(({ tokens }: any) => tokens)
-        .flat(),
-    ].map(normalizeList),
+    preferred: [preferredTokens, verifiedTokens].map(normalizeList),
   };
 
   const defaultSources: any = merge({}, ...sources.default);
@@ -223,6 +230,8 @@ function normalizeList(list: any[]) {
     resolve(process.cwd(), './output'),
     'rainbow-token-list.json'
   );
+
+  console.log(`# of tokens: ${tokens.length}`);
 
   ['isRainbowCurated', 'isVerified'].forEach((extension) => {
     console.log(

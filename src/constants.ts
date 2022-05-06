@@ -19,6 +19,7 @@ export type TokenListType = Record<TokenListEnum, string>;
 export const TOKEN_LISTS: TokenListType = {
   aave: 'https://tokenlist.aave.eth.link',
   coingecko: 'https://tokens.coingecko.com/uniswap/all.json',
+  coinmarketcap: 'https://api.coinmarketcap.com/data-api/v3/uniswap/all.json',
   dharma: 'https://tokenlist.dharma.eth.link',
   roll: 'https://app.tryroll.com/tokens.json',
   synthetix: 'https://synths.snx.eth.link',
@@ -28,6 +29,7 @@ export const TOKEN_LISTS: TokenListType = {
 export enum TokenListEnumSchema {
   aave = 'aave',
   coingecko = 'coingecko',
+  coinmarketcap = 'coinmarketcap',
   dharma = 'dharma',
   roll = 'roll',
   synthetix = 'synthetix',
