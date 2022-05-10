@@ -789,5 +789,1165 @@
     "isVerified": true,
     "name": "ApeCoin",
     "symbol": "APE"
+  },
+  "0x0b38210ea11411557c13457D4dA7dC6ea731B88a": {
+    "isVerified": true,
+    "name": "API3",
+    "symbol": "API3"
+  },
+  "0x00c83aeCC790e8a4453e5dD3B0B4b3680501a7A7": {
+    "isVerified": true,
+    "name": "SKALE",
+    "symbol": "SKL"
+  },
+  "0x0eC9F76202a7061eB9b3a7D6B59D36215A7e37da": {
+    "isVerified": true,
+    "name": "BlackPool Token",
+    "symbol": "BPT"
+  },
+  "0x0f2D719407FdBeFF09D87557AbB7232601FD9F29": {
+    "isVerified": true,
+    "name": "Synapse",
+    "symbol": "SYN"
+  },
+  "0x0F3ADC247E91c3c50bC08721355A41037E89Bc20": {
+    "isVerified": true,
+    "name": "Anchor Protocol",
+    "symbol": "ANC"
+  },
+  "0x0f51bb10119727a7e5eA3538074fb341F56B09Ad": {
+    "isVerified": true,
+    "name": "DAO Maker",
+    "symbol": "DAO"
+  },
+  "0x0ff5A8451A839f5F0BB3562689D9A44089738D11": {
+    "isVerified": true,
+    "name": "Dopex Rebate Token",
+    "symbol": "RDPX"
+  },
+  "0x1A4b46696b2bB4794Eb3D4c26f1c55F9170fa4C5": {
+    "isVerified": true,
+    "name": "BitDAO",
+    "symbol": "BIT"
+  },
+  "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8": {
+    "isVerified": true,
+    "name": "agEUR",
+    "symbol": "AGEUR"
+  },
+  "0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421": {
+    "isVerified": true,
+    "name": "Vesper Finance",
+    "symbol": "VSP"
+  },
+  "0x01BA67AAC7f75f647D94220Cc98FB30FCc5105Bf": {
+    "isVerified": true,
+    "name": "Lyra Finance",
+    "symbol": "LYRA"
+  },
+  "0x1cEB5cB57C4D4E2b2433641b95Dd330A33185A44": {
+    "isVerified": true,
+    "name": "Keep3rV1",
+    "symbol": "KP3R"
+  },
+  "0x1E4EDE388cbc9F4b5c79681B7f94d36a11ABEBC9": {
+    "isVerified": true,
+    "name": "X2Y2",
+    "symbol": "X2Y2"
+  },
+  "0x1fE24F25b1Cf609B9c4e7E12D802e3640dFA5e43": {
+    "isVerified": true,
+    "name": "Chain Guardians",
+    "symbol": "CGG"
+  },
+  "0x2AF5D2aD76741191D15Dfe7bF6aC92d4Bd912Ca3": {
+    "isVerified": true,
+    "name": "LEO Token",
+    "symbol": "LEO"
+  },
+  "0x2be5e8c109e2197D077D13A82dAead6a9b3433C5": {
+    "isVerified": true,
+    "name": "Tokamak Network",
+    "symbol": "TON"
+  },
+  "0x2e9d63788249371f1DFC918a52f8d799F4a38C94": {
+    "isVerified": true,
+    "name": "Tokemak",
+    "symbol": "TOKE"
+  },
+  "0x3a4f40631a4f906c2BaD353Ed06De7A5D3fCb430": {
+    "isVerified": true,
+    "name": "PlayDapp",
+    "symbol": "PLA"
+  },
+  "0x3A8cCCB969a61532d1E6005e2CE12C200caeCe87": {
+    "isVerified": true,
+    "name": "TitanSwap",
+    "symbol": "TITAN"
+  },
+  "0x3aaDA3e213aBf8529606924d8D1c55CbDc70Bf74": {
+    "isVerified": true,
+    "name": "XMON",
+    "symbol": "XMON"
+  },
+  "0x3b484b82567a09e2588A13D54D032153f0c0aEe0": {
+    "isVerified": true,
+    "name": "OpenDAO",
+    "symbol": "SOS"
+  },
+  "0x3e7804c51a70Ba26E904c2e0ab440C5623a8A83F": {
+    "isVerified": true,
+    "name": "GPEX",
+    "symbol": "GPX"
+  },
+  "0x3F382DbD960E3a9bbCeaE22651E88158d2791550": {
+    "isVerified": true,
+    "name": "Aavegotchi",
+    "symbol": "GHST"
+  },
+  "0x4a220E6096B25EADb88358cb44068A3248254675": {
+    "isVerified": true,
+    "name": "Quant",
+    "symbol": "QNT"
+  },
+  "0x4b520c812E8430659FC9f12f6d0c39026C83588D": {
+    "isVerified": true,
+    "name": "Decentral Games",
+    "symbol": "DG"
+  },
+  "0x4bD70556ae3F8a6eC6C4080A0C327B24325438f3": {
+    "isVerified": true,
+    "name": "Hxro",
+    "symbol": "HXRO"
+  },
+  "0x4C2e59D098DF7b6cBaE0848d66DE2f8A4889b9C3": {
+    "isVerified": true,
+    "name": "Fodl Finance",
+    "symbol": "FODL"
+  },
+  "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784": {
+    "isVerified": true,
+    "name": "TrustToken",
+    "symbol": "TRU"
+  },
+  "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B": {
+    "isVerified": true,
+    "name": "Convex Finance",
+    "symbol": "CVX"
+  },
+  "0x4E15361FD6b4BB609Fa63C81A2be19d873717870": {
+    "isVerified": true,
+    "name": "Fantom",
+    "symbol": "FTM"
+  },
+  "0x4F9254C83EB525f9FCf346490bbb3ed28a81C667": {
+    "isVerified": true,
+    "name": "Celer Network",
+    "symbol": "CELR"
+  },
+  "0x4Fabb145d64652a948d72533023f6E7A623C7C53": {
+    "isVerified": true,
+    "name": "Binance USD",
+    "symbol": "BUSD"
+  },
+  "0x4fE83213D56308330EC302a8BD641f1d0113A4Cc": {
+    "isVerified": true,
+    "name": "NuCypher",
+    "symbol": "NU"
+  },
+  "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32": {
+    "isVerified": true,
+    "name": "Lido DAO",
+    "symbol": "LDO"
+  },
+  "0x5Ca381bBfb58f0092df149bD3D243b08B9a8386e": {
+    "isVerified": true,
+    "name": "MXC",
+    "symbol": "MXC"
+  },
+  "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0": {
+    "isVerified": true,
+    "name": "Liquity USD",
+    "symbol": "LUSD"
+  },
+  "0x6De037ef9aD2725EB40118Bb1702EBb27e4Aeb24": {
+    "isVerified": true,
+    "name": "Render Token",
+    "symbol": "RNDR"
+  },
+  "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D": {
+    "isVerified": true,
+    "name": "Liquity",
+    "symbol": "LQTY"
+  },
+  "0x6f259637dcD74C767781E37Bc6133cd6A68aa161": {
+    "isVerified": true,
+    "name": "Huobi Token",
+    "symbol": "HT"
+  },
+  "0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71": {
+    "isVerified": true,
+    "name": "ConstitutionDAO",
+    "symbol": "PEOPLE"
+  },
+  "0x7aE1D57b58fA6411F32948314BadD83583eE0e8C": {
+    "isVerified": true,
+    "name": "Dope Wars Paper",
+    "symbol": "PAPER"
+  },
+  "0x07baC35846e5eD502aA91AdF6A9e7aA210F2DcbE": {
+    "isVerified": true,
+    "name": "Sifchain",
+    "symbol": "EROWAN"
+  },
+  "0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429": {
+    "isVerified": true,
+    "name": "Golem",
+    "symbol": "GLM"
+  },
+  "0x7FF4169a6B5122b664c51c95727d87750eC07c84": {
+    "isVerified": true,
+    "name": "Tenset",
+    "symbol": "10SET"
+  },
+  "0x8A2279d4A90B6fe1C4B30fa660cC9f926797bAA2": {
+    "isVerified": true,
+    "name": "Chromia",
+    "symbol": "CHR"
+  },
+  "0x8c15Ef5b4B21951d50E53E4fbdA8298FFAD25057": {
+    "isVerified": true,
+    "name": "Function X",
+    "symbol": "FX"
+  },
+  "0x8C543AED163909142695f2d2aCd0D55791a9Edb9": {
+    "isVerified": true,
+    "name": "Velas",
+    "symbol": "VLX"
+  },
+  "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9": {
+    "isVerified": true,
+    "name": "SXP",
+    "symbol": "SXP"
+  },
+  "0x8f8221aFbB33998d8584A2B05749bA73c37a938a": {
+    "isVerified": true,
+    "name": "Request",
+    "symbol": "REQ"
+  },
+  "0x9AB7bb7FdC60f4357ECFef43986818A2A3569c62": {
+    "isVerified": true,
+    "name": "Guild of Guardians",
+    "symbol": "GOG"
+  },
+  "0x9C4A4204B79dd291D6b6571C5BE8BbcD0622F050": {
+    "isVerified": true,
+    "name": "Tracer DAO",
+    "symbol": "TCR"
+  },
+  "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e": {
+    "isVerified": true,
+    "name": "Metis Token",
+    "symbol": "METIS"
+  },
+  "0x11eeF04c884E24d9B7B4760e7476D06ddF797f36": {
+    "isVerified": true,
+    "name": "MX Token",
+    "symbol": "MX"
+  },
+  "0x12BB890508c125661E03b09EC06E404bc9289040": {
+    "isVerified": true,
+    "name": "Radio Caca",
+    "symbol": "RACA"
+  },
+  "0x15b7c0c907e4C6b9AdaAaabC300C08991D6CEA05": {
+    "isVerified": true,
+    "name": "Gelato",
+    "symbol": "GEL"
+  },
+  "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA": {
+    "isVerified": true,
+    "name": "Gala",
+    "symbol": "GALA"
+  },
+  "0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998": {
+    "isVerified": true,
+    "name": "Audius",
+    "symbol": "AUDIO"
+  },
+  "0x25f8087EAD173b73D6e8B84329989A8eEA16CF73": {
+    "isVerified": true,
+    "name": "Yield Guild Games",
+    "symbol": "YGG"
+  },
+  "0x29d578CEc46B50Fa5C88a99C6A4B70184C062953": {
+    "isVerified": true,
+    "name": "Everscale",
+    "symbol": "EVER"
+  },
+  "0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3": {
+    "isVerified": true,
+    "name": "Radicle",
+    "symbol": "RAD"
+  },
+  "0x35A18000230DA775CAc24873d00Ff85BccdeD550": {
+    "isVerified": true,
+    "name": "cUNI",
+    "symbol": "CUNI"
+  },
+  "0x41D5D79431A913C4aE7d69a668ecdfE5fF9DFB68": {
+    "isVerified": true,
+    "name": "Inverse Finance",
+    "symbol": "INV"
+  },
+  "0x42bBFa2e77757C645eeaAd1655E0911a7553Efbc": {
+    "isVerified": true,
+    "name": "Boba Network",
+    "symbol": "BOBA"
+  },
+  "0x43Dfc4159D86F3A37A5A4B3D4580b888ad7d4DDd": {
+    "isVerified": true,
+    "name": "DODO",
+    "symbol": "DODO"
+  },
+  "0x50D1c9771902476076eCFc8B2A83Ad6b9355a4c9": {
+    "isVerified": true,
+    "name": "FTX Token",
+    "symbol": "FTT"
+  },
+  "0x55aF5865807b196bD0197e0902746F31FBcCFa58": {
+    "isVerified": true,
+    "name": "Spookyswap",
+    "symbol": "BOO"
+  },
+  "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd": {
+    "isVerified": true,
+    "name": "Gemini Dollar",
+    "symbol": "GUSD"
+  },
+  "0x61E90A50137E1F645c9eF4a0d3A4f01477738406": {
+    "isVerified": true,
+    "name": "League of Kingdoms",
+    "symbol": "LOKA"
+  },
+  "0x62B9c7356A2Dc64a1969e19C23e4f579F9810Aa7": {
+    "isVerified": true,
+    "name": "Convex CRV",
+    "symbol": "CVXCRV"
+  },
+  "0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5": {
+    "isVerified": true,
+    "name": "Olympus",
+    "symbol": "OHM"
+  },
+  "0x65Ef703f5594D2573eb71Aaf55BC0CB548492df4": {
+    "isVerified": true,
+    "name": "Multichain",
+    "symbol": "MULTI"
+  },
+  "0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074": {
+    "isVerified": true,
+    "name": "Mask Network",
+    "symbol": "MASK"
+  },
+  "0x70e8dE73cE538DA2bEEd35d14187F6959a8ecA96": {
+    "isVerified": true,
+    "name": "XSGD",
+    "symbol": "XSGD"
+  },
+  "0x77FbA179C79De5B7653F68b5039Af940AdA60ce0": {
+    "isVerified": true,
+    "name": "Ampleforth Governance Token",
+    "symbol": "FORTH"
+  },
+  "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52": {
+    "isVerified": true,
+    "name": "Clover Finance",
+    "symbol": "CLV"
+  },
+  "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321": {
+    "isVerified": true,
+    "name": "VitaDAO",
+    "symbol": "VITA"
+  },
+  "0x081F67aFA0cCF8c7B17540767BBe95DF2bA8D97F": {
+    "isVerified": true,
+    "name": "CoinEx Token",
+    "symbol": "CET"
+  },
+  "0x83e6f1E41cdd28eAcEB20Cb649155049Fac3D5Aa": {
+    "isVerified": true,
+    "name": "Polkastarter",
+    "symbol": "POLS"
+  },
+  "0x87d73E916D7057945c9BcD8cdd94e42A6F47f776": {
+    "isVerified": true,
+    "name": "NFTX",
+    "symbol": "NFTX"
+  },
+  "0x88ACDd2a6425c3FaAE4Bc9650Fd7E27e0Bebb7aB": {
+    "isVerified": true,
+    "name": "Alchemist",
+    "symbol": "MIST"
+  },
+  "0x92D6C1e31e14520e676a687F0a93788B716BEff5": {
+    "isVerified": true,
+    "name": "dYdX",
+    "symbol": "DYDX"
+  },
+  "0x94E9EB8b5Ab9fd6B9ea3169D55FFAde62a01702e": {
+    "isVerified": true,
+    "name": "BreederDAO",
+    "symbol": "BREED"
+  },
+  "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE": {
+    "isVerified": true,
+    "name": "Shiba Inu",
+    "symbol": "SHIB"
+  },
+  "0x99D8a9C45b2ecA8864373A26D1459e3Dff1e17F3": {
+    "isVerified": true,
+    "name": "Magic Internet Money",
+    "symbol": "MIM"
+  },
+  "0x198d14F2Ad9CE69E76ea330B374DE4957C3F850a": {
+    "isVerified": true,
+    "name": "APENFT",
+    "symbol": "NFT"
+  },
+  "0x226bb599a12C826476e3A771454697EA52E9E220": {
+    "isVerified": true,
+    "name": "Propy",
+    "symbol": "PRO"
+  },
+  "0x249e38Ea4102D0cf8264d3701f1a0E39C4f2DC3B": {
+    "isVerified": true,
+    "name": "UFO Gaming",
+    "symbol": "UFO"
+  },
+  "0x0316EB71485b0Ab14103307bf65a021042c6d380": {
+    "isVerified": true,
+    "name": "Huobi BTC",
+    "symbol": "HBTC"
+  },
+  "0x0391D2021f89DC339F60Fff84546EA23E337750f": {
+    "isVerified": true,
+    "name": "BarnBridge",
+    "symbol": "BOND"
+  },
+  "0x429D83Bb0DCB8cdd5311e34680ADC8B12070a07f": {
+    "isVerified": true,
+    "name": "PlatonCoin",
+    "symbol": "PLTC"
+  },
+  "0x430EF9263E76DAE63c84292C3409D61c598E9682": {
+    "isVerified": true,
+    "name": "Vulcan Forged",
+    "symbol": "PYR"
+  },
+  "0x467Bccd9d29f223BcE8043b84E8C8B282827790F": {
+    "isVerified": true,
+    "name": "Telcoin",
+    "symbol": "TEL"
+  },
+  "0x470EBf5f030Ed85Fc1ed4C2d36B9DD02e77CF1b7": {
+    "isVerified": true,
+    "name": "TempleDAO",
+    "symbol": "TEMPLE"
+  },
+  "0x579CEa1889991f68aCc35Ff5c3dd0621fF29b0C9": {
+    "isVerified": true,
+    "name": "Everipedia",
+    "symbol": "IQ"
+  },
+  "0x580c8520dEDA0a441522AEAe0f9F7A5f29629aFa": {
+    "isVerified": true,
+    "name": "Dawn Protocol",
+    "symbol": "DAWN"
+  },
+  "0x584bC13c7D411c00c01A62e8019472dE68768430": {
+    "isVerified": true,
+    "name": "Hegic",
+    "symbol": "HEGIC"
+  },
+  "0x666d875C600AA06AC1cf15641361dEC3b00432Ef": {
+    "isVerified": true,
+    "name": "BTSE Token",
+    "symbol": "BTSE"
+  },
+  "0x674C6Ad92Fd080e4004b2312b45f796a192D27a0": {
+    "isVerified": true,
+    "name": "Neutrino USD",
+    "symbol": "USDN"
+  },
+  "0x678e840C640F619E17848045D23072844224dD37": {
+    "isVerified": true,
+    "name": "Cratos",
+    "symbol": "CRTS"
+  },
+  "0x686f2404e77Ab0d9070a46cdfb0B7feCDD2318b0": {
+    "isVerified": true,
+    "name": "LORDS",
+    "symbol": "LORDS"
+  },
+  "0x761D38e5ddf6ccf6Cf7c55759d5210750B5D60F3": {
+    "isVerified": true,
+    "name": "Dogelon Mars",
+    "symbol": "ELON"
+  },
+  "0x767FE9EDC9E0dF98E07454847909b5E959D7ca0E": {
+    "isVerified": true,
+    "name": "Illuvium",
+    "symbol": "ILV"
+  },
+  "0x853d955aCEf822Db058eb8505911ED77F175b99e": {
+    "isVerified": true,
+    "name": "Frax",
+    "symbol": "FRAX"
+  },
+  "0x871baeD4088b863fd6407159f3672D70CD34837d": {
+    "isVerified": true,
+    "name": "3X Long Ethereum Token",
+    "symbol": "ETHBULL"
+  },
+  "0x903bEF1736CDdf2A537176cf3C64579C3867A881": {
+    "isVerified": true,
+    "name": "ICHI",
+    "symbol": "ICHI"
+  },
+  "0x940a2dB1B7008B6C776d4faaCa729d6d4A4AA551": {
+    "isVerified": true,
+    "name": "DUSK Network",
+    "symbol": "DUSK"
+  },
+  "0x949D48EcA67b17269629c7194F4b727d4Ef9E5d6": {
+    "isVerified": true,
+    "name": "Merit Circle",
+    "symbol": "MC"
+  },
+  "0x967da4048cD07aB37855c090aAF366e4ce1b9F48": {
+    "isVerified": true,
+    "name": "Ocean Protocol",
+    "symbol": "OCEAN"
+  },
+  "0x986EE2B944c42D017F52Af21c4c69B84DBeA35d8": {
+    "isVerified": true,
+    "name": "BitMart Token",
+    "symbol": "BMX"
+  },
+  "0x01597E397605Bf280674Bf292623460b4204C375": {
+    "isVerified": true,
+    "name": "Bent Finance",
+    "symbol": "BENT"
+  },
+  "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0": {
+    "isVerified": true,
+    "name": "Frax Share",
+    "symbol": "FXS"
+  },
+  "0x3472A5A71965499acd81997a54BBA8D852C6E53d": {
+    "isVerified": true,
+    "name": "Badger DAO",
+    "symbol": "BADGER"
+  },
+  "0x3597bfD533a99c9aa083587B074434E61Eb0A258": {
+    "isVerified": true,
+    "name": "Dent",
+    "symbol": "DENT"
+  },
+  "0x4575f41308EC1483f3d399aa9a2826d74Da13Deb": {
+    "isVerified": true,
+    "name": "Orchid Protocol",
+    "symbol": "OXT"
+  },
+  "0x6123B0049F904d730dB3C36a31167D9d4121fA6B": {
+    "isVerified": true,
+    "name": "Ribbon Finance",
+    "symbol": "RBN"
+  },
+  "0x6307B25A665Efc992EC1C1bC403c38F3dDd7c661": {
+    "isVerified": true,
+    "name": "Global Coin Research",
+    "symbol": "GCR"
+  },
+  "0x6399C842dD2bE3dE30BF99Bc7D1bBF6Fa3650E70": {
+    "isVerified": true,
+    "name": "Premia",
+    "symbol": "PREMIA"
+  },
+  "0x6468e79A80C0eaB0F9A2B574c8d5bC374Af59414": {
+    "isVerified": true,
+    "name": "e Radix",
+    "symbol": "EXRD"
+  },
+  "0x8207c1FfC5B6804F6024322CcF34F29c3541Ae26": {
+    "isVerified": true,
+    "name": "Origin Protocol",
+    "symbol": "OGN"
+  },
+  "0x9992eC3cF6A55b00978cdDF2b27BC6882d88D1eC": {
+    "isVerified": true,
+    "name": "Polymath",
+    "symbol": "POLY"
+  },
+  "0x27054b13b1B798B345b591a4d22e6562d47eA75a": {
+    "isVerified": true,
+    "name": "AirSwap",
+    "symbol": "AST"
+  },
+  "0x31429d1856aD1377A8A0079410B297e1a9e214c2": {
+    "isVerified": true,
+    "name": "ANGLE",
+    "symbol": "ANGLE"
+  },
+  "0x32353A6C91143bfd6C7d363B546e62a9A2489A20": {
+    "isVerified": true,
+    "name": "Adventure Gold",
+    "symbol": "AGLD"
+  },
+  "0x33349B282065b0284d756F0577FB39c158F935e6": {
+    "isVerified": true,
+    "name": "Maple",
+    "symbol": "MPL"
+  },
+  "0x73968b9a57c6E53d41345FD57a6E6ae27d6CDB2F": {
+    "isVerified": true,
+    "name": "Stake DAO",
+    "symbol": "SDT"
+  },
+  "0x75231F58b43240C9718Dd58B4967c5114342a86c": {
+    "isVerified": true,
+    "name": "OKB",
+    "symbol": "OKB"
+  },
+  "0x77777FeDdddFfC19Ff86DB637967013e6C6A116C": {
+    "isVerified": true,
+    "name": "Tornado Cash",
+    "symbol": "TORN"
+  },
+  "0x090185f2135308BaD17527004364eBcC2D37e5F6": {
+    "isVerified": true,
+    "name": "Spell Token",
+    "symbol": "SPELL"
+  },
+  "0x320623b8E4fF03373931769A31Fc52A4E78B5d70": {
+    "isVerified": true,
+    "name": "Reserve Rights Token",
+    "symbol": "RSR"
+  },
+  "0x491604c0FDF08347Dd1fa4Ee062a822A5DD06B5D": {
+    "isVerified": true,
+    "name": "Cartesi",
+    "symbol": "CTSI"
+  },
+  "0x595832F8FC6BF59c85C527fEC3740A1b7a361269": {
+    "isVerified": true,
+    "name": "Power Ledger",
+    "symbol": "POWR"
+  },
+  "0x618679dF9EfCd19694BB1daa8D00718Eacfa2883": {
+    "isVerified": true,
+    "name": "Universe XYZ",
+    "symbol": "XYZ"
+  },
+  "0x2602278EE1882889B946eb11DC0E810075650983": {
+    "isVerified": true,
+    "name": "Vader Protocol",
+    "symbol": "VADER"
+  },
+  "0x3506424F91fD33084466F402d5D97f05F8e3b4AF": {
+    "isVerified": true,
+    "name": "Chiliz",
+    "symbol": "CHZ"
+  },
+  "0x4691937a7508860F876c9c0a2a617E7d9E945D4B": {
+    "isVerified": true,
+    "name": "WOO Network",
+    "symbol": "WOO"
+  },
+  "0x8290333ceF9e6D528dD5618Fb97a76f268f3EDD4": {
+    "isVerified": true,
+    "name": "Ankr",
+    "symbol": "ANKR"
+  },
+  "0x8798249c2E607446EfB7Ad49eC89dD1865Ff4272": {
+    "isVerified": true,
+    "name": "xSUSHI",
+    "symbol": "XSUSHI"
+  },
+  "0x8888801aF4d980682e47f1A9036e589479e835C5": {
+    "isVerified": true,
+    "name": "88mph",
+    "symbol": "MPH"
+  },
+  "0x68749665FF8D2d112Fa859AA293F07A622782F38": {
+    "isVerified": true,
+    "name": "Tether Gold",
+    "symbol": "XAUT"
+  },
+  "0x74232704659ef37c08995e386A2E26cc27a8d7B1": {
+    "isVerified": true,
+    "name": "Strike",
+    "symbol": "STRK"
+  },
+  "0x865377367054516e17014CcdED1e7d814EDC9ce4": {
+    "isVerified": true,
+    "name": "Dola",
+    "symbol": "DOLA"
+  },
+  "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b": {
+    "isVerified": true,
+    "name": "Cronos",
+    "symbol": "CRO"
+  },
+  "0xa1faa113cbE53436Df28FF0aEe54275c13B40975": {
+    "isVerified": true,
+    "name": "Alpha Venture DAO",
+    "symbol": "ALPHA"
+  },
+  "0xA2cd3D43c775978A96BdBf12d733D5A1ED94fb18": {
+    "isVerified": true,
+    "name": "Chain",
+    "symbol": "XCN"
+  },
+  "0xa3C22370de5f9544f0c4De126b1e46cEadF0A51B": {
+    "isVerified": true,
+    "name": "Stratis",
+    "symbol": "STRAX"
+  },
+  "0xa3EE21C306A700E682AbCdfe9BaA6A08F3820419": {
+    "isVerified": true,
+    "name": "Creditcoin",
+    "symbol": "CTC"
+  },
+  "0xa5f2211B9b8170F694421f2046281775E8468044": {
+    "isVerified": true,
+    "name": "THORSwap",
+    "symbol": "THOR"
+  },
+  "0xA8b919680258d369114910511cc87595aec0be6D": {
+    "isVerified": true,
+    "name": "LUKSO Token",
+    "symbol": "LYXE"
+  },
+  "0xa71d0588EAf47f12B13cF8eC750430d21DF04974": {
+    "isVerified": true,
+    "name": "Shiba Predator",
+    "symbol": "QOM"
+  },
+  "0xA91ac63D040dEB1b7A5E4d4134aD23eb0ba07e14": {
+    "isVerified": true,
+    "name": "Bella Protocol",
+    "symbol": "BEL"
+  },
+  "0xa0246c9032bC3A600820415aE600c6388619A14D": {
+    "isVerified": true,
+    "name": "Harvest Finance",
+    "symbol": "FARM"
+  },
+  "0xA2085073878152aC3090eA13D1e41bD69e60Dc99": {
+    "isVerified": true,
+    "name": "Escoin Token",
+    "symbol": "ELG"
+  },
+  "0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F": {
+    "isVerified": true,
+    "name": "OriginTrail",
+    "symbol": "TRAC"
+  },
+  "0xaa602dE53347579f86b996D2Add74bb6F79462b2": {
+    "isVerified": true,
+    "name": "Zipmex Token",
+    "symbol": "ZMT"
+  },
+  "0xAaAAAA20D9E0e2461697782ef11675f668207961": {
+    "isVerified": true,
+    "name": "Aurora",
+    "symbol": "AURORA"
+  },
+  "0xAC57De9C1A09FeC648E93EB98875B212DB0d460B": {
+    "isVerified": true,
+    "name": "Baby Doge Coin",
+    "symbol": "BABYDOGE"
+  },
+  "0xAC51066d7bEC65Dc4589368da368b212745d63E8": {
+    "isVerified": true,
+    "name": "My Neighbor Alice",
+    "symbol": "ALICE"
+  },
+  "0xAE12C5930881c53715B369ceC7606B70d8EB229f": {
+    "isVerified": true,
+    "name": "Coin98",
+    "symbol": "C98"
+  },
+  "0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85": {
+    "isVerified": true,
+    "name": "Fetch ai",
+    "symbol": "FET"
+  },
+  "0xB4A3B0Faf0Ab53df58001804DdA5Bfc6a3D59008": {
+    "isVerified": true,
+    "name": "Sperax",
+    "symbol": "SPA"
+  },
+  "0xB9EefC4b0d472A44be93970254Df4f4016569d27": {
+    "isVerified": true,
+    "name": "DigitalBits",
+    "symbol": "XDB"
+  },
+  "0xb056c38f6b7Dc4064367403E26424CD2c60655e1": {
+    "isVerified": true,
+    "name": "CEEK Smart VR Token",
+    "symbol": "CEEK"
+  },
+  "0xB1191F691A355b43542Bea9B8847bc73e7Abb137": {
+    "isVerified": true,
+    "name": "Kirobo",
+    "symbol": "KIRO"
+  },
+  "0xb753428af26E81097e7fD17f40c88aaA3E04902c": {
+    "isVerified": true,
+    "name": "saffron finance",
+    "symbol": "SFI"
+  },
+  "0xba5BDe662c17e2aDFF1075610382B9B691296350": {
+    "isVerified": true,
+    "name": "SuperRare",
+    "symbol": "RARE"
+  },
+  "0xba9d4199faB4f26eFE3551D490E3821486f135Ba": {
+    "isVerified": true,
+    "name": "SwissBorg",
+    "symbol": "CHSB"
+  },
+  "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55": {
+    "isVerified": true,
+    "name": "Band Protocol",
+    "symbol": "BAND"
+  },
+  "0xBAac2B4491727D78D2b78815144570b9f2Fe8899": {
+    "isVerified": true,
+    "name": "The Doge NFT",
+    "symbol": "DOG"
+  },
+  "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9": {
+    "isVerified": true,
+    "name": "Alchemix USD",
+    "symbol": "ALUSD"
+  },
+  "0xbC396689893D065F41bc2C6EcbeE5e0085233447": {
+    "isVerified": true,
+    "name": "Perpetual Protocol",
+    "symbol": "PERP"
+  },
+  "0xBe1a001FE942f96Eea22bA08783140B9Dcc09D28": {
+    "isVerified": true,
+    "name": "Beta Finance",
+    "symbol": "BETA"
+  },
+  "0xbE9375C6a420D2eEB258962efB95551A5b722803": {
+    "isVerified": true,
+    "name": "StormX",
+    "symbol": "STMX"
+  },
+  "0xbf2179859fc6D5BEE9Bf9158632Dc51678a4100e": {
+    "isVerified": true,
+    "name": "aelf",
+    "symbol": "ELF"
+  },
+  "0xC0d4Ceb216B3BA9C3701B291766fDCbA977ceC3A": {
+    "isVerified": true,
+    "name": "Redacted Cartel",
+    "symbol": "BTRFLY"
+  },
+  "0xC581b735A1688071A1746c968e0798D642EDE491": {
+    "isVerified": true,
+    "name": "Euro Tether",
+    "symbol": "EURT"
+  },
+  "0xc770EEfAd204B5180dF6a14Ee197D99d808ee52d": {
+    "isVerified": true,
+    "name": "ShapeShift FOX Token",
+    "symbol": "FOX"
+  },
+  "0xC669928185DbCE49d2230CC9B0979BE6DC797957": {
+    "isVerified": true,
+    "name": "BitTorrent",
+    "symbol": "BTT"
+  },
+  "0xcAfE001067cDEF266AfB7Eb5A286dCFD277f3dE5": {
+    "isVerified": true,
+    "name": "ParaSwap",
+    "symbol": "PSP"
+  },
+  "0xcb86c6A22CB56B6cf40CaFEDb06BA0DF188a416E": {
+    "isVerified": true,
+    "name": "inSure DeFi",
+    "symbol": "SURE"
+  },
+  "0xccC8cb5229B0ac8069C51fd58367Fd1e622aFD97": {
+    "isVerified": true,
+    "name": "Gods Unchained",
+    "symbol": "GODS"
+  },
+  "0xcf0C122c6b73ff809C693DB761e7BaeBe62b6a2E": {
+    "isVerified": true,
+    "name": "Floki Inu",
+    "symbol": "FLOKI"
+  },
+  "0xcfcEcFe2bD2FED07A9145222E8a7ad9Cf1Ccd22A": {
+    "isVerified": true,
+    "name": "Adshares",
+    "symbol": "ADS"
+  },
+  "0xCFEAead4947f0705A14ec42aC3D44129E1Ef3eD5": {
+    "isVerified": true,
+    "name": "Notional Finance",
+    "symbol": "NOTE"
+  },
+  "0xd7c49CEE7E9188cCa6AD8FF264C1DA2e69D4Cf3B": {
+    "isVerified": true,
+    "name": "Nexus Mutual",
+    "symbol": "NXM"
+  },
+  "0xD7EFB00d12C2c13131FD319336Fdf952525dA2af": {
+    "isVerified": true,
+    "name": "Proton",
+    "symbol": "XPR"
+  },
+  "0xD13c7342e1ef687C5ad21b27c2b65D772cAb5C8c": {
+    "isVerified": true,
+    "name": "Ultra",
+    "symbol": "UOS"
+  },
+  "0xd084B83C305daFD76AE3E1b4E1F1fe2eCcCb3988": {
+    "isVerified": true,
+    "name": "Terra Virtua Kolect",
+    "symbol": "TVK"
+  },
+  "0xD241D7b5cb0eF9fC79D9e4eb9e21F5e209f52f7D": {
+    "isVerified": true,
+    "name": "Hoo Token",
+    "symbol": "HOO"
+  },
+  "0xD291E7a03283640FDc51b121aC401383A46cC623": {
+    "isVerified": true,
+    "name": "Rari Governance Token",
+    "symbol": "RGT"
+  },
+  "0xd084944d3c05CD115C09d072B9F44bA3E0E45921": {
+    "isVerified": true,
+    "name": "Manifold Finance",
+    "symbol": "FOLD"
+  },
+  "0xD33526068D116cE69F19A9ee46F0bd304F21A51f": {
+    "isVerified": true,
+    "name": "Rocket Pool",
+    "symbol": "RPL"
+  },
+  "0xD417144312DbF50465b1C641d016962017Ef6240": {
+    "isVerified": true,
+    "name": "Covalent",
+    "symbol": "CQT"
+  },
+  "0xdB25f211AB05b1c97D595516F45794528a807ad8": {
+    "isVerified": true,
+    "name": "STASIS EURO",
+    "symbol": "EURS"
+  },
+  "0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF": {
+    "isVerified": true,
+    "name": "Alchemix",
+    "symbol": "ALCX"
+  },
+  "0xdc9Ac3C20D1ed0B540dF9b1feDC10039Df13F99c": {
+    "isVerified": true,
+    "name": "Utrust",
+    "symbol": "UTK"
+  },
+  "0xDC349913d53b446485E98b76800b6254f43Df695": {
+    "isVerified": true,
+    "name": "Bezoge Earth",
+    "symbol": "BEZOGE"
+  },
+  "0xDDB3422497E61e13543BeA06989C0789117555c5": {
+    "isVerified": true,
+    "name": "COTI",
+    "symbol": "COTI"
+  },
+  "0xDE5ed76E7c05eC5e4572CfC88d1ACEA165109E44": {
+    "isVerified": true,
+    "name": "DEUS Finance",
+    "symbol": "DEUS"
+  },
+  "0xDe7D85157d9714EADf595045CC12Ca4A5f3E2aDb": {
+    "isVerified": true,
+    "name": "STP Network",
+    "symbol": "STPT"
+  },
+  "0xDe30da39c46104798bB5aA3fe8B9e0e1F348163F": {
+    "isVerified": true,
+    "name": "Gitcoin",
+    "symbol": "GTC"
+  },
+  "0xDEf1CA1fb7FBcDC777520aa7f396b4E015F497aB": {
+    "isVerified": true,
+    "name": "CoW Protocol",
+    "symbol": "COW"
+  },
+  "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202": {
+    "isVerified": true,
+    "name": "Kyber Network Crystal",
+    "symbol": "KNC"
+  },
+  "0xdF574c24545E5FfEcb9a659c229253D4111d87e1": {
+    "isVerified": true,
+    "name": "HUSD",
+    "symbol": "HUSD"
+  },
+  "0xDf801468a808a32656D2eD2D2d80B72A129739f4": {
+    "isVerified": true,
+    "name": "Somnium Space CUBEs",
+    "symbol": "CUBE"
+  },
+  "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5": {
+    "isVerified": true,
+    "name": "mStable USD",
+    "symbol": "MUSD"
+  },
+  "0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30": {
+    "isVerified": true,
+    "name": "Injective",
+    "symbol": "INJ"
+  },
+  "0xe53EC727dbDEB9E2d5456c3be40cFF031AB40A55": {
+    "isVerified": true,
+    "name": "SuperFarm",
+    "symbol": "SUPER"
+  },
+  "0xe76C6c83af64e4C60245D8C7dE953DF673a7A33D": {
+    "isVerified": true,
+    "name": "Railgun",
+    "symbol": "RAIL"
+  },
+  "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb": {
+    "isVerified": true,
+    "name": "Ankr Reward Bearing Staked ETH",
+    "symbol": "AETHC"
+  },
+  "0xE66747a101bFF2dBA3697199DCcE5b743b454759": {
+    "isVerified": true,
+    "name": "GateToken",
+    "symbol": "GT"
+  },
+  "0xEA26c4aC16D4a5A106820BC8AEE85fd0b7b2b664": {
+    "isVerified": true,
+    "name": "QuarkChain",
+    "symbol": "QKC"
+  },
+  "0xeB953eDA0DC65e3246f43DC8fa13f35623bDd5eD": {
+    "isVerified": true,
+    "name": "Rainicorn",
+    "symbol": "RAINI"
+  },
+  "0xeD35af169aF46a02eE13b9d79Eb57d6D68C1749e": {
+    "isVerified": true,
+    "name": "ECOMI",
+    "symbol": "OMI"
+  },
+  "0xEd1480d12bE41d92F36f5f7bDd88212E381A3677": {
+    "isVerified": true,
+    "name": "FIAT DAO Token",
+    "symbol": "FDT"
+  },
+  "0xEd04915c23f00A313a544955524EB7DBD823143d": {
+    "isVerified": true,
+    "name": "Alchemy Pay",
+    "symbol": "ACH"
+  },
+  "0xEec2bE5c91ae7f8a338e1e5f3b5DE49d07AfdC81": {
+    "isVerified": true,
+    "name": "Dopex",
+    "symbol": "DPX"
+  },
+  "0xf0f9D895aCa5c8678f706FB8216fa22957685A13": {
+    "isVerified": true,
+    "name": "Cult DAO",
+    "symbol": "CULT"
+  },
+  "0xf1f955016EcbCd7321c7266BccFB96c68ea5E49b": {
+    "isVerified": true,
+    "name": "Rally",
+    "symbol": "RLY"
+  },
+  "0xf9FBE825BFB2bF3E387af0Dc18caC8d87F29DEa8": {
+    "isVerified": true,
+    "name": "Radar",
+    "symbol": "RADAR"
+  },
+  "0xF17e65822b568B3903685a7c9F496CF7656Cc6C2": {
+    "isVerified": true,
+    "name": "Biconomy",
+    "symbol": "BICO"
+  },
+  "0xF57e7e7C23978C3cAEC3C3548E3D615c346e79fF": {
+    "isVerified": true,
+    "name": "Immutable X",
+    "symbol": "IMX"
+  },
+  "0xf59257E961883636290411c11ec5Ae622d19455e": {
+    "isVerified": true,
+    "name": "FloorDAO",
+    "symbol": "FLOOR"
+  },
+  "0xf418588522d5dd018b425E472991E52EBBeEEEEE": {
+    "isVerified": true,
+    "name": "Ethereum Push Notification Service EP",
+    "symbol": "PUSH"
+  },
+  "0xF6650117017FFD48B725B4EC5A00B414097108A7": {
+    "isVerified": true,
+    "name": "Xido Finance",
+    "symbol": "XIDO"
+  },
+  "0xF433089366899D83a9f26A773D59ec7eCF30355e": {
+    "isVerified": true,
+    "name": "Metal",
+    "symbol": "MTL"
+  },
+  "0xfB7B4564402E5500dB5bB6d63Ae671302777C75a": {
+    "isVerified": true,
+    "name": "DexTools",
+    "symbol": "DEXT"
+  },
+  "0xfc82bb4ba86045Af6F327323a46E80412b91b27d": {
+    "isVerified": true,
+    "name": "Prometeus",
+    "symbol": "PROM"
+  },
+  "0xFcF8eda095e37A41e002E266DaAD7efC1579bc0A": {
+    "isVerified": true,
+    "name": "FLEX Coin",
+    "symbol": "FLEX"
+  },
+  "0xFe2e637202056d30016725477c5da089Ab0A043A": {
+    "isVerified": true,
+    "name": "sETH2",
+    "symbol": "SETH2"
+  },
+  "0xFE3E6a25e6b192A42a44ecDDCd13796471735ACf": {
+    "isVerified": true,
+    "name": "Reef Finance",
+    "symbol": "REEF"
+  },
+  "0xff56Cc6b1E6dEd347aA0B7676C85AB0B3D08B0FA": {
+    "isVerified": true,
+    "name": "Orbs",
+    "symbol": "ORBS"
+  },
+  "0xff742d05420B6Aca4481F635aD8341F81A6300C2": {
+    "isVerified": true,
+    "name": "AscendEx Token",
+    "symbol": "ASD"
   }
 }
