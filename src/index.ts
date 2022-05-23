@@ -113,45 +113,53 @@ function normalizeList(list: any[]) {
   }
 
   function buildTokenList() {
-    const tokens = Array.from(allKnownTokenAddresses).map(
-      (tokenAddress: string) => {
-        const token = resolveTokenInfo(tokenAddress);
-        const overrideToken = rainbowOverrides[tokenAddress];
+    const tokens = [];
+    const rainbowModifiedTokens = [];
+    for (let tokenAddress of Array.from(allKnownTokenAddresses)) {
+      const token = resolveTokenInfo(tokenAddress);
+      const overrideToken = rainbowOverrides[tokenAddress];
 
-        let { chainId = 1, color, decimals, name, shadowColor, symbol } = token;
+      let { chainId = 1, color, decimals, name, shadowColor, symbol } = token;
 
-        const isVerified = sources.preferred
-          .map(Object.keys)
-          .flat()
-          .includes(tokenAddress);
+      const isVerified = sources.preferred
+        .map(Object.keys)
+        .flat()
+        .includes(tokenAddress);
 
-        if (isVerified) {
-          const logoData = svgIcons.find((item) => item.symbol === symbol);
-          color = logoData?.color;
-        }
-
-        const extensions: TokenExtensionsSchema = {
-          color: overrideToken?.color || color,
-          isRainbowCurated: overrideToken?.isCurated ? true : undefined,
-          isVerified:
-            isVerified || overrideToken?.isCurated
-              ? true
-              : !!overrideToken?.isVerified || undefined,
-          shadowColor: overrideToken?.shadowColor || shadowColor,
-        };
-
-        return deeplyTrimAllTokenStrings({
-          address: tokenAddress,
-          chainId,
-          decimals,
-          name: overrideToken?.name || name,
-          symbol: overrideToken?.symbol || symbol,
-          ...(compact(Object.values(extensions)).length
-            ? { extensions }
-            : undefined),
-        });
+      if (isVerified) {
+        const logoData = svgIcons.find((item) => item.symbol === symbol);
+        color = logoData?.color;
       }
-    );
+
+      const extensions: TokenExtensionsSchema = {
+        color: overrideToken?.color || color,
+        isRainbowCurated: overrideToken?.isCurated ? true : undefined,
+        isVerified:
+          isVerified || overrideToken?.isCurated
+            ? true
+            : !!overrideToken?.isVerified || undefined,
+        shadowColor: overrideToken?.shadowColor || shadowColor,
+      };
+
+      const parsedToken = deeplyTrimAllTokenStrings({
+        address: tokenAddress,
+        chainId,
+        decimals,
+        name: overrideToken?.name || name,
+        symbol: overrideToken?.symbol || symbol,
+        ...(compact(Object.values(extensions)).length
+          ? { extensions }
+          : undefined),
+      });
+      tokens.push(parsedToken);
+      if (
+        compact(Object.values(extensions)).length ||
+        (overrideToken?.symbol ?? name) !== name ||
+        (overrideToken?.symbol ?? symbol) !== symbol
+      ) {
+        rainbowModifiedTokens.push(parsedToken);
+      }
+    }
 
     /**
      * Tokens added from rainbow-overrides.json that are not listed upstream will be added to the token list
@@ -209,10 +217,16 @@ function normalizeList(list: any[]) {
       }
     );
 
-    return [...tokens, ...rainbowAddedTokens];
+    return [
+      [...tokens, ...rainbowAddedTokens],
+      [...rainbowModifiedTokens, ...rainbowAddedTokens],
+    ];
   }
 
-  const tokens = await sortTokens(buildTokenList());
+  const [tokens, leanTokens] = buildTokenList();
+  const tokensSorted = await sortTokens(tokens);
+  const leanTokensSorted = await sortTokens(leanTokens);
+  console.log(tokens);
 
   await writeToDisk(
     {
@@ -220,7 +234,7 @@ function normalizeList(list: any[]) {
       logoURI: 'https://avatars0.githubusercontent.com/u/48327834?s=200&v=4',
       name: 'Rainbow Token List',
       timestamp: new Date().toISOString(),
-      tokens,
+      tokens: tokensSorted,
       version: {
         major: 1,
         minor: 2,
@@ -229,6 +243,23 @@ function normalizeList(list: any[]) {
     },
     resolve(process.cwd(), './output'),
     'rainbow-token-list.json'
+  );
+
+  await writeToDisk(
+    {
+      keywords: ['rainbow'],
+      logoURI: 'https://avatars0.githubusercontent.com/u/48327834?s=200&v=4',
+      name: 'Lean Rainbow Token List',
+      timestamp: new Date().toISOString(),
+      tokens: leanTokensSorted,
+      version: {
+        major: 1,
+        minor: 2,
+        patch: 1,
+      },
+    },
+    resolve(process.cwd(), './output'),
+    'lean-rainbow-token-list.json'
   );
 
   console.log(`# of tokens: ${tokens.length}`);
