@@ -154,7 +154,7 @@ function normalizeList(list: any[]) {
       tokens.push(parsedToken);
       if (
         compact(Object.values(extensions)).length ||
-        (overrideToken?.symbol ?? name) !== name ||
+        (overrideToken?.name ?? name) !== name ||
         (overrideToken?.symbol ?? symbol) !== symbol
       ) {
         rainbowModifiedTokens.push(parsedToken);
