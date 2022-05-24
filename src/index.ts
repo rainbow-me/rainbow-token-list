@@ -226,7 +226,6 @@ function normalizeList(list: any[]) {
   const [tokens, leanTokens] = buildTokenList();
   const tokensSorted = await sortTokens(tokens);
   const leanTokensSorted = await sortTokens(leanTokens);
-  console.log(tokens);
 
   await writeToDisk(
     {
