@@ -23,7 +23,7 @@ export const TOKEN_LISTS: TokenListType = {
   dharma: 'https://tokenlist.dharma.eth.link',
   roll: 'https://app.tryroll.com/tokens.json',
   synthetix: 'https://synths.snx.eth.link',
-  wrapped: 'http://wrapped.tokensoft.eth.link',
+  wrapped: 'https://wrapped.tokensoft.eth.link',
 };
 
 export enum TokenListEnumSchema {

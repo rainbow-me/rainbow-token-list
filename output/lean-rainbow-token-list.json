@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Lean Rainbow Token List",
-  "timestamp": "2022-05-23T12:10:49.712Z",
+  "timestamp": "2022-06-09T21:49:36.186Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -2413,6 +2413,16 @@
       "symbol": "FWB (Old)"
     },
     {
+      "address": "0x4A7397B0b86bB0f9482A3f4F16DE942f04E88702",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Freeway",
+      "symbol": "FWT",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x8c15Ef5b4B21951d50E53E4fbdA8298FFAD25057",
       "chainId": 1,
       "decimals": 18,
@@ -2438,6 +2448,16 @@
       "decimals": 18,
       "name": "FYOOZ",
       "symbol": "FYZ",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x5fAa989Af96Af85384b8a938c2EdE4A7378D9875",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Project Galaxy",
+      "symbol": "GAL",
       "extensions": {
         "isVerified": true
       }
@@ -2732,6 +2752,16 @@
       "decimals": 8,
       "name": "Hoo Token",
       "symbol": "HOO",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xc5102fE9359FD9a28f877a67E36B0F050d81a3CC",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Hop",
+      "symbol": "HOP",
       "extensions": {
         "isVerified": true
       }
@@ -3421,6 +3451,7 @@
       "name": "Metal",
       "symbol": "MTL",
       "extensions": {
+        "color": "#1e1f25",
         "isVerified": true
       }
     },
@@ -3460,16 +3491,6 @@
       "decimals": 18,
       "name": "MXC",
       "symbol": "MXC",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
-      "address": "0x04abEdA201850aC0124161F037Efd70c74ddC74C",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Nest Protocol",
-      "symbol": "NEST",
       "extensions": {
         "isVerified": true
       }
@@ -4253,7 +4274,6 @@
       "name": "Request",
       "symbol": "REQ",
       "extensions": {
-        "color": "#00e6a0",
         "isVerified": true
       }
     },
@@ -5319,7 +5339,7 @@
       "address": "0x3C4B6E6e1eA3D4863700D7F76b36B7f3D3f13E3d",
       "chainId": 1,
       "decimals": 8,
-      "name": "Voyager Token",
+      "name": "Voyager VGX",
       "symbol": "VGX",
       "extensions": {
         "isVerified": true
@@ -5621,6 +5641,16 @@
       }
     },
     {
+      "address": "0x7659CE147D0e714454073a5dd7003544234b6Aa0",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "XCAD Network",
+      "symbol": "XCAD",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xB4272071eCAdd69d933AdcD19cA99fe80664fc08",
       "chainId": 1,
       "decimals": 18,
@@ -5629,6 +5659,16 @@
       "extensions": {
         "color": "#CE0E2D",
         "isRainbowCurated": true,
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x36ac219f90f5A6A3C77f2a7B660E3cC701f68e25",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Coinmetro",
+      "symbol": "XCM",
+      "extensions": {
         "isVerified": true
       }
     },

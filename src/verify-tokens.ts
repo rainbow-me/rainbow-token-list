@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+import { request } from 'undici';
 import { Token } from './constants';
 
 interface TokenWithMarketInfo extends Token {
@@ -25,14 +25,19 @@ async function getTokensWithMarketInfo(
 ): Promise<TokenWithMarketInfo[]> {
   const addressToCoingeckoId = new Map<string, string>();
 
-  const resp = await fetch(
-    'https://api.coingecko.com/api/v3/coins/list?include_platform=true&asset_platform_id=ethereum'
+  const { statusCode, body } = await request(
+    'https://api.coingecko.com/api/v3/coins/list?include_platform=true&asset_platform_id=ethereum',
+    {
+      headers: {
+        'User-Agent': 'undici',
+      },
+    }
   );
-  if (!resp.ok) {
+  if (statusCode !== 200) {
     throw new Error('failed to get coingecko ids');
   }
 
-  const coingeckoTokens = await resp.json();
+  const coingeckoTokens: any = await body.json();
   for (const token of coingeckoTokens) {
     const tokenAddress = token?.platforms?.ethereum ?? '';
     const tokenCoingeckoId = token?.id;
@@ -69,10 +74,15 @@ async function getTokensWithMarketInfo(
 
   for (const batch of batches) {
     const ids = batch.join(',');
-    const resp = await fetch(
-      `https://api.coingecko.com/api/v3/simple/price?ids=${ids}&vs_currencies=usd&include_24hr_change=true&include_last_updated_at=true&include_market_cap=true&include_24hr_vol=true`
+    const { body, statusCode } = await request(
+      `https://api.coingecko.com/api/v3/simple/price?ids=${ids}&vs_currencies=usd&include_24hr_change=true&include_last_updated_at=true&include_market_cap=true&include_24hr_vol=true`,
+      {
+        headers: {
+          'User-Agent': 'undici',
+        },
+      }
     );
-    if (!resp.ok) {
+    if (statusCode !== 200) {
       throw new Error('failed to get market information for tokens');
     }
     const coingeckoTokens: Record<
@@ -82,7 +92,7 @@ async function getTokensWithMarketInfo(
         usd_24h_vol: number;
         last_updated_at: number;
       }
-    > = await resp.json();
+    > = await body.json();
 
     for (const [coingeckoId, coingeckoToken] of Object.entries(
       coingeckoTokens
