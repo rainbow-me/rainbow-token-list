@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
 /* eslint-disable no-console */
-import dns from 'node:dns';
 import { resolve } from 'path';
 import { getAddress } from '@ethersproject/address';
 import {
@@ -23,8 +22,6 @@ import { deeplyTrimAllTokenStrings, sortTokens, writeToDisk } from './parser';
 import { verifyTokens } from './verify-tokens';
 
 export { Types };
-
-dns.setDefaultResultOrder('ipv4first');
 
 console.log('🌈️ building the rainbow token list');
 

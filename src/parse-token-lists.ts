@@ -1,4 +1,4 @@
-import fetch from 'node-fetch';
+import { request } from 'undici';
 import {
   Token,
   TOKEN_LISTS,
@@ -36,25 +36,27 @@ export default async function parseTokenLists(): Promise<
   const listsArray = await Promise.all(
     Object.values(TokenListEnumSchema).map(
       async (list: TokenListEnumSchema): Promise<TokenListStoreRecordType> => {
-        return new Promise(async (resolve, reject) =>
-          // fetch the TokenList from remote uri
-          fetch(TOKEN_LISTS[list])
-            .then((res) => res.json())
-            .then(({ tags, tokens }) => {
-              tokens = listFilters.has(list)
-                ? listFilters.get(list)?.(tokens)
-                : tokens;
+        return new Promise(async (resolve, reject) => {
+          const { body, statusCode } = await request(TOKEN_LISTS[list], {
+            headers: {
+              'User-Agent': 'undici',
+            },
+          });
 
-              const tokensByAddress = new Map<string, Token>(
-                tokens.map((token: Token) => [
-                  token.address?.toLowerCase(),
-                  token,
-                ])
-              );
-              resolve({ [list]: { tags, tokens, tokensByAddress } });
-            })
-            .catch(reject)
-        );
+          if (statusCode !== 200) {
+            reject(`${TOKEN_LISTS[list]} returned ${statusCode} status`);
+          }
+
+          let { tags, tokens } = await body.json();
+          tokens = listFilters.has(list)
+            ? listFilters.get(list)?.(tokens)
+            : tokens;
+
+          const tokensByAddress = new Map<string, Token>(
+            tokens.map((token: Token) => [token.address?.toLowerCase(), token])
+          );
+          resolve({ [list]: { tags, tokens, tokensByAddress } });
+        });
       }
     )
   );
