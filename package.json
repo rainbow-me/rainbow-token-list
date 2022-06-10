@@ -50,7 +50,7 @@
   "dependencies": {
     "@ethersproject/address": "^5.5.0",
     "degit": "^2.8.0",
-    "get-svg-colors": "^1.5.1",
+    "get-svg-colors": "^2.0.0",
     "lodash": "^4.17.20",
     "make-color-more-chill": "^0.2.0",
     "mkdirp": "^1.0.4",
