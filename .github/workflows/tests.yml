@@ -23,6 +23,11 @@ jobs:
           node-version: ${{ matrix.node }}
           cache: yarn
 
+      - name: Use Cloudflare DNS
+        run: |
+          sudo rm /etc/resolv.conf
+          echo "nameserver 1.1.1.1" > resolv.conf
+          sudo cp resolv.conf /etc/resolv.conf
       - run: yarn
       - run: yarn lint
       - run: yarn test --ci --coverage --maxWorkers=2

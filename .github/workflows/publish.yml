@@ -28,9 +28,12 @@ jobs:
           node-version: ${{ env.node-version }}
           cache: yarn
 
+      - name: Use Cloudflare DNS
+        run: |
+          sudo rm /etc/resolv.conf
+          echo "nameserver 1.1.1.1" > resolv.conf
+          sudo cp resolv.conf /etc/resolv.conf
       - run: yarn
-      - run: yarn lint
-      - run: yarn test --ci --coverage --maxWorkers=2
 
       - name: Configure AWS Credentials
         uses: aws-actions/configure-aws-credentials@v1
