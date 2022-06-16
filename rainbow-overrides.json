@@ -1954,5 +1954,10 @@
     "isVerified": true,
     "name": "Hop",
     "symbol": "HOP"
+  },
+  "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c": {
+    "isVerified": true,
+    "name": "Euro Coin",
+    "symbol": "EUROC"
   }
 }

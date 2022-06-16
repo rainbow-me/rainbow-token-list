@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Lean Rainbow Token List",
-  "timestamp": "2022-06-09T21:49:36.186Z",
+  "timestamp": "2022-06-16T14:28:19.149Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -1828,7 +1828,6 @@
       "name": "Dent",
       "symbol": "DENT",
       "extensions": {
-        "color": "#666666",
         "isVerified": true
       }
     },
@@ -2147,6 +2146,16 @@
       }
     },
     {
+      "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Euro Coin",
+      "symbol": "EUROC",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xdB25f211AB05b1c97D595516F45794528a807ad8",
       "chainId": 1,
       "decimals": 2,
@@ -2413,16 +2422,6 @@
       "symbol": "FWB (Old)"
     },
     {
-      "address": "0x4A7397B0b86bB0f9482A3f4F16DE942f04E88702",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Freeway",
-      "symbol": "FWT",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
       "address": "0x8c15Ef5b4B21951d50E53E4fbdA8298FFAD25057",
       "chainId": 1,
       "decimals": 18,
@@ -2448,16 +2447,6 @@
       "decimals": 18,
       "name": "FYOOZ",
       "symbol": "FYZ",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
-      "address": "0x5fAa989Af96Af85384b8a938c2EdE4A7378D9875",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Project Galaxy",
-      "symbol": "GAL",
       "extensions": {
         "isVerified": true
       }
@@ -3451,7 +3440,6 @@
       "name": "Metal",
       "symbol": "MTL",
       "extensions": {
-        "color": "#1e1f25",
         "isVerified": true
       }
     },
@@ -3491,6 +3479,16 @@
       "decimals": 18,
       "name": "MXC",
       "symbol": "MXC",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x04abEdA201850aC0124161F037Efd70c74ddC74C",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Nest Protocol",
+      "symbol": "NEST",
       "extensions": {
         "isVerified": true
       }
@@ -3586,7 +3584,6 @@
       "name": "Ocean Protocol",
       "symbol": "OCEAN",
       "extensions": {
-        "color": "#25292e",
         "isVerified": true
       }
     },
@@ -3931,7 +3928,6 @@
       "name": "Power Ledger",
       "symbol": "POWR",
       "extensions": {
-        "color": "#05bca9",
         "isVerified": true
       }
     },
@@ -4994,7 +4990,6 @@
       "name": "Telcoin",
       "symbol": "TEL",
       "extensions": {
-        "color": "#14c8ff",
         "isVerified": true
       }
     },
@@ -5636,16 +5631,6 @@
       "decimals": 6,
       "name": "Tether Gold",
       "symbol": "XAUT",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
-      "address": "0x7659CE147D0e714454073a5dd7003544234b6Aa0",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "XCAD Network",
-      "symbol": "XCAD",
       "extensions": {
         "isVerified": true
       }
