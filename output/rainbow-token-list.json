@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Rainbow Token List",
-  "timestamp": "2022-06-16T14:28:19.136Z",
+  "timestamp": "2022-06-17T02:50:11.118Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -1716,13 +1716,6 @@
       "symbol": "ALPA"
     },
     {
-      "address": "0x48AF7b1c9dac8871C064f62FcEC0d9d6F7c269f5",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Alpha",
-      "symbol": "ALPHA"
-    },
-    {
       "address": "0xa1faa113cbE53436Df28FF0aEe54275c13B40975",
       "chainId": 1,
       "decimals": 18,
@@ -1731,6 +1724,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x48AF7b1c9dac8871C064f62FcEC0d9d6F7c269f5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Alpha",
+      "symbol": "ALPHA"
     },
     {
       "address": "0x138C2F1123cF3f82E4596d097c118eAc6684940B",
@@ -13192,17 +13192,17 @@
       }
     },
     {
-      "address": "0xbCa3C97837A39099eC3082DF97e28CE91BE14472",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "DUST Token",
-      "symbol": "DUST"
-    },
-    {
       "address": "0xe2E109f1b4eaA8915655fE8fDEfC112a34ACc5F0",
       "chainId": 1,
       "decimals": 18,
       "name": "Dust",
+      "symbol": "DUST"
+    },
+    {
+      "address": "0xbCa3C97837A39099eC3082DF97e28CE91BE14472",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "DUST Token",
       "symbol": "DUST"
     },
     {
@@ -14930,7 +14930,7 @@
     {
       "address": "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c",
       "chainId": 1,
-      "decimals": 18,
+      "decimals": 6,
       "name": "Euro Coin",
       "symbol": "EUROC",
       "extensions": {
@@ -16419,6 +16419,13 @@
       "symbol": "FORS"
     },
     {
+      "address": "0x41545f8b9472D758bB669ed8EaEEEcD7a9C4Ec29",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Forta",
+      "symbol": "FORT"
+    },
+    {
       "address": "0x77FbA179C79De5B7653F68b5039Af940AdA60ce0",
       "chainId": 1,
       "decimals": 18,
@@ -16893,7 +16900,7 @@
     {
       "address": "0x7d91e637589EC3Bb54D8213a9e92Dc6E8D12da91",
       "chainId": 1,
-      "decimals": 18,
+      "decimals": 4,
       "name": "Friends With Benefits (Old)",
       "symbol": "FWB (Old)"
     },
@@ -44337,17 +44344,17 @@
       "symbol": "VOL"
     },
     {
-      "address": "0xfFbF315f70E458e49229654DeA4cE192d26f9b25",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Voltage",
-      "symbol": "VOLT"
-    },
-    {
       "address": "0x7db5af2B9624e1b3B4Bb69D6DeBd9aD1016A58Ac",
       "chainId": 1,
       "decimals": 9,
       "name": "Volt Inu",
+      "symbol": "VOLT"
+    },
+    {
+      "address": "0xfFbF315f70E458e49229654DeA4cE192d26f9b25",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Voltage",
       "symbol": "VOLT"
     },
     {
@@ -44630,17 +44637,17 @@
       "symbol": "WAG8"
     },
     {
-      "address": "0x9724f51e3aFB6B2ae0A5D86fd3b88c73283BC38F",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "WAGMI",
-      "symbol": "WAGMI"
-    },
-    {
       "address": "0x3B604747ad1720C01ded0455728b62c0d2F100F0",
       "chainId": 1,
       "decimals": 18,
       "name": "WAGMI Game",
+      "symbol": "WAGMI"
+    },
+    {
+      "address": "0x9724f51e3aFB6B2ae0A5D86fd3b88c73283BC38F",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "WAGMI",
       "symbol": "WAGMI"
     },
     {

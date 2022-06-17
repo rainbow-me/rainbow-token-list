@@ -171,7 +171,7 @@ function normalizeList(list: any[]) {
 
         let {
           color,
-          decimals = 18,
+          decimals,
           name,
           shadowColor,
           symbol,
@@ -188,6 +188,12 @@ function normalizeList(list: any[]) {
         if (!symbol) {
           throw new Error(
             `Rainbow added token ${tokenAddress} not found in upstream token sources and is missing symbol`
+          );
+        }
+
+        if (!decimals) {
+          throw new Error(
+            `Rainbow added token ${tokenAddress} not found in upstream token sources and is missing decimals`
           );
         }
 
