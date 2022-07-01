@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Lean Rainbow Token List",
-  "timestamp": "2022-06-17T02:50:11.131Z",
+  "timestamp": "2022-07-01T02:18:09.115Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -2452,6 +2452,16 @@
       }
     },
     {
+      "address": "0x5fAa989Af96Af85384b8a938c2EdE4A7378D9875",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Project Galaxy",
+      "symbol": "GAL",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA",
       "chainId": 1,
       "decimals": 8,
@@ -3009,8 +3019,7 @@
       "symbol": "KNC",
       "extensions": {
         "color": "#31CB9E",
-        "isRainbowCurated": true,
-        "isVerified": true
+        "isVerified": false
       }
     },
     {
@@ -3484,16 +3493,6 @@
       }
     },
     {
-      "address": "0x04abEdA201850aC0124161F037Efd70c74ddC74C",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Nest Protocol",
-      "symbol": "NEST",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
       "address": "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206",
       "chainId": 1,
       "decimals": 18,
@@ -3928,6 +3927,7 @@
       "name": "Power Ledger",
       "symbol": "POWR",
       "extensions": {
+        "color": "#05bca9",
         "isVerified": true
       }
     },
@@ -5326,16 +5326,6 @@
       "decimals": 18,
       "name": "Vader Protocol",
       "symbol": "VADER",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
-      "address": "0x3C4B6E6e1eA3D4863700D7F76b36B7f3D3f13E3d",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "Voyager VGX",
-      "symbol": "VGX",
       "extensions": {
         "isVerified": true
       }
