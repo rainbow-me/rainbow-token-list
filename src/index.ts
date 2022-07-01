@@ -121,23 +121,25 @@ function normalizeList(list: any[]) {
 
       let { chainId = 1, color, decimals, name, shadowColor, symbol } = token;
 
-      const isVerified = sources.preferred
-        .map(Object.keys)
-        .flat()
-        .includes(tokenAddress);
+      let isVerified =
+        sources.preferred.map(Object.keys).flat().includes(tokenAddress) ||
+        overrideToken?.isCurated;
 
       if (isVerified) {
         const logoData = svgIcons.find((item) => item.symbol === symbol);
         color = logoData?.color;
       }
 
+      // If "isVerified" is declared in rainbow-overrides.json then it should take precedent
+      isVerified =
+        overrideToken?.isVerified !== undefined
+          ? overrideToken.isVerified
+          : isVerified;
+
       const extensions: TokenExtensionsSchema = {
         color: overrideToken?.color || color,
         isRainbowCurated: overrideToken?.isCurated ? true : undefined,
-        isVerified:
-          isVerified || overrideToken?.isCurated
-            ? true
-            : !!overrideToken?.isVerified || undefined,
+        isVerified: isVerified,
         shadowColor: overrideToken?.shadowColor || shadowColor,
       };
 
@@ -205,8 +207,7 @@ function normalizeList(list: any[]) {
         const extensions: TokenExtensionsSchema = {
           color: color,
           isRainbowCurated: isCurated,
-          isVerified:
-            isVerified || isCurated ? true : !!isVerified || undefined,
+          isVerified: isVerified || isCurated ? true : undefined,
           shadowColor: shadowColor,
         };
 
