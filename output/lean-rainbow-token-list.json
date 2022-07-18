@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Lean Rainbow Token List",
-  "timestamp": "2022-07-01T02:18:09.115Z",
+  "timestamp": "2022-07-18T16:25:18.848Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -1394,6 +1394,17 @@
       "extensions": {
         "color": "#9669ED",
         "isRainbowCurated": true,
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x177d39AC676ED1C67A2b268AD7F1E58826E5B0af",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Blox",
+      "symbol": "CDT",
+      "extensions": {
+        "color": "#272731",
         "isVerified": true
       }
     },
@@ -2820,6 +2831,16 @@
       }
     },
     {
+      "address": "0xf8483E2d6560585C02D46bF7B3186Bf154a96166",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "IdeaChain",
+      "symbol": "ICH",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x903bEF1736CDdf2A537176cf3C64579C3867A881",
       "chainId": 1,
       "decimals": 9,
@@ -3468,6 +3489,16 @@
       "decimals": 18,
       "name": "mStable USD",
       "symbol": "MUSD",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xA849EaaE994fb86Afa73382e9Bd88c2B6b18Dc71",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "MVL",
+      "symbol": "MVL",
       "extensions": {
         "isVerified": true
       }
@@ -4274,6 +4305,16 @@
       }
     },
     {
+      "address": "0x2ef52Ed7De8c5ce03a4eF0efbe9B7450F2D7Edc9",
+      "chainId": 1,
+      "decimals": 6,
+      "name": "Revain",
+      "symbol": "REV",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xD291E7a03283640FDc51b121aC401383A46cC623",
       "chainId": 1,
       "decimals": 18,
@@ -4990,6 +5031,7 @@
       "name": "Telcoin",
       "symbol": "TEL",
       "extensions": {
+        "color": "#14c8ff",
         "isVerified": true
       }
     },
@@ -5326,6 +5368,16 @@
       "decimals": 18,
       "name": "Vader Protocol",
       "symbol": "VADER",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x3C4B6E6e1eA3D4863700D7F76b36B7f3D3f13E3d",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "Voyager VGX",
+      "symbol": "VGX",
       "extensions": {
         "isVerified": true
       }
