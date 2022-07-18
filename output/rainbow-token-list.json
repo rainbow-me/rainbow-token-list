@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Rainbow Token List",
-  "timestamp": "2022-07-18T16:25:18.833Z",
+  "timestamp": "2022-07-18T16:25:45.958Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -24360,7 +24360,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Magic",
-      "symbol": "MAGIC"
+      "symbol": "MAGIC",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xabf4B85b7110687cCDa8C1299A7dDD2b5fc06Ad4",

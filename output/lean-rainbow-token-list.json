@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Lean Rainbow Token List",
-  "timestamp": "2022-07-18T16:25:18.848Z",
+  "timestamp": "2022-07-18T16:25:45.978Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -3260,6 +3260,16 @@
       "decimals": 18,
       "name": "LUKSO Token",
       "symbol": "LYXE",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xB0c7a3Ba49C7a6EaBa6cD4a96C55a1391070Ac9A",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Magic",
+      "symbol": "MAGIC",
       "extensions": {
         "isVerified": true
       }

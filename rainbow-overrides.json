@@ -2340,5 +2340,17 @@
     "name": "Euro Coin",
     "symbol": "EUROC",
     "decimals": 6
+  },
+  "0xb0c7a3ba49c7a6eaba6cd4a96c55a1391070ac9a": {
+    "isVerified": true,
+    "name": "Magic",
+    "symbol": "MAGIC",
+    "decimals": 18
+  },
+  "0x01ba67aac7f75f647d94220cc98fb30fcc5105bf": {
+    "isVerified": true,
+    "name": "Lyra Finance",
+    "symbol": "LYRA",
+    "decimals": 18
   }
 }
