@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Rainbow Token List",
-  "timestamp": "2022-08-02T18:02:45.950Z",
+  "timestamp": "2022-08-02T18:08:03.365Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -45017,8 +45017,13 @@
       "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
       "chainId": 1,
       "decimals": 18,
-      "name": "Wrapped stETH",
-      "symbol": "WSTETH"
+      "name": "Wrapped Staked Ether",
+      "symbol": "wstETH",
+      "extensions": {
+        "color": "#56A0DD",
+        "isVerified": true,
+        "shadowColor": "#FF884D"
+      }
     },
     {
       "address": "0xF0dC76C22139ab22618dDFb498BE1283254612B1",
