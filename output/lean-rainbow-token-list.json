@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Lean Rainbow Token List",
-  "timestamp": "2022-07-18T16:25:45.978Z",
+  "timestamp": "2022-08-02T18:08:03.381Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -1398,17 +1398,6 @@
       }
     },
     {
-      "address": "0x177d39AC676ED1C67A2b268AD7F1E58826E5B0af",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Blox",
-      "symbol": "CDT",
-      "extensions": {
-        "color": "#272731",
-        "isVerified": true
-      }
-    },
-    {
       "address": "0xb056c38f6b7Dc4064367403E26424CD2c60655e1",
       "chainId": 1,
       "decimals": 18,
@@ -1525,16 +1514,6 @@
       "decimals": 18,
       "name": "Clover Finance",
       "symbol": "CLV",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
-      "address": "0x3867EF780a3AFCF1201EF4F2acc6A46e3bd1eb88",
-      "chainId": 1,
-      "decimals": 0,
-      "name": "Color",
-      "symbol": "COLR",
       "extensions": {
         "isVerified": true
       }
@@ -1833,12 +1812,23 @@
       }
     },
     {
+      "address": "0x3B1f8CA43e04Abf5B867dBEF273B0CE1541AB0BD",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "DECO",
+      "symbol": "DECO",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x3597bfD533a99c9aa083587B074434E61Eb0A258",
       "chainId": 1,
       "decimals": 8,
       "name": "Dent",
       "symbol": "DENT",
       "extensions": {
+        "color": "#666666",
         "isVerified": true
       }
     },
@@ -1932,6 +1922,16 @@
       "decimals": 18,
       "name": "Decentralized Insurance Protocol",
       "symbol": "DIP",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x5dc60C4D5e75D22588FA17fFEB90A63E535efCE0",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "dKargo",
+      "symbol": "DKA",
       "extensions": {
         "isVerified": true
       }
@@ -2575,6 +2575,16 @@
       }
     },
     {
+      "address": "0xe3c408BD53c31C085a1746AF401A4042954ff740",
+      "chainId": 1,
+      "decimals": 8,
+      "name": "STEPN",
+      "symbol": "GMT",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x6810e776880C02933D47DB1b9fc05908e5386b96",
       "chainId": 1,
       "decimals": 18,
@@ -2816,7 +2826,6 @@
       "name": "HUSD",
       "symbol": "HUSD",
       "extensions": {
-        "color": "#005ffa",
         "isVerified": true
       }
     },
@@ -2826,16 +2835,6 @@
       "decimals": 18,
       "name": "Hxro",
       "symbol": "HXRO",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
-      "address": "0xf8483E2d6560585C02D46bF7B3186Bf154a96166",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "IdeaChain",
-      "symbol": "ICH",
       "extensions": {
         "isVerified": true
       }
@@ -3529,6 +3528,16 @@
       "decimals": 18,
       "name": "MXC",
       "symbol": "MXC",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x04abEdA201850aC0124161F037Efd70c74ddC74C",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Nest Protocol",
+      "symbol": "NEST",
       "extensions": {
         "isVerified": true
       }
@@ -4311,16 +4320,7 @@
       "name": "Request",
       "symbol": "REQ",
       "extensions": {
-        "isVerified": true
-      }
-    },
-    {
-      "address": "0x2ef52Ed7De8c5ce03a4eF0efbe9B7450F2D7Edc9",
-      "chainId": 1,
-      "decimals": 6,
-      "name": "Revain",
-      "symbol": "REV",
-      "extensions": {
+        "color": "#00e6a0",
         "isVerified": true
       }
     },
@@ -5297,6 +5297,16 @@
       }
     },
     {
+      "address": "0x8806926Ab68EB5a7b909DcAf6FdBe5d93271D6e2",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Uquid Coin",
+      "symbol": "UQC",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
       "chainId": 1,
       "decimals": 6,
@@ -5605,6 +5615,18 @@
       "symbol": "WOO",
       "extensions": {
         "isVerified": true
+      }
+    },
+    {
+      "address": "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Wrapped Staked Ether",
+      "symbol": "wstETH",
+      "extensions": {
+        "color": "#56A0DD",
+        "isVerified": true,
+        "shadowColor": "#FF884D"
       }
     },
     {
