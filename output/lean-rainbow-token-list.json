@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Lean Rainbow Token List",
-  "timestamp": "2022-08-02T18:08:03.381Z",
+  "timestamp": "2022-08-27T03:37:26.173Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -527,6 +527,7 @@
       "name": "ApeCoin",
       "symbol": "APE",
       "extensions": {
+        "color": "#0054f9",
         "isVerified": true
       }
     },
@@ -1505,6 +1506,7 @@
       "name": "Chiliz",
       "symbol": "CHZ",
       "extensions": {
+        "color": "#cd0124",
         "isVerified": true
       }
     },
@@ -1514,6 +1516,16 @@
       "decimals": 18,
       "name": "Clover Finance",
       "symbol": "CLV",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xb24cd494faE4C180A89975F1328Eab2a7D5d8f11",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Developer DAO",
+      "symbol": "CODE",
       "extensions": {
         "isVerified": true
       }
@@ -1828,7 +1840,6 @@
       "name": "Dent",
       "symbol": "DENT",
       "extensions": {
-        "color": "#666666",
         "isVerified": true
       }
     },
@@ -1922,16 +1933,6 @@
       "decimals": 18,
       "name": "Decentralized Insurance Protocol",
       "symbol": "DIP",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
-      "address": "0x5dc60C4D5e75D22588FA17fFEB90A63E535efCE0",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "dKargo",
-      "symbol": "DKA",
       "extensions": {
         "isVerified": true
       }
@@ -2463,16 +2464,6 @@
       }
     },
     {
-      "address": "0x5fAa989Af96Af85384b8a938c2EdE4A7378D9875",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Project Galaxy",
-      "symbol": "GAL",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
       "address": "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA",
       "chainId": 1,
       "decimals": 8,
@@ -2581,6 +2572,7 @@
       "name": "STEPN",
       "symbol": "GMT",
       "extensions": {
+        "color": "#dbb358",
         "isVerified": true
       }
     },
@@ -2918,6 +2910,17 @@
       "name": "Inverse Finance",
       "symbol": "INV",
       "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x6fB3e0A217407EFFf7Ca062D46c26E5d60a14d69",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "IoTeX",
+      "symbol": "IOTX",
+      "extensions": {
+        "color": "#00d4d5",
         "isVerified": true
       }
     },
@@ -3977,7 +3980,6 @@
       "name": "Power Ledger",
       "symbol": "POWR",
       "extensions": {
-        "color": "#05bca9",
         "isVerified": true
       }
     },
@@ -4068,6 +4070,7 @@
       "name": "Quant",
       "symbol": "QNT",
       "extensions": {
+        "color": "#000000",
         "isVerified": true
       }
     },
@@ -4320,7 +4323,6 @@
       "name": "Request",
       "symbol": "REQ",
       "extensions": {
-        "color": "#00e6a0",
         "isVerified": true
       }
     },
@@ -4839,6 +4841,16 @@
       }
     },
     {
+      "address": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Stargate Finance",
+      "symbol": "STG",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xbE9375C6a420D2eEB258962efB95551A5b722803",
       "chainId": 1,
       "decimals": 18,
@@ -5041,7 +5053,6 @@
       "name": "Telcoin",
       "symbol": "TEL",
       "extensions": {
-        "color": "#14c8ff",
         "isVerified": true
       }
     },
@@ -5297,16 +5308,6 @@
       }
     },
     {
-      "address": "0x8806926Ab68EB5a7b909DcAf6FdBe5d93271D6e2",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Uquid Coin",
-      "symbol": "UQC",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
       "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
       "chainId": 1,
       "decimals": 6,
@@ -5443,6 +5444,16 @@
       }
     },
     {
+      "address": "0x839e71613f9aA06E5701CF6de63E303616B0DDE3",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "VVS Finance",
+      "symbol": "VVS",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x15334DCb171e8b65D6650321581dcA83bE870115",
       "chainId": 1,
       "decimals": 8,
@@ -5470,6 +5481,16 @@
       "decimals": 18,
       "name": "Wrapped Celo",
       "symbol": "wCELO",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xc221b7E65FfC80DE234bbB6667aBDd46593D34F0",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Wrapped Centrifuge",
+      "symbol": "WCFG",
       "extensions": {
         "isVerified": true
       }
@@ -5548,6 +5569,16 @@
       }
     },
     {
+      "address": "0x5c147e74D63B1D31AA3Fd78Eb229B65161983B2b",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Wrapped Flow",
+      "symbol": "WFLOW",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xa10740ff9FF6852eac84cdcfF9184e1D6d27C057",
       "chainId": 1,
       "decimals": 18,
@@ -5573,6 +5604,16 @@
       "decimals": 4,
       "name": "WHALE",
       "symbol": "WHALE",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x85D7bdfc9c3426b33A684241eEEE70385Bc42820",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Wrapped Kadena",
+      "symbol": "WKDA",
       "extensions": {
         "isVerified": true
       }
@@ -5640,11 +5681,31 @@
       }
     },
     {
+      "address": "0x3F872d9634089252212cd9C00E107988b89c9142",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Wrapped Universa",
+      "symbol": "WUTN",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x219F4a1D142DFC564bD6e80c022cD29f3394A999",
       "chainId": 1,
       "decimals": 18,
       "name": "Wrapped Stellar",
       "symbol": "WXLM",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x39fBBABf11738317a448031930706cd3e612e1B9",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Wrapped XRP",
+      "symbol": "WXRP",
       "extensions": {
         "isVerified": true
       }
