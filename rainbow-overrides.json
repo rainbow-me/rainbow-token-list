@@ -2366,5 +2366,17 @@
     "name": "Developer DAO",
     "symbol": "CODE",
     "decimals": 18
+  },
+  "0x43044f861ec040DB59A7e324c40507adDb673142": {
+    "isVerified": true,
+    "name": "Cap",
+    "symbol": "CAP",
+    "decimals": 18
+  },
+  "0x2a95FE4c7e64e09856989F9eA0b57B9AB5f770CB": {
+    "isVerified": true,
+    "name": "Sperax",
+    "symbol": "SPA",
+    "decimals": 18
   }
 }
