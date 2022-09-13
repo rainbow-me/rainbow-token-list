@@ -245,7 +245,11 @@ function normalizeList(list: any[]) {
      * L2 token is not listed anywhere so we pull from overrides folder and verifies
      * same as above: we will block compilation if they are missing core metadata
      */
-    const rainbowAddedL2Tokens = [Types.ChainIDEnumSchema.optimism]
+    const rainbowAddedL2Tokens = [
+      Types.ChainIDEnumSchema.optimism,
+      Types.ChainIDEnumSchema.polygon,
+      Types.ChainIDEnumSchema.arbitrum,
+    ]
       .map((chainId) => {
         const overrides = Object.keys(getRainbowOverrides(chainId));
         return overrides.map(verifyTokenOverride(chainId));

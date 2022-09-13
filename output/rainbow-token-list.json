@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Rainbow Token List",
-  "timestamp": "2022-09-13T08:37:54.878Z",
+  "timestamp": "2022-09-13T09:26:06.012Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -2245,6 +2245,16 @@
       "decimals": 18,
       "name": "ApeX",
       "symbol": "APEX"
+    },
+    {
+      "address": "0x61A1ff55C5216b636a294A07D77C6F4Df10d3B56",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "ApeX Token",
+      "symbol": "APEX",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xfd4168e642EbD04C3684A6cDb3A5E86DE85d3908",
@@ -7185,7 +7195,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Cap",
-      "symbol": "CAP"
+      "symbol": "CAP",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x04F2E7221fdb1B52A68169B25793E51478fF0329",
@@ -9383,6 +9396,16 @@
       "decimals": 18,
       "name": "Verify",
       "symbol": "CRED"
+    },
+    {
+      "address": "0xc136E6B376a9946B156db1ED3A34b08AFdAeD76d",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "CreDA Protocol Token",
+      "symbol": "CREDA",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xaE6e307c3Fe9E922E5674DBD7F830Ed49c014c6B",
@@ -16107,6 +16130,16 @@
       }
     },
     {
+      "address": "0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Frax",
+      "symbol": "FRAX",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x0ABeFb7611Cb3A01EA3FaD85f33C3C934F8e2cF4",
       "chainId": 1,
       "decimals": 18,
@@ -16526,6 +16559,16 @@
     {
       "address": "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0",
       "chainId": 1,
+      "decimals": 18,
+      "name": "Frax Share",
+      "symbol": "FXS",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x9d2F299715D94d8A7E6F5eaa8E654E8c74a988A7",
+      "chainId": 42161,
       "decimals": 18,
       "name": "Frax Share",
       "symbol": "FXS",
@@ -17461,6 +17504,16 @@
       "symbol": "GMT",
       "extensions": {
         "color": "#dbb358",
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "GMX",
+      "symbol": "GMX",
+      "extensions": {
         "isVerified": true
       }
     },
@@ -22316,6 +22369,16 @@
       "symbol": "KROM"
     },
     {
+      "address": "0x55fF62567f09906A85183b866dF84bf599a4bf70",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Kromatika",
+      "symbol": "KROM",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xAefad686f4b894ce4F9c74af755AB4651E420EbA",
       "chainId": 1,
       "decimals": 18,
@@ -22548,6 +22611,16 @@
       "decimals": 18,
       "name": "Leverj Gluon",
       "symbol": "L2"
+    },
+    {
+      "address": "0x2CaB3abfC1670D1a452dF502e216a66883cDf079",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Layer2DAO",
+      "symbol": "L2DAO",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xeE0f286776639cD363Da810DAF3e0623F82576b0",
@@ -22809,13 +22882,6 @@
       "decimals": 18,
       "name": "Lean Management",
       "symbol": "LEAN"
-    },
-    {
-      "address": "0x53263d9EF74Db583b15fbC6D5D4e8B83833fa134",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "LEAP Token",
-      "symbol": "LEAP"
     },
     {
       "address": "0x27C70Cd1946795B66be9d954418546998b546634",
@@ -23692,6 +23758,17 @@
       "extensions": {
         "color": "#03E082",
         "isRainbowCurated": true,
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x289ba1701C2F088cf0faf8B3705246331cB8A839",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Livepeer",
+      "symbol": "LPT",
+      "extensions": {
+        "color": "#000000",
         "isVerified": true
       }
     },
@@ -25338,6 +25415,16 @@
     {
       "address": "0x99D8a9C45b2ecA8864373A26D1459e3Dff1e17F3",
       "chainId": 1,
+      "decimals": 18,
+      "name": "Magic Internet Money",
+      "symbol": "MIM",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xFEa7a6a0B346362BF88A9e4A88416B77a57D6c2A",
+      "chainId": 42161,
       "decimals": 18,
       "name": "Magic Internet Money",
       "symbol": "MIM",
@@ -33113,6 +33200,16 @@
       "symbol": "RET"
     },
     {
+      "address": "0xEC70Dcb4A1EFa46b8F2D97C310C9c4790ba5ffA8",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Rocket Pool ETH",
+      "symbol": "rETH",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
       "chainId": 1,
       "decimals": 18,
@@ -34989,6 +35086,16 @@
       "symbol": "SGT"
     },
     {
+      "address": "0x6694340fc020c5E6B96567843da2df01b2CE1eb6",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Stargate Finance",
+      "symbol": "SGT",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xeFF66B4A84C8a6b69b99EB1C5e39aF8fc35d13db",
       "chainId": 1,
       "decimals": 18,
@@ -36370,6 +36477,16 @@
     },
     {
       "address": "0xB4A3B0Faf0Ab53df58001804DdA5Bfc6a3D59008",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Sperax",
+      "symbol": "SPA",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x2a95FE4c7e64e09856989F9eA0b57B9AB5f770CB",
       "chainId": 1,
       "decimals": 18,
       "name": "Sperax",
@@ -38333,6 +38450,7 @@
       "name": "Telcoin",
       "symbol": "TEL",
       "extensions": {
+        "color": "#14c8ff",
         "isVerified": true
       }
     },
@@ -40404,6 +40522,16 @@
       "decimals": 8,
       "name": "MADworld",
       "symbol": "UMAD"
+    },
+    {
+      "address": "0x1622bF67e6e5747b81866fE0b85178a93C7F86e3",
+      "chainId": 42161,
+      "decimals": 9,
+      "name": "Umami",
+      "symbol": "UMAMI",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x6fC13EACE26590B80cCCAB1ba5d51890577D83B2",
@@ -42681,6 +42809,16 @@
       }
     },
     {
+      "address": "0xD74f5255D557944cf7Dd0E45FF521520002D5748",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Sperax USD",
+      "symbol": "USDs",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xA4Bdb11dc0a2bEC88d24A3aa1E6Bb17201112eBe",
       "chainId": 1,
       "decimals": 6,
@@ -44699,6 +44837,16 @@
       "decimals": 18,
       "name": "weeMarketplaceAccessToken",
       "symbol": "WMA"
+    },
+    {
+      "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Wrapped Matic",
+      "symbol": "WMATIC",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xBFbe5332f172d77811bC6c272844f3e54A7B23bB",

@@ -1,8 +1,8 @@
 import { resolve } from 'path';
 import { getAddress } from '@ethersproject/address';
 import mapKeys from 'lodash/mapKeys';
-import { parseJsonFile } from './parser';
 import { ChainIDEnumSchema } from './constants';
+import { parseJsonFile } from './parser';
 
 export type OverrideToken = {
   color?: string;
