@@ -2,6 +2,7 @@ import { resolve } from 'path';
 import { getAddress } from '@ethersproject/address';
 import mapKeys from 'lodash/mapKeys';
 import { parseJsonFile } from './parser';
+import { ChainIDEnumSchema } from './constants';
 
 export type OverrideToken = {
   color?: string;
@@ -13,15 +14,33 @@ export type OverrideToken = {
   shadowColor?: string;
 };
 
-type OverrideFile = { [address: string]: OverrideToken };
+export type OverrideFile = { [address: string]: OverrideToken };
 
-export default async function parseOverrideFile(): Promise<OverrideFile> {
-  // load svg manifest JSON file from directory
-  const jsonFile = resolve(process.cwd(), 'rainbow-overrides.json');
-  return parseJsonFile<OverrideFile>(jsonFile).then((override) => {
-    return mapKeys(override, (...args) => {
-      if (args[1] === 'ETH') return args[1];
-      return getAddress(args[1]);
+type OverrideMap = { [chainID: string]: OverrideFile };
+
+/**
+ * Loop over ChainIDEnumSchema to get multi chain token override
+ *
+ * @returns Promise<OverrideMap>
+ */
+export default async function parseOverrideFiles(): Promise<OverrideMap> {
+  return new Promise((res) => {
+    let overrides: OverrideMap = {};
+
+    Object.entries(ChainIDEnumSchema).forEach(async ([chainName, chainId]) => {
+      const jsonFile = resolve(process.cwd(), 'overrides', `${chainName}.json`);
+
+      const tokenList = await parseJsonFile<OverrideFile>(jsonFile).then(
+        (override) => {
+          return mapKeys(override, (...args) => {
+            if (args[1] === 'ETH') return args[1];
+            return getAddress(args[1]);
+          });
+        }
+      );
+      overrides[chainId] = tokenList;
     });
+
+    res(overrides);
   });
 }
