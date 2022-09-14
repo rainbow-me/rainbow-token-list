@@ -15,7 +15,7 @@ import { Token, TokenExtensionsSchema } from './constants';
 import * as Types from './constants';
 import parseContractMap from './parse-contract-map';
 import parseEthereumLists from './parse-ethereum-lists';
-import parseOverrideFile from './parse-overrides';
+import parseOverrideFiles, { OverrideFile } from './parse-overrides';
 import parseSVGIconTokenFiles from './parse-svg-icons';
 import parseTokenLists from './parse-token-lists';
 import { deeplyTrimAllTokenStrings, sortTokens, writeToDisk } from './parser';
@@ -33,7 +33,7 @@ function normalizeList(list: any[]) {
 (async function () {
   const p1 = parseContractMap();
   const p2 = parseEthereumLists();
-  const p3 = parseOverrideFile();
+  const p3 = parseOverrideFiles();
   const p4 = parseSVGIconTokenFiles();
   const p5 = parseTokenLists();
 
@@ -45,6 +45,16 @@ function normalizeList(list: any[]) {
     tokenListTokens,
   ] = await Promise.all([p1, p2, p3, p4, p5]);
   const { coingecko, coinmarketcap, ...preferredTokenLists } = tokenListTokens;
+
+  const getRainbowOverrides = (
+    chainId: Types.ChainIDEnumSchema
+  ): OverrideFile => {
+    return rainbowOverrides[chainId];
+  };
+
+  const mainnetRainbowOverrides = getRainbowOverrides(
+    Types.ChainIDEnumSchema.mainnet
+  );
 
   const preferredTokens: Token[] = Object.values(preferredTokenLists)
     .map(({ tokens }: any) => tokens)
@@ -69,23 +79,24 @@ function normalizeList(list: any[]) {
   };
 
   const defaultSources: any = merge({}, ...sources.default);
-  const allKnownTokenAddresses = new Set(
+
+  const allKnownMainnetTokenAddresses = new Set<string>(
     compact([
       ...sources.default.map(Object.keys).flat(),
       ...sources.preferred.map(Object.keys).flat(),
     ]).map(getAddress)
   );
 
-  const lowerAllKnownTokenAddresses = new Set(
-    Array.from(allKnownTokenAddresses).map(toLower)
+  const lowerAllKnownMainnetTokenAddresses = new Set(
+    Array.from(allKnownMainnetTokenAddresses).map(toLower)
   );
 
   // These tokens were added in the rainbow-token-list repo and are not/have not been recognized upstream by any token source providers
-  const rainbowAddedTokensWithNoSource = new Set(
-    Object.keys(rainbowOverrides)
+  const rainbowAddedMainnetTokensWithNoSource = new Set<string>(
+    Object.keys(mainnetRainbowOverrides)
       .filter(
         (tokenAddress) =>
-          !lowerAllKnownTokenAddresses.has(toLower(tokenAddress))
+          !lowerAllKnownMainnetTokenAddresses.has(toLower(tokenAddress))
       )
       // Forces us to add the correct checksummed address in rainbow-overrides.json
       .map(getAddress)
@@ -112,14 +123,73 @@ function normalizeList(list: any[]) {
     return defaultSources[tokenAddress];
   }
 
+  /**
+   * Verify info from overrides list as we will block compilation if they are missing core metadata
+   */
+  function verifyTokenOverride(chainId: Types.ChainIDEnumSchema) {
+    return (tokenAddress: string): Token => {
+      const token = getRainbowOverrides(chainId)[tokenAddress];
+      let {
+        color,
+        decimals,
+        name,
+        shadowColor,
+        symbol,
+        isVerified,
+        isCurated,
+      } = token;
+
+      if (!name) {
+        throw new Error(
+          `Rainbow added token ${tokenAddress} not found in upstream token sources and is missing name`
+        );
+      }
+
+      if (!symbol) {
+        throw new Error(
+          `Rainbow added token ${tokenAddress} not found in upstream token sources and is missing symbol`
+        );
+      }
+
+      if (!decimals) {
+        throw new Error(
+          `Rainbow added token ${tokenAddress} not found in upstream token sources and is missing decimals`
+        );
+      }
+
+      if (isVerified) {
+        const logoData = svgIcons.find((item) => item.symbol === symbol);
+        color = logoData?.color;
+      }
+
+      const extensions: TokenExtensionsSchema = {
+        color: color,
+        isRainbowCurated: isCurated,
+        isVerified: isVerified || isCurated ? true : undefined,
+        shadowColor: shadowColor,
+      };
+
+      return deeplyTrimAllTokenStrings({
+        address: tokenAddress,
+        chainId: parseInt(chainId),
+        decimals,
+        name: name,
+        symbol: symbol,
+        ...(compact(Object.values(extensions)).length
+          ? { extensions }
+          : undefined),
+      });
+    };
+  }
+
   function buildTokenList() {
     const tokens = [];
     const rainbowModifiedTokens = [];
-    for (let tokenAddress of Array.from(allKnownTokenAddresses)) {
-      const token = resolveTokenInfo(tokenAddress);
-      const overrideToken = rainbowOverrides[tokenAddress];
 
+    for (let tokenAddress of Array.from(allKnownMainnetTokenAddresses)) {
+      const token = resolveTokenInfo(tokenAddress);
       let { chainId = 1, color, decimals, name, shadowColor, symbol } = token;
+      const overrideToken = mainnetRainbowOverrides[tokenAddress];
 
       let isVerified =
         sources.preferred.map(Object.keys).flat().includes(tokenAddress) ||
@@ -164,69 +234,35 @@ function normalizeList(list: any[]) {
     }
 
     /**
-     * Tokens added from rainbow-overrides.json that are not listed upstream will be added to the token list
+     * Tokens added from overrides/mainnet.json that are not listed upstream will be added to the token list
      * but we will block compilation if they are missing core metadata
      */
-    const rainbowAddedTokens = Array.from(rainbowAddedTokensWithNoSource).map(
-      (tokenAddress: string) => {
-        const token = rainbowOverrides[tokenAddress];
+    const rainbowAddedMainnetTokens = Array.from(
+      rainbowAddedMainnetTokensWithNoSource
+    ).map(verifyTokenOverride(Types.ChainIDEnumSchema.mainnet));
 
-        let {
-          color,
-          decimals,
-          name,
-          shadowColor,
-          symbol,
-          isVerified,
-          isCurated,
-        } = token;
-
-        if (!name) {
-          throw new Error(
-            `Rainbow added token ${tokenAddress} not found in upstream token sources and is missing name`
-          );
-        }
-
-        if (!symbol) {
-          throw new Error(
-            `Rainbow added token ${tokenAddress} not found in upstream token sources and is missing symbol`
-          );
-        }
-
-        if (!decimals) {
-          throw new Error(
-            `Rainbow added token ${tokenAddress} not found in upstream token sources and is missing decimals`
-          );
-        }
-
-        if (isVerified) {
-          const logoData = svgIcons.find((item) => item.symbol === symbol);
-          color = logoData?.color;
-        }
-
-        const extensions: TokenExtensionsSchema = {
-          color: color,
-          isRainbowCurated: isCurated,
-          isVerified: isVerified || isCurated ? true : undefined,
-          shadowColor: shadowColor,
-        };
-
-        return deeplyTrimAllTokenStrings({
-          address: tokenAddress,
-          chainId: 1,
-          decimals,
-          name: name,
-          symbol: symbol,
-          ...(compact(Object.values(extensions)).length
-            ? { extensions }
-            : undefined),
-        });
-      }
-    );
+    /**
+     * L2 token is not listed anywhere so we pull from overrides folder and verifies
+     * same as above: we will block compilation if they are missing core metadata
+     */
+    const rainbowAddedL2Tokens = [
+      Types.ChainIDEnumSchema.optimism,
+      Types.ChainIDEnumSchema.polygon,
+      Types.ChainIDEnumSchema.arbitrum,
+    ]
+      .map((chainId) => {
+        const overrides = Object.keys(getRainbowOverrides(chainId));
+        return overrides.map(verifyTokenOverride(chainId));
+      })
+      .flat();
 
     return [
-      [...tokens, ...rainbowAddedTokens],
-      [...rainbowModifiedTokens, ...rainbowAddedTokens],
+      [...tokens, ...rainbowAddedMainnetTokens, ...rainbowAddedL2Tokens],
+      [
+        ...rainbowModifiedTokens,
+        ...rainbowAddedMainnetTokens,
+        ...rainbowAddedL2Tokens,
+      ],
     ];
   }
 

@@ -40,6 +40,13 @@ export enum TokenListEnumSchema {
 
 export type TokenListEnum = `${TokenListEnumSchema}`;
 
+export enum ChainIDEnumSchema {
+  mainnet = '1',
+  optimism = '10',
+  polygon = '137',
+  arbitrum = '42161',
+}
+
 export interface TokenDeprecationSchema {
   new_address?: string;
 }
