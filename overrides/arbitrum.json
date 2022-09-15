@@ -1,77 +1,90 @@
 {
   "0xfc5a1a6eb076a2c7ad06ed22c90d7e710e35ad0a": {
+    "isCurated": true,
     "isVerified": true,
     "decimals": 18,
     "name": "GMX",
     "symbol": "GMX"
   },
   "0xd74f5255d557944cf7dd0e45ff521520002d5748": {
+    "isCurated": true,
     "isVerified": true,
     "decimals": 18,
     "name": "Sperax USD",
     "symbol": "USDs"
   },
   "0x17fc002b466eec40dae837fc4be5c67993ddbd6f": {
+    "isCurated": true,
     "isVerified": true,
     "decimals": 18,
     "name": "Frax",
     "symbol": "FRAX"
   },
   "0x289ba1701c2f088cf0faf8b3705246331cb8a839": {
+    "isCurated": true,
     "isVerified": true,
     "decimals": 18,
     "name": "Livepeer",
     "symbol": "LPT"
   },
   "0xec70dcb4a1efa46b8f2d97c310c9c4790ba5ffa8": {
+    "isCurated": true,
     "isVerified": true,
     "decimals": 18,
     "name": "Rocket Pool ETH",
     "symbol": "rETH"
   },
   "0x9d2F299715D94d8A7E6F5eaa8E654E8c74a988A7": {
+    "isCurated": true,
     "isVerified": true,
     "decimals": 18,
     "name": "Frax Share",
     "symbol": "FXS"
   },
   "0x6694340fc020c5E6B96567843da2df01b2CE1eb6": {
+    "isCurated": true,
     "isVerified": true,
     "decimals": 18,
     "name": "Stargate Finance",
     "symbol": "SGT"
   },
   "0xFEa7a6a0B346362BF88A9e4A88416B77a57D6c2A": {
+    "isCurated": true,
     "isVerified": true,
     "decimals": 18,
     "name": "Magic Internet Money",
     "symbol": "MIM"
   },
   "0x2cab3abfc1670d1a452df502e216a66883cdf079": {
+    "isCurated": true,
     "isVerified": true,
     "decimals": 18,
     "name": "Layer2DAO",
     "symbol": "L2DAO"
   },
   "0x55ff62567f09906a85183b866df84bf599a4bf70": {
+    "isCurated": true,
     "isVerified": true,
     "decimals": 18,
     "name": "Kromatika",
     "symbol": "KROM"
   },
   "0x61a1ff55c5216b636a294a07d77c6f4df10d3b56": {
+    "isCurated": true,
     "isVerified": true,
     "decimals": 18,
     "name": "ApeX Token",
     "symbol": "APEX"
   },
   "0x1622bf67e6e5747b81866fe0b85178a93c7f86e3": {
+    "isCurated": true,
     "isVerified": true,
     "decimals": 9,
     "name": "Umami",
     "symbol": "UMAMI"
   },
   "0xc136e6b376a9946b156db1ed3a34b08afdaed76d": {
+    "isCurated": true,
     "isVerified": true,
     "decimals": 18,
     "name": "CreDA Protocol Token",
