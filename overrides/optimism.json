@@ -1,5 +1,6 @@
 {
   "0x4200000000000000000000000000000000000042": {
+    "isCurated": true,
     "isVerified": true,
     "name": "Optimism",
     "symbol": "OP",
