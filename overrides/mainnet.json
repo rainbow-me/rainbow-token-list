@@ -2384,5 +2384,35 @@
     "name": "Thales",
     "symbol": "THALES",
     "decimals": 18
+  },
+  "0xc5fb36dd2fb59d3b98deff88425a3f425ee469ed": {
+    "isVerified": true,
+    "name": "Dejitaru Tsuka",
+    "symbol": "TSUKA",
+    "decimals": 9
+  },
+  "0xf1b99e3e573a1a9c5e6b2ce818b617f0e664e86b": {
+    "isVerified": true,
+    "name": "Opyn Squeeth",
+    "symbol": "oSQTH",
+    "decimals": 18
+  },
+  "0xbbbbbbb5aa847a2003fbc6b5c16df0bd1e725f61": {
+    "isVerified": true,
+    "name": "b.Protocol",
+    "symbol": "BPRO",
+    "decimals": 18
+  },
+  "0xbe9895146f7af43049ca1c1ae358b0541ea49704": {
+    "isVerified": true,
+    "name": "Coinbase Wrapped Staked Ether",
+    "symbol": "cbETH",
+    "decimals": 18
+  },
+  "0x823556202e86763853b40e9cde725f412e294689": {
+    "isVerified": true,
+    "name": "Altered State Machine",
+    "symbol": "ASTO",
+    "decimals": 18
   }
 }

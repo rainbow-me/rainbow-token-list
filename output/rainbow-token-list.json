@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Rainbow Token List",
-  "timestamp": "2022-09-20T02:19:30.890Z",
+  "timestamp": "2022-09-20T02:26:51.275Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -2786,7 +2786,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Altered State Machine",
-      "symbol": "ASTO"
+      "symbol": "ASTO",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x7E9c15C43f0D6C4a12E6bdfF7c7D55D0f80e3E23",
@@ -5950,8 +5953,11 @@
       "address": "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
       "chainId": 1,
       "decimals": 18,
-      "name": "B Protocol",
-      "symbol": "BPRO"
+      "name": "b.Protocol",
+      "symbol": "BPRO",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x327682779bAB2BF4d1337e8974ab9dE8275A7Ca8",
@@ -7424,8 +7430,11 @@
       "address": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
       "chainId": 1,
       "decimals": 18,
-      "name": "Coinbase Wrapped Staked ETH",
-      "symbol": "CBETH"
+      "name": "Coinbase Wrapped Staked Ether",
+      "symbol": "cbETH",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x1900E8B5619a3596745F715d0427Fe617c729BA9",
@@ -29121,7 +29130,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Opyn Squeeth",
-      "symbol": "OSQTH"
+      "symbol": "oSQTH",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x2C4e8f2D746113d0696cE89B35F0d8bF88E0AEcA",
@@ -39833,7 +39845,10 @@
       "chainId": 1,
       "decimals": 9,
       "name": "Dejitaru Tsuka",
-      "symbol": "TSUKA"
+      "symbol": "TSUKA",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x6B87999bE87358065bBdE41e8a0fe0B7b1cd2514",

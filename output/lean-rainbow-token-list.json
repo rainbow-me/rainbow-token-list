@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Lean Rainbow Token List",
-  "timestamp": "2022-09-20T02:19:30.904Z",
+  "timestamp": "2022-09-20T02:26:51.287Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -628,6 +628,16 @@
       "decimals": 4,
       "name": "AirSwap",
       "symbol": "AST",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x823556202e86763853b40e9cDE725f412e294689",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Altered State Machine",
+      "symbol": "ASTO",
       "extensions": {
         "isVerified": true
       }
@@ -1285,6 +1295,16 @@
       }
     },
     {
+      "address": "0xbbBBBBB5AA847A2003fbC6b5C16DF0Bd1E725f61",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "b.Protocol",
+      "symbol": "BPRO",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x0eC9F76202a7061eB9b3a7D6B59D36215A7e37da",
       "chainId": 1,
       "decimals": 18,
@@ -1404,6 +1424,16 @@
       "extensions": {
         "color": "#9669ED",
         "isRainbowCurated": true,
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xBe9895146f7AF43049ca1c1AE358B0541Ea49704",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Coinbase Wrapped Staked Ether",
+      "symbol": "cbETH",
+      "extensions": {
         "isVerified": true
       }
     },
@@ -3903,6 +3933,16 @@
       }
     },
     {
+      "address": "0xf1B99e3E573A1a9C5E6B2Ce818b617F0E664E86B",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Opyn Squeeth",
+      "symbol": "oSQTH",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x4575f41308EC1483f3d399aa9a2826d74Da13Deb",
       "chainId": 1,
       "decimals": 18,
@@ -5419,6 +5459,16 @@
       "decimals": 8,
       "name": "TrustToken",
       "symbol": "TRU",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xc5fB36dd2fb59d3B98dEfF88425a3F425Ee469eD",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Dejitaru Tsuka",
+      "symbol": "TSUKA",
       "extensions": {
         "isVerified": true
       }
