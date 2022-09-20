@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Lean Rainbow Token List",
-  "timestamp": "2022-09-20T02:18:50.297Z",
+  "timestamp": "2022-09-20T02:19:30.904Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -2426,6 +2426,16 @@
       }
     },
     {
+      "address": "0x2E3D870790dC77A83DD1d18184Acc7439A53f475",
+      "chainId": 10,
+      "decimals": 18,
+      "name": "Frax",
+      "symbol": "FRAX",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F",
       "chainId": 42161,
       "decimals": 18,
@@ -2499,6 +2509,16 @@
     {
       "address": "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0",
       "chainId": 1,
+      "decimals": 18,
+      "name": "Frax Share",
+      "symbol": "FXS",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x67CCEA5bb16181E7b4109c9c2143c24a1c2205Be",
+      "chainId": 10,
       "decimals": 18,
       "name": "Frax Share",
       "symbol": "FXS",
@@ -4791,6 +4811,16 @@
       }
     },
     {
+      "address": "0x296F55F8Fb28E498B858d0BcDA06D955B2Cb3f97",
+      "chainId": 10,
+      "decimals": 18,
+      "name": "Stargate Finance",
+      "symbol": "SGT",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x6694340fc020c5E6B96567843da2df01b2CE1eb6",
       "chainId": 42161,
       "decimals": 18,
@@ -5230,6 +5260,16 @@
       }
     },
     {
+      "address": "0x8947da500Eb47F82df21143D0C01A29862a8C3c5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Thales",
+      "symbol": "THALES",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xa5f2211B9b8170F694421f2046281775E8468044",
       "chainId": 1,
       "decimals": 18,
@@ -5564,6 +5604,16 @@
       "decimals": 18,
       "name": "Vader Protocol",
       "symbol": "VADER",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x3c8B650257cFb5f272f799F5e2b4e65093a11a05",
+      "chainId": 10,
+      "decimals": 18,
+      "name": "Velodrome",
+      "symbol": "VELO",
       "extensions": {
         "isVerified": true
       }
