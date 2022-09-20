@@ -5,5 +5,72 @@
     "decimals": 18,
     "name": "Wrapped Matic",
     "symbol": "WMATIC"
+  },
+  "0xe06bd4f5aac8d0aa337d13ec88db6defc6eaeefe": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "PlanetIX",
+    "symbol": "IXT"
+  },
+  "0x2C89bbc92BD86F8075d1DEcc58C7F4E0107f286b": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Avalanche",
+    "symbol": "AVAX"
+  },
+  "0xc6c855ad634dcdad23e64da71ba85b8c51e5ad7c": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Decentral Games Ice",
+    "symbol": "ICE"
+  },
+  "0x0d0b8488222f7f83b23e365320a4021b12ead608":  {
+  "isVerified": true,
+  "decimals": 18,
+  "name": "Next Earth",
+  "symbol": "NXTT"
+},
+  "0xc1c93d475dc82fe72dbc7074d55f5a734f8ceeae" : {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Pegaxy Stone",
+    "symbol": "PGX"
+  },
+  "0x229b1b6c23ff8953d663c4cbb519717e323a0a84": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Bloktopia",
+    "symbol": "BLOK"
+  },
+  "0x64060ab139feaae7f06ca4e63189d86adeb51691": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Unicorn Milk",
+    "symbol": "UNIM"
+  },
+  "0xcd7361ac3307d1c5a46b63086a90742ff44c63b4": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Crypto Raiders",
+    "symbol": "RAIDER"
+  },
+  "0x67eb41a14c0fe5cd701fc9d5a3d6597a72f641a6": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Giddy",
+    "symbol": "GDDY"
+  },
+  "0x3b56a704c01d650147ade2b8cee594066b3f9421": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Affyn",
+    "symbol": "FYN"
+  },
+  "0xd0258a3fd00f38aa8090dfee343f10a9d4d30d3f": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Voxies",
+    "symbol": "VOXEL"
   }
+
 }

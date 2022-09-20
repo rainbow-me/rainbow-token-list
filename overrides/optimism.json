@@ -5,5 +5,29 @@
     "name": "Optimism",
     "symbol": "OP",
     "decimals": 18
+  },
+  "0x296f55f8fb28e498b858d0bcda06d955b2cb3f97": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Stargate Finance",
+    "symbol": "SGT"
+  },
+  "0x3c8b650257cfb5f272f799f5e2b4e65093a11a05": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Velodrome",
+    "symbol": "VELO"
+  },
+  "0x2e3d870790dc77a83dd1d18184acc7439a53f475": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Frax",
+    "symbol": "FRAX"
+  },
+  "0x67CCEA5bb16181E7b4109c9c2143c24a1c2205Be": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Frax Share",
+    "symbol": "FXS"
   }
 }
