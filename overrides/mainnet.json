@@ -2414,5 +2414,11 @@
     "name": "Altered State Machine",
     "symbol": "ASTO",
     "decimals": 18
+  },
+  "0xd2ba23de8a19316a638dc1e7a9adda1d74233368": {
+    "isVerified": true,
+    "name": "QuickSwap",
+    "symbol": "QUICK",
+    "decimals": 18
   }
 }

@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Lean Rainbow Token List",
-  "timestamp": "2022-09-20T02:26:51.287Z",
+  "timestamp": "2022-09-20T18:01:21.728Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -893,6 +893,17 @@
       }
     },
     {
+      "address": "0x2C89bbc92BD86F8075d1DEcc58C7F4E0107f286b",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "extensions": {
+        "color": "#e84142",
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xFC4B8ED459e00e5400be803A9BB3954234FD50e3",
       "chainId": 1,
       "decimals": 8,
@@ -1206,6 +1217,16 @@
       "decimals": 18,
       "name": "BitDAO",
       "symbol": "BIT",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x229b1b6C23ff8953D663C4cBB519717e323a0a84",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Bloktopia",
+      "symbol": "BLOK",
       "extensions": {
         "isVerified": true
       }
@@ -2568,6 +2589,16 @@
       }
     },
     {
+      "address": "0x3B56a704C01D650147ADE2b8cEE594066b3F9421",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Affyn",
+      "symbol": "FYN",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x6BFf2fE249601ed0Db3a87424a2E923118BB0312",
       "chainId": 1,
       "decimals": 18,
@@ -2603,6 +2634,16 @@
       "decimals": 4,
       "name": "Global Coin Research",
       "symbol": "GCR",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x67eB41A14C0fe5CD701FC9d5A3D6597A72F641a6",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Giddy",
+      "symbol": "GDDY",
       "extensions": {
         "isVerified": true
       }
@@ -2957,6 +2998,16 @@
       }
     },
     {
+      "address": "0xc6C855AD634dCDAd23e64DA71Ba85b8C51E5aD7c",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Decentral Games Ice",
+      "symbol": "ICE",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x903bEF1736CDdf2A537176cf3C64579C3867A881",
       "chainId": 1,
       "decimals": 9,
@@ -3077,6 +3128,16 @@
       "symbol": "iUSDC",
       "extensions": {
         "color": "#0F6AD7"
+      }
+    },
+    {
+      "address": "0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "PlanetIX",
+      "symbol": "IXT",
+      "extensions": {
+        "isVerified": true
       }
     },
     {
@@ -3800,6 +3861,16 @@
       }
     },
     {
+      "address": "0x0d0B8488222F7f83B23E365320a4021b12eAD608",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Next Earth",
+      "symbol": "NXTT",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
       "chainId": 1,
       "decimals": 18,
@@ -4010,6 +4081,16 @@
       "decimals": 18,
       "name": "Perpetual Protocol",
       "symbol": "PERP",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xc1c93D475dc82Fe72DBC7074d55f5a734F8cEEAE",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Pegaxy Stone",
+      "symbol": "PGX",
       "extensions": {
         "isVerified": true
       }
@@ -4276,6 +4357,16 @@
       }
     },
     {
+      "address": "0xd2bA23dE8a19316A638dc1e7a9ADdA1d74233368",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "QuickSwap",
+      "symbol": "QUICK",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x12BB890508c125661E03b09EC06E404bc9289040",
       "chainId": 1,
       "decimals": 18,
@@ -4316,6 +4407,16 @@
         "isRainbowCurated": true,
         "isVerified": true,
         "shadowColor": "#559889"
+      }
+    },
+    {
+      "address": "0xCd7361aC3307D1c5a46b63086A90742FF44C63b4",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Crypto Raiders",
+      "symbol": "RAIDER",
+      "extensions": {
+        "isVerified": true
       }
     },
     {
@@ -4525,6 +4626,16 @@
       "symbol": "rETH",
       "extensions": {
         "isRainbowCurated": true,
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xae78736Cd615f374D3085123A210448E74Fc6393",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Rocket Pool ETH",
+      "symbol": "RETH",
+      "extensions": {
         "isVerified": true
       }
     },
@@ -5200,6 +5311,16 @@
       }
     },
     {
+      "address": "0xB4b9DC1C77bdbb135eA907fd5a08094d98883A35",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Sweatcoin   Sweat Economy",
+      "symbol": "SWEAT",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x261EfCdD24CeA98652B9700800a13DfBca4103fF",
       "chainId": 1,
       "decimals": 18,
@@ -5552,6 +5673,16 @@
       }
     },
     {
+      "address": "0x64060aB139Feaae7f06Ca4E63189D86aDEb51691",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Unicorn Milk",
+      "symbol": "UNIM",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xD13c7342e1ef687C5ad21b27c2b65D772cAb5C8c",
       "chainId": 1,
       "decimals": 4,
@@ -5694,6 +5825,16 @@
       "decimals": 18,
       "name": "Velas",
       "symbol": "VLX",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xd0258a3fD00f38aa8090dfee343f10A9D4d30D3F",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Voxies",
+      "symbol": "VOXEL",
       "extensions": {
         "isVerified": true
       }

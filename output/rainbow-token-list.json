@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Rainbow Token List",
-  "timestamp": "2022-09-20T02:26:51.275Z",
+  "timestamp": "2022-09-20T18:01:21.715Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -1674,13 +1674,6 @@
       "symbol": "ALPA"
     },
     {
-      "address": "0x138C2F1123cF3f82E4596d097c118eAc6684940B",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "AlphaCoin",
-      "symbol": "ALPHA"
-    },
-    {
       "address": "0x48AF7b1c9dac8871C064f62FcEC0d9d6F7c269f5",
       "chainId": 1,
       "decimals": 18,
@@ -1696,6 +1689,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x138C2F1123cF3f82E4596d097c118eAc6684940B",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "AlphaCoin",
+      "symbol": "ALPHA"
     },
     {
       "address": "0xaa99199d1e9644b588796F3215089878440D58e0",
@@ -3411,6 +3411,17 @@
       "decimals": 18,
       "name": "AVASTR Vault  NFTX",
       "symbol": "AVASTR"
+    },
+    {
+      "address": "0x2C89bbc92BD86F8075d1DEcc58C7F4E0107f286b",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Avalanche",
+      "symbol": "AVAX",
+      "extensions": {
+        "color": "#e84142",
+        "isVerified": true
+      }
     },
     {
       "address": "0x60EC6cb71bc7E21f366Ab4b570dD3ff181814f7C",
@@ -5334,6 +5345,16 @@
       "symbol": "BLOCKS"
     },
     {
+      "address": "0x229b1b6C23ff8953D663C4cBB519717e323a0a84",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Bloktopia",
+      "symbol": "BLOK",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x95392f142Af1c12F6e39897Ff9B09c599666B50c",
       "chainId": 1,
       "decimals": 18,
@@ -5360,17 +5381,17 @@
       "symbol": "BLUE"
     },
     {
-      "address": "0x4D67EDef87a5fF910954899f4e5a0AaF107afd42",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "BlueSparrow  OLD",
-      "symbol": "BLUESPARROW"
-    },
-    {
       "address": "0x24cCeDEBF841544C9e6a62Af4E8c2fA6e5a46FdE",
       "chainId": 1,
       "decimals": 9,
       "name": "BlueSparrow",
+      "symbol": "BLUESPARROW"
+    },
+    {
+      "address": "0x4D67EDef87a5fF910954899f4e5a0AaF107afd42",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "BlueSparrow  OLD",
       "symbol": "BLUESPARROW"
     },
     {
@@ -10546,6 +10567,13 @@
       "symbol": "DART"
     },
     {
+      "address": "0xA888D9616C2222788fa19f05F77221A290eEf704",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Daruma",
+      "symbol": "DARUMA"
+    },
+    {
       "address": "0x81c9151de0C8bafCd325a57E3dB5a5dF1CEBf79c",
       "chainId": 1,
       "decimals": 18,
@@ -11946,13 +11974,6 @@
       "symbol": "DOE"
     },
     {
-      "address": "0x47D920a911cB9a0Ad4618698bA3feF800aBC868D",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "The Golden Dog",
-      "symbol": "DOG"
-    },
-    {
       "address": "0xBAac2B4491727D78D2b78815144570b9f2Fe8899",
       "chainId": 1,
       "decimals": 18,
@@ -11961,6 +11982,13 @@
       "extensions": {
         "isVerified": true
       }
+    },
+    {
+      "address": "0x47D920a911cB9a0Ad4618698bA3feF800aBC868D",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "The Golden Dog",
+      "symbol": "DOG"
     },
     {
       "address": "0x80bb277f4355A43CDbB86a82F9876C946476d9Eb",
@@ -16565,13 +16593,6 @@
       "symbol": "FXF"
     },
     {
-      "address": "0x14dDda446688b73161AA1382F4E4343353aF6FC8",
-      "chainId": 1,
-      "decimals": 8,
-      "name": "FXPay",
-      "symbol": "FXP"
-    },
-    {
       "address": "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0",
       "chainId": 1,
       "decimals": 18,
@@ -16636,6 +16657,16 @@
       "decimals": 18,
       "name": "Fund Yourself Now",
       "symbol": "FYN"
+    },
+    {
+      "address": "0x3B56a704C01D650147ADE2b8cEE594066b3F9421",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Affyn",
+      "symbol": "FYN",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x8F0921f30555624143d427b340b1156914882C10",
@@ -16963,6 +16994,16 @@
       "decimals": 18,
       "name": "Global Digital Content",
       "symbol": "GDC"
+    },
+    {
+      "address": "0x67eB41A14C0fe5CD701FC9d5A3D6597A72F641a6",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Giddy",
+      "symbol": "GDDY",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xFD020998A1bB316dfE7B136Fe59Ae4B365D79978",
@@ -19565,6 +19606,13 @@
       }
     },
     {
+      "address": "0xfCDc835939a23C5DB3f056470341E1947BB7A552",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Husky VC",
+      "symbol": "HUSKY"
+    },
+    {
       "address": "0xd5281BB2d1eE94866B03A0fcCDd4e900c8Cb5091",
       "chainId": 1,
       "decimals": 9,
@@ -19846,6 +19894,16 @@
       "decimals": 18,
       "name": "Popsicle Finance",
       "symbol": "ICE"
+    },
+    {
+      "address": "0xc6C855AD634dCDAd23e64DA71Ba85b8C51E5aD7c",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Decentral Games Ice",
+      "symbol": "ICE",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x7C07F7aBe10CE8e33DC6C5aD68FE033085256A84",
@@ -20711,13 +20769,6 @@
       "symbol": "INU"
     },
     {
-      "address": "0xAc5Bf342763248702F4fBD6dC068381a609543a2",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "KOKA INU",
-      "symbol": "INU"
-    },
-    {
       "address": "0x3667d6B1AEE4f96b608EE365FdA9fa5BA866604c",
       "chainId": 1,
       "decimals": 9,
@@ -21229,6 +21280,16 @@
       "decimals": 8,
       "name": "iXledger",
       "symbol": "IXT"
+    },
+    {
+      "address": "0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "PlanetIX",
+      "symbol": "IXT",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xAD7258d0054c03112a4f5489A4B24eC34a2fc787",
@@ -25764,6 +25825,13 @@
       "symbol": "MM"
     },
     {
+      "address": "0xaa0c5B3567fd1bac8a2a11EB16c3F81a49eea90F",
+      "chainId": 1,
+      "decimals": 7,
+      "name": "MetamonkeyAi",
+      "symbol": "MMAI"
+    },
+    {
       "address": "0x8315472Bae77F9a2B856A67Eb0796480AafCd51c",
       "chainId": 1,
       "decimals": 18,
@@ -28132,6 +28200,16 @@
       }
     },
     {
+      "address": "0x0d0B8488222F7f83B23E365320a4021b12eAD608",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Next Earth",
+      "symbol": "NXTT",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x7627de4B93263a6a7570b8dAfa64bae812e5c394",
       "chainId": 1,
       "decimals": 8,
@@ -29957,6 +30035,16 @@
       "symbol": "PGX"
     },
     {
+      "address": "0xc1c93D475dc82Fe72DBC7074d55f5a734F8cEEAE",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Pegaxy Stone",
+      "symbol": "PGX",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x6c5bA91642F10282b576d91922Ae6448C9d52f4E",
       "chainId": 1,
       "decimals": 18,
@@ -30648,13 +30736,6 @@
       "symbol": "POCHI"
     },
     {
-      "address": "0xC697648021870Cc250Fbcd6EA8E77524f57b45C0",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Podo Point",
-      "symbol": "POD"
-    },
-    {
       "address": "0x0e0989b1f9B8A38983c2BA8053269Ca62Ec9B195",
       "chainId": 1,
       "decimals": 8,
@@ -30842,11 +30923,25 @@
       "symbol": "PORTAL"
     },
     {
+      "address": "0x104F3152D8ebFC3f679392977356962Ff36566aC",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "ChainPort",
+      "symbol": "PORTX"
+    },
+    {
       "address": "0xEe609fE292128Cad03b786DBb9Bc2634Ccdbe7fC",
       "chainId": 1,
       "decimals": 18,
       "name": "PoSToken",
       "symbol": "POS"
+    },
+    {
+      "address": "0x8eb5bD8c9Ab0F8ad28e94693F3c889F490bE2aB0",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "PoS 32",
+      "symbol": "POS32"
     },
     {
       "address": "0x43Ab765ee05075d78AD8aa79dcb1978CA3079258",
@@ -31828,6 +31923,16 @@
       "symbol": "QUICK"
     },
     {
+      "address": "0xd2bA23dE8a19316A638dc1e7a9ADdA1d74233368",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "QuickSwap",
+      "symbol": "QUICK",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x9d38F670D15C14716BE1F109a4F453E966A2B6D4",
       "chainId": 1,
       "decimals": 9,
@@ -31981,6 +32086,16 @@
       "decimals": 18,
       "name": "Raid",
       "symbol": "RAID"
+    },
+    {
+      "address": "0xCd7361aC3307D1c5a46b63086A90742FF44C63b4",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Crypto Raiders",
+      "symbol": "RAIDER",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xe76C6c83af64e4C60245D8C7dE953DF673a7A33D",
@@ -33261,7 +33376,10 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Rocket Pool ETH",
-      "symbol": "RETH"
+      "symbol": "RETH",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x9559Aaa82d9649C7A7b220E7c461d2E74c9a3593",
@@ -37844,8 +37962,11 @@
       "address": "0xB4b9DC1C77bdbb135eA907fd5a08094d98883A35",
       "chainId": 1,
       "decimals": 18,
-      "name": "Sweat Economy",
-      "symbol": "SWEAT"
+      "name": "Sweatcoin   Sweat Economy",
+      "symbol": "SWEAT",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0x5FDaA123bf828d0D6A1C4Ae62a95A6b3bade57C6",
@@ -38267,6 +38388,13 @@
       "decimals": 8,
       "name": "Tavittcoin",
       "symbol": "TAVITT"
+    },
+    {
+      "address": "0x664C6E221c77313307467B121528ad563107bD01",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "Tax Haven Inu",
+      "symbol": "TAXHAVENINU"
     },
     {
       "address": "0x627974847450C45b60B3Fe3598f4e6E4cf945B9a",
@@ -39068,13 +39196,6 @@
       "decimals": 18,
       "name": "tMATIC",
       "symbol": "TMATIC"
-    },
-    {
-      "address": "0x1c153BADb7e54AbcdCB65f0A09fCd6f10dE36aA3",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "TMC",
-      "symbol": "TMC"
     },
     {
       "address": "0xd32641191578Ea9b208125dDD4EC5E7B84FcaB4C",
@@ -40930,17 +41051,17 @@
       "symbol": "uniFAME"
     },
     {
-      "address": "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Covenants",
-      "symbol": "UNIFI"
-    },
-    {
       "address": "0x0eF3b2024ae079e6dBC2b37435cE30d2731F0101",
       "chainId": 1,
       "decimals": 18,
       "name": "UNIFI DeFi",
+      "symbol": "UNIFI"
+    },
+    {
+      "address": "0x9E78b8274e1D6a76a0dBbf90418894DF27cBCEb5",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Covenants",
       "symbol": "UNIFI"
     },
     {
@@ -41075,6 +41196,16 @@
       "decimals": 18,
       "name": "Uniswap: LoopringCoin V2",
       "symbol": "uniLRC"
+    },
+    {
+      "address": "0x64060aB139Feaae7f06Ca4E63189D86aDEb51691",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Unicorn Milk",
+      "symbol": "UNIM",
+      "extensions": {
+        "isVerified": true
+      }
     },
     {
       "address": "0xC6581Ce3A005e2801c1e0903281BBd318eC5B5C2",
@@ -43912,6 +44043,16 @@
       "symbol": "VOX"
     },
     {
+      "address": "0xd0258a3fD00f38aa8090dfee343f10A9D4d30D3F",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Voxies",
+      "symbol": "VOXEL",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x2Ac8172D8Ce1C5Ad3D869556FD708801a42c1c0E",
       "chainId": 1,
       "decimals": 18,
@@ -45651,6 +45792,13 @@
       "decimals": 18,
       "name": "Data Transaction XD",
       "symbol": "XD"
+    },
+    {
+      "address": "0x71eebA415A523F5C952Cc2f06361D5443545Ad28",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "XDAO",
+      "symbol": "XDAO"
     },
     {
       "address": "0x0Cf0Ee63788A0849fE5297F3407f701E122cC023",
