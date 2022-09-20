@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Lean Rainbow Token List",
-  "timestamp": "2022-08-27T03:37:26.173Z",
+  "timestamp": "2022-09-20T02:18:50.297Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -528,6 +528,17 @@
       "symbol": "APE",
       "extensions": {
         "color": "#0054f9",
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x61A1ff55C5216b636a294A07D77C6F4Df10d3B56",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "ApeX Token",
+      "symbol": "APEX",
+      "extensions": {
+        "isRainbowCurated": true,
         "isVerified": true
       }
     },
@@ -1375,6 +1386,16 @@
       }
     },
     {
+      "address": "0x43044f861ec040DB59A7e324c40507adDb673142",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Cap",
+      "symbol": "CAP",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x6C8c6b02E7b2BE14d4fA6022Dfd6d75921D90E4E",
       "chainId": 1,
       "decimals": 8,
@@ -1580,6 +1601,17 @@
       "name": "Cream",
       "symbol": "CREAM",
       "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xc136E6B376a9946B156db1ED3A34b08AFdAeD76d",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "CreDA Protocol Token",
+      "symbol": "CREDA",
+      "extensions": {
+        "isRainbowCurated": true,
         "isVerified": true
       }
     },
@@ -2198,6 +2230,16 @@
       }
     },
     {
+      "address": "0x93581991f68DBaE1eA105233b67f7FA0D6BDeE7b",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Evmos",
+      "symbol": "EVMOS",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x6468e79A80C0eaB0F9A2B574c8d5bC374Af59414",
       "chainId": 1,
       "decimals": 18,
@@ -2384,6 +2426,17 @@
       }
     },
     {
+      "address": "0x17FC002b466eEc40DaE837Fc4bE5c67993ddBd6F",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Frax",
+      "symbol": "FRAX",
+      "extensions": {
+        "isRainbowCurated": true,
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x4E15361FD6b4BB609Fa63C81A2be19d873717870",
       "chainId": 1,
       "decimals": 18,
@@ -2450,6 +2503,17 @@
       "name": "Frax Share",
       "symbol": "FXS",
       "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x9d2F299715D94d8A7E6F5eaa8E654E8c74a988A7",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Frax Share",
+      "symbol": "FXS",
+      "extensions": {
+        "isRainbowCurated": true,
         "isVerified": true
       }
     },
@@ -2573,6 +2637,17 @@
       "symbol": "GMT",
       "extensions": {
         "color": "#dbb358",
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xfc5A1A6EB076a2C7aD06eD22C90d7E710E35ad0a",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "GMX",
+      "symbol": "GMX",
+      "extensions": {
+        "isRainbowCurated": true,
         "isVerified": true
       }
     },
@@ -3067,12 +3142,34 @@
       }
     },
     {
+      "address": "0x55fF62567f09906A85183b866dF84bf599a4bf70",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Kromatika",
+      "symbol": "KROM",
+      "extensions": {
+        "isRainbowCurated": true,
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x9F284E1337A815fe77D2Ff4aE46544645B20c5ff",
       "chainId": 1,
       "decimals": 18,
       "name": "Darwinia Commitment Token",
       "symbol": "KTON",
       "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x2CaB3abfC1670D1a452dF502e216a66883cDf079",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Layer2DAO",
+      "symbol": "L2DAO",
+      "extensions": {
+        "isRainbowCurated": true,
         "isVerified": true
       }
     },
@@ -3210,6 +3307,18 @@
       "symbol": "LPT",
       "extensions": {
         "color": "#03E082",
+        "isRainbowCurated": true,
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x289ba1701C2F088cf0faf8B3705246331cB8A839",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Livepeer",
+      "symbol": "LPT",
+      "extensions": {
+        "color": "#000000",
         "isRainbowCurated": true,
         "isVerified": true
       }
@@ -3377,6 +3486,17 @@
       "name": "Magic Internet Money",
       "symbol": "MIM",
       "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xFEa7a6a0B346362BF88A9e4A88416B77a57D6c2A",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Magic Internet Money",
+      "symbol": "MIM",
+      "extensions": {
+        "isRainbowCurated": true,
         "isVerified": true
       }
     },
@@ -3708,6 +3828,17 @@
       "name": "ECOMI",
       "symbol": "OMI",
       "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x4200000000000000000000000000000000000042",
+      "chainId": 10,
+      "decimals": 18,
+      "name": "Optimism",
+      "symbol": "OP",
+      "extensions": {
+        "isRainbowCurated": true,
         "isVerified": true
       }
     },
@@ -4327,6 +4458,17 @@
       }
     },
     {
+      "address": "0xEC70Dcb4A1EFa46b8F2D97C310C9c4790ba5ffA8",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Rocket Pool ETH",
+      "symbol": "rETH",
+      "extensions": {
+        "isRainbowCurated": true,
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xD291E7a03283640FDc51b121aC401383A46cC623",
       "chainId": 1,
       "decimals": 18,
@@ -4649,6 +4791,17 @@
       }
     },
     {
+      "address": "0x6694340fc020c5E6B96567843da2df01b2CE1eb6",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Stargate Finance",
+      "symbol": "SGT",
+      "extensions": {
+        "isRainbowCurated": true,
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE",
       "chainId": 1,
       "decimals": 18,
@@ -4786,6 +4939,16 @@
       }
     },
     {
+      "address": "0x2a95FE4c7e64e09856989F9eA0b57B9AB5f770CB",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Sperax",
+      "symbol": "SPA",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x42d6622deCe394b54999Fbd73D108123806f6a18",
       "chainId": 1,
       "decimals": 18,
@@ -4838,16 +5001,6 @@
         "isRainbowCurated": true,
         "isVerified": true,
         "shadowColor": "#FF884D"
-      }
-    },
-    {
-      "address": "0xAf5191B0De278C7286d6C7CC6ab6BB8A73bA2Cd6",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Stargate Finance",
-      "symbol": "STG",
-      "extensions": {
-        "isVerified": true
       }
     },
     {
@@ -5285,6 +5438,17 @@
       }
     },
     {
+      "address": "0x1622bF67e6e5747b81866fE0b85178a93C7F86e3",
+      "chainId": 42161,
+      "decimals": 9,
+      "name": "Umami",
+      "symbol": "UMAMI",
+      "extensions": {
+        "isRainbowCurated": true,
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
       "chainId": 1,
       "decimals": 18,
@@ -5347,6 +5511,17 @@
       "symbol": "USDP",
       "extensions": {
         "color": "#4EAD46",
+        "isRainbowCurated": true,
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xD74f5255D557944cf7Dd0E45FF521520002D5748",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Sperax USD",
+      "symbol": "USDs",
+      "extensions": {
         "isRainbowCurated": true,
         "isVerified": true
       }
@@ -5625,6 +5800,17 @@
       "name": "Wrapped Litecoin",
       "symbol": "WLTC",
       "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Wrapped Matic",
+      "symbol": "WMATIC",
+      "extensions": {
+        "isRainbowCurated": true,
         "isVerified": true
       }
     },
