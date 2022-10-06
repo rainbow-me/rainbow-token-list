@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Lean Rainbow Token List",
-  "timestamp": "2022-09-20T18:01:21.728Z",
+  "timestamp": "2022-10-06T00:38:40.410Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -1271,6 +1271,16 @@
       "decimals": 18,
       "name": "Boba Network",
       "symbol": "BOBA",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xB2C63830D4478cB331142FAc075A39671a5541dC",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Bombcrypto Coin",
+      "symbol": "BOMB",
       "extensions": {
         "isVerified": true
       }
@@ -2755,6 +2765,16 @@
       }
     },
     {
+      "address": "0xE5417Af564e4bFDA1c483642db72007871397896",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Gains Network",
+      "symbol": "GNS",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xa74476443119A942dE498590Fe1f2454d7D4aC0d",
       "chainId": 1,
       "decimals": 18,
@@ -3131,6 +3151,16 @@
       }
     },
     {
+      "address": "0x346404079b3792a6c548B072B9C4DDdFb92948d5",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Geniux",
+      "symbol": "IUX",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xE06Bd4F5aAc8D0aA337D13eC88dB6defC6eAEefE",
       "chainId": 137,
       "decimals": 18,
@@ -3156,6 +3186,16 @@
       "decimals": 4,
       "name": "JOON",
       "symbol": "JOON",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x431D5dfF03120AFA4bDf332c61A6e1766eF37BDB",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "JPY Coin",
+      "symbol": "JPYC",
       "extensions": {
         "isVerified": true
       }
@@ -3737,6 +3777,16 @@
       }
     },
     {
+      "address": "0xA3c322Ad15218fBFAEd26bA7f616249f7705D945",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Metaverse",
+      "symbol": "MV",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xA849EaaE994fb86Afa73382e9Bd88c2B6b18Dc71",
       "chainId": 1,
       "decimals": 18,
@@ -3974,6 +4024,16 @@
       }
     },
     {
+      "address": "0x9E25126EBCD57C8eb6eb6c2ffC67810d365CFC3E",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Optimus V2",
+      "symbol": "OPT2",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xff56Cc6b1E6dEd347aA0B7676C85AB0B3D08B0FA",
       "chainId": 1,
       "decimals": 18,
@@ -4066,6 +4126,16 @@
       }
     },
     {
+      "address": "0xDB7F019782D9f59947741a6DDc1Ea8501993C60A",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Performante Community Coin",
+      "symbol": "PCC",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71",
       "chainId": 1,
       "decimals": 18,
@@ -4142,6 +4212,16 @@
       "chainId": 1,
       "decimals": 18,
       "name": "PlayDapp",
+      "symbol": "PLA",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x8765f05ADce126d70bcdF1b0a48Db573316662eB",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "PlayDapp Token",
       "symbol": "PLA",
       "extensions": {
         "isVerified": true
@@ -5162,6 +5242,16 @@
       }
     },
     {
+      "address": "0x94788309D420ad9f9f16d79fC13Ab74de83f85F7",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Stable One Rocket",
+      "symbol": "SROCKET",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x0Ae055097C6d159879521C384F1D2123D1f195e6",
       "chainId": 1,
       "decimals": 18,
@@ -5311,16 +5401,6 @@
       }
     },
     {
-      "address": "0xB4b9DC1C77bdbb135eA907fd5a08094d98883A35",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Sweatcoin   Sweat Economy",
-      "symbol": "SWEAT",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
       "address": "0x261EfCdD24CeA98652B9700800a13DfBca4103fF",
       "chainId": 1,
       "decimals": 18,
@@ -5397,6 +5477,17 @@
       "name": "Telcoin",
       "symbol": "TEL",
       "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xdF7837DE1F2Fa4631D716CF2502f8b230F1dcc32",
+      "chainId": 137,
+      "decimals": 2,
+      "name": "Telcoin",
+      "symbol": "TEL",
+      "extensions": {
+        "color": "#14c8ff",
         "isVerified": true
       }
     },
@@ -5693,6 +5784,16 @@
       }
     },
     {
+      "address": "0x8806926Ab68EB5a7b909DcAf6FdBe5d93271D6e2",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Uquid Coin",
+      "symbol": "UQC",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
       "chainId": 1,
       "decimals": 6,
@@ -5800,6 +5901,17 @@
       }
     },
     {
+      "address": "0x8f3470A7388c05eE4e7AF3d01D8C722b0FF52374",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Veritaseum",
+      "symbol": "VERI",
+      "extensions": {
+        "color": "#ff9933",
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x3C4B6E6e1eA3D4863700D7F76b36B7f3D3f13E3d",
       "chainId": 1,
       "decimals": 8,
@@ -5897,16 +6009,6 @@
       "decimals": 18,
       "name": "Wrapped Celo",
       "symbol": "wCELO",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
-      "address": "0xc221b7E65FfC80DE234bbB6667aBDd46593D34F0",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Wrapped Centrifuge",
-      "symbol": "WCFG",
       "extensions": {
         "isVerified": true
       }
@@ -6457,6 +6559,16 @@
       "extensions": {
         "color": "#0072F6",
         "isRainbowCurated": true,
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x5eC03C1f7fA7FF05EC476d19e34A22eDDb48ACdc",
+      "chainId": 137,
+      "decimals": 18,
+      "name": "Zed Run",
+      "symbol": "ZED",
+      "extensions": {
         "isVerified": true
       }
     },

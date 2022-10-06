@@ -71,6 +71,65 @@
     "decimals": 18,
     "name": "Voxies",
     "symbol": "VOXEL"
+  },
+  "0x5eC03C1f7fA7FF05EC476d19e34A22eDDb48ACdc": {
+    "symbol": "ZED",
+    "decimals": 18,
+    "name": "Zed Run",
+    "isVerified": true
+  },
+  "0xe5417af564e4bfda1c483642db72007871397896": {
+    "symbol": "GNS",
+    "decimals": 18,
+    "name": "Gains Network",
+    "isVerified": true
+  },
+  "0x9e25126ebcd57c8eb6eb6c2ffc67810d365cfc3e": {
+    "symbol": "OPT2",
+    "decimals": 18,
+    "name": "Optimus V2",
+    "isVerified": true
+  },
+  "0xdf7837de1f2fa4631d716cf2502f8b230f1dcc32": {
+    "symbol": "TEL",
+    "decimals": 2,
+    "name": "Telcoin",
+    "isVerified": true
+  },
+  "0x431d5dff03120afa4bdf332c61a6e1766ef37bdb": {
+    "symbol": "JPYC",
+    "decimals": 18,
+    "name": "JPY Coin",
+    "isVerified": true
+  },
+  "0x8765f05adce126d70bcdf1b0a48db573316662eb": {
+    "symbol": "PLA",
+    "decimals": 18,
+    "name": "PlayDapp Token",
+    "isVerified": true
+  },
+  "0xB2C63830D4478cB331142FAc075A39671a5541dC": {
+    "symbol": "BOMB",
+    "decimals": 18,
+    "name": "Bombcrypto Coin",
+    "isVerified": true
+  },
+  "0x346404079b3792a6c548b072b9c4dddfb92948d5": {
+    "symbol": "IUX",
+    "decimals": 18,
+    "name": "Geniux",
+    "isVerified": true
+  },
+  "0xA3c322Ad15218fBFAEd26bA7f616249f7705D945": {
+    "symbol": "MV",
+    "decimals": 18,
+    "name": "Metaverse",
+    "isVerified": true
+  },
+  "0x94788309D420ad9f9f16d79fC13Ab74de83f85F7": {
+    "symbol": "SROCKET",
+    "decimals": 18,
+    "name": "Stable One Rocket",
+    "isVerified": true
   }
-
 }
