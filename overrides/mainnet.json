@@ -1941,9 +1941,11 @@
   },
   "0xBAac2B4491727D78D2b78815144570b9f2Fe8899": {
     "isVerified": true,
+    "isCurated": true,
     "name": "The Doge NFT",
     "symbol": "DOG",
-    "decimals": 18
+    "decimals": 18,
+    "color":  "#d6c492"
   },
   "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9": {
     "isVerified": true,
