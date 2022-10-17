@@ -40,7 +40,7 @@
     "@typescript-eslint/eslint-plugin": "^5.12.1",
     "eslint": "^7.32.0",
     "eslint-config-rainbow": "^2.0.0",
-    "eslint-plugin-jest": "^24.5.2",
+    "eslint-plugin-jest": "^27.1.2",
     "husky": "^7.0.4",
     "prettier": "^2.5.1",
     "tsdx": "^0.14.1",
