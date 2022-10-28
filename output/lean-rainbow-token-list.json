@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Lean Rainbow Token List",
-  "timestamp": "2022-10-11T19:20:28.419Z",
+  "timestamp": "2022-10-28T01:31:21.865Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -151,6 +151,17 @@
       "name": "Alchemy Pay",
       "symbol": "ACH",
       "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47",
+      "chainId": 56,
+      "decimals": 18,
+      "name": "Cardano Token",
+      "symbol": "ADA",
+      "extensions": {
+        "color": "#0d1e30",
         "isVerified": true
       }
     },
@@ -667,6 +678,17 @@
       }
     },
     {
+      "address": "0x0Eb3a705fc54725037CC9e008bDede697f62F335",
+      "chainId": 56,
+      "decimals": 18,
+      "name": "Cosmos Token",
+      "symbol": "ATOM",
+      "extensions": {
+        "color": "#2e3148",
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xE5f55a3b74874531a99359b833b92866A6609f6B",
       "chainId": 1,
       "decimals": 4,
@@ -904,6 +926,17 @@
       }
     },
     {
+      "address": "0x1CE0c2827e2eF14D5C4f29a091d735A204794041",
+      "chainId": 56,
+      "decimals": 18,
+      "name": "Avalanche Token",
+      "symbol": "AVAX",
+      "extensions": {
+        "color": "#e84142",
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xFC4B8ED459e00e5400be803A9BB3954234FD50e3",
       "chainId": 1,
       "decimals": 8,
@@ -1122,6 +1155,17 @@
       }
     },
     {
+      "address": "0x8fF795a6F4D97E7887C79beA79aba5cc76444aDf",
+      "chainId": 56,
+      "decimals": 18,
+      "name": "Bitcoin Cash Token",
+      "symbol": "BCH",
+      "extensions": {
+        "color": "#8dc351",
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x7884F51dC1410387371ce61747CB6264E1dAeE0B",
       "chainId": 1,
       "decimals": 10,
@@ -1254,6 +1298,16 @@
       }
     },
     {
+      "address": "0xB8c77482e45F1F44dE1745F52C74426C631bDD52",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "BNB",
+      "symbol": "BNB",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C",
       "chainId": 1,
       "decimals": 18,
@@ -1291,6 +1345,16 @@
       "decimals": 18,
       "name": "BarnBridge",
       "symbol": "BOND",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x9813037ee2218799597d83D4a5B6F3b6778218d9",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Bone ShibaSwap",
+      "symbol": "BONE",
       "extensions": {
         "isVerified": true
       }
@@ -1351,6 +1415,16 @@
       "decimals": 18,
       "name": "BreederDAO",
       "symbol": "BREED",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c",
+      "chainId": 56,
+      "decimals": 18,
+      "name": "BTCB Token",
+      "symbol": "BTCB",
       "extensions": {
         "isVerified": true
       }
@@ -1947,6 +2021,16 @@
       }
     },
     {
+      "address": "0xde4EE8057785A7e8e800Db58F9784845A5C2Cbd6",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "DeXe",
+      "symbol": "DEXE",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xfB7B4564402E5500dB5bB6d63Ae671302777C75a",
       "chainId": 1,
       "decimals": 18,
@@ -2063,6 +2147,17 @@
       }
     },
     {
+      "address": "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
+      "chainId": 56,
+      "decimals": 8,
+      "name": "Dogecoin",
+      "symbol": "DOGE",
+      "extensions": {
+        "color": "#c3a634",
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x865377367054516e17014CcdED1e7d814EDC9ce4",
       "chainId": 1,
       "decimals": 18,
@@ -2081,6 +2176,17 @@
       "extensions": {
         "color": "#F7518B",
         "isRainbowCurated": true,
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x7083609fCE4d1d8Dc0C979AAb8c869Ea2C873402",
+      "chainId": 56,
+      "decimals": 18,
+      "name": "Polkadot",
+      "symbol": "DOT",
+      "extensions": {
+        "color": "#e6007a",
         "isVerified": true
       }
     },
@@ -2157,6 +2263,16 @@
       }
     },
     {
+      "address": "0xbF7c81FFF98BbE61B40Ed186e4AfD6DDd01337fe",
+      "chainId": 56,
+      "decimals": 18,
+      "name": "Elrond",
+      "symbol": "EGLD",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xbf2179859fc6D5BEE9Bf9158632Dc51678a4100e",
       "chainId": 1,
       "decimals": 18,
@@ -2211,12 +2327,34 @@
       }
     },
     {
+      "address": "0x56b6fB708fC5732DEC1Afc8D8556423A2EDcCbD6",
+      "chainId": 56,
+      "decimals": 18,
+      "name": "EOS Token",
+      "symbol": "EOS",
+      "extensions": {
+        "color": "#000000",
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x07baC35846e5eD502aA91AdF6A9e7aA210F2DcbE",
       "chainId": 1,
       "decimals": 18,
       "name": "Sifchain",
       "symbol": "EROWAN",
       "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x3d6545b08693daE087E957cb1180ee38B9e3c25E",
+      "chainId": 56,
+      "decimals": 18,
+      "name": "Ethereum Classic",
+      "symbol": "ETC",
+      "extensions": {
+        "color": "#328332",
         "isVerified": true
       }
     },
@@ -2708,6 +2846,16 @@
       "decimals": 4,
       "name": "GENRE",
       "symbol": "GENRE",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x831091dA075665168E01898c6DAC004A867f1e1B",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Gains Farm",
+      "symbol": "GFARM2",
       "extensions": {
         "isVerified": true
       }
@@ -3496,6 +3644,17 @@
       "extensions": {
         "color": "#005FFF",
         "isRainbowCurated": true,
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x4338665CBB7B2485A8855A139b75D5e34AB0DB94",
+      "chainId": 56,
+      "decimals": 18,
+      "name": "Litecoin Token",
+      "symbol": "LTC",
+      "extensions": {
+        "color": "#bfbbbb",
         "isVerified": true
       }
     },
@@ -5767,16 +5926,6 @@
       }
     },
     {
-      "address": "0x8806926Ab68EB5a7b909DcAf6FdBe5d93271D6e2",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Uquid Coin",
-      "symbol": "UQC",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
       "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
       "chainId": 1,
       "decimals": 6,
@@ -5884,6 +6033,17 @@
       }
     },
     {
+      "address": "0x8f3470A7388c05eE4e7AF3d01D8C722b0FF52374",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Veritaseum",
+      "symbol": "VERI",
+      "extensions": {
+        "color": "#ff9933",
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x3C4B6E6e1eA3D4863700D7F76b36B7f3D3f13E3d",
       "chainId": 1,
       "decimals": 8,
@@ -5959,6 +6119,16 @@
       "decimals": 8,
       "name": "Wrapped BIND",
       "symbol": "wBIND",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "chainId": 56,
+      "decimals": 18,
+      "name": "Wrapped BNB",
+      "symbol": "WBNB",
       "extensions": {
         "isVerified": true
       }
@@ -6374,6 +6544,17 @@
       }
     },
     {
+      "address": "0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE",
+      "chainId": 56,
+      "decimals": 18,
+      "name": "XRP Token",
+      "symbol": "XRP",
+      "extensions": {
+        "color": "#23292f",
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x7dE91B204C1C737bcEe6F000AAA6569Cf7061cb7",
       "chainId": 1,
       "decimals": 9,
@@ -6400,6 +6581,17 @@
       "name": "xSUSHI",
       "symbol": "XSUSHI",
       "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x16939ef78684453bfDFb47825F8a5F714f12623a",
+      "chainId": 56,
+      "decimals": 18,
+      "name": "Tezos Token",
+      "symbol": "XTZ",
+      "extensions": {
+        "color": "#a6e000",
         "isVerified": true
       }
     },
@@ -6531,6 +6723,17 @@
       "extensions": {
         "color": "#0072F6",
         "isRainbowCurated": true,
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x1Ba42e5193dfA8B03D15dd1B86a3113bbBEF8Eeb",
+      "chainId": 56,
+      "decimals": 18,
+      "name": "ZCash Token",
+      "symbol": "ZEC",
+      "extensions": {
+        "color": "#ecb244",
         "isVerified": true
       }
     },

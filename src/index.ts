@@ -249,6 +249,7 @@ function normalizeList(list: any[]) {
       Types.ChainIDEnumSchema.optimism,
       Types.ChainIDEnumSchema.polygon,
       Types.ChainIDEnumSchema.arbitrum,
+      Types.ChainIDEnumSchema.bsc,
     ]
       .map((chainId) => {
         const overrides = Object.keys(getRainbowOverrides(chainId));

@@ -1,0 +1,92 @@
+{
+  "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c": {
+    "symbol": "WBNB",
+    "decimals": 18,
+    "name": "Wrapped BNB",
+    "isVerified": true
+  },
+  "0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe": {
+    "symbol": "XRP",
+    "decimals": 18,
+    "name": "XRP Token",
+    "isVerified": true
+  },
+  "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47": {
+    "symbol": "ADA",
+    "decimals": 18,
+    "name": "Cardano Token",
+    "isVerified": true
+  },
+  "0xba2ae424d960c26247dd6c32edc70b295c744c43": {
+    "symbol": "DOGE",
+    "decimals": 8,
+    "name": "Dogecoin",
+    "isVerified": true
+  },
+  "0x7083609fce4d1d8dc0c979aab8c869ea2c873402": {
+    "symbol": "DOT",
+    "decimals": 18,
+    "name": "Polkadot",
+    "isVerified": true
+  },
+  "0x1ce0c2827e2ef14d5c4f29a091d735a204794041": {
+    "symbol": "AVAX",
+    "decimals": 18,
+    "name": "Avalanche Token",
+    "isVerified": true
+  },
+  "0x4338665cbb7b2485a8855a139b75d5e34ab0db94": {
+    "symbol": "LTC",
+    "decimals": 18,
+    "name": "Litecoin Token",
+    "isVerified": true
+  },
+  "0x0eb3a705fc54725037cc9e008bdede697f62f335": {
+    "symbol": "ATOM",
+    "decimals": 18,
+    "name": "Cosmos Token",
+    "isVerified": true
+  },
+  "0x3d6545b08693dae087e957cb1180ee38b9e3c25e": {
+    "symbol": "ETC",
+    "decimals": 18,
+    "name": "Ethereum Classic",
+    "isVerified": true
+  },
+  "0x8ff795a6f4d97e7887c79bea79aba5cc76444adf": {
+    "symbol": "BCH",
+    "decimals": 18,
+    "name": "Bitcoin Cash Token",
+    "isVerified": true
+  },
+  "0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c": {
+    "symbol": "BTCB",
+    "decimals": 18,
+    "name": "BTCB Token",
+    "isVerified": true
+  },
+  "0xbf7c81fff98bbe61b40ed186e4afd6ddd01337fe": {
+    "symbol": "EGLD",
+    "decimals": 18,
+    "name": "Elrond",
+    "isVerified": true
+  },
+  "0x56b6fb708fc5732dec1afc8d8556423a2edccbd6": {
+    "symbol": "EOS",
+    "decimals": 18,
+    "name": "EOS Token",
+    "isVerified": true
+  },
+  "0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb": {
+    "symbol": "ZEC",
+    "decimals": 18,
+    "name": "ZCash Token",
+    "isVerified": true
+  },
+  "0x16939ef78684453bfdfb47825f8a5f714f12623a": {
+    "symbol": "XTZ",
+    "decimals": 18,
+    "name": "Tezos Token",
+    "isVerified": true
+  }
+}

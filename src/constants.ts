@@ -45,6 +45,7 @@ export enum ChainIDEnumSchema {
   optimism = '10',
   polygon = '137',
   arbitrum = '42161',
+  bsc = '56',
 }
 
 export interface TokenDeprecationSchema {
