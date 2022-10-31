@@ -2428,5 +2428,11 @@
     "name": "BNB",
     "symbol": "BNB",
     "decimals": 18
+  },
+  "0x600000000a36F3cD48407e35eB7C5c910dc1f7a8":  {
+    "isVerified": true,
+    "name": "Goo",
+    "symbol": "GOO",
+    "decimals": 18
   }
 }
