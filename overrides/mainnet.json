@@ -1945,7 +1945,7 @@
     "name": "The Doge NFT",
     "symbol": "DOG",
     "decimals": 18,
-    "color":  "#d6c492"
+    "color": "#d6c492"
   },
   "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9": {
     "isVerified": true,
@@ -2429,10 +2429,16 @@
     "symbol": "BNB",
     "decimals": 18
   },
-  "0x600000000a36F3cD48407e35eB7C5c910dc1f7a8":  {
+  "0x600000000a36F3cD48407e35eB7C5c910dc1f7a8": {
     "isVerified": true,
     "name": "Goo",
     "symbol": "GOO",
+    "decimals": 18
+  },
+  "0x9ee91F9f426fA633d227f7a9b000E28b9dfd8599": {
+    "isVerified": true,
+    "name": "Staked Matic",
+    "symbol": "stMATIC",
     "decimals": 18
   }
 }
