@@ -5168,10 +5168,10 @@ pkg-up@^2.0.0:
   dependencies:
     find-up "^2.1.0"
 
-pony-cause@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/pony-cause/-/pony-cause-1.0.0.tgz#d0d39fae5bdfc516f9c20487b13d75c955967159"
-  integrity sha512-thQ/1Jj8F+mZZi68DJSGQ86Qqffkervhhr8LZg+tnJA80g/n64hG736/vC/bNckFumutkU9RGQPxFvfoXd8TXQ==
+pony-cause@^2.1.6:
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/pony-cause/-/pony-cause-2.1.6.tgz#7774891b89e6549f2a8dfad3e1d4c999c881f0f9"
+  integrity sha512-zXvT3x5jKtzKreD+2NDrSg0tQoYh2WHPCro1hJRcBUIi2hPvFyTh2FGquetZT+s0V5Gj6z5hApKt+7E3ILsU9g==
 
 prelude-ls@^1.2.1:
   version "1.2.1"
