@@ -55,7 +55,7 @@
     "make-color-more-chill": "^0.2.0",
     "mkdirp": "^1.0.4",
     "node-fetch": "^2.6.1",
-    "pony-cause": "^1.0.0",
+    "pony-cause": "^2.1.8",
     "undici": "^v5.4.0"
   },
   "resolutions": {
