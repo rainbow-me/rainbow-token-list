@@ -2440,5 +2440,11 @@
     "name": "Staked Matic",
     "symbol": "stMATIC",
     "decimals": 18
+  },
+  "0xF17A3fE536F8F7847F1385ec1bC967b2Ca9caE8D": {
+    "isVerified": true,
+    "name": "Alongside Crypto Market Index",
+    "symbol": "AMKT",
+    "decimals": 18
   }
 }
