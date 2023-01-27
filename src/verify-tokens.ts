@@ -15,7 +15,7 @@ export async function verifyTokens(tokens: Token[]): Promise<Token[]> {
   const tokensWithMarketInfo = await getTokensWithMarketInfo(tokens);
 
   const meetsMarketCap = (token: TokenWithMarketInfo) =>
-    token.marketCap >= 100_000_000;
+    token.marketCap >= 10_000_000;
 
   return tokensWithMarketInfo.filter(meetsMarketCap);
 }
