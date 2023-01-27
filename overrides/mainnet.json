@@ -2446,5 +2446,23 @@
     "name": "Alongside Crypto Market Index",
     "symbol": "AMKT",
     "decimals": 18
+  },
+  "0x341c05c0E9b33C0E38d64de76516b2Ce970bB3BE": {
+    "isVerified": true,
+    "name": "Diversified Staked ETH Index (dsETH)",
+    "symbol": "dsETH",
+    "decimals": 18
+  },
+  "0x8D6CeBD76f18E1558D4DB88138e2DeFB3909fAD6": {
+    "isVerified": true,
+    "name": "Mai Stablecoin",
+    "symbol": "MAI",
+    "decimals": 18
+  },
+  "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B": {
+    "isVerified": true,
+    "name": "BOB",
+    "symbol": "BOB",
+    "decimals": 18
   }
 }
