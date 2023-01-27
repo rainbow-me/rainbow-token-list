@@ -29,5 +29,17 @@
     "decimals": 18,
     "name": "Frax Share",
     "symbol": "FXS"
+  },
+  "0x4E720DD3Ac5CFe1e1fbDE4935f386Bb1C66F4642": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "beefy.finance",
+    "symbol": "BIFI"
+  },
+  "0x1DB2466d9F5e10D7090E7152B68d62703a2245F0": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Sonne",
+    "symbol": "SONNE"
   }
 }
