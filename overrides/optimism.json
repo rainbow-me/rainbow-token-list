@@ -41,5 +41,11 @@
     "decimals": 18,
     "name": "Sonne",
     "symbol": "SONNE"
+  },
+  "0x920Cf626a271321C151D027030D5d08aF699456b": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Kwenta",
+    "symbol": "KWENTA"
   }
 }
