@@ -2464,5 +2464,10 @@
     "name": "BOB",
     "symbol": "BOB",
     "decimals": 18
+  },
+  "0x5283D291DBCF85356A21bA090E6db59121208b44": {
+    "isVerified": true,
+    "name": "BLUR", 
+    "symbol": "BLUR"
   }
 }
