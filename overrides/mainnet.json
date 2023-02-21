@@ -1,5 +1,5 @@
 {
-  "0x1934E252f840aA98dfCe2b6205B3E45c41AeF830": {
+  "0x1934e252f840aa98dfce2b6205b3e45c41aef830": {
     "color": "#08FC4C",
     "name": "₡ABIN",
     "symbol": "₡ABIN",
@@ -12,7 +12,7 @@
     "symbol": "ETH2XFLI",
     "decimals": 18
   },
-  "0xE41d2489571d322189246DaFA5ebDe1F4699F498": {
+  "0xe41d2489571d322189246dafa5ebde1f4699f498": {
     "color": "#29292E",
     "isCurated": true,
     "name": "0x",
@@ -31,294 +31,294 @@
     "symbol": "AAVE",
     "decimals": 18
   },
-  "0xba3D9687Cf50fE253cd2e1cFeEdE1d6787344Ed5": {
+  "0xba3d9687cf50fe253cd2e1cfeede1d6787344ed5": {
     "color": "#7285B2",
     "name": "Aave v1 AAVE",
     "shadowColor": "#7285B2",
     "symbol": "aAAVE",
     "decimals": 18
   },
-  "0xE1BA0FB44CCb0D11b80F92f4f8Ed94CA3fF51D00": {
+  "0xe1ba0fb44ccb0d11b80f92f4f8ed94ca3ff51d00": {
     "color": "#FF5000",
     "name": "Aave v1 BAT",
     "shadowColor": "#7285B2",
     "symbol": "aBAT",
     "decimals": 18
   },
-  "0x6Ee0f7BB50a54AB5253dA0667B0Dc2ee526C30a8": {
+  "0x6ee0f7bb50a54ab5253da0667b0dc2ee526c30a8": {
     "color": "#F3BA2F",
     "name": "Aave v1 BUSD",
     "shadowColor": "#7285B2",
     "symbol": "aBUSD",
     "decimals": 18
   },
-  "0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d": {
+  "0xfc1e690f61efd961294b3e1ce3313fbd8aa4f85d": {
     "color": "#F0B340",
     "name": "Aave v1 DAI",
     "shadowColor": "#7285B2",
     "symbol": "aDAI",
     "decimals": 18
   },
-  "0x712DB54daA836B53Ef1EcBb9c6ba3b9Efb073F40": {
+  "0x712db54daa836b53ef1ecbb9c6ba3b9efb073f40": {
     "color": "#25292E",
     "name": "Aave v1 ENJ",
     "shadowColor": "#7285B2",
     "symbol": "aENJ",
     "decimals": 18
   },
-  "0x3a3A65aAb0dd2A17E3F1947bA16138cd37d08c04": {
+  "0x3a3a65aab0dd2a17e3f1947ba16138cd37d08c04": {
     "color": "#25292E",
     "name": "Aave v1 ETH",
     "shadowColor": "#7285B2",
     "symbol": "aETH",
     "decimals": 18
   },
-  "0x9D91BE44C06d373a8a226E1f3b146956083803eB": {
+  "0x9d91be44c06d373a8a226e1f3b146956083803eb": {
     "color": "#31CB9E",
     "name": "Aave v1 KNC",
     "shadowColor": "#7285B2",
     "symbol": "aKNC",
     "decimals": 18
   },
-  "0x7D2D3688Df45Ce7C552E19c27e007673da9204B8": {
+  "0x7d2d3688df45ce7c552e19c27e007673da9204b8": {
     "color": "#109FCA",
     "name": "Aave v1 LEND",
     "shadowColor": "#7285B2",
     "symbol": "aLEND",
     "decimals": 18
   },
-  "0xA64BD6C70Cb9051F6A9ba1F163Fdc07E0DfB5F84": {
+  "0xa64bd6c70cb9051f6a9ba1f163fdc07e0dfb5f84": {
     "color": "#1A56F0",
     "name": "Aave v1 LINK",
     "shadowColor": "#7285B2",
     "symbol": "aLINK",
     "decimals": 18
   },
-  "0x6FCE4A401B6B80ACe52baAefE4421Bd188e76F6f": {
+  "0x6fce4a401b6b80ace52baaefe4421bd188e76f6f": {
     "color": "#FF2D55",
     "name": "Aave v1 MANA",
     "shadowColor": "#7285B2",
     "symbol": "aMANA",
     "decimals": 18
   },
-  "0x7deB5e830be29F91E298ba5FF1356BB7f8146998": {
+  "0x7deb5e830be29f91e298ba5ff1356bb7f8146998": {
     "color": "#1AAB9B",
     "name": "Aave v1 MKR",
     "shadowColor": "#7285B2",
     "symbol": "aMKR",
     "decimals": 18
   },
-  "0x69948cC03f478B95283F7dbf1CE764d0fc7EC54C": {
+  "0x69948cc03f478b95283f7dbf1ce764d0fc7ec54c": {
     "color": "#00224D",
     "name": "Aave v1 REN",
     "shadowColor": "#7285B2",
     "symbol": "aREN",
     "decimals": 18
   },
-  "0x71010A9D003445aC60C4e6A7017c1E89A477B438": {
+  "0x71010a9d003445ac60c4e6a7017c1e89a477b438": {
     "color": "#25292E",
     "name": "Aave v1 REP",
     "shadowColor": "#7285B2",
     "symbol": "aREP",
     "decimals": 18
   },
-  "0x328C4c80BC7aCa0834Db37e6600A6c49E12Da4DE": {
+  "0x328c4c80bc7aca0834db37e6600a6c49e12da4de": {
     "color": "#25292E",
     "name": "Aave v1 SNX",
     "shadowColor": "#7285B2",
     "symbol": "aSNX",
     "decimals": 18
   },
-  "0x625aE63000f46200499120B906716420bd059240": {
+  "0x625ae63000f46200499120b906716420bd059240": {
     "color": "#25292E",
     "name": "Aave v1 sUSD",
     "shadowColor": "#7285B2",
     "symbol": "aSUSD",
     "decimals": 18
   },
-  "0x4DA9b813057D04BAef4e5800E36083717b4a0341": {
+  "0x4da9b813057d04baef4e5800e36083717b4a0341": {
     "color": "#002868",
     "name": "Aave v1 TUSD",
     "shadowColor": "#7285B2",
     "symbol": "aTUSD",
     "decimals": 18
   },
-  "0xB124541127A0A657f056D9Dd06188c4F1b0e5aab": {
+  "0xb124541127a0a657f056d9dd06188c4f1b0e5aab": {
     "color": "#FD017A",
     "name": "Aave v1 UNI",
     "shadowColor": "#7285B2",
     "symbol": "aUNI",
     "decimals": 18
   },
-  "0x9bA00D6856a4eDF4665BcA2C2309936572473B7E": {
+  "0x9ba00d6856a4edf4665bca2c2309936572473b7e": {
     "color": "#2775CA",
     "name": "Aave v1 USDC",
     "shadowColor": "#7285B2",
     "symbol": "aUSDC",
     "decimals": 6
   },
-  "0x71fc860F7D3A592A4a98740e39dB31d25db65ae8": {
+  "0x71fc860f7d3a592a4a98740e39db31d25db65ae8": {
     "color": "#22A079",
     "name": "Aave v1 USDT",
     "shadowColor": "#7285B2",
     "symbol": "aUSDT",
     "decimals": 6
   },
-  "0xFC4B8ED459e00e5400be803A9BB3954234FD50e3": {
+  "0xfc4b8ed459e00e5400be803a9bb3954234fd50e3": {
     "color": "#FF9900",
     "name": "Aave v1 WBTC",
     "shadowColor": "#7285B2",
     "symbol": "aWBTC",
     "decimals": 8
   },
-  "0x12e51E77DAAA58aA0E9247db7510Ea4B46F9bEAd": {
+  "0x12e51e77daaa58aa0e9247db7510ea4b46f9bead": {
     "color": "#0072F6",
     "name": "Aave v1 YFI",
     "shadowColor": "#7285B2",
     "symbol": "aYFI",
     "decimals": 18
   },
-  "0x6Fb0855c404E09c47C3fBCA25f08d4E41f9F062f": {
+  "0x6fb0855c404e09c47c3fbca25f08d4e41f9f062f": {
     "color": "#25292E",
     "name": "Aave v1 ZRX",
     "shadowColor": "#7285B2",
     "symbol": "aZRX",
     "decimals": 18
   },
-  "0xFFC97d72E13E01096502Cb8Eb52dEe56f74DAD7B": {
+  "0xffc97d72e13e01096502cb8eb52dee56f74dad7b": {
     "color": "#7285B2",
     "name": "Aave AAVE",
     "shadowColor": "#7285B2",
     "symbol": "aAAVE",
     "decimals": 18
   },
-  "0x05Ec93c0365baAeAbF7AefFb0972ea7ECdD39CF1": {
+  "0x05ec93c0365baaeabf7aeffb0972ea7ecdd39cf1": {
     "color": "#FF5000",
     "name": "Aave BAT",
     "shadowColor": "#7285B2",
     "symbol": "aBAT",
     "decimals": 18
   },
-  "0xA361718326c15715591c299427c62086F69923D9": {
+  "0xa361718326c15715591c299427c62086f69923d9": {
     "color": "#F3BA2F",
     "name": "Aave BUSD",
     "shadowColor": "#7285B2",
     "symbol": "aBUSD",
     "decimals": 18
   },
-  "0x028171bCA77440897B824Ca71D1c56caC55b68A3": {
+  "0x028171bca77440897b824ca71d1c56cac55b68a3": {
     "color": "#F0B340",
     "name": "Aave DAI",
     "shadowColor": "#7285B2",
     "symbol": "aDAI",
     "decimals": 18
   },
-  "0xaC6Df26a590F08dcC95D5a4705ae8abbc88509Ef": {
+  "0xac6df26a590f08dcc95d5a4705ae8abbc88509ef": {
     "color": "#25292E",
     "name": "Aave ENJ",
     "shadowColor": "#7285B2",
     "symbol": "aENJ",
     "decimals": 18
   },
-  "0x030bA81f1c18d280636F32af80b9AAd02Cf0854e": {
+  "0x030ba81f1c18d280636f32af80b9aad02cf0854e": {
     "color": "#25292E",
     "name": "Aave WETH",
     "shadowColor": "#7285B2",
     "symbol": "aWETH",
     "decimals": 18
   },
-  "0x39C6b3e42d6A679d7D776778Fe880BC9487C2EDA": {
+  "0x39c6b3e42d6a679d7d776778fe880bc9487c2eda": {
     "color": "#31CB9E",
     "name": "Aave KNC",
     "shadowColor": "#7285B2",
     "symbol": "aKNC",
     "decimals": 18
   },
-  "0xa06bC25B5805d5F8d82847D191Cb4Af5A3e873E0": {
+  "0xa06bc25b5805d5f8d82847d191cb4af5a3e873e0": {
     "color": "#1A56F0",
     "name": "Aave LINK",
     "shadowColor": "#7285B2",
     "symbol": "aLINK",
     "decimals": 18
   },
-  "0xa685a61171bb30d4072B338c80Cb7b2c865c873E": {
+  "0xa685a61171bb30d4072b338c80cb7b2c865c873e": {
     "color": "#FF2D55",
     "name": "Aave MANA",
     "shadowColor": "#7285B2",
     "symbol": "aMANA",
     "decimals": 18
   },
-  "0xc713e5E149D5D0715DcD1c156a020976e7E56B88": {
+  "0xc713e5e149d5d0715dcd1c156a020976e7e56b88": {
     "color": "#1AAB9B",
     "name": "Aave MKR",
     "shadowColor": "#7285B2",
     "symbol": "aMKR",
     "decimals": 18
   },
-  "0xCC12AbE4ff81c9378D670De1b57F8e0Dd228D77a": {
+  "0xcc12abe4ff81c9378d670de1b57f8e0dd228d77a": {
     "color": "#00224D",
     "name": "Aave REN",
     "shadowColor": "#7285B2",
     "symbol": "aREN",
     "decimals": 18
   },
-  "0x35f6B052C598d933D69A4EEC4D04c73A191fE6c2": {
+  "0x35f6b052c598d933d69a4eec4d04c73a191fe6c2": {
     "color": "#25292E",
     "name": "Aave SNX",
     "shadowColor": "#7285B2",
     "symbol": "aSNX",
     "decimals": 18
   },
-  "0x6C5024Cd4F8A59110119C56f8933403A539555EB": {
+  "0x6c5024cd4f8a59110119c56f8933403a539555eb": {
     "color": "#25292E",
     "name": "Aave sUSD",
     "shadowColor": "#7285B2",
     "symbol": "aSUSD",
     "decimals": 18
   },
-  "0x101cc05f4A51C0319f570d5E146a8C625198e636": {
+  "0x101cc05f4a51c0319f570d5e146a8c625198e636": {
     "color": "#002868",
     "name": "Aave TUSD",
     "shadowColor": "#7285B2",
     "symbol": "aTUSD",
     "decimals": 18
   },
-  "0xB9D7CB55f463405CDfBe4E90a6D2Df01C2B92BF1": {
+  "0xb9d7cb55f463405cdfbe4e90a6d2df01c2b92bf1": {
     "color": "#FD017A",
     "name": "Aave UNI",
     "shadowColor": "#7285B2",
     "symbol": "aUNI",
     "decimals": 18
   },
-  "0xBcca60bB61934080951369a648Fb03DF4F96263C": {
+  "0xbcca60bb61934080951369a648fb03df4f96263c": {
     "color": "#2775CA",
     "name": "Aave USDC",
     "shadowColor": "#7285B2",
     "symbol": "aUSDC",
     "decimals": 6
   },
-  "0x3Ed3B47Dd13EC9a98b44e6204A523E766B225811": {
+  "0x3ed3b47dd13ec9a98b44e6204a523e766b225811": {
     "color": "#22A079",
     "name": "Aave USDT",
     "shadowColor": "#7285B2",
     "symbol": "aUSDT",
     "decimals": 6
   },
-  "0x9ff58f4fFB29fA2266Ab25e75e2A8b3503311656": {
+  "0x9ff58f4ffb29fa2266ab25e75e2a8b3503311656": {
     "color": "#FF9900",
     "name": "Aave WBTC",
     "shadowColor": "#7285B2",
     "symbol": "aWBTC",
     "decimals": 8
   },
-  "0x5165d24277cD063F5ac44Efd447B27025e888f37": {
+  "0x5165d24277cd063f5ac44efd447b27025e888f37": {
     "color": "#0072F6",
     "name": "Aave YFI",
     "shadowColor": "#7285B2",
     "symbol": "aYFI",
     "decimals": 18
   },
-  "0xDf7FF54aAcAcbFf42dfe29DD6144A69b629f8C9e": {
+  "0xdf7ff54aacacbff42dfe29dd6144a69b629f8c9e": {
     "color": "#25292E",
     "name": "Aave ZRX",
     "shadowColor": "#7285B2",
@@ -343,7 +343,7 @@
     "name": "Aragon",
     "decimals": 18
   },
-  "0x221657776846890989a759BA2973e427DfF5C9bB": {
+  "0x221657776846890989a759ba2973e427dff5c9bb": {
     "color": "#25292E",
     "isCurated": true,
     "name": "Augur",
@@ -355,7 +355,7 @@
     "symbol": "BAL",
     "decimals": 18
   },
-  "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C": {
+  "0x1f573d6fb3f13d689ff844b4ce37794d79a7ff1c": {
     "color": "#00224D",
     "isCurated": true,
     "name": "Bancor",
@@ -368,25 +368,25 @@
     "symbol": "$BASED",
     "decimals": 18
   },
-  "0x0D8775F648430679A709E98d2b0Cb6250d2887EF": {
+  "0x0d8775f648430679a709e98d2b0cb6250d2887ef": {
     "color": "#FF5000",
     "isCurated": true,
     "name": "Basic Attention Token",
     "decimals": 18
   },
-  "0x107c4504cd79C5d2696Ea0030a8dD4e92601B82e": {
+  "0x107c4504cd79c5d2696ea0030a8dd4e92601b82e": {
     "color": "#6067F1",
     "isCurated": true,
     "name": "Bloom",
     "decimals": 18
   },
-  "0x514910771AF9Ca656af840dff83E8264EcF986CA": {
+  "0x514910771af9ca656af840dff83e8264ecf986ca": {
     "color": "#1A56F0",
     "isCurated": true,
     "name": "Chainlink",
     "decimals": 18
   },
-  "0x41e5560054824eA6B0732E656E3Ad64E20e94E45": {
+  "0x41e5560054824ea6b0732e656e3ad64e20e94e45": {
     "color": "#3AB03E",
     "isCurated": true,
     "name": "Civic",
@@ -406,14 +406,14 @@
     "symbol": "cBAT",
     "decimals": 8
   },
-  "0x5d3a536E4D6DbD6114cc1Ead35777bAB948E3643": {
+  "0x5d3a536e4d6dbd6114cc1ead35777bab948e3643": {
     "color": "#9669ED",
     "isCurated": true,
     "name": "Compound DAI",
     "symbol": "cDAI",
     "decimals": 8
   },
-  "0xF5DCe57282A584D2746FaF1593d3121Fcac444dC": {
+  "0xf5dce57282a584d2746faf1593d3121fcac444dc": {
     "color": "#9669ED",
     "name": "Compound SAI",
     "symbol": "cSAI",
@@ -433,13 +433,13 @@
     "symbol": "cWBTC",
     "decimals": 8
   },
-  "0xD533a949740bb3306d119CC777fa900bA034cd52": {
+  "0xd533a949740bb3306d119cc777fa900ba034cd52": {
     "isCurated": true,
     "name": "Curve DAO Token",
     "symbol": "CRV",
     "decimals": 18
   },
-  "0xB4272071eCAdd69d933AdcD19cA99fe80664fc08": {
+  "0xb4272071ecadd69d933adcd19ca99fe80664fc08": {
     "color": "#CE0E2D",
     "isCurated": true,
     "name": "CryptoFranc",
@@ -451,13 +451,13 @@
     "name": "Dai",
     "decimals": 18
   },
-  "0x543Ff227F64Aa17eA132Bf9886cAb5DB55DCAddf": {
+  "0x543ff227f64aa17ea132bf9886cab5db55dcaddf": {
     "color": "#25292E",
     "isCurated": true,
     "name": "DAOstack",
     "decimals": 18
   },
-  "0x0F5D2fB29fb7d3CFeE444a200298f468908cC942": {
+  "0x0f5d2fb29fb7d3cfee444a200298f468908cc942": {
     "color": "#FF2D55",
     "isCurated": true,
     "name": "Decentraland",
@@ -475,25 +475,25 @@
     "name": "DefiPulse Index",
     "decimals": 18
   },
-  "0x4f3AfEC4E5a3F2A6a1A411DEF7D7dFe50eE057bF": {
+  "0x4f3afec4e5a3f2a6a1a411def7d7dfe50ee057bf": {
     "color": "#E0A83A",
     "isCurated": true,
     "name": "Digix Gold",
     "decimals": 9
   },
-  "0xC0F9bD5Fa5698B6505F643900FFA515Ea5dF54A9": {
+  "0xc0f9bd5fa5698b6505f643900ffa515ea5df54a9": {
     "color": "#F7518B",
     "isCurated": true,
     "name": "Donut",
     "decimals": 18
   },
-  "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c": {
+  "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c": {
     "color": "#7866D5",
     "isCurated": true,
     "name": "Enjin",
     "decimals": 18
   },
-  "0x80fB784B7eD66730e8b1DBd9820aFD29931aab03": {
+  "0x80fb784b7ed66730e8b1dbd9820afd29931aab03": {
     "color": "#109FCA",
     "name": "EthLend",
     "symbol": "LEND",
@@ -505,7 +505,7 @@
     "name": "Fei USD",
     "decimals": 18
   },
-  "0x4946Fcea7C692606e8908002e55A582af44AC121": {
+  "0x4946fcea7c692606e8908002e55a582af44ac121": {
     "color": "#D79C93",
     "isCurated": true,
     "name": "FOAM",
@@ -542,19 +542,19 @@
     "symbol": "iUSDC",
     "decimals": 6
   },
-  "0x419D0d8BdD9aF5e606Ae2232ed285Aff190E711b": {
+  "0x419d0d8bdd9af5e606ae2232ed285aff190e711b": {
     "color": "#E40057",
     "isCurated": true,
     "name": "FunFair",
     "decimals": 8
   },
-  "0x6810e776880C02933D47DB1b9fc05908e5386b96": {
+  "0x6810e776880c02933d47db1b9fc05908e5386b96": {
     "color": "#00A6C4",
     "isCurated": true,
     "name": "Gnosis",
     "decimals": 18
   },
-  "0xa74476443119A942dE498590Fe1f2454d7D4aC0d": {
+  "0xa74476443119a942de498590fe1f2454d7d4ac0d": {
     "color": "#002D64",
     "isCurated": true,
     "name": "Golem",
@@ -566,7 +566,7 @@
     "name": "The Graph",
     "decimals": 18
   },
-  "0x12B19D3e2ccc14Da04FAe33e63652ce469b3F2FD": {
+  "0x12b19d3e2ccc14da04fae33e63652ce469b3f2fd": {
     "color": "#53B7E8",
     "isCurated": true,
     "name": "Grid+",
@@ -579,14 +579,14 @@
     "shadowColor": "#FF9355",
     "decimals": 8
   },
-  "0x6c6EE5e31d828De241282B9606C8e98Ea48526E2": {
+  "0x6c6ee5e31d828de241282b9606c8e98ea48526e2": {
     "color": "#8834FF",
     "isCurated": true,
     "name": "Holo",
     "symbol": "HOT",
     "decimals": 18
   },
-  "0x607F4C5BB672230e8672085532f7e901544a7375": {
+  "0x607f4c5bb672230e8672085532f7e901544a7375": {
     "color": "#EBBC2F",
     "isCurated": true,
     "name": "iExec",
@@ -604,68 +604,68 @@
     "name": "KeeperDAO",
     "decimals": 18
   },
-  "0x93ED3FBe21207Ec2E8f2d3c3de6e058Cb73Bc04d": {
+  "0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d": {
     "color": "#838285",
     "isCurated": true,
     "name": "Kleros",
     "decimals": 18
   },
-  "0xdd974D5C2e2928deA5F71b9825b8b646686BD200": {
+  "0xdd974d5c2e2928dea5f71b9825b8b646686bd200": {
     "color": "#31CB9E",
     "isCurated": false,
     "isVerified": false,
     "name": "Kyber",
     "decimals": 18
   },
-  "0x58b6A8A3302369DAEc383334672404Ee733aB239": {
+  "0x58b6a8a3302369daec383334672404ee733ab239": {
     "color": "#03E082",
     "isCurated": true,
     "name": "Livepeer",
     "decimals": 18
   },
-  "0xA4e8C3Ec456107eA67d3075bF9e3DF3A75823DB0": {
+  "0xa4e8c3ec456107ea67d3075bf9e3df3a75823db0": {
     "color": "#4BC0C8",
     "isCurated": true,
     "name": "Loom",
     "decimals": 18
   },
-  "0xBBbbCA6A901c926F240b89EacB641d8Aec7AEafD": {
+  "0xbbbbca6a901c926f240b89eacb641d8aec7aeafd": {
     "color": "#005FFF",
     "isCurated": true,
     "name": "Loopring",
     "decimals": 18
   },
-  "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2": {
+  "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": {
     "color": "#1AAB9B",
     "isCurated": true,
     "name": "Maker",
     "decimals": 18
   },
-  "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0": {
+  "0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0": {
     "color": "#2891F9",
     "isCurated": true,
     "name": "Matic",
     "decimals": 18
   },
-  "0xec67005c4E498Ec7f55E092bd1d35cbC47C91892": {
+  "0xec67005c4e498ec7f55e092bd1d35cbc47c91892": {
     "color": "#00224D",
     "isCurated": true,
     "name": "Melon",
     "decimals": 18
   },
-  "0xaAAf91D9b90dF800Df4F55c205fd6989c977E73a": {
+  "0xaaaf91d9b90df800df4f55c205fd6989c977e73a": {
     "color": "#25292E",
     "isCurated": true,
     "name": "Monolith",
     "decimals": 8
   },
-  "0xB62132e35a6c13ee1EE0f84dC5d40bad8d815206": {
+  "0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206": {
     "color": "#2891F9",
     "isCurated": true,
     "name": "Nexo",
     "decimals": 18
   },
-  "0x1776e1F26f98b1A5dF9cD347953a26dd3Cb46671": {
+  "0x1776e1f26f98b1a5df9cd347953a26dd3cb46671": {
     "color": "#25292E",
     "isCurated": true,
     "name": "Numeraire",
@@ -677,13 +677,13 @@
     "name": "Paxos Gold",
     "decimals": 18
   },
-  "0x8E870D67F660D95d5be530380D0eC0bd388289E1": {
+  "0x8e870d67f660d95d5be530380d0ec0bd388289e1": {
     "color": "#4EAD46",
     "isCurated": true,
     "name": "Paxos Standard",
     "decimals": 18
   },
-  "0x429881672B9AE42b8EbA0E26cD9C73711b891Ca5": {
+  "0x429881672b9ae42b8eba0e26cd9c73711b891ca5": {
     "color": "#0FB200",
     "isCurated": true,
     "name": "Pickle Finance",
@@ -694,7 +694,7 @@
     "name": "Pillar",
     "decimals": 18
   },
-  "0x6758B7d441a9739b98552B373703d8d3d14f9e62": {
+  "0x6758b7d441a9739b98552b373703d8d3d14f9e62": {
     "color": "#5332A0",
     "isCurated": true,
     "name": "POA",
@@ -719,7 +719,7 @@
     "shadowColor": "#559889",
     "decimals": 18
   },
-  "0x255Aa6DF07540Cb5d3d297f0D0D4D84cb52bc8e6": {
+  "0x255aa6df07540cb5d3d297f0d0d4d84cb52bc8e6": {
     "color": "#25292E",
     "isCurated": true,
     "name": "Raiden",
@@ -731,19 +731,19 @@
     "name": "Rarible",
     "decimals": 18
   },
-  "0x408e41876cCCDC0F92210600ef50372656052a38": {
+  "0x408e41876cccdc0f92210600ef50372656052a38": {
     "color": "#00224D",
     "isCurated": true,
     "name": "Ren",
     "decimals": 18
   },
-  "0xB4EFd85c19999D84251304bDA99E90B92300Bd93": {
+  "0xb4efd85c19999d84251304bda99e90b92300bd93": {
     "color": "#FF626D",
     "isCurated": true,
     "name": "Rocket Pool",
     "decimals": 18
   },
-  "0x89d24A6b4CcB1B6fAA2625fE562bDD9a23260359": {
+  "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
     "color": "#F0B340",
     "name": "Sai",
     "symbol": "SAI",
@@ -755,25 +755,25 @@
     "name": "Saint Fame",
     "decimals": 18
   },
-  "0x4156D3342D5c385a87D264F90653733592000581": {
+  "0x4156d3342d5c385a87d264f90653733592000581": {
     "color": "#03DBA9",
     "isCurated": true,
     "name": "SALT",
     "decimals": 8
   },
-  "0x42d6622deCe394b54999Fbd73D108123806f6a18": {
+  "0x42d6622dece394b54999fbd73d108123806f6a18": {
     "color": "#FF3B81",
     "isCurated": true,
     "name": "SpankChain",
     "decimals": 18
   },
-  "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2": {
+  "0x6b3595068778dd592e39a122f4f5a5cf09c90fe2": {
     "isCurated": true,
     "isVerified": true,
     "name": "Sushi",
     "decimals": 18
   },
-  "0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84": {
+  "0xae7ab96520de3a18e5e111b5eaab095312d7fe84": {
     "color": "#56A0DD",
     "isCurated": true,
     "name": "Staked Ether",
@@ -781,13 +781,13 @@
     "symbol": "stETH",
     "decimals": 18
   },
-  "0x744d70FDBE2Ba4CF95131626614a1763DF805B9E": {
+  "0x744d70fdbe2ba4cf95131626614a1763df805b9e": {
     "color": "#4360DF",
     "isCurated": true,
     "name": "Status",
     "decimals": 18
   },
-  "0xB64ef51C888972c908CFacf59B47C1AfBC0Ab8aC": {
+  "0xb64ef51c888972c908cfacf59b47c1afbc0ab8ac": {
     "color": "#2683FF",
     "isCurated": true,
     "name": "Storj",
@@ -830,11 +830,12 @@
     "decimals": 18
   },
   "0x4c19596f5aaff459fa38b0f7ed92f11ae6543784": {
+    "isVerified": true,
     "name": "TrustToken",
     "symbol": "TRU",
     "decimals": 8
   },
-  "0x04Fa0d235C4abf4BcF4787aF4CF447DE572eF828": {
+  "0x04fa0d235c4abf4bcf4787af4cf447de572ef828": {
     "color": "#FF4A4A",
     "isCurated": true,
     "name": "UMA",
@@ -847,31 +848,31 @@
     "shadowColor": "#FDB8DA",
     "decimals": 18
   },
-  "0x23B608675a2B2fB1890d3ABBd85c5775c51691d5": {
+  "0x23b608675a2b2fb1890d3abbd85c5775c51691d5": {
     "color": "#E15EE5",
     "isCurated": true,
     "name": "Unisocks",
     "decimals": 18
   },
-  "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+  "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48": {
     "color": "#2775CA",
     "isCurated": true,
     "name": "USD Coin",
     "decimals": 6
   },
-  "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599": {
+  "0x2260fac5e5542a773aa44fbcfedf7c193bc2c599": {
     "color": "#FF9900",
     "isCurated": true,
     "name": "Wrapped Bitcoin",
     "decimals": 8
   },
-  "0x09fE5f0236F0Ea5D930197DCE254d77B04128075": {
+  "0x09fe5f0236f0ea5d930197dce254d77b04128075": {
     "color": "#FF8FE5",
     "isCurated": true,
     "name": "Wrapped CryptoKitties",
     "decimals": 18
   },
-  "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+  "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2": {
     "color": "#25292E",
     "name": "Wrapped Ether",
     "decimals": 18
@@ -883,7 +884,7 @@
     "symbol": "yUSD",
     "decimals": 18
   },
-  "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e": {
+  "0x0bc529c00c6401aef6d220be8c6ea1667f6ad93e": {
     "color": "#0072F6",
     "isCurated": true,
     "name": "yearn.finance",
@@ -897,7 +898,7 @@
     "symbol": "YAM",
     "decimals": 18
   },
-  "0x0e2298E3B3390e3b945a5456fBf59eCc3f55DA16": {
+  "0x0e2298e3b3390e3b945a5456fbf59ecc3f55da16": {
     "color": "#B2364F",
     "name": "YAMv1",
     "shadowColor": "#D09AAC",
@@ -918,1028 +919,1022 @@
     "symbol": "YUP",
     "decimals": 18
   },
-  "0xC18360217D8F7Ab5e7c516566761Ea12Ce7F9D72": {
+  "0xc18360217d8f7ab5e7c516566761ea12ce7f9d72": {
     "color": "#6E9BF8",
     "isCurated": true,
     "name": "Ethereum Name Service",
     "symbol": "ENS",
     "decimals": 18
   },
-  "0xf4d2888d29D722226FafA5d9B24F9164c092421E": {
+  "0xf4d2888d29d722226fafa5d9b24f9164c092421e": {
     "isVerified": true,
     "name": "LooksRare",
     "symbol": "LOOKS",
     "decimals": 18
   },
-  "0x4d224452801ACEd8B2F0aebE155379bb5D594381": {
+  "0x4d224452801aced8b2f0aebe155379bb5d594381": {
     "isVerified": true,
     "name": "ApeCoin",
     "symbol": "APE",
     "decimals": 18
   },
-  "0x0b38210ea11411557c13457D4dA7dC6ea731B88a": {
+  "0x0b38210ea11411557c13457d4da7dc6ea731b88a": {
     "isVerified": true,
     "name": "API3",
     "symbol": "API3",
     "decimals": 18
   },
-  "0x00c83aeCC790e8a4453e5dD3B0B4b3680501a7A7": {
+  "0x00c83aecc790e8a4453e5dd3b0b4b3680501a7a7": {
     "isVerified": true,
     "name": "SKALE",
     "symbol": "SKL",
     "decimals": 18
   },
-  "0x0eC9F76202a7061eB9b3a7D6B59D36215A7e37da": {
+  "0x0ec9f76202a7061eb9b3a7d6b59d36215a7e37da": {
     "isVerified": true,
     "name": "BlackPool Token",
     "symbol": "BPT",
     "decimals": 18
   },
-  "0x0f2D719407FdBeFF09D87557AbB7232601FD9F29": {
+  "0x0f2d719407fdbeff09d87557abb7232601fd9f29": {
     "isVerified": true,
     "name": "Synapse",
     "symbol": "SYN",
     "decimals": 18
   },
-  "0x0F3ADC247E91c3c50bC08721355A41037E89Bc20": {
+  "0x0f3adc247e91c3c50bc08721355a41037e89bc20": {
     "isVerified": true,
     "name": "Anchor Protocol",
     "symbol": "ANC",
     "decimals": 18
   },
-  "0x0f51bb10119727a7e5eA3538074fb341F56B09Ad": {
+  "0x0f51bb10119727a7e5ea3538074fb341f56b09ad": {
     "isVerified": true,
     "name": "DAO Maker",
     "symbol": "DAO",
     "decimals": 18
   },
-  "0x0ff5A8451A839f5F0BB3562689D9A44089738D11": {
+  "0x0ff5a8451a839f5f0bb3562689d9a44089738d11": {
     "isVerified": true,
     "name": "Dopex Rebate Token",
     "symbol": "RDPX",
     "decimals": 18
   },
-  "0x1A4b46696b2bB4794Eb3D4c26f1c55F9170fa4C5": {
+  "0x1a4b46696b2bb4794eb3d4c26f1c55f9170fa4c5": {
     "isVerified": true,
     "name": "BitDAO",
     "symbol": "BIT",
     "decimals": 18
   },
-  "0x1a7e4e63778B4f12a199C062f3eFdD288afCBce8": {
+  "0x1a7e4e63778b4f12a199c062f3efdd288afcbce8": {
     "isVerified": true,
     "name": "agEUR",
     "symbol": "AGEUR",
     "decimals": 18
   },
-  "0x1b40183EFB4Dd766f11bDa7A7c3AD8982e998421": {
+  "0x1b40183efb4dd766f11bda7a7c3ad8982e998421": {
     "isVerified": true,
     "name": "Vesper Finance",
     "symbol": "VSP",
     "decimals": 18
   },
-  "0x01BA67AAC7f75f647D94220Cc98FB30FCc5105Bf": {
+  "0x01ba67aac7f75f647d94220cc98fb30fcc5105bf": {
     "isVerified": true,
     "name": "Lyra Finance",
     "symbol": "LYRA",
     "decimals": 18
   },
-  "0x1cEB5cB57C4D4E2b2433641b95Dd330A33185A44": {
+  "0x1ceb5cb57c4d4e2b2433641b95dd330a33185a44": {
     "isVerified": true,
     "name": "Keep3rV1",
     "symbol": "KP3R",
     "decimals": 18
   },
-  "0x1E4EDE388cbc9F4b5c79681B7f94d36a11ABEBC9": {
+  "0x1e4ede388cbc9f4b5c79681b7f94d36a11abebc9": {
     "isVerified": true,
     "name": "X2Y2",
     "symbol": "X2Y2",
     "decimals": 18
   },
-  "0x1fE24F25b1Cf609B9c4e7E12D802e3640dFA5e43": {
+  "0x1fe24f25b1cf609b9c4e7e12d802e3640dfa5e43": {
     "isVerified": true,
     "name": "Chain Guardians",
     "symbol": "CGG",
     "decimals": 18
   },
-  "0x2AF5D2aD76741191D15Dfe7bF6aC92d4Bd912Ca3": {
+  "0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3": {
     "isVerified": true,
     "name": "LEO Token",
     "symbol": "LEO",
     "decimals": 18
   },
-  "0x2be5e8c109e2197D077D13A82dAead6a9b3433C5": {
+  "0x2be5e8c109e2197d077d13a82daead6a9b3433c5": {
     "isVerified": true,
     "name": "Tokamak Network",
     "symbol": "TON",
     "decimals": 18
   },
-  "0x2e9d63788249371f1DFC918a52f8d799F4a38C94": {
+  "0x2e9d63788249371f1dfc918a52f8d799f4a38c94": {
     "isVerified": true,
     "name": "Tokemak",
     "symbol": "TOKE",
     "decimals": 18
   },
-  "0x3a4f40631a4f906c2BaD353Ed06De7A5D3fCb430": {
+  "0x3a4f40631a4f906c2bad353ed06de7a5d3fcb430": {
     "isVerified": true,
     "name": "PlayDapp",
     "symbol": "PLA",
     "decimals": 18
   },
-  "0x3A8cCCB969a61532d1E6005e2CE12C200caeCe87": {
+  "0x3a8cccb969a61532d1e6005e2ce12c200caece87": {
     "isVerified": true,
     "name": "TitanSwap",
     "symbol": "TITAN",
     "decimals": 18
   },
-  "0x3aaDA3e213aBf8529606924d8D1c55CbDc70Bf74": {
+  "0x3aada3e213abf8529606924d8d1c55cbdc70bf74": {
     "isVerified": true,
     "name": "XMON",
     "symbol": "XMON",
     "decimals": 18
   },
-  "0x3b484b82567a09e2588A13D54D032153f0c0aEe0": {
+  "0x3b484b82567a09e2588a13d54d032153f0c0aee0": {
     "isVerified": true,
     "name": "OpenDAO",
     "symbol": "SOS",
     "decimals": 18
   },
-  "0x3e7804c51a70Ba26E904c2e0ab440C5623a8A83F": {
+  "0x3e7804c51a70ba26e904c2e0ab440c5623a8a83f": {
     "isVerified": true,
     "name": "GPEX",
     "symbol": "GPX",
     "decimals": 8
   },
-  "0x3F382DbD960E3a9bbCeaE22651E88158d2791550": {
+  "0x3f382dbd960e3a9bbceae22651e88158d2791550": {
     "isVerified": true,
     "name": "Aavegotchi",
     "symbol": "GHST",
     "decimals": 18
   },
-  "0x4a220E6096B25EADb88358cb44068A3248254675": {
+  "0x4a220e6096b25eadb88358cb44068a3248254675": {
     "isVerified": true,
     "name": "Quant",
     "symbol": "QNT",
     "decimals": 18
   },
-  "0x4b520c812E8430659FC9f12f6d0c39026C83588D": {
+  "0x4b520c812e8430659fc9f12f6d0c39026c83588d": {
     "isVerified": true,
     "name": "Decentral Games",
     "symbol": "DG",
     "decimals": 18
   },
-  "0x4bD70556ae3F8a6eC6C4080A0C327B24325438f3": {
+  "0x4bd70556ae3f8a6ec6c4080a0c327b24325438f3": {
     "isVerified": true,
     "name": "Hxro",
     "symbol": "HXRO",
     "decimals": 18
   },
-  "0x4C2e59D098DF7b6cBaE0848d66DE2f8A4889b9C3": {
+  "0x4c2e59d098df7b6cbae0848d66de2f8a4889b9c3": {
     "isVerified": true,
     "name": "Fodl Finance",
     "symbol": "FODL",
     "decimals": 18
   },
-  "0x4C19596f5aAfF459fA38B0f7eD92F11AE6543784": {
-    "isVerified": true,
-    "name": "TrustToken",
-    "symbol": "TRU",
-    "decimals": 8
-  },
-  "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B": {
+  "0x4e3fbd56cd56c3e72c1403e103b45db9da5b9d2b": {
     "isVerified": true,
     "name": "Convex Finance",
     "symbol": "CVX",
     "decimals": 18
   },
-  "0x4E15361FD6b4BB609Fa63C81A2be19d873717870": {
+  "0x4e15361fd6b4bb609fa63c81a2be19d873717870": {
     "isVerified": true,
     "name": "Fantom",
     "symbol": "FTM",
     "decimals": 18
   },
-  "0x4F9254C83EB525f9FCf346490bbb3ed28a81C667": {
+  "0x4f9254c83eb525f9fcf346490bbb3ed28a81c667": {
     "isVerified": true,
     "name": "Celer Network",
     "symbol": "CELR",
     "decimals": 18
   },
-  "0x4Fabb145d64652a948d72533023f6E7A623C7C53": {
+  "0x4fabb145d64652a948d72533023f6e7a623c7c53": {
     "isVerified": true,
     "name": "Binance USD",
     "symbol": "BUSD",
     "decimals": 18
   },
-  "0x4fE83213D56308330EC302a8BD641f1d0113A4Cc": {
+  "0x4fe83213d56308330ec302a8bd641f1d0113a4cc": {
     "isVerified": true,
     "name": "NuCypher",
     "symbol": "NU",
     "decimals": 18
   },
-  "0x5A98FcBEA516Cf06857215779Fd812CA3beF1B32": {
+  "0x5a98fcbea516cf06857215779fd812ca3bef1b32": {
     "isVerified": true,
     "name": "Lido DAO",
     "symbol": "LDO",
     "decimals": 18
   },
-  "0x5Ca381bBfb58f0092df149bD3D243b08B9a8386e": {
+  "0x5ca381bbfb58f0092df149bd3d243b08b9a8386e": {
     "isVerified": true,
     "name": "MXC",
     "symbol": "MXC",
     "decimals": 18
   },
-  "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0": {
+  "0x5f98805a4e8be255a32880fdec7f6728c6568ba0": {
     "isVerified": true,
     "name": "Liquity USD",
     "symbol": "LUSD",
     "decimals": 18
   },
-  "0x6De037ef9aD2725EB40118Bb1702EBb27e4Aeb24": {
+  "0x6de037ef9ad2725eb40118bb1702ebb27e4aeb24": {
     "isVerified": true,
     "name": "Render Token",
     "symbol": "RNDR",
     "decimals": 18
   },
-  "0x6DEA81C8171D0bA574754EF6F8b412F2Ed88c54D": {
+  "0x6dea81c8171d0ba574754ef6f8b412f2ed88c54d": {
     "isVerified": true,
     "name": "Liquity",
     "symbol": "LQTY",
     "decimals": 18
   },
-  "0x6f259637dcD74C767781E37Bc6133cd6A68aa161": {
+  "0x6f259637dcd74c767781e37bc6133cd6a68aa161": {
     "isVerified": true,
     "name": "Huobi Token",
     "symbol": "HT",
     "decimals": 18
   },
-  "0x7A58c0Be72BE218B41C608b7Fe7C5bB630736C71": {
+  "0x7a58c0be72be218b41c608b7fe7c5bb630736c71": {
     "isVerified": true,
     "name": "ConstitutionDAO",
     "symbol": "PEOPLE",
     "decimals": 18
   },
-  "0x7aE1D57b58fA6411F32948314BadD83583eE0e8C": {
+  "0x7ae1d57b58fa6411f32948314badd83583ee0e8c": {
     "isVerified": true,
     "name": "Dope Wars Paper",
     "symbol": "PAPER",
     "decimals": 18
   },
-  "0x07baC35846e5eD502aA91AdF6A9e7aA210F2DcbE": {
+  "0x07bac35846e5ed502aa91adf6a9e7aa210f2dcbe": {
     "isVerified": true,
     "name": "Sifchain",
     "symbol": "EROWAN",
     "decimals": 18
   },
-  "0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429": {
+  "0x7dd9c5cba05e151c895fde1cf355c9a1d5da6429": {
     "isVerified": true,
     "name": "Golem",
     "symbol": "GLM",
     "decimals": 18
   },
-  "0x7FF4169a6B5122b664c51c95727d87750eC07c84": {
+  "0x7ff4169a6b5122b664c51c95727d87750ec07c84": {
     "isVerified": true,
     "name": "Tenset",
     "symbol": "10SET",
     "decimals": 18
   },
-  "0x8A2279d4A90B6fe1C4B30fa660cC9f926797bAA2": {
+  "0x8a2279d4a90b6fe1c4b30fa660cc9f926797baa2": {
     "isVerified": true,
     "name": "Chromia",
     "symbol": "CHR",
     "decimals": 6
   },
-  "0x8c15Ef5b4B21951d50E53E4fbdA8298FFAD25057": {
+  "0x8c15ef5b4b21951d50e53e4fbda8298ffad25057": {
     "isVerified": true,
     "name": "Function X",
     "symbol": "FX",
     "decimals": 18
   },
-  "0x8C543AED163909142695f2d2aCd0D55791a9Edb9": {
+  "0x8c543aed163909142695f2d2acd0d55791a9edb9": {
     "isVerified": true,
     "name": "Velas",
     "symbol": "VLX",
     "decimals": 18
   },
-  "0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9": {
+  "0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9": {
     "isVerified": true,
     "name": "SXP",
     "symbol": "SXP",
     "decimals": 18
   },
-  "0x8f8221aFbB33998d8584A2B05749bA73c37a938a": {
+  "0x8f8221afbb33998d8584a2b05749ba73c37a938a": {
     "isVerified": true,
     "name": "Request",
     "symbol": "REQ",
     "decimals": 18
   },
-  "0x9AB7bb7FdC60f4357ECFef43986818A2A3569c62": {
+  "0x9ab7bb7fdc60f4357ecfef43986818a2a3569c62": {
     "isVerified": true,
     "name": "Guild of Guardians",
     "symbol": "GOG",
     "decimals": 18
   },
-  "0x9C4A4204B79dd291D6b6571C5BE8BbcD0622F050": {
+  "0x9c4a4204b79dd291d6b6571c5be8bbcd0622f050": {
     "isVerified": true,
     "name": "Tracer DAO",
     "symbol": "TCR",
     "decimals": 18
   },
-  "0x9E32b13ce7f2E80A01932B42553652E053D6ed8e": {
+  "0x9e32b13ce7f2e80a01932b42553652e053d6ed8e": {
     "isVerified": true,
     "name": "Metis Token",
     "symbol": "METIS",
     "decimals": 18
   },
-  "0x11eeF04c884E24d9B7B4760e7476D06ddF797f36": {
+  "0x11eef04c884e24d9b7b4760e7476d06ddf797f36": {
     "isVerified": true,
     "name": "MX Token",
     "symbol": "MX",
     "decimals": 18
   },
-  "0x12BB890508c125661E03b09EC06E404bc9289040": {
+  "0x12bb890508c125661e03b09ec06e404bc9289040": {
     "isVerified": true,
     "name": "Radio Caca",
     "symbol": "RACA",
     "decimals": 18
   },
-  "0x15b7c0c907e4C6b9AdaAaabC300C08991D6CEA05": {
+  "0x15b7c0c907e4c6b9adaaaabc300c08991d6cea05": {
     "isVerified": true,
     "name": "Gelato",
     "symbol": "GEL",
     "decimals": 18
   },
-  "0x15D4c048F83bd7e37d49eA4C83a07267Ec4203dA": {
+  "0x15d4c048f83bd7e37d49ea4c83a07267ec4203da": {
     "isVerified": true,
     "name": "Gala",
     "symbol": "GALA",
     "decimals": 8
   },
-  "0x18aAA7115705e8be94bfFEBDE57Af9BFc265B998": {
+  "0x18aaa7115705e8be94bffebde57af9bfc265b998": {
     "isVerified": true,
     "name": "Audius",
     "symbol": "AUDIO",
     "decimals": 18
   },
-  "0x25f8087EAD173b73D6e8B84329989A8eEA16CF73": {
+  "0x25f8087ead173b73d6e8b84329989a8eea16cf73": {
     "isVerified": true,
     "name": "Yield Guild Games",
     "symbol": "YGG",
     "decimals": 18
   },
-  "0x29d578CEc46B50Fa5C88a99C6A4B70184C062953": {
+  "0x29d578cec46b50fa5c88a99c6a4b70184c062953": {
     "isVerified": true,
     "name": "Everscale",
     "symbol": "EVER",
     "decimals": 9
   },
-  "0x31c8EAcBFFdD875c74b94b077895Bd78CF1E64A3": {
+  "0x31c8eacbffdd875c74b94b077895bd78cf1e64a3": {
     "isVerified": true,
     "name": "Radicle",
     "symbol": "RAD",
     "decimals": 18
   },
-  "0x35A18000230DA775CAc24873d00Ff85BccdeD550": {
+  "0x35a18000230da775cac24873d00ff85bccded550": {
     "isVerified": true,
     "name": "cUNI",
     "symbol": "CUNI",
     "decimals": 8
   },
-  "0x41D5D79431A913C4aE7d69a668ecdfE5fF9DFB68": {
+  "0x41d5d79431a913c4ae7d69a668ecdfe5ff9dfb68": {
     "isVerified": true,
     "name": "Inverse Finance",
     "symbol": "INV",
     "decimals": 18
   },
-  "0x42bBFa2e77757C645eeaAd1655E0911a7553Efbc": {
+  "0x42bbfa2e77757c645eeaad1655e0911a7553efbc": {
     "isVerified": true,
     "name": "Boba Network",
     "symbol": "BOBA",
     "decimals": 18
   },
-  "0x43Dfc4159D86F3A37A5A4B3D4580b888ad7d4DDd": {
+  "0x43dfc4159d86f3a37a5a4b3d4580b888ad7d4ddd": {
     "isVerified": true,
     "name": "DODO",
     "symbol": "DODO",
     "decimals": 18
   },
-  "0x50D1c9771902476076eCFc8B2A83Ad6b9355a4c9": {
+  "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9": {
     "isVerified": true,
     "name": "FTX Token",
     "symbol": "FTT",
     "decimals": 18
   },
-  "0x55aF5865807b196bD0197e0902746F31FBcCFa58": {
+  "0x55af5865807b196bd0197e0902746f31fbccfa58": {
     "isVerified": true,
     "name": "Spookyswap",
     "symbol": "BOO",
     "decimals": 18
   },
-  "0x056Fd409E1d7A124BD7017459dFEa2F387b6d5Cd": {
+  "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd": {
     "isVerified": true,
     "name": "Gemini Dollar",
     "symbol": "GUSD",
     "decimals": 2
   },
-  "0x61E90A50137E1F645c9eF4a0d3A4f01477738406": {
+  "0x61e90a50137e1f645c9ef4a0d3a4f01477738406": {
     "isVerified": true,
     "name": "League of Kingdoms",
     "symbol": "LOKA",
     "decimals": 18
   },
-  "0x62B9c7356A2Dc64a1969e19C23e4f579F9810Aa7": {
+  "0x62b9c7356a2dc64a1969e19c23e4f579f9810aa7": {
     "isVerified": true,
     "name": "Convex CRV",
     "symbol": "CVXCRV",
     "decimals": 18
   },
-  "0x64aa3364F17a4D01c6f1751Fd97C2BD3D7e7f1D5": {
+  "0x64aa3364f17a4d01c6f1751fd97c2bd3d7e7f1d5": {
     "isVerified": true,
     "name": "Olympus",
     "symbol": "OHM",
     "decimals": 9
   },
-  "0x65Ef703f5594D2573eb71Aaf55BC0CB548492df4": {
+  "0x65ef703f5594d2573eb71aaf55bc0cb548492df4": {
     "isVerified": true,
     "name": "Multichain",
     "symbol": "MULTI",
     "decimals": 18
   },
-  "0x69af81e73A73B40adF4f3d4223Cd9b1ECE623074": {
+  "0x69af81e73a73b40adf4f3d4223cd9b1ece623074": {
     "isVerified": true,
     "name": "Mask Network",
     "symbol": "MASK",
     "decimals": 18
   },
-  "0x70e8dE73cE538DA2bEEd35d14187F6959a8ecA96": {
+  "0x70e8de73ce538da2beed35d14187f6959a8eca96": {
     "isVerified": true,
     "name": "XSGD",
     "symbol": "XSGD",
     "decimals": 6
   },
-  "0x77FbA179C79De5B7653F68b5039Af940AdA60ce0": {
+  "0x77fba179c79de5b7653f68b5039af940ada60ce0": {
     "isVerified": true,
     "name": "Ampleforth Governance Token",
     "symbol": "FORTH",
     "decimals": 18
   },
-  "0x80C62FE4487E1351b47Ba49809EBD60ED085bf52": {
+  "0x80c62fe4487e1351b47ba49809ebd60ed085bf52": {
     "isVerified": true,
     "name": "Clover Finance",
     "symbol": "CLV",
     "decimals": 18
   },
-  "0x81f8f0bb1cB2A06649E51913A151F0E7Ef6FA321": {
+  "0x81f8f0bb1cb2a06649e51913a151f0e7ef6fa321": {
     "isVerified": true,
     "name": "VitaDAO",
     "symbol": "VITA",
     "decimals": 18
   },
-  "0x081F67aFA0cCF8c7B17540767BBe95DF2bA8D97F": {
+  "0x081f67afa0ccf8c7b17540767bbe95df2ba8d97f": {
     "isVerified": true,
     "name": "CoinEx Token",
     "symbol": "CET",
     "decimals": 18
   },
-  "0x83e6f1E41cdd28eAcEB20Cb649155049Fac3D5Aa": {
+  "0x83e6f1e41cdd28eaceb20cb649155049fac3d5aa": {
     "isVerified": true,
     "name": "Polkastarter",
     "symbol": "POLS",
     "decimals": 18
   },
-  "0x87d73E916D7057945c9BcD8cdd94e42A6F47f776": {
+  "0x87d73e916d7057945c9bcd8cdd94e42a6f47f776": {
     "isVerified": true,
     "name": "NFTX",
     "symbol": "NFTX",
     "decimals": 18
   },
-  "0x88ACDd2a6425c3FaAE4Bc9650Fd7E27e0Bebb7aB": {
+  "0x88acdd2a6425c3faae4bc9650fd7e27e0bebb7ab": {
     "isVerified": true,
     "name": "Alchemist",
     "symbol": "MIST",
     "decimals": 18
   },
-  "0x92D6C1e31e14520e676a687F0a93788B716BEff5": {
+  "0x92d6c1e31e14520e676a687f0a93788b716beff5": {
     "isVerified": true,
     "name": "dYdX",
     "symbol": "DYDX",
     "decimals": 18
   },
-  "0x94E9EB8b5Ab9fd6B9ea3169D55FFAde62a01702e": {
+  "0x94e9eb8b5ab9fd6b9ea3169d55ffade62a01702e": {
     "isVerified": true,
     "name": "BreederDAO",
     "symbol": "BREED",
     "decimals": 18
   },
-  "0x95aD61b0a150d79219dCF64E1E6Cc01f0B64C4cE": {
+  "0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce": {
     "isVerified": true,
     "name": "Shiba Inu",
     "symbol": "SHIB",
     "decimals": 18
   },
-  "0x99D8a9C45b2ecA8864373A26D1459e3Dff1e17F3": {
+  "0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3": {
     "isVerified": true,
     "name": "Magic Internet Money",
     "symbol": "MIM",
     "decimals": 18
   },
-  "0x198d14F2Ad9CE69E76ea330B374DE4957C3F850a": {
+  "0x198d14f2ad9ce69e76ea330b374de4957c3f850a": {
     "isVerified": true,
     "name": "APENFT",
     "symbol": "NFT",
     "decimals": 6
   },
-  "0x226bb599a12C826476e3A771454697EA52E9E220": {
+  "0x226bb599a12c826476e3a771454697ea52e9e220": {
     "isVerified": true,
     "name": "Propy",
     "symbol": "PRO",
     "decimals": 8
   },
-  "0x249e38Ea4102D0cf8264d3701f1a0E39C4f2DC3B": {
+  "0x249e38ea4102d0cf8264d3701f1a0e39c4f2dc3b": {
     "isVerified": true,
     "name": "UFO Gaming",
     "symbol": "UFO",
     "decimals": 18
   },
-  "0x0316EB71485b0Ab14103307bf65a021042c6d380": {
+  "0x0316eb71485b0ab14103307bf65a021042c6d380": {
     "isVerified": true,
     "name": "Huobi BTC",
     "symbol": "HBTC",
     "decimals": 18
   },
-  "0x0391D2021f89DC339F60Fff84546EA23E337750f": {
+  "0x0391d2021f89dc339f60fff84546ea23e337750f": {
     "isVerified": true,
     "name": "BarnBridge",
     "symbol": "BOND",
     "decimals": 18
   },
-  "0x429D83Bb0DCB8cdd5311e34680ADC8B12070a07f": {
+  "0x429d83bb0dcb8cdd5311e34680adc8b12070a07f": {
     "isVerified": true,
     "name": "PlatonCoin",
     "symbol": "PLTC",
     "decimals": 18
   },
-  "0x430EF9263E76DAE63c84292C3409D61c598E9682": {
+  "0x430ef9263e76dae63c84292c3409d61c598e9682": {
     "isVerified": true,
     "name": "Vulcan Forged",
     "symbol": "PYR",
     "decimals": 18
   },
-  "0x467Bccd9d29f223BcE8043b84E8C8B282827790F": {
+  "0x467bccd9d29f223bce8043b84e8c8b282827790f": {
     "isVerified": true,
     "name": "Telcoin",
     "symbol": "TEL",
     "decimals": 2
   },
-  "0x470EBf5f030Ed85Fc1ed4C2d36B9DD02e77CF1b7": {
+  "0x470ebf5f030ed85fc1ed4c2d36b9dd02e77cf1b7": {
     "isVerified": true,
     "name": "TempleDAO",
     "symbol": "TEMPLE",
     "decimals": 18
   },
-  "0x579CEa1889991f68aCc35Ff5c3dd0621fF29b0C9": {
+  "0x579cea1889991f68acc35ff5c3dd0621ff29b0c9": {
     "isVerified": true,
     "name": "Everipedia",
     "symbol": "IQ",
     "decimals": 18
   },
-  "0x580c8520dEDA0a441522AEAe0f9F7A5f29629aFa": {
+  "0x580c8520deda0a441522aeae0f9f7a5f29629afa": {
     "isVerified": true,
     "name": "Dawn Protocol",
     "symbol": "DAWN",
     "decimals": 18
   },
-  "0x584bC13c7D411c00c01A62e8019472dE68768430": {
+  "0x584bc13c7d411c00c01a62e8019472de68768430": {
     "isVerified": true,
     "name": "Hegic",
     "symbol": "HEGIC",
     "decimals": 18
   },
-  "0x666d875C600AA06AC1cf15641361dEC3b00432Ef": {
+  "0x666d875c600aa06ac1cf15641361dec3b00432ef": {
     "isVerified": true,
     "name": "BTSE Token",
     "symbol": "BTSE",
     "decimals": 8
   },
-  "0x674C6Ad92Fd080e4004b2312b45f796a192D27a0": {
+  "0x674c6ad92fd080e4004b2312b45f796a192d27a0": {
     "isVerified": true,
     "name": "Neutrino USD",
     "symbol": "USDN",
     "decimals": 18
   },
-  "0x678e840C640F619E17848045D23072844224dD37": {
+  "0x678e840c640f619e17848045d23072844224dd37": {
     "isVerified": true,
     "name": "Cratos",
     "symbol": "CRTS",
     "decimals": 18
   },
-  "0x686f2404e77Ab0d9070a46cdfb0B7feCDD2318b0": {
+  "0x686f2404e77ab0d9070a46cdfb0b7fecdd2318b0": {
     "isVerified": true,
     "name": "LORDS",
     "symbol": "LORDS",
     "decimals": 18
   },
-  "0x761D38e5ddf6ccf6Cf7c55759d5210750B5D60F3": {
+  "0x761d38e5ddf6ccf6cf7c55759d5210750b5d60f3": {
     "isVerified": true,
     "name": "Dogelon Mars",
     "symbol": "ELON",
     "decimals": 18
   },
-  "0x767FE9EDC9E0dF98E07454847909b5E959D7ca0E": {
+  "0x767fe9edc9e0df98e07454847909b5e959d7ca0e": {
     "isVerified": true,
     "name": "Illuvium",
     "symbol": "ILV",
     "decimals": 18
   },
-  "0x853d955aCEf822Db058eb8505911ED77F175b99e": {
+  "0x853d955acef822db058eb8505911ed77f175b99e": {
     "isVerified": true,
     "name": "Frax",
     "symbol": "FRAX",
     "decimals": 18
   },
-  "0x871baeD4088b863fd6407159f3672D70CD34837d": {
+  "0x871baed4088b863fd6407159f3672d70cd34837d": {
     "isVerified": true,
     "name": "3X Long Ethereum Token",
     "symbol": "ETHBULL",
     "decimals": 18
   },
-  "0x903bEF1736CDdf2A537176cf3C64579C3867A881": {
+  "0x903bef1736cddf2a537176cf3c64579c3867a881": {
     "isVerified": true,
     "name": "ICHI",
     "symbol": "ICHI",
     "decimals": 9
   },
-  "0x940a2dB1B7008B6C776d4faaCa729d6d4A4AA551": {
+  "0x940a2db1b7008b6c776d4faaca729d6d4a4aa551": {
     "isVerified": true,
     "name": "DUSK Network",
     "symbol": "DUSK",
     "decimals": 18
   },
-  "0x949D48EcA67b17269629c7194F4b727d4Ef9E5d6": {
+  "0x949d48eca67b17269629c7194f4b727d4ef9e5d6": {
     "isVerified": true,
     "name": "Merit Circle",
     "symbol": "MC",
     "decimals": 18
   },
-  "0x967da4048cD07aB37855c090aAF366e4ce1b9F48": {
+  "0x967da4048cd07ab37855c090aaf366e4ce1b9f48": {
     "isVerified": true,
     "name": "Ocean Protocol",
     "symbol": "OCEAN",
     "decimals": 18
   },
-  "0x986EE2B944c42D017F52Af21c4c69B84DBeA35d8": {
+  "0x986ee2b944c42d017f52af21c4c69b84dbea35d8": {
     "isVerified": true,
     "name": "BitMart Token",
     "symbol": "BMX",
     "decimals": 18
   },
-  "0x01597E397605Bf280674Bf292623460b4204C375": {
+  "0x01597e397605bf280674bf292623460b4204c375": {
     "isVerified": true,
     "name": "Bent Finance",
     "symbol": "BENT",
     "decimals": 18
   },
-  "0x3432B6A60D23Ca0dFCa7761B7ab56459D9C964D0": {
+  "0x3432b6a60d23ca0dfca7761b7ab56459d9c964d0": {
     "isVerified": true,
     "name": "Frax Share",
     "symbol": "FXS",
     "decimals": 18
   },
-  "0x3472A5A71965499acd81997a54BBA8D852C6E53d": {
+  "0x3472a5a71965499acd81997a54bba8d852c6e53d": {
     "isVerified": true,
     "name": "Badger DAO",
     "symbol": "BADGER",
     "decimals": 18
   },
-  "0x3597bfD533a99c9aa083587B074434E61Eb0A258": {
+  "0x3597bfd533a99c9aa083587b074434e61eb0a258": {
     "isVerified": true,
     "name": "Dent",
     "symbol": "DENT",
     "decimals": 8
   },
-  "0x4575f41308EC1483f3d399aa9a2826d74Da13Deb": {
+  "0x4575f41308ec1483f3d399aa9a2826d74da13deb": {
     "isVerified": true,
     "name": "Orchid Protocol",
     "symbol": "OXT",
     "decimals": 18
   },
-  "0x6123B0049F904d730dB3C36a31167D9d4121fA6B": {
+  "0x6123b0049f904d730db3c36a31167d9d4121fa6b": {
     "isVerified": true,
     "name": "Ribbon Finance",
     "symbol": "RBN",
     "decimals": 18
   },
-  "0x6307B25A665Efc992EC1C1bC403c38F3dDd7c661": {
+  "0x6307b25a665efc992ec1c1bc403c38f3ddd7c661": {
     "isVerified": true,
     "name": "Global Coin Research",
     "symbol": "GCR",
     "decimals": 4
   },
-  "0x6399C842dD2bE3dE30BF99Bc7D1bBF6Fa3650E70": {
+  "0x6399c842dd2be3de30bf99bc7d1bbf6fa3650e70": {
     "isVerified": true,
     "name": "Premia",
     "symbol": "PREMIA",
     "decimals": 18
   },
-  "0x6468e79A80C0eaB0F9A2B574c8d5bC374Af59414": {
+  "0x6468e79a80c0eab0f9a2b574c8d5bc374af59414": {
     "isVerified": true,
     "name": "e Radix",
     "symbol": "EXRD",
     "decimals": 18
   },
-  "0x8207c1FfC5B6804F6024322CcF34F29c3541Ae26": {
+  "0x8207c1ffc5b6804f6024322ccf34f29c3541ae26": {
     "isVerified": true,
     "name": "Origin Protocol",
     "symbol": "OGN",
     "decimals": 18
   },
-  "0x9992eC3cF6A55b00978cdDF2b27BC6882d88D1eC": {
+  "0x9992ec3cf6a55b00978cddf2b27bc6882d88d1ec": {
     "isVerified": true,
     "name": "Polymath",
     "symbol": "POLY",
     "decimals": 18
   },
-  "0x27054b13b1B798B345b591a4d22e6562d47eA75a": {
+  "0x27054b13b1b798b345b591a4d22e6562d47ea75a": {
     "isVerified": true,
     "name": "AirSwap",
     "symbol": "AST",
     "decimals": 4
   },
-  "0x31429d1856aD1377A8A0079410B297e1a9e214c2": {
+  "0x31429d1856ad1377a8a0079410b297e1a9e214c2": {
     "isVerified": true,
     "name": "ANGLE",
     "symbol": "ANGLE",
     "decimals": 18
   },
-  "0x32353A6C91143bfd6C7d363B546e62a9A2489A20": {
+  "0x32353a6c91143bfd6c7d363b546e62a9a2489a20": {
     "isVerified": true,
     "name": "Adventure Gold",
     "symbol": "AGLD",
     "decimals": 18
   },
-  "0x33349B282065b0284d756F0577FB39c158F935e6": {
+  "0x33349b282065b0284d756f0577fb39c158f935e6": {
     "isVerified": true,
     "name": "Maple",
     "symbol": "MPL",
     "decimals": 18
   },
-  "0x73968b9a57c6E53d41345FD57a6E6ae27d6CDB2F": {
+  "0x73968b9a57c6e53d41345fd57a6e6ae27d6cdb2f": {
     "isVerified": true,
     "name": "Stake DAO",
     "symbol": "SDT",
     "decimals": 18
   },
-  "0x75231F58b43240C9718Dd58B4967c5114342a86c": {
+  "0x75231f58b43240c9718dd58b4967c5114342a86c": {
     "isVerified": true,
     "name": "OKB",
     "symbol": "OKB",
     "decimals": 18
   },
-  "0x77777FeDdddFfC19Ff86DB637967013e6C6A116C": {
+  "0x77777feddddffc19ff86db637967013e6c6a116c": {
     "isVerified": true,
     "name": "Tornado Cash",
     "symbol": "TORN",
     "decimals": 18
   },
-  "0x090185f2135308BaD17527004364eBcC2D37e5F6": {
+  "0x090185f2135308bad17527004364ebcc2d37e5f6": {
     "isVerified": true,
     "name": "Spell Token",
     "symbol": "SPELL",
     "decimals": 18
   },
-  "0x320623b8E4fF03373931769A31Fc52A4E78B5d70": {
+  "0x320623b8e4ff03373931769a31fc52a4e78b5d70": {
     "isVerified": true,
     "name": "Reserve Rights Token",
     "symbol": "RSR",
     "decimals": 18
   },
-  "0x491604c0FDF08347Dd1fa4Ee062a822A5DD06B5D": {
+  "0x491604c0fdf08347dd1fa4ee062a822a5dd06b5d": {
     "isVerified": true,
     "name": "Cartesi",
     "symbol": "CTSI",
     "decimals": 18
   },
-  "0x595832F8FC6BF59c85C527fEC3740A1b7a361269": {
+  "0x595832f8fc6bf59c85c527fec3740a1b7a361269": {
     "isVerified": true,
     "name": "Power Ledger",
     "symbol": "POWR",
     "decimals": 6
   },
-  "0x618679dF9EfCd19694BB1daa8D00718Eacfa2883": {
+  "0x618679df9efcd19694bb1daa8d00718eacfa2883": {
     "isVerified": true,
     "name": "Universe XYZ",
     "symbol": "XYZ",
     "decimals": 18
   },
-  "0x2602278EE1882889B946eb11DC0E810075650983": {
+  "0x2602278ee1882889b946eb11dc0e810075650983": {
     "isVerified": true,
     "name": "Vader Protocol",
     "symbol": "VADER",
     "decimals": 18
   },
-  "0x3506424F91fD33084466F402d5D97f05F8e3b4AF": {
+  "0x3506424f91fd33084466f402d5d97f05f8e3b4af": {
     "isVerified": true,
     "name": "Chiliz",
     "symbol": "CHZ",
     "decimals": 18
   },
-  "0x4691937a7508860F876c9c0a2a617E7d9E945D4B": {
+  "0x4691937a7508860f876c9c0a2a617e7d9e945d4b": {
     "isVerified": true,
     "name": "WOO Network",
     "symbol": "WOO",
     "decimals": 18
   },
-  "0x8290333ceF9e6D528dD5618Fb97a76f268f3EDD4": {
+  "0x8290333cef9e6d528dd5618fb97a76f268f3edd4": {
     "isVerified": true,
     "name": "Ankr",
     "symbol": "ANKR",
     "decimals": 18
   },
-  "0x8798249c2E607446EfB7Ad49eC89dD1865Ff4272": {
+  "0x8798249c2e607446efb7ad49ec89dd1865ff4272": {
     "isVerified": true,
     "name": "xSUSHI",
     "symbol": "XSUSHI",
     "decimals": 18
   },
-  "0x8888801aF4d980682e47f1A9036e589479e835C5": {
+  "0x8888801af4d980682e47f1a9036e589479e835c5": {
     "isVerified": true,
     "name": "88mph",
     "symbol": "MPH",
     "decimals": 18
   },
-  "0x68749665FF8D2d112Fa859AA293F07A622782F38": {
+  "0x68749665ff8d2d112fa859aa293f07a622782f38": {
     "isVerified": true,
     "name": "Tether Gold",
     "symbol": "XAUT",
     "decimals": 6
   },
-  "0x74232704659ef37c08995e386A2E26cc27a8d7B1": {
+  "0x74232704659ef37c08995e386a2e26cc27a8d7b1": {
     "isVerified": true,
     "name": "Strike",
     "symbol": "STRK",
     "decimals": 18
   },
-  "0x865377367054516e17014CcdED1e7d814EDC9ce4": {
+  "0x865377367054516e17014ccded1e7d814edc9ce4": {
     "isVerified": true,
     "name": "Dola",
     "symbol": "DOLA",
     "decimals": 18
   },
-  "0xA0b73E1Ff0B80914AB6fe0444E65848C4C34450b": {
+  "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b": {
     "isVerified": true,
     "name": "Cronos",
     "symbol": "CRO",
     "decimals": 8
   },
-  "0xa1faa113cbE53436Df28FF0aEe54275c13B40975": {
+  "0xa1faa113cbe53436df28ff0aee54275c13b40975": {
     "isVerified": true,
     "name": "Alpha Venture DAO",
     "symbol": "ALPHA",
     "decimals": 18
   },
-  "0xA2cd3D43c775978A96BdBf12d733D5A1ED94fb18": {
+  "0xa2cd3d43c775978a96bdbf12d733d5a1ed94fb18": {
     "isVerified": true,
     "name": "Chain",
     "symbol": "XCN",
     "decimals": 18
   },
-  "0xa3C22370de5f9544f0c4De126b1e46cEadF0A51B": {
+  "0xa3c22370de5f9544f0c4de126b1e46ceadf0a51b": {
     "isVerified": true,
     "name": "Stratis",
     "symbol": "STRAX",
     "decimals": 18
   },
-  "0xa3EE21C306A700E682AbCdfe9BaA6A08F3820419": {
+  "0xa3ee21c306a700e682abcdfe9baa6a08f3820419": {
     "isVerified": true,
     "name": "Creditcoin",
     "symbol": "CTC",
     "decimals": 18
   },
-  "0xa5f2211B9b8170F694421f2046281775E8468044": {
+  "0xa5f2211b9b8170f694421f2046281775e8468044": {
     "isVerified": true,
     "name": "THORSwap",
     "symbol": "THOR",
     "decimals": 18
   },
-  "0xA8b919680258d369114910511cc87595aec0be6D": {
+  "0xa8b919680258d369114910511cc87595aec0be6d": {
     "isVerified": true,
     "name": "LUKSO Token",
     "symbol": "LYXE",
     "decimals": 18
   },
-  "0xa71d0588EAf47f12B13cF8eC750430d21DF04974": {
+  "0xa71d0588eaf47f12b13cf8ec750430d21df04974": {
     "isVerified": true,
     "name": "Shiba Predator",
     "symbol": "QOM",
     "decimals": 18
   },
-  "0xA91ac63D040dEB1b7A5E4d4134aD23eb0ba07e14": {
+  "0xa91ac63d040deb1b7a5e4d4134ad23eb0ba07e14": {
     "isVerified": true,
     "name": "Bella Protocol",
     "symbol": "BEL",
     "decimals": 18
   },
-  "0xa0246c9032bC3A600820415aE600c6388619A14D": {
+  "0xa0246c9032bc3a600820415ae600c6388619a14d": {
     "isVerified": true,
     "name": "Harvest Finance",
     "symbol": "FARM",
     "decimals": 18
   },
-  "0xA2085073878152aC3090eA13D1e41bD69e60Dc99": {
+  "0xa2085073878152ac3090ea13d1e41bd69e60dc99": {
     "isVerified": true,
     "name": "Escoin Token",
     "symbol": "ELG",
     "decimals": 18
   },
-  "0xaA7a9CA87d3694B5755f213B5D04094b8d0F0A6F": {
+  "0xaa7a9ca87d3694b5755f213b5d04094b8d0f0a6f": {
     "isVerified": true,
     "name": "OriginTrail",
     "symbol": "TRAC",
     "decimals": 18
   },
-  "0xaa602dE53347579f86b996D2Add74bb6F79462b2": {
+  "0xaa602de53347579f86b996d2add74bb6f79462b2": {
     "isVerified": true,
     "name": "Zipmex Token",
     "symbol": "ZMT",
     "decimals": 18
   },
-  "0xAaAAAA20D9E0e2461697782ef11675f668207961": {
+  "0xaaaaaa20d9e0e2461697782ef11675f668207961": {
     "isVerified": true,
     "name": "Aurora",
     "symbol": "AURORA",
     "decimals": 18
   },
-  "0xAC57De9C1A09FeC648E93EB98875B212DB0d460B": {
+  "0xac57de9c1a09fec648e93eb98875b212db0d460b": {
     "isVerified": true,
     "name": "Baby Doge Coin",
     "symbol": "BABYDOGE",
     "decimals": 9
   },
-  "0xAC51066d7bEC65Dc4589368da368b212745d63E8": {
+  "0xac51066d7bec65dc4589368da368b212745d63e8": {
     "isVerified": true,
     "name": "My Neighbor Alice",
     "symbol": "ALICE",
     "decimals": 6
   },
-  "0xAE12C5930881c53715B369ceC7606B70d8EB229f": {
+  "0xae12c5930881c53715b369cec7606b70d8eb229f": {
     "isVerified": true,
     "name": "Coin98",
     "symbol": "C98",
     "decimals": 18
   },
-  "0xaea46A60368A7bD060eec7DF8CBa43b7EF41Ad85": {
+  "0xaea46a60368a7bd060eec7df8cba43b7ef41ad85": {
     "isVerified": true,
     "name": "Fetch ai",
     "symbol": "FET",
     "decimals": 18
   },
-  "0xB4A3B0Faf0Ab53df58001804DdA5Bfc6a3D59008": {
+  "0xb4a3b0faf0ab53df58001804dda5bfc6a3d59008": {
     "isVerified": true,
     "name": "Sperax",
     "symbol": "SPA",
     "decimals": 18
   },
-  "0xB9EefC4b0d472A44be93970254Df4f4016569d27": {
+  "0xb9eefc4b0d472a44be93970254df4f4016569d27": {
     "isVerified": true,
     "name": "DigitalBits",
     "symbol": "XDB",
     "decimals": 7
   },
-  "0xb056c38f6b7Dc4064367403E26424CD2c60655e1": {
+  "0xb056c38f6b7dc4064367403e26424cd2c60655e1": {
     "isVerified": true,
     "name": "CEEK Smart VR Token",
     "symbol": "CEEK",
     "decimals": 18
   },
-  "0xB1191F691A355b43542Bea9B8847bc73e7Abb137": {
+  "0xb1191f691a355b43542bea9b8847bc73e7abb137": {
     "isVerified": true,
     "name": "Kirobo",
     "symbol": "KIRO",
     "decimals": 18
   },
-  "0xb753428af26E81097e7fD17f40c88aaA3E04902c": {
+  "0xb753428af26e81097e7fd17f40c88aaa3e04902c": {
     "isVerified": true,
     "name": "saffron finance",
     "symbol": "SFI",
     "decimals": 18
   },
-  "0xba5BDe662c17e2aDFF1075610382B9B691296350": {
+  "0xba5bde662c17e2adff1075610382b9b691296350": {
     "isVerified": true,
     "name": "SuperRare",
     "symbol": "RARE",
     "decimals": 18
   },
-  "0xba9d4199faB4f26eFE3551D490E3821486f135Ba": {
+  "0xba9d4199fab4f26efe3551d490e3821486f135ba": {
     "isVerified": true,
     "name": "SwissBorg",
     "symbol": "CHSB",
     "decimals": 8
   },
-  "0xBA11D00c5f74255f56a5E366F4F77f5A186d7f55": {
+  "0xba11d00c5f74255f56a5e366f4f77f5a186d7f55": {
     "isVerified": true,
     "name": "Band Protocol",
     "symbol": "BAND",
     "decimals": 18
   },
-  "0xBAac2B4491727D78D2b78815144570b9f2Fe8899": {
+  "0xbaac2b4491727d78d2b78815144570b9f2fe8899": {
     "isVerified": true,
     "isCurated": true,
     "name": "The Doge NFT",
@@ -1947,397 +1942,397 @@
     "decimals": 18,
     "color": "#d6c492"
   },
-  "0xBC6DA0FE9aD5f3b0d58160288917AA56653660E9": {
+  "0xbc6da0fe9ad5f3b0d58160288917aa56653660e9": {
     "isVerified": true,
     "name": "Alchemix USD",
     "symbol": "ALUSD",
     "decimals": 18
   },
-  "0xbC396689893D065F41bc2C6EcbeE5e0085233447": {
+  "0xbc396689893d065f41bc2c6ecbee5e0085233447": {
     "isVerified": true,
     "name": "Perpetual Protocol",
     "symbol": "PERP",
     "decimals": 18
   },
-  "0xBe1a001FE942f96Eea22bA08783140B9Dcc09D28": {
+  "0xbe1a001fe942f96eea22ba08783140b9dcc09d28": {
     "isVerified": true,
     "name": "Beta Finance",
     "symbol": "BETA",
     "decimals": 18
   },
-  "0xbE9375C6a420D2eEB258962efB95551A5b722803": {
+  "0xbe9375c6a420d2eeb258962efb95551a5b722803": {
     "isVerified": true,
     "name": "StormX",
     "symbol": "STMX",
     "decimals": 18
   },
-  "0xbf2179859fc6D5BEE9Bf9158632Dc51678a4100e": {
+  "0xbf2179859fc6d5bee9bf9158632dc51678a4100e": {
     "isVerified": true,
     "name": "aelf",
     "symbol": "ELF",
     "decimals": 18
   },
-  "0xC0d4Ceb216B3BA9C3701B291766fDCbA977ceC3A": {
+  "0xc0d4ceb216b3ba9c3701b291766fdcba977cec3a": {
     "isVerified": true,
     "name": "Redacted Cartel",
     "symbol": "BTRFLY",
     "decimals": 9
   },
-  "0xC581b735A1688071A1746c968e0798D642EDE491": {
+  "0xc581b735a1688071a1746c968e0798d642ede491": {
     "isVerified": true,
     "name": "Euro Tether",
     "symbol": "EURT",
     "decimals": 6
   },
-  "0xc770EEfAd204B5180dF6a14Ee197D99d808ee52d": {
+  "0xc770eefad204b5180df6a14ee197d99d808ee52d": {
     "isVerified": true,
     "name": "ShapeShift FOX Token",
     "symbol": "FOX",
     "decimals": 18
   },
-  "0xC669928185DbCE49d2230CC9B0979BE6DC797957": {
+  "0xc669928185dbce49d2230cc9b0979be6dc797957": {
     "isVerified": true,
     "name": "BitTorrent",
     "symbol": "BTT",
     "decimals": 18
   },
-  "0xcAfE001067cDEF266AfB7Eb5A286dCFD277f3dE5": {
+  "0xcafe001067cdef266afb7eb5a286dcfd277f3de5": {
     "isVerified": true,
     "name": "ParaSwap",
     "symbol": "PSP",
     "decimals": 18
   },
-  "0xcb86c6A22CB56B6cf40CaFEDb06BA0DF188a416E": {
+  "0xcb86c6a22cb56b6cf40cafedb06ba0df188a416e": {
     "isVerified": true,
     "name": "inSure DeFi",
     "symbol": "SURE",
     "decimals": 18
   },
-  "0xccC8cb5229B0ac8069C51fd58367Fd1e622aFD97": {
+  "0xccc8cb5229b0ac8069c51fd58367fd1e622afd97": {
     "isVerified": true,
     "name": "Gods Unchained",
     "symbol": "GODS",
     "decimals": 18
   },
-  "0xcf0C122c6b73ff809C693DB761e7BaeBe62b6a2E": {
+  "0xcf0c122c6b73ff809c693db761e7baebe62b6a2e": {
     "isVerified": true,
     "name": "Floki Inu",
     "symbol": "FLOKI",
     "decimals": 9
   },
-  "0xcfcEcFe2bD2FED07A9145222E8a7ad9Cf1Ccd22A": {
+  "0xcfcecfe2bd2fed07a9145222e8a7ad9cf1ccd22a": {
     "isVerified": true,
     "name": "Adshares",
     "symbol": "ADS",
     "decimals": 11
   },
-  "0xCFEAead4947f0705A14ec42aC3D44129E1Ef3eD5": {
+  "0xcfeaead4947f0705a14ec42ac3d44129e1ef3ed5": {
     "isVerified": true,
     "name": "Notional Finance",
     "symbol": "NOTE",
     "decimals": 8
   },
-  "0xd7c49CEE7E9188cCa6AD8FF264C1DA2e69D4Cf3B": {
+  "0xd7c49cee7e9188cca6ad8ff264c1da2e69d4cf3b": {
     "isVerified": true,
     "name": "Nexus Mutual",
     "symbol": "NXM",
     "decimals": 18
   },
-  "0xD7EFB00d12C2c13131FD319336Fdf952525dA2af": {
+  "0xd7efb00d12c2c13131fd319336fdf952525da2af": {
     "isVerified": true,
     "name": "Proton",
     "symbol": "XPR",
     "decimals": 4
   },
-  "0xD13c7342e1ef687C5ad21b27c2b65D772cAb5C8c": {
+  "0xd13c7342e1ef687c5ad21b27c2b65d772cab5c8c": {
     "isVerified": true,
     "name": "Ultra",
     "symbol": "UOS",
     "decimals": 4
   },
-  "0xd084B83C305daFD76AE3E1b4E1F1fe2eCcCb3988": {
+  "0xd084b83c305dafd76ae3e1b4e1f1fe2ecccb3988": {
     "isVerified": true,
     "name": "Terra Virtua Kolect",
     "symbol": "TVK",
     "decimals": 18
   },
-  "0xD241D7b5cb0eF9fC79D9e4eb9e21F5e209f52f7D": {
+  "0xd241d7b5cb0ef9fc79d9e4eb9e21f5e209f52f7d": {
     "isVerified": true,
     "name": "Hoo Token",
     "symbol": "HOO",
     "decimals": 8
   },
-  "0xD291E7a03283640FDc51b121aC401383A46cC623": {
+  "0xd291e7a03283640fdc51b121ac401383a46cc623": {
     "isVerified": true,
     "name": "Rari Governance Token",
     "symbol": "RGT",
     "decimals": 18
   },
-  "0xd084944d3c05CD115C09d072B9F44bA3E0E45921": {
+  "0xd084944d3c05cd115c09d072b9f44ba3e0e45921": {
     "isVerified": true,
     "name": "Manifold Finance",
     "symbol": "FOLD",
     "decimals": 18
   },
-  "0xD33526068D116cE69F19A9ee46F0bd304F21A51f": {
+  "0xd33526068d116ce69f19a9ee46f0bd304f21a51f": {
     "isVerified": true,
     "name": "Rocket Pool",
     "symbol": "RPL",
     "decimals": 18
   },
-  "0xD417144312DbF50465b1C641d016962017Ef6240": {
+  "0xd417144312dbf50465b1c641d016962017ef6240": {
     "isVerified": true,
     "name": "Covalent",
     "symbol": "CQT",
     "decimals": 18
   },
-  "0xdB25f211AB05b1c97D595516F45794528a807ad8": {
+  "0xdb25f211ab05b1c97d595516f45794528a807ad8": {
     "isVerified": true,
     "name": "STASIS EURO",
     "symbol": "EURS",
     "decimals": 2
   },
-  "0xdBdb4d16EdA451D0503b854CF79D55697F90c8DF": {
+  "0xdbdb4d16eda451d0503b854cf79d55697f90c8df": {
     "isVerified": true,
     "name": "Alchemix",
     "symbol": "ALCX",
     "decimals": 18
   },
-  "0xdc9Ac3C20D1ed0B540dF9b1feDC10039Df13F99c": {
+  "0xdc9ac3c20d1ed0b540df9b1fedc10039df13f99c": {
     "isVerified": true,
     "name": "Utrust",
     "symbol": "UTK",
     "decimals": 18
   },
-  "0xDC349913d53b446485E98b76800b6254f43Df695": {
+  "0xdc349913d53b446485e98b76800b6254f43df695": {
     "isVerified": true,
     "name": "Bezoge Earth",
     "symbol": "BEZOGE",
     "decimals": 9
   },
-  "0xDDB3422497E61e13543BeA06989C0789117555c5": {
+  "0xddb3422497e61e13543bea06989c0789117555c5": {
     "isVerified": true,
     "name": "COTI",
     "symbol": "COTI",
     "decimals": 18
   },
-  "0xDE5ed76E7c05eC5e4572CfC88d1ACEA165109E44": {
+  "0xde5ed76e7c05ec5e4572cfc88d1acea165109e44": {
     "isVerified": true,
     "name": "DEUS Finance",
     "symbol": "DEUS",
     "decimals": 18
   },
-  "0xDe7D85157d9714EADf595045CC12Ca4A5f3E2aDb": {
+  "0xde7d85157d9714eadf595045cc12ca4a5f3e2adb": {
     "isVerified": true,
     "name": "STP Network",
     "symbol": "STPT",
     "decimals": 18
   },
-  "0xDe30da39c46104798bB5aA3fe8B9e0e1F348163F": {
+  "0xde30da39c46104798bb5aa3fe8b9e0e1f348163f": {
     "isVerified": true,
     "name": "Gitcoin",
     "symbol": "GTC",
     "decimals": 18
   },
-  "0xDEf1CA1fb7FBcDC777520aa7f396b4E015F497aB": {
+  "0xdef1ca1fb7fbcdc777520aa7f396b4e015f497ab": {
     "isVerified": true,
     "name": "CoW Protocol",
     "symbol": "COW",
     "decimals": 18
   },
-  "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202": {
+  "0xdefa4e8a7bcba345f687a2f1456f5edd9ce97202": {
     "isVerified": true,
     "name": "Kyber Network Crystal",
     "symbol": "KNC",
     "decimals": 18
   },
-  "0xdF574c24545E5FfEcb9a659c229253D4111d87e1": {
+  "0xdf574c24545e5ffecb9a659c229253d4111d87e1": {
     "isVerified": true,
     "name": "HUSD",
     "symbol": "HUSD",
     "decimals": 8
   },
-  "0xDf801468a808a32656D2eD2D2d80B72A129739f4": {
+  "0xdf801468a808a32656d2ed2d2d80b72a129739f4": {
     "isVerified": true,
     "name": "Somnium Space CUBEs",
     "symbol": "CUBE",
     "decimals": 8
   },
-  "0xe2f2a5C287993345a840Db3B0845fbC70f5935a5": {
+  "0xe2f2a5c287993345a840db3b0845fbc70f5935a5": {
     "isVerified": true,
     "name": "mStable USD",
     "symbol": "MUSD",
     "decimals": 18
   },
-  "0xe28b3B32B6c345A34Ff64674606124Dd5Aceca30": {
+  "0xe28b3b32b6c345a34ff64674606124dd5aceca30": {
     "isVerified": true,
     "name": "Injective",
     "symbol": "INJ",
     "decimals": 18
   },
-  "0xe53EC727dbDEB9E2d5456c3be40cFF031AB40A55": {
+  "0xe53ec727dbdeb9e2d5456c3be40cff031ab40a55": {
     "isVerified": true,
     "name": "SuperFarm",
     "symbol": "SUPER",
     "decimals": 18
   },
-  "0xe76C6c83af64e4C60245D8C7dE953DF673a7A33D": {
+  "0xe76c6c83af64e4c60245d8c7de953df673a7a33d": {
     "isVerified": true,
     "name": "Railgun",
     "symbol": "RAIL",
     "decimals": 18
   },
-  "0xE95A203B1a91a908F9B9CE46459d101078c2c3cb": {
+  "0xe95a203b1a91a908f9b9ce46459d101078c2c3cb": {
     "isVerified": true,
     "name": "Ankr Reward Bearing Staked ETH",
     "symbol": "AETHC",
     "decimals": 18
   },
-  "0xE66747a101bFF2dBA3697199DCcE5b743b454759": {
+  "0xe66747a101bff2dba3697199dcce5b743b454759": {
     "isVerified": true,
     "name": "GateToken",
     "symbol": "GT",
     "decimals": 18
   },
-  "0xEA26c4aC16D4a5A106820BC8AEE85fd0b7b2b664": {
+  "0xea26c4ac16d4a5a106820bc8aee85fd0b7b2b664": {
     "isVerified": true,
     "name": "QuarkChain",
     "symbol": "QKC",
     "decimals": 18
   },
-  "0xeB953eDA0DC65e3246f43DC8fa13f35623bDd5eD": {
+  "0xeb953eda0dc65e3246f43dc8fa13f35623bdd5ed": {
     "isVerified": true,
     "name": "Rainicorn",
     "symbol": "RAINI",
     "decimals": 18
   },
-  "0xeD35af169aF46a02eE13b9d79Eb57d6D68C1749e": {
+  "0xed35af169af46a02ee13b9d79eb57d6d68c1749e": {
     "isVerified": true,
     "name": "ECOMI",
     "symbol": "OMI",
     "decimals": 18
   },
-  "0xEd1480d12bE41d92F36f5f7bDd88212E381A3677": {
+  "0xed1480d12be41d92f36f5f7bdd88212e381a3677": {
     "isVerified": true,
     "name": "FIAT DAO Token",
     "symbol": "FDT",
     "decimals": 18
   },
-  "0xEd04915c23f00A313a544955524EB7DBD823143d": {
+  "0xed04915c23f00a313a544955524eb7dbd823143d": {
     "isVerified": true,
     "name": "Alchemy Pay",
     "symbol": "ACH",
     "decimals": 8
   },
-  "0xEec2bE5c91ae7f8a338e1e5f3b5DE49d07AfdC81": {
+  "0xeec2be5c91ae7f8a338e1e5f3b5de49d07afdc81": {
     "isVerified": true,
     "name": "Dopex",
     "symbol": "DPX",
     "decimals": 18
   },
-  "0xf0f9D895aCa5c8678f706FB8216fa22957685A13": {
+  "0xf0f9d895aca5c8678f706fb8216fa22957685a13": {
     "isVerified": true,
     "name": "Cult DAO",
     "symbol": "CULT",
     "decimals": 18
   },
-  "0xf1f955016EcbCd7321c7266BccFB96c68ea5E49b": {
+  "0xf1f955016ecbcd7321c7266bccfb96c68ea5e49b": {
     "isVerified": true,
     "name": "Rally",
     "symbol": "RLY",
     "decimals": 18
   },
-  "0xf9FBE825BFB2bF3E387af0Dc18caC8d87F29DEa8": {
+  "0xf9fbe825bfb2bf3e387af0dc18cac8d87f29dea8": {
     "isVerified": true,
     "name": "Radar",
     "symbol": "RADAR",
     "decimals": 18
   },
-  "0xF17e65822b568B3903685a7c9F496CF7656Cc6C2": {
+  "0xf17e65822b568b3903685a7c9f496cf7656cc6c2": {
     "isVerified": true,
     "name": "Biconomy",
     "symbol": "BICO",
     "decimals": 18
   },
-  "0xF57e7e7C23978C3cAEC3C3548E3D615c346e79fF": {
+  "0xf57e7e7c23978c3caec3c3548e3d615c346e79ff": {
     "isVerified": true,
     "name": "Immutable X",
     "symbol": "IMX",
     "decimals": 18
   },
-  "0xf59257E961883636290411c11ec5Ae622d19455e": {
+  "0xf59257e961883636290411c11ec5ae622d19455e": {
     "isVerified": true,
     "name": "FloorDAO",
     "symbol": "FLOOR",
     "decimals": 9
   },
-  "0xf418588522d5dd018b425E472991E52EBBeEEEEE": {
+  "0xf418588522d5dd018b425e472991e52ebbeeeeee": {
     "isVerified": true,
     "name": "Ethereum Push Notification Service EP",
     "symbol": "PUSH",
     "decimals": 18
   },
-  "0xF6650117017FFD48B725B4EC5A00B414097108A7": {
+  "0xf6650117017ffd48b725b4ec5a00b414097108a7": {
     "isVerified": true,
     "name": "Xido Finance",
     "symbol": "XIDO",
     "decimals": 18
   },
-  "0xF433089366899D83a9f26A773D59ec7eCF30355e": {
+  "0xf433089366899d83a9f26a773d59ec7ecf30355e": {
     "isVerified": true,
     "name": "Metal",
     "symbol": "MTL",
     "decimals": 8
   },
-  "0xfB7B4564402E5500dB5bB6d63Ae671302777C75a": {
+  "0xfb7b4564402e5500db5bb6d63ae671302777c75a": {
     "isVerified": true,
     "name": "DexTools",
     "symbol": "DEXT",
     "decimals": 18
   },
-  "0xfc82bb4ba86045Af6F327323a46E80412b91b27d": {
+  "0xfc82bb4ba86045af6f327323a46e80412b91b27d": {
     "isVerified": true,
     "name": "Prometeus",
     "symbol": "PROM",
     "decimals": 18
   },
-  "0xFcF8eda095e37A41e002E266DaAD7efC1579bc0A": {
+  "0xfcf8eda095e37a41e002e266daad7efc1579bc0a": {
     "isVerified": true,
     "name": "FLEX Coin",
     "symbol": "FLEX",
     "decimals": 18
   },
-  "0xFe2e637202056d30016725477c5da089Ab0A043A": {
+  "0xfe2e637202056d30016725477c5da089ab0a043a": {
     "isVerified": true,
     "name": "sETH2",
     "symbol": "SETH2",
     "decimals": 18
   },
-  "0xFE3E6a25e6b192A42a44ecDDCd13796471735ACf": {
+  "0xfe3e6a25e6b192a42a44ecddcd13796471735acf": {
     "isVerified": true,
     "name": "Reef Finance",
     "symbol": "REEF",
     "decimals": 18
   },
-  "0xff56Cc6b1E6dEd347aA0B7676C85AB0B3D08B0FA": {
+  "0xff56cc6b1e6ded347aa0b7676c85ab0b3d08b0fa": {
     "isVerified": true,
     "name": "Orbs",
     "symbol": "ORBS",
     "decimals": 18
   },
-  "0xff742d05420B6Aca4481F635aD8341F81A6300C2": {
+  "0xff742d05420b6aca4481f635ad8341f81a6300c2": {
     "isVerified": true,
     "name": "AscendEx Token",
     "symbol": "ASD",
     "decimals": 18
   },
-  "0xc5102fE9359FD9a28f877a67E36B0F050d81a3CC": {
+  "0xc5102fe9359fd9a28f877a67e36b0f050d81a3cc": {
     "isVerified": true,
     "name": "Hop",
     "symbol": "HOP",
     "decimals": 18
   },
-  "0x1aBaEA1f7C830bD89Acc67eC4af516284b1bC33c": {
+  "0x1abaea1f7c830bd89acc67ec4af516284b1bc33c": {
     "isVerified": true,
     "name": "Euro Coin",
     "symbol": "EUROC",
@@ -2349,13 +2344,7 @@
     "symbol": "MAGIC",
     "decimals": 18
   },
-  "0x01ba67aac7f75f647d94220cc98fb30fcc5105bf": {
-    "isVerified": true,
-    "name": "Lyra Finance",
-    "symbol": "LYRA",
-    "decimals": 18
-  },
-  "0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0": {
+  "0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0": {
     "isVerified": true,
     "color": "#56A0DD",
     "name": "Wrapped Staked Ether",
@@ -2363,25 +2352,25 @@
     "decimals": 18,
     "shadowColor": "#FF884D"
   },
-  "0xb24cd494faE4C180A89975F1328Eab2a7D5d8f11": {
+  "0xb24cd494fae4c180a89975f1328eab2a7d5d8f11": {
     "isVerified": true,
     "name": "Developer DAO",
     "symbol": "CODE",
     "decimals": 18
   },
-  "0x43044f861ec040DB59A7e324c40507adDb673142": {
+  "0x43044f861ec040db59a7e324c40507addb673142": {
     "isVerified": true,
     "name": "Cap",
     "symbol": "CAP",
     "decimals": 18
   },
-  "0x2a95FE4c7e64e09856989F9eA0b57B9AB5f770CB": {
+  "0x2a95fe4c7e64e09856989f9ea0b57b9ab5f770cb": {
     "isVerified": true,
     "name": "Sperax",
     "symbol": "SPA",
     "decimals": 18
   },
-  "0x8947da500Eb47F82df21143D0C01A29862a8C3c5": {
+  "0x8947da500eb47f82df21143d0c01a29862a8c3c5": {
     "isVerified": true,
     "name": "Thales",
     "symbol": "THALES",
@@ -2429,45 +2418,45 @@
     "symbol": "BNB",
     "decimals": 18
   },
-  "0x600000000a36F3cD48407e35eB7C5c910dc1f7a8": {
+  "0x600000000a36f3cd48407e35eb7c5c910dc1f7a8": {
     "isVerified": true,
     "name": "Goo",
     "symbol": "GOO",
     "decimals": 18
   },
-  "0x9ee91F9f426fA633d227f7a9b000E28b9dfd8599": {
+  "0x9ee91f9f426fa633d227f7a9b000e28b9dfd8599": {
     "isVerified": true,
     "name": "Staked Matic",
     "symbol": "stMATIC",
     "decimals": 18
   },
-  "0xF17A3fE536F8F7847F1385ec1bC967b2Ca9caE8D": {
+  "0xf17a3fe536f8f7847f1385ec1bc967b2ca9cae8d": {
     "isVerified": true,
     "name": "Alongside Crypto Market Index",
     "symbol": "AMKT",
     "decimals": 18
   },
-  "0x341c05c0E9b33C0E38d64de76516b2Ce970bB3BE": {
+  "0x341c05c0e9b33c0e38d64de76516b2ce970bb3be": {
     "isVerified": true,
     "name": "Diversified Staked ETH Index (dsETH)",
     "symbol": "dsETH",
     "decimals": 18
   },
-  "0x8D6CeBD76f18E1558D4DB88138e2DeFB3909fAD6": {
+  "0x8d6cebd76f18e1558d4db88138e2defb3909fad6": {
     "isVerified": true,
     "name": "Mai Stablecoin",
     "symbol": "MAI",
     "decimals": 18
   },
-  "0xB0B195aEFA3650A6908f15CdaC7D92F8a5791B0B": {
+  "0xb0b195aefa3650a6908f15cdac7d92f8a5791b0b": {
     "isVerified": true,
     "name": "BOB",
     "symbol": "BOB",
     "decimals": 18
   },
-  "0x5283D291DBCF85356A21bA090E6db59121208b44": {
+  "0x5283d291dbcf85356a21ba090e6db59121208b44": {
     "isVerified": true,
-    "name": "BLUR", 
+    "name": "BLUR",
     "symbol": "BLUR",
     "decimals": 18
   }

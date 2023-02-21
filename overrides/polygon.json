@@ -12,7 +12,7 @@
     "name": "PlanetIX",
     "symbol": "IXT"
   },
-  "0x2C89bbc92BD86F8075d1DEcc58C7F4E0107f286b": {
+  "0x2c89bbc92bd86f8075d1decc58c7f4e0107f286b": {
     "isVerified": true,
     "decimals": 18,
     "name": "Avalanche",
@@ -24,13 +24,13 @@
     "name": "Decentral Games Ice",
     "symbol": "ICE"
   },
-  "0x0d0b8488222f7f83b23e365320a4021b12ead608":  {
-  "isVerified": true,
-  "decimals": 18,
-  "name": "Next Earth",
-  "symbol": "NXTT"
-},
-  "0xc1c93d475dc82fe72dbc7074d55f5a734f8ceeae" : {
+  "0x0d0b8488222f7f83b23e365320a4021b12ead608": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Next Earth",
+    "symbol": "NXTT"
+  },
+  "0xc1c93d475dc82fe72dbc7074d55f5a734f8ceeae": {
     "isVerified": true,
     "decimals": 18,
     "name": "Pegaxy Stone",
@@ -72,7 +72,7 @@
     "name": "Voxies",
     "symbol": "VOXEL"
   },
-  "0x5eC03C1f7fA7FF05EC476d19e34A22eDDb48ACdc": {
+  "0x5ec03c1f7fa7ff05ec476d19e34a22eddb48acdc": {
     "symbol": "ZED",
     "decimals": 18,
     "name": "Zed Run",
@@ -108,7 +108,7 @@
     "name": "PlayDapp Token",
     "isVerified": true
   },
-  "0xB2C63830D4478cB331142FAc075A39671a5541dC": {
+  "0xb2c63830d4478cb331142fac075a39671a5541dc": {
     "symbol": "BOMB",
     "decimals": 18,
     "name": "Bombcrypto Coin",
@@ -120,13 +120,13 @@
     "name": "Geniux",
     "isVerified": true
   },
-  "0xA3c322Ad15218fBFAEd26bA7f616249f7705D945": {
+  "0xa3c322ad15218fbfaed26ba7f616249f7705d945": {
     "symbol": "MV",
     "decimals": 18,
     "name": "Metaverse",
     "isVerified": true
   },
-  "0x94788309D420ad9f9f16d79fC13Ab74de83f85F7": {
+  "0x94788309d420ad9f9f16d79fc13ab74de83f85f7": {
     "symbol": "SROCKET",
     "decimals": 18,
     "name": "Stable One Rocket",
