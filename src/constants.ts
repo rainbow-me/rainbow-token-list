@@ -17,14 +17,11 @@ export const ETHEREUM_LISTS_OUTPUT_PATH = resolve(
 export type TokenListType = Record<TokenListEnum, string>;
 
 export const TOKEN_LISTS: TokenListType = {
-  aave: 'https://cloudflare-ipfs.com/ipfs/QmTP6pKCE6HQGohYJCjMmHLqLUfScHKWic3L3Cg5yah6J9',
+  aave: 'https://tokenlist.aave.eth.limo',
   coingecko: 'https://tokens.coingecko.com/uniswap/all.json',
   coinmarketcap: 'https://api.coinmarketcap.com/data-api/v3/uniswap/all.json',
-  dharma:
-    'https://cloudflare-ipfs.com/ipfs/QmYMN2t89HmRx832qxBwLK1naLgcxCPQ9fZEMqwMwEmCax',
   roll: 'https://app.tryroll.com/tokens.json',
-  synthetix:
-    'https://cloudflare-ipfs.com/ipfs/QmPe1JqDyNy7Jd9wFmqBEkgMW6BQHwJgeX1RAErnKfVfh7',
+  synthetix: 'https://synths.snx.eth.limo',
   wrapped: 'https://wrapped.com/tokenlist.json',
 };
 
@@ -32,7 +29,6 @@ export enum TokenListEnumSchema {
   aave = 'aave',
   coingecko = 'coingecko',
   coinmarketcap = 'coinmarketcap',
-  dharma = 'dharma',
   roll = 'roll',
   synthetix = 'synthetix',
   wrapped = 'wrapped',

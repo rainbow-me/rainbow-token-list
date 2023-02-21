@@ -497,7 +497,8 @@
     "color": "#109FCA",
     "name": "EthLend",
     "symbol": "LEND",
-    "decimals": 18
+    "decimals": 18,
+    "isVerified": true
   },
   "0x956f47f50a910163d8bf957cf5846d573e7f87ca": {
     "color": "#22996E",
@@ -692,7 +693,8 @@
   "0xe3818504c1b32bf1557b16c238b2e01fd3149c17": {
     "color": "#00BFFF",
     "name": "Pillar",
-    "decimals": 18
+    "decimals": 18,
+    "isVerified": true
   },
   "0x6758b7d441a9739b98552b373703d8d3d14f9e62": {
     "color": "#5332A0",
@@ -903,7 +905,8 @@
     "name": "YAMv1",
     "shadowColor": "#D09AAC",
     "symbol": "YAMv1",
-    "decimals": 18
+    "decimals": 18,
+    "isVerified": true
   },
   "0xaba8cac6866b83ae4eec97dd07ed254282f6ad8a": {
     "color": "#B2364F",
@@ -2459,5 +2462,491 @@
     "name": "BLUR",
     "symbol": "BLUR",
     "decimals": 18
+  },
+  "0x476c5e26a75bd202a9683ffd34359c0cc15be0ff":
+  {
+    "symbol": "SRM",
+    "name": "Serum",
+    "decimals": 6,
+    "isVerified": true
+  },
+  "0xc0134b5b924c2fca106efb33c45446c466fbe03e":
+  {
+    "symbol": "ALEPH",
+    "name": "aleph.im",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x261efcdd24cea98652b9700800a13dfbca4103ff":
+  {
+    "symbol": "sXAU",
+    "name": "Synth sXAU",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x8fb00fdebb4e83f2c58b3bcd6732ac1b6a7b7221":
+  {
+    "symbol": "ORN",
+    "name": "Orion Protocol",
+    "decimals": 8,
+    "isVerified": true
+  },
+  "0xa9859874e1743a32409f75bb11549892138bba1e":
+  {
+    "symbol": "iETH",
+    "name": "Synth iETH",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x1b980e05943de3db3a459c72325338d327b6f5a9":
+  {
+    "symbol": "GEAR",
+    "name": "Bitgear",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x7777770f8a6632ff043c8833310e245eba9209e6":
+  {
+    "symbol": "TOB",
+    "name": "Tokens of Babel",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x2ba592f78db6436527729929aaf6c908497cb200":
+  {
+    "symbol": "CREAM",
+    "name": "Cream",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0xf0fac7104aac544e4a7ce1a55adf2b5a25c65bd1":
+  {
+    "symbol": "PAMP",
+    "name": "Pamp Network",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x30f271c9e86d2b7d00a6376cd96a1cfbd5f0b9b3":
+  {
+    "symbol": "DEC",
+    "name": "Decentr",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x990f341946a3fdb507ae7e52d17851b87168017c":
+  {
+    "symbol": "STRONG",
+    "name": "Strong",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x8400d94a5cb0fa0d041a3788e395285d61c9ee5e":
+  {
+    "symbol": "UBT",
+    "name": "UniBright",
+    "decimals": 8,
+    "isVerified": true
+  },
+  "0x26ce25148832c04f3d7f26f32478a9fe55197166":
+  {
+    "symbol": "DEXT",
+    "name": "DEXTools",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x29428639d889fa989405ee9baf3ba088e6994edc":
+  {
+    "symbol": "BASED",
+    "name": "BASED",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x40fd72257597aa14c7231a7b1aaa29fce868f677":
+  {
+    "symbol": "XOR",
+    "name": "Sora Token",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x8a9c67fee641579deba04928c4bc45f66e26343a":
+  {
+    "symbol": "JRT",
+    "name": "Jarvis Reward Token",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x4e352cf164e64adcbad318c3a1e222e9eba4ce42":
+  {
+    "symbol": "MCB",
+    "name": "MCDEX Token",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x456ae45c0ce901e2e7c99c0718031cec0a7a59ff":
+  {
+    "symbol": "VSN",
+    "name": "Vision Network",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x1985365e9f78359a9b6ad760e32412f4a445e862":
+  {
+    "symbol": "REP",
+    "name": "Reputation",
+    "color": "#602a52",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x85eee30c52b0b379b046fb0f85f4f3dc3009afec":
+  {
+    "symbol": "KEEP",
+    "name": "KEEP Token",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x8762db106b2c2a0bccb3a80d1ed41273552616e8":
+  {
+    "symbol": "RSR",
+    "name": "Reserve Rights",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0xd5525d397898e5502075ea5e830d8914f6f0affe":
+  {
+    "symbol": "MEME",
+    "name": "MEME",
+    "decimals": 8,
+    "isVerified": true
+  },
+  "0x9cb2f26a23b8d89973f08c957c4d7cdf75cd341c":
+  {
+    "symbol": "DZAR",
+    "name": "Digital Rand",
+    "decimals": 6,
+    "isVerified": true
+  },
+  "0x84ca8bc7997272c7cfb4d0cd3d55cd942b3c9419":
+  {
+    "symbol": "DIA",
+    "name": "DIAToken",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x5299d6f7472dcc137d7f3c4bcfbbb514babf341a":
+  {
+    "symbol": "sXMR",
+    "name": "Synth sXMR",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x0000000000004946c0e9f43f4dee607b0ef1fa1c":
+  {
+    "symbol": "CHI",
+    "name": "Chi Gastoken by 1inch",
+    "decimals": 0,
+    "isVerified": true
+  },
+  "0x20bf12a7bdb6d7b84069fb3b939892a301c981d1":
+  {
+    "symbol": "CZZ",
+    "name": "ClassZZ",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0xe1afe1fd76fd88f78cbf599ea1846231b8ba3b6b":
+  {
+    "symbol": "sDEFI",
+    "name": "Synth sDEFI",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x960b236a07cf122663c4303350609a66a7b288c0":
+  {
+    "symbol": "ANT",
+    "name": "Aragon Network Token",
+    "decimals": 18,
+    "isVerified": true,
+    "color": "#2cd3e1"
+  },
+  "0x95172ccbe8344fecd73d0a30f54123652981bd6f":
+  {
+    "symbol": "LOCK",
+    "name": "Meridian Network",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x607c794cda77efb21f8848b7910ecf27451ae842":
+  {
+    "symbol": "PIE",
+    "name": "DeFiPIE Token",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0xe17f017475a709de58e976081eb916081ff4c9d5":
+  {
+    "symbol": "RMPL",
+    "name": "RMPL",
+    "decimals": 9,
+    "isVerified": true
+  },
+  "0x9469d013805bffb7d3debe5e7839237e535ec483":
+  {
+    "symbol": "RING",
+    "name": "Darwinia Network Native Token",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x08ad83d779bdf2bbe1ad9cc0f78aa0d24ab97802":
+  {
+    "symbol": "RWS",
+    "name": "Robonomics Web Services",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5":
+  {
+    "symbol": "cETH",
+    "name": "Compound Ether",
+    "decimals": 8,
+    "isVerified": true
+  },
+  "0x6bff2fe249601ed0db3a87424a2e923118bb0312":
+  {
+    "symbol": "FYZ",
+    "name": "FYOOZ",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x0ba45a8b5d5575935b8158a88c631e9f9c95a2e5":
+  {
+    "symbol": "TRB",
+    "name": "Tellor Tributes",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x7de91b204c1c737bcee6f000aaa6569cf7061cb7":
+  {
+    "symbol": "XRT",
+    "name": "Robonomics",
+    "decimals": 9,
+    "isVerified": true
+  },
+  "0x6a7ef4998eb9d0f706238756949f311a59e05745":
+  {
+    "symbol": "KEN",
+    "name": "Kenysians Network",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x0ff6ffcfda92c53f615a4a75d982f399c989366b":
+  {
+    "symbol": "LAYER",
+    "name": "Unilayer",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0xa3bed4e1c75d00fa6f4e5e6922db7261b5e9acd2":
+  {
+    "symbol": "MTA",
+    "name": "Meta",
+    "decimals": 18,
+    "isVerified": true,
+    "color": "#25292e"
+  },
+  "0xb3319f5d18bc0d84dd1b4825dcde5d5f7266d407":
+  {
+    "symbol": "cZRX",
+    "name": "Compound 0x",
+    "decimals": 8,
+    "isVerified": true
+  },
+  "0x55296f69f40ea6d20e478533c15a6b08b654e758":
+  {
+    "symbol": "XYO",
+    "name": "XY Oracle",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x2baecdf43734f22fd5c152db08e3c27233f0c7d2":
+  {
+    "symbol": "OM",
+    "name": "OM Token",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x28cb7e841ee97947a86b06fa4090c8451f64c0be":
+  {
+    "symbol": "YFL",
+    "name": "YFLink",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0xeb4c2781e4eba804ce9a9803c67d0893436bb27d":
+  {
+    "symbol": "renBTC",
+    "name": "renBTC",
+    "decimals": 8,
+    "isVerified": true
+  },
+  "0x1453dbb8a29551ade11d89825ca812e05317eaeb":
+  {
+    "symbol": "TEND",
+    "name": "Tendies Token",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9":
+  {
+    "symbol": "cUSDT",
+    "name": "Compound USDT",
+    "decimals": 8,
+    "isVerified": true
+  },
+  "0x54c9ea2e9c9e8ed865db4a4ce6711c2a0d5063ba":
+  {
+    "symbol": "BART",
+    "name": "BarterTrade",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0xc719d010b63e5bbf2c0551872cd5316ed26acd83":
+  {
+    "symbol": "DIP",
+    "name": "Decentralized Insurance Protocol",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x9fbfed658919a896b5dc7b00456ce22d780f9b65":
+  {
+    "symbol": "PLT",
+    "name": "PlutusDeFi",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0xed91879919b71bb6905f23af0a68d231ecf87b14":
+  {
+    "symbol": "DMG",
+    "name": "DMM Governance",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x0f7f961648ae6db43c75663ac7e5414eb79b5704":
+  {
+    "symbol": "XIO",
+    "name": "XIO Network",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0xf911a7ec46a2c6fa49193212fe4a2a9b95851c27":
+  {
+    "symbol": "XAMP",
+    "name": "Antiample",
+    "decimals": 9,
+    "isVerified": true
+  },
+  "0x6f87d756daf0503d08eb8993686c7fc01dc44fb1":
+  {
+    "symbol": "TRADE",
+    "name": "UniTrade",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x0ae055097c6d159879521c384f1d2123d1f195e6":
+  {
+    "symbol": "STAKE",
+    "name": "STAKE",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x9f284e1337a815fe77d2ff4ae46544645b20c5ff":
+  {
+    "symbol": "KTON",
+    "name": "Darwinia Commitment Token",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x56d811088235f11c8920698a204a5010a788f4b3":
+  {
+    "symbol": "BZRX",
+    "name": "bZx Protocol Token",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0xd26114cd6ee289accf82350c8d8487fedb8a0c07":
+  {
+    "symbol": "OMG",
+    "name": "OMGToken",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0xeeeeeeeee2af8d0e1940679860398308e0ef24d6":
+  {
+    "symbol": "ETHV",
+    "name": "Ethverse Token",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x4fe5851c9af07df9e5ad8217afae1ea72737ebda":
+  {
+    "symbol": "OPT",
+    "name": "Open Predict Token",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0xdf5e0e81dff6faf3a7e52ba697820c5e32d806a8":
+  {
+    "symbol": "yCRV",
+    "name": "Curve.fi yDAI/yUSDC/yUSDT/yTUSD",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0xcc4304a31d09258b0029ea7fe63d032f52e44efe":
+  {
+    "symbol": "SWAP",
+    "name": "TrustSwap Token",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x196f4727526ea7fb1e17b2071b3d8eaa38486988":
+  {
+    "symbol": "RSV",
+    "name": "Reserve",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x0d438f3b5175bebc262bf23753c1e53d03432bde":
+  {
+    "symbol": "wNXM",
+    "name": "Wrapped NXM",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x7afebbb46fdb47ed17b22ed075cde2447694fb9e":
+  {
+    "symbol": "OCEAN",
+    "name": "Ocean Token",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0xaaaebe6fe48e54f431b0c390cfaf0b017d09d42d":
+  {
+    "symbol": "CEL",
+    "name": "Celsius",
+    "decimals": 4,
+    "isVerified": true
+  },
+  "0x6b9f031d718dded0d681c20cb754f97b3bb81b78":
+  {
+    "symbol": "GEEQ",
+    "name": "Geeq",
+    "decimals": 18,
+    "isVerified": true
+  },
+  "0x00d1793d7c3aae506257ba985b34c76aaf642557":
+  {
+    "symbol": "TACO",
+    "name": "Tacos",
+    "decimals": 18,
+    "isVerified": true
   }
 }

@@ -112,8 +112,6 @@ function normalizeList(list: any[]) {
         return tokenListTokens.aave.tokensByAddress.get(lowerTokenAddress);
       case tokenListTokens.roll.tokensByAddress.has(lowerTokenAddress):
         return tokenListTokens.roll.tokensByAddress.get(lowerTokenAddress);
-      case tokenListTokens.dharma.tokensByAddress.has(lowerTokenAddress):
-        return tokenListTokens.dharma.tokensByAddress.get(lowerTokenAddress);
       case tokenListTokens.wrapped.tokensByAddress.has(lowerTokenAddress):
         return tokenListTokens.wrapped.tokensByAddress.get(lowerTokenAddress);
       case tokenListTokens.coingecko.tokensByAddress.has(lowerTokenAddress):
