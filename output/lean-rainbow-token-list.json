@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Lean Rainbow Token List",
-  "timestamp": "2023-02-21T21:12:38.850Z",
+  "timestamp": "2023-02-21T21:58:09.945Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -4218,16 +4218,6 @@
       }
     },
     {
-      "address": "0xF41fD65F30b4b4ceF3dbEA800468100B2eB19Aae",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Hex Token",
-      "symbol": "Hex",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
       "address": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
       "chainId": 1,
       "decimals": 8,
@@ -4729,17 +4719,6 @@
       }
     },
     {
-      "address": "0xdd974D5C2e2928deA5F71b9825b8b646686BD200",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Kyber",
-      "symbol": "KNC",
-      "extensions": {
-        "color": "#31CB9E",
-        "isVerified": false
-      }
-    },
-    {
       "address": "0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202",
       "chainId": 1,
       "decimals": 18,
@@ -4748,6 +4727,17 @@
       "extensions": {
         "color": "#31cb9e",
         "isVerified": true
+      }
+    },
+    {
+      "address": "0xdd974D5C2e2928deA5F71b9825b8b646686BD200",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Kyber",
+      "symbol": "KNCL",
+      "extensions": {
+        "color": "#31CB9E",
+        "isVerified": false
       }
     },
     {
@@ -5707,16 +5697,6 @@
       "decimals": 4,
       "name": "NORMANCOMICS",
       "symbol": "NRMN",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
-      "address": "0x9D79d5B61De59D882ce90125b18F74af650acB93",
-      "chainId": 1,
-      "decimals": 6,
-      "name": "Neutrino System Base",
-      "symbol": "NSBT",
       "extensions": {
         "isVerified": true
       }
@@ -6889,7 +6869,7 @@
       "chainId": 1,
       "decimals": 18,
       "name": "Augur",
-      "symbol": "REPv2",
+      "symbol": "REP",
       "extensions": {
         "color": "#25292E",
         "isRainbowCurated": true,
@@ -7294,7 +7274,7 @@
       "address": "0xe1aFe1Fd76Fd88f78cBf599ea1846231B8bA3B6B",
       "chainId": 1,
       "decimals": 18,
-      "name": "Synth DeFi Index",
+      "name": "Synth sDEFI",
       "symbol": "sDEFI",
       "extensions": {
         "isVerified": true
