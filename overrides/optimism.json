@@ -24,25 +24,25 @@
     "name": "Frax",
     "symbol": "FRAX"
   },
-  "0x67CCEA5bb16181E7b4109c9c2143c24a1c2205Be": {
+  "0x67ccea5bb16181e7b4109c9c2143c24a1c2205be": {
     "isVerified": true,
     "decimals": 18,
     "name": "Frax Share",
     "symbol": "FXS"
   },
-  "0x4E720DD3Ac5CFe1e1fbDE4935f386Bb1C66F4642": {
+  "0x4e720dd3ac5cfe1e1fbde4935f386bb1c66f4642": {
     "isVerified": true,
     "decimals": 18,
     "name": "beefy.finance",
     "symbol": "BIFI"
   },
-  "0x1DB2466d9F5e10D7090E7152B68d62703a2245F0": {
+  "0x1db2466d9f5e10d7090e7152b68d62703a2245f0": {
     "isVerified": true,
     "decimals": 18,
     "name": "Sonne",
     "symbol": "SONNE"
   },
-  "0x920Cf626a271321C151D027030D5d08aF699456b": {
+  "0x920cf626a271321c151d027030d5d08af699456b": {
     "isVerified": true,
     "decimals": 18,
     "name": "Kwenta",
