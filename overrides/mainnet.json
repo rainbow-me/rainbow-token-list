@@ -2948,5 +2948,11 @@
     "name": "Tacos",
     "decimals": 18,
     "isVerified": true
+  },
+  "0x3446dd70b2d52a6bf4a5a192d9b0a161295ab7f9": {
+    "symbol": "SUDO",
+    "name": "sudoswap",
+    "decimals": 18,
+    "isVerified": true
   }
 }
