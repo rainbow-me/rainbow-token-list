@@ -2954,5 +2954,11 @@
     "name": "sudoswap",
     "decimals": 18,
     "isVerified": true
+  },
+  "0x36c833eed0d376f75d1ff9dfdee260191336065e": {
+    "symbol": "gtcETH",
+    "name": "Gitcoin Staked ETH Index",
+    "decimals": 18,
+    "isVerified": true
   }
 }
