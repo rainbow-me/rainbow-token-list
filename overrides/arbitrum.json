@@ -89,5 +89,12 @@
     "decimals": 18,
     "name": "CreDA Protocol Token",
     "symbol": "CREDA"
+  },
+  "0x912CE59144191C1204E64559FE8253a0e49E6548": {
+    "isCurated": true,
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Arbitrum",
+    "symbol": "ARB"
   }
 }
