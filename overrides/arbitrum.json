@@ -96,5 +96,41 @@
     "decimals": 18,
     "name": "Arbitrum",
     "symbol": "ARB"
+  },
+  "0x3d9907f9a368ad0a51be60f7da3b97cf940982d8": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Camelot Token",
+    "symbol": "GRAIL"
+  },
+  "0x18c11fd286c5ec11c3b683caa813b77f5163a122": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Gains Network",
+    "symbol": "GNS"
+  },
+  "0x602eb0d99a5e3e76d1510372c4d2020e12eaea8a": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "TridentDAO",
+    "symbol": "PSI"
+  },
+  "0x3082cc23568ea640225c2467653db90e9250aaa0":{
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Radiant Capital",
+    "symbol": "RDNT"
+  },
+  "0x463913d3a3d3d291667d53b8325c598eb88d3b0e": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "SolidLizard",
+    "symbol": "SLIZ"
+  },
+  "0x65c936f008bc34fe819bce9fa5afd9dc2d49977f": {
+    "isVerified": true,
+    "decimals": 18,
+    "name": "Y2K",
+    "symbol": "Y2K"
   }
 }
