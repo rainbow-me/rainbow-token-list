@@ -4,7 +4,7 @@
   ],
   "logoURI": "https://avatars0.githubusercontent.com/u/48327834?s=200&v=4",
   "name": "Lean Rainbow Token List",
-  "timestamp": "2023-03-21T14:26:44.801Z",
+  "timestamp": "2023-03-24T01:36:14.038Z",
   "tokens": [
     {
       "address": "0x68A118Ef45063051Eac49c7e647CE5Ace48a68a5",
@@ -691,6 +691,16 @@
       "decimals": 18,
       "name": "Alpha Quark",
       "symbol": "AQT",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0xB50721BCf8d664c30412Cfbc6cf7a15145234ad1",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Arbitrum",
+      "symbol": "ARB",
       "extensions": {
         "isVerified": true
       }
@@ -2536,16 +2546,6 @@
       }
     },
     {
-      "address": "0x4Dd942bAa75810a3C1E876e79d5cD35E09C97A76",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Dash 2 Trade",
-      "symbol": "D2T",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
       "address": "0xEfaB7248D36585e2340E5d25F8a8D243E6e3193F",
       "chainId": 1,
       "decimals": 18,
@@ -3303,6 +3303,16 @@
       }
     },
     {
+      "address": "0x02dE007D412266a2e0Fa9287C103474170F06560",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Exorde",
+      "symbol": "EXD",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x6468e79A80C0eaB0F9A2B574c8d5bC374Af59414",
       "chainId": 1,
       "decimals": 18,
@@ -3751,6 +3761,16 @@
       }
     },
     {
+      "address": "0x6BeA7CFEF803D1e3d5f7C0103f7ded065644e197",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Gamma Strategies",
+      "symbol": "GAMMA",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x31F69dE127C8A0fF10819C0955490a4Ae46fcc2a",
       "chainId": 1,
       "decimals": 18,
@@ -3840,16 +3860,6 @@
       "extensions": {
         "color": "#25292E",
         "isRainbowCurated": true,
-        "isVerified": true
-      }
-    },
-    {
-      "address": "0x444444444444C1a66F394025Ac839A535246FCc8",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "Genius",
-      "symbol": "GENI",
-      "extensions": {
         "isVerified": true
       }
     },
@@ -3989,6 +3999,16 @@
       }
     },
     {
+      "address": "0x18c11FD286C5EC11c3b683Caa813B77f5163A122",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Gains Network",
+      "symbol": "GNS",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xa74476443119A942dE498590Fe1f2454d7D4aC0d",
       "chainId": 1,
       "decimals": 18,
@@ -4066,6 +4086,16 @@
       "decimals": 8,
       "name": "GPEX",
       "symbol": "GPX",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x3d9907F9a368ad0a51Be60f7Da3b97cf940982D8",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Camelot Token",
+      "symbol": "GRAIL",
       "extensions": {
         "isVerified": true
       }
@@ -4393,6 +4423,16 @@
       }
     },
     {
+      "address": "0x903bEF1736CDdf2A537176cf3C64579C3867A881",
+      "chainId": 1,
+      "decimals": 9,
+      "name": "ICHI",
+      "symbol": "ICHI",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x111111517e4929D3dcbdfa7CCe55d30d4B6BC4d6",
       "chainId": 1,
       "decimals": 18,
@@ -4403,11 +4443,11 @@
       }
     },
     {
-      "address": "0x903bEF1736CDdf2A537176cf3C64579C3867A881",
+      "address": "0x2dfF88A56767223A5529eA5960Da7A3F5f766406",
       "chainId": 1,
-      "decimals": 9,
-      "name": "ICHI",
-      "symbol": "ICHI",
+      "decimals": 18,
+      "name": "SPACE ID",
+      "symbol": "ID",
       "extensions": {
         "isVerified": true
       }
@@ -5595,6 +5635,16 @@
       }
     },
     {
+      "address": "0x4b13006980aCB09645131b91D259eaA111eaF5Ba",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Mycelium",
+      "symbol": "MYC",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x9E46A38F5DaaBe8683E10793b06749EEF7D733d1",
       "chainId": 1,
       "decimals": 18,
@@ -6107,16 +6157,6 @@
       }
     },
     {
-      "address": "0xD528cf2E081f72908e086F8800977df826B5a483",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Paribus",
-      "symbol": "PBX",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
       "address": "0xDB7F019782D9f59947741a6DDc1Ea8501993C60A",
       "chainId": 1,
       "decimals": 18,
@@ -6242,7 +6282,7 @@
       "address": "0x8B39B70E39Aa811b69365398e0aACe9bee238AEb",
       "chainId": 1,
       "decimals": 18,
-      "name": "Firebird",
+      "name": "Red Kite",
       "symbol": "PKF",
       "extensions": {
         "isVerified": true
@@ -6490,6 +6530,16 @@
       }
     },
     {
+      "address": "0x602Eb0D99A5e3e76D1510372C4d2020e12EaEa8a",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "TridentDAO",
+      "symbol": "PSI",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xcAfE001067cDEF266AfB7Eb5A286dCFD277f3dE5",
       "chainId": 1,
       "decimals": 18,
@@ -6505,16 +6555,6 @@
       "decimals": 18,
       "name": "pSTAKE Finance",
       "symbol": "PSTAKE",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
-      "address": "0x519C1001D550C0a1DaE7d1fC220f7d14c2A521BB",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Polkaswap",
-      "symbol": "PSWAP",
       "extensions": {
         "isVerified": true
       }
@@ -6566,6 +6606,17 @@
       "name": "QANplatform",
       "symbol": "QANX",
       "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x618E75Ac90b12c6049Ba3b27f5d5F8651b0037F6",
+      "chainId": 1,
+      "decimals": 6,
+      "name": "QASH",
+      "symbol": "QASH",
+      "extensions": {
+        "color": "#1347e8",
         "isVerified": true
       }
     },
@@ -6795,6 +6846,16 @@
       "extensions": {
         "color": "#25292E",
         "isRainbowCurated": true,
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x3082CC23568eA640225c2467653dB90e9250AaA0",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Radiant Capital",
+      "symbol": "RDNT",
+      "extensions": {
         "isVerified": true
       }
     },
@@ -7074,12 +7135,11 @@
       "address": "0xB4EFd85c19999D84251304bDA99E90B92300Bd93",
       "chainId": 1,
       "decimals": 18,
-      "name": "Rocket Pool",
+      "name": "Rocket Pool OLD",
       "symbol": "RPL",
       "extensions": {
         "color": "#FF626D",
-        "isRainbowCurated": true,
-        "isVerified": true
+        "isVerified": false
       }
     },
     {
@@ -7089,7 +7149,7 @@
       "name": "Rocket Pool",
       "symbol": "RPL",
       "extensions": {
-        "color": "#ff626d",
+        "color": "#FF626D",
         "isVerified": true
       }
     },
@@ -7224,6 +7284,16 @@
       "symbol": "SAND",
       "extensions": {
         "color": "#04adef",
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x4521C9aD6A3D4230803aB752Ed238BE11F8B342F",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Sanin Inu",
+      "symbol": "SANI",
+      "extensions": {
         "isVerified": true
       }
     },
@@ -7486,6 +7556,16 @@
       "decimals": 18,
       "name": "Synth Chainlink",
       "symbol": "sLINK",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x463913D3a3D3D291667D53B8325c598Eb88D3B0e",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "SolidLizard",
+      "symbol": "SLIZ",
       "extensions": {
         "isVerified": true
       }
@@ -8306,7 +8386,7 @@
       "address": "0x88dF592F8eb5D7Bd38bFeF7dEb0fBc02cf3778a0",
       "chainId": 1,
       "decimals": 18,
-      "name": "Tellor",
+      "name": "Tellor Tributes",
       "symbol": "TRB",
       "extensions": {
         "isVerified": true
@@ -8611,6 +8691,16 @@
       }
     },
     {
+      "address": "0x0a5E677a6A24b2F1A2Bf4F3bFfC443231d2fDEc8",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "dForce USD",
+      "symbol": "USX",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0xdc9Ac3C20D1ed0B540dF9b1feDC10039Df13F99c",
       "chainId": 1,
       "decimals": 18,
@@ -8618,6 +8708,16 @@
       "symbol": "UTK",
       "extensions": {
         "color": "#30367a",
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x55C08ca52497e2f1534B59E2917BF524D4765257",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "UwU Lend",
+      "symbol": "UWU",
+      "extensions": {
         "isVerified": true
       }
     },
@@ -8739,6 +8839,16 @@
       "decimals": 18,
       "name": "Velas",
       "symbol": "VLX",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
+      "address": "0x2e2364966267B5D7D2cE6CD9A9B5bD19d9C7C6A9",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Voice",
+      "symbol": "VOICE",
       "extensions": {
         "isVerified": true
       }
@@ -9304,16 +9414,6 @@
       }
     },
     {
-      "address": "0x892A6f9dF0147e5f079b0993F486F9acA3c87881",
-      "chainId": 1,
-      "decimals": 9,
-      "name": "xFUND",
-      "symbol": "XFUND",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
       "address": "0xF6650117017FFD48B725B4EC5A00B414097108A7",
       "chainId": 1,
       "decimals": 18,
@@ -9457,6 +9557,16 @@
       }
     },
     {
+      "address": "0x65c936f008BC34fE819bce9Fa5afD9dc2d49977f",
+      "chainId": 42161,
+      "decimals": 18,
+      "name": "Y2K",
+      "symbol": "Y2K",
+      "extensions": {
+        "isVerified": true
+      }
+    },
+    {
       "address": "0x0AaCfbeC6a24756c20D41914F2caba817C0d8521",
       "chainId": 1,
       "decimals": 18,
@@ -9508,16 +9618,6 @@
       "decimals": 18,
       "name": "Curve.fi yDAI/yUSDC/yUSDT/yTUSD",
       "symbol": "yCRV",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
-      "address": "0x30dcBa0405004cF124045793E1933C798Af9E66a",
-      "chainId": 1,
-      "decimals": 18,
-      "name": "Yieldification",
-      "symbol": "YDF",
       "extensions": {
         "isVerified": true
       }
@@ -9613,16 +9713,6 @@
       "decimals": 18,
       "name": "ZB",
       "symbol": "ZB",
-      "extensions": {
-        "isVerified": true
-      }
-    },
-    {
-      "address": "0xb9EF770B6A5e12E45983C5D80545258aA38F3B78",
-      "chainId": 1,
-      "decimals": 10,
-      "name": "Zus",
-      "symbol": "ZCN",
       "extensions": {
         "isVerified": true
       }
