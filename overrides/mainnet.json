@@ -741,9 +741,9 @@
   },
   "0xb4efd85c19999d84251304bda99e90b92300bd93": {
     "color": "#FF626D",
-    "isCurated": true,
-    "name": "Rocket Pool",
-    "decimals": 18
+    "name": "Rocket Pool OLD",
+    "decimals": 18,
+    "isVerified": false
   },
   "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359": {
     "color": "#F0B340",
@@ -2078,6 +2078,7 @@
     "decimals": 18
   },
   "0xd33526068d116ce69f19a9ee46f0bd304f21a51f": {
+    "color": "#FF626D",
     "isVerified": true,
     "name": "Rocket Pool",
     "symbol": "RPL",
