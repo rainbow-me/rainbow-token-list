@@ -2715,10 +2715,10 @@ eslint-config-prettier@^8.1.0:
   resolved "https://registry.yarnpkg.com/eslint-config-prettier/-/eslint-config-prettier-8.3.0.tgz#f7471b20b6fe8a9a9254cc684454202886a2dd7a"
   integrity sha512-BgZuLUSeKzvlL/VUjx/Yb787VQ26RU3gGjA3iiFvdsp/2bMfVIWUVP7tjxtjS0e+HP409cPlPvNkQloz8C91ew==
 
-eslint-config-rainbow@^2.0.0:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-rainbow/-/eslint-config-rainbow-2.0.1.tgz#29e4e3258e4a411a4bc67c028e9f3dd653665a6f"
-  integrity sha512-SOea4oU2SS8iKiAgXxuLBVgQgRlNeYYo1OgnwOXiwuHS629MpOF7bAV3mYRtoniY3df+o8WocCcACEEMFNyaug==
+eslint-config-rainbow@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-rainbow/-/eslint-config-rainbow-3.0.0.tgz#c4502f8c32d0da1d76db85b7e21a8a0b1f254983"
+  integrity sha512-nnoS1BVJhhtFCHx0p4Sr6bo51uPrddbVXcq+D7JfC5DtBhWdF6HA9TKKa3ZbT4BsCDGHL8M5sbYfCOeGYDjGug==
   dependencies:
     "@babel/core" "^7.13.10"
     "@babel/eslint-parser" "^7.13.10"
@@ -2733,6 +2733,7 @@ eslint-config-rainbow@^2.0.0:
     eslint-plugin-react "^7.23.0"
     eslint-plugin-react-hooks "^4.2.0"
     eslint-plugin-react-native "^3.10.0"
+    eslint-plugin-sort-destructure-keys "^1.4.0"
     eslint-plugin-sort-keys-fix "^1.1.2"
 
 eslint-config-react-app@^5.2.1:
@@ -2881,6 +2882,13 @@ eslint-plugin-react@^7.14.3, eslint-plugin-react@^7.23.0:
     resolve "^2.0.0-next.3"
     semver "^6.3.0"
     string.prototype.matchall "^4.0.5"
+
+eslint-plugin-sort-destructure-keys@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-sort-destructure-keys/-/eslint-plugin-sort-destructure-keys-1.4.0.tgz#45924521e556692002522468a75b6a9fbac11316"
+  integrity sha512-txU9l22mblz7YpyjJNYFy4wb5PVXiRMbc9lqFPPhvY4wKyBBYQvb31TIcduf7iRb4Bv01aiXcJiuCkOOrVY48Q==
+  dependencies:
+    natural-compare-lite "^1.4.0"
 
 eslint-plugin-sort-keys-fix@^1.1.2:
   version "1.1.2"
@@ -4808,6 +4816,11 @@ mute-stream@0.0.8:
   version "0.0.8"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.8.tgz#1630c42b2251ff81e2a283de96a5497ea92e5e0d"
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
+
+natural-compare-lite@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/natural-compare-lite/-/natural-compare-lite-1.4.0.tgz#17b09581988979fddafe0201e931ba933c96cbb4"
+  integrity sha1-F7CVgZiJef3a/gIB6TG6kzyWy7Q=
 
 natural-compare@^1.4.0:
   version "1.4.0"
