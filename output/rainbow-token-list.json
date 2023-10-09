@@ -45747,7 +45747,21 @@
       "decimals": 18,
       "name": "ZudgeZury",
       "symbol": "ZZC"
-    }
+    },
+    {
+      "address": "0x32b86b99441480a7E5BD3A26c124ec2373e3F015",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Bad Idea AI",
+      "symbol": "BAD"
+    },
+    {
+      "address": "0x80D186B4C786Ea66592b2c52e2004AB10CfE4CF3",
+      "chainId": 1,
+      "decimals": 18,
+      "name": "Lynx Tech",
+      "symbol": "LYNX"
+    },
   ],
   "version": {
     "major": 1,
